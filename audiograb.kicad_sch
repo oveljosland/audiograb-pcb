@@ -1,0 +1,19 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "c46c2311-6d4b-411d-b012-c7730eac136d")
+	(paper "A4")
+	(title_block
+		(title "Audiograb")
+		(rev "0")
+		(company "NTNU, NINA")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
