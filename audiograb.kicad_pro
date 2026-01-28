@@ -613,6 +613,10 @@
     [
       "c46c2311-6d4b-411d-b012-c7730eac136d",
       "Root"
+    ],
+    [
+      "619ded7a-82aa-4db4-acde-d9676ea2f4b3",
+      "Compute Module"
     ]
   ],
   "text_variables": {}
