@@ -615,8 +615,24 @@
       "Root"
     ],
     [
-      "619ded7a-82aa-4db4-acde-d9676ea2f4b3",
-      "Compute Module"
+      "75b669f4-4784-4707-8d6c-b4da66be0510",
+      "compute-module"
+    ],
+    [
+      "a28ecb06-b77d-4618-b1d4-59553975f6fe",
+      "power"
+    ],
+    [
+      "33fd7f50-12a6-498f-b638-ab90a014f793",
+      "sd-interface"
+    ],
+    [
+      "d2fc586c-1bec-4980-a278-1f48e7e32f1c",
+      "usb-hub"
+    ],
+    [
+      "b810fd6f-5f58-43b3-9588-90b194a81c70",
+      "modem"
     ]
   ],
   "text_variables": {}

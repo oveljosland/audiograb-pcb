@@ -11,8 +11,8 @@
 	)
 	(lib_symbols)
 	(sheet
-		(at 143.51 43.18)
-		(size 43.18 33.02)
+		(at 148.59 127)
+		(size 26.67 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -25,9 +25,51 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "619ded7a-82aa-4db4-acde-d9676ea2f4b3")
-		(property "Sheetname" "Compute Module"
-			(at 143.51 42.4684 0)
+		(uuid "33fd7f50-12a6-498f-b638-ab90a014f793")
+		(property "Sheetname" "sd-interface"
+			(at 148.59 126.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sd-interface.kicad_sch"
+			(at 148.59 150.4446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "audiograb"
+				(path "/c46c2311-6d4b-411d-b012-c7730eac136d"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 161.29 68.58)
+		(size 55.88 43.18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "75b669f4-4784-4707-8d6c-b4da66be0510")
+		(property "Sheetname" "compute-module"
+			(at 161.29 67.8684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36,7 +78,7 @@
 			)
 		)
 		(property "Sheetfile" "compute-module.kicad_sch"
-			(at 143.51 76.7846 0)
+			(at 161.29 112.3446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48,6 +90,132 @@
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 91.44 36.83)
+		(size 43.18 45.72)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a28ecb06-b77d-4618-b1d4-59553975f6fe")
+		(property "Sheetname" "power"
+			(at 91.44 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 91.44 83.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "audiograb"
+				(path "/c46c2311-6d4b-411d-b012-c7730eac136d"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 207.01 24.13)
+		(size 40.64 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b810fd6f-5f58-43b3-9588-90b194a81c70")
+		(property "Sheetname" "modem"
+			(at 207.01 23.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "modem.kicad_sch"
+			(at 207.01 60.2746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "audiograb"
+				(path "/c46c2311-6d4b-411d-b012-c7730eac136d"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 58.42 106.68)
+		(size 67.31 58.42)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d2fc586c-1bec-4980-a278-1f48e7e32f1c")
+		(property "Sheetname" "usb-hub"
+			(at 58.42 105.9684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb-hub.kicad_sch"
+			(at 58.42 165.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "audiograb"
+				(path "/c46c2311-6d4b-411d-b012-c7730eac136d"
+					(page "6")
 				)
 			)
 		)
