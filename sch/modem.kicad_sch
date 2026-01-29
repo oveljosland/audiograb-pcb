@@ -4,5 +4,13 @@
 	(generator_version "9.0")
 	(uuid "dfc70e75-4e3f-4ff3-978b-e1bc298c4227")
 	(paper "A4")
+	(title_block
+		(title "Modem")
+		(date "2026-01-29")
+		(rev "0")
+		(company "NTNU, NINA")
+		(comment 1 "https://github.com/oveljosland/audiograb-pcb/")
+		(comment 2 "GNU Affero General Public Licence Version 3")
+	)
 	(lib_symbols)
 )

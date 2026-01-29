@@ -4,5 +4,13 @@
 	(generator_version "9.0")
 	(uuid "f5f12021-3a8c-4248-ac00-e42fa8d0e828")
 	(paper "A4")
+	(title_block
+		(title "SD Interface")
+		(date "2026-01-29")
+		(rev "0")
+		(company "NTNU, NINA")
+		(comment 1 "https://github.com/oveljosland/audiograb-pcb/")
+		(comment 2 "GNU Affero General Public Licence Version 3")
+	)
 	(lib_symbols)
 )
