@@ -430,7 +430,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -619,16 +619,16 @@
       "compute-module"
     ],
     [
-      "33fd7f50-12a6-498f-b638-ab90a014f793",
+      "1e6f47c9-dd69-4161-87eb-dd6f588b76d5",
+      "modem"
+    ],
+    [
+      "6c55ccce-577d-49c2-8294-3a5d8e11981e",
       "sd-interface"
     ],
     [
-      "d2fc586c-1bec-4980-a278-1f48e7e32f1c",
-      "usb-hub"
-    ],
-    [
-      "b810fd6f-5f58-43b3-9588-90b194a81c70",
-      "modem"
+      "53f9c81a-1433-4854-9dfc-932cf29aee40",
+      "usb-interface"
     ]
   ],
   "text_variables": {}

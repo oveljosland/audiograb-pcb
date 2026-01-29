@@ -1877,8 +1877,8 @@
 		)
 	)
 	(sheet
-		(at 173.99 130.81)
-		(size 44.45 12.7)
+		(at 191.77 63.5)
+		(size 48.26 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1891,9 +1891,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "33fd7f50-12a6-498f-b638-ab90a014f793")
-		(property "Sheetname" "sd-interface"
-			(at 173.99 130.0984 0)
+		(uuid "1e6f47c9-dd69-4161-87eb-dd6f588b76d5")
+		(property "Sheetname" "modem"
+			(at 191.77 62.7884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1901,8 +1901,50 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "sd-interface.kicad_sch"
-			(at 173.99 144.0946 0)
+		(property "Sheetfile" "sch/modem.kicad_sch"
+			(at 191.77 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "audiograb"
+				(path "/c46c2311-6d4b-411d-b012-c7730eac136d"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 190.5 36.83)
+		(size 41.91 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "53f9c81a-1433-4854-9dfc-932cf29aee40")
+		(property "Sheetname" "usb-interface"
+			(at 190.5 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sch/usb-interface.kicad_sch"
+			(at 190.5 55.1946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1914,6 +1956,48 @@
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d"
 					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 190.5 97.79)
+		(size 45.72 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6c55ccce-577d-49c2-8294-3a5d8e11981e")
+		(property "Sheetname" "sd-interface"
+			(at 190.5 97.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sch/sd-interface.kicad_sch"
+			(at 190.5 121.2346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "audiograb"
+				(path "/c46c2311-6d4b-411d-b012-c7730eac136d"
+					(page "4")
 				)
 			)
 		)
@@ -1943,7 +2027,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "compute-module.kicad_sch"
+		(property "Sheetfile" "sch/compute-module.kicad_sch"
 			(at 78.74 85.6746 0)
 			(effects
 				(font
@@ -1956,90 +2040,6 @@
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d"
 					(page "2")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 185.42 24.13)
-		(size 40.64 35.56)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "b810fd6f-5f58-43b3-9588-90b194a81c70")
-		(property "Sheetname" "modem"
-			(at 185.42 23.4184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "modem.kicad_sch"
-			(at 185.42 60.2746 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "audiograb"
-				(path "/c46c2311-6d4b-411d-b012-c7730eac136d"
-					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 176.53 151.13)
-		(size 39.37 10.16)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "d2fc586c-1bec-4980-a278-1f48e7e32f1c")
-		(property "Sheetname" "usb-hub"
-			(at 176.53 150.4184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "usb-hub.kicad_sch"
-			(at 176.53 161.8746 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "audiograb"
-				(path "/c46c2311-6d4b-411d-b012-c7730eac136d"
-					(page "6")
 				)
 			)
 		)
