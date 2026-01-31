@@ -6,4 +6,6 @@
   (lib (name "MEM2075-00-140-01-A")(type "KiCad")(uri "${KIPRJMOD}/lib/MEM2075-00-140-01-A/MEM2075-00-140-01-A.kicad_sym")(options "")(descr ""))
   (lib (name "ESD7004MUTAG")(type "KiCad")(uri "${KIPRJMOD}/lib/ul_ESD7004MUTAG/KiCADv6/2026-01-28_16-13-14.kicad_sym")(options "")(descr ""))
   (lib (name "CD4043BDR")(type "KiCad")(uri "${KIPRJMOD}/lib/CD4043BDR/CD4043BDR.kicad_sym")(options "")(descr ""))
+  (lib (name "TPD6F003DQDR")(type "KiCad")(uri "${KIPRJMOD}/lib/TPD6F003DQDR/TPD6F003DQDR.kicad_sym")(options "")(descr ""))
+  (lib (name "TPD8F003DQDR")(type "KiCad")(uri "${KIPRJMOD}/lib/TPD8F003DQDR/TPD8F003DQDR.kicad_sym")(options "")(descr ""))
 )
