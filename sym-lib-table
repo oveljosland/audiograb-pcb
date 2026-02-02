@@ -8,4 +8,6 @@
   (lib (name "CD4043BDR")(type "KiCad")(uri "${KIPRJMOD}/lib/CD4043BDR/CD4043BDR.kicad_sym")(options "")(descr ""))
   (lib (name "TPD6F003DQDR")(type "KiCad")(uri "${KIPRJMOD}/lib/TPD6F003DQDR/TPD6F003DQDR.kicad_sym")(options "")(descr ""))
   (lib (name "TPD8F003DQDR")(type "KiCad")(uri "${KIPRJMOD}/lib/TPD8F003DQDR/TPD8F003DQDR.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS22919DCKR")(type "KiCad")(uri "${KIPRJMOD}/lib/TPS22919DCKR/TPS22919DCKR.kicad_sym")(options "")(descr ""))
+  (lib (name "691137710002")(type "KiCad")(uri "${KIPRJMOD}/lib/691137710002/691137710002.kicad_sym")(options "")(descr ""))
 )
