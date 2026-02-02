@@ -13,4 +13,54 @@
 		(comment 2 "GNU Affero General Public Licence Version 3")
 	)
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 134.62 93.98) (xy 134.62 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "343b8483-1764-42a5-b9e9-639cbf5b9f5d")
+	)
+	(wire
+		(pts
+			(xy 130.81 99.06) (xy 130.81 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a628c38-5eed-44bc-a356-b712c93a84ac")
+	)
+	(wire
+		(pts
+			(xy 142.24 99.06) (xy 142.24 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "412dbf71-3583-4df8-af42-c5e5fcbabe1f")
+	)
+	(wire
+		(pts
+			(xy 130.81 101.6) (xy 142.24 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86f577bd-b7bb-4c4b-9fb0-46bee83588b6")
+	)
+	(wire
+		(pts
+			(xy 138.43 93.98) (xy 138.43 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab4b0ccc-c0aa-425c-8937-f318ff45d9e2")
+	)
 )
