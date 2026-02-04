@@ -6680,6 +6680,12 @@
 		(uuid "d4380eac-b9fa-418c-aa9a-57c8a36a409d")
 	)
 	(junction
+		(at 26.67 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dcc61a5e-ce63-4c3f-9f79-853cd8bb7ad5")
+	)
+	(junction
 		(at 140.97 73.66)
 		(diameter 1.016)
 		(color 0 0 0 0)
@@ -7128,6 +7134,16 @@
 			(type solid)
 		)
 		(uuid "16982810-1409-4c86-9304-7aff35d6dafd")
+	)
+	(wire
+		(pts
+			(xy 26.67 125.73) (xy 26.67 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16fcb25c-0b11-4dfb-b9da-5e20263ab028")
 	)
 	(wire
 		(pts
@@ -8021,7 +8037,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 86.36) (xy 30.48 86.36)
+			(xy 20.32 86.36) (xy 30.48 86.36)
 		)
 		(stroke
 			(width 0)
@@ -8711,7 +8727,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 124.46) (xy 26.67 127)
+			(xy 26.67 124.46) (xy 26.67 125.73)
 		)
 		(stroke
 			(width 0)
@@ -8831,7 +8847,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 88.9) (xy 30.48 88.9)
+			(xy 20.32 88.9) (xy 30.48 88.9)
 		)
 		(stroke
 			(width 0)
@@ -9038,6 +9054,16 @@
 			(type solid)
 		)
 		(uuid "e163b1d1-7342-4e69-b4be-881a425bad6c")
+	)
+	(wire
+		(pts
+			(xy 20.32 125.73) (xy 26.67 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1883ed8-ebef-41eb-8bdc-94e54d400440")
 	)
 	(wire
 		(pts
@@ -10881,6 +10907,28 @@
 		)
 		(uuid "341aeb7e-44bd-4142-b53b-516e70519e22")
 	)
+	(hierarchical_label "GPCLK"
+		(shape output)
+		(at 20.32 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3cf4282b-846d-4667-8e68-8b8dfc7c9660")
+	)
+	(hierarchical_label "GPIO3"
+		(shape output)
+		(at 20.32 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5469a569-6fd9-44f7-a2b1-8d201247bc72")
+	)
 	(hierarchical_label "PCIE_RX_P"
 		(shape input)
 		(at 137.16 38.1 180)
@@ -11023,6 +11071,17 @@
 			(justify right)
 		)
 		(uuid "eff5d252-1262-4b82-a2c7-8de9893df00e")
+	)
+	(hierarchical_label "+3.3V"
+		(shape output)
+		(at 20.32 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f8d0ba6d-41c0-4f21-a611-46333da962d7")
 	)
 	(hierarchical_label "PCIE_CLK_N"
 		(shape output)

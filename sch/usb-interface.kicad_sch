@@ -1304,7 +1304,7 @@
 		)
 		(uuid "e6ef74df-ca92-4443-8504-67fd0419c50e")
 	)
-	(hierarchical_label "GPCLK_CM5"
+	(hierarchical_label "24MHz_CLK"
 		(shape input)
 		(at 86.36 57.15 90)
 		(effects
