@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "USB2244I-AEZG-06")(type "KiCad")(uri "C:/Users/sevat/Documents/aduiograb_PCB_v1/audiograb-pcb/lib/USB2244I-AEZG-06/USB2244I-AEZG-06.kicad_sym")(options "")(descr ""))
+)
