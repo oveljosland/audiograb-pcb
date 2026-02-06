@@ -10,4 +10,6 @@
   (lib (name "TPD8F003DQDR")(type "KiCad")(uri "${KIPRJMOD}/lib/TPD8F003DQDR/TPD8F003DQDR.kicad_sym")(options "")(descr ""))
   (lib (name "TPS22919DCKR")(type "KiCad")(uri "${KIPRJMOD}/lib/TPS22919DCKR/TPS22919DCKR.kicad_sym")(options "")(descr ""))
   (lib (name "691137710002")(type "KiCad")(uri "${KIPRJMOD}/lib/691137710002/691137710002.kicad_sym")(options "")(descr ""))
+  (lib (name "New_Library")(type "KiCad")(uri "${KIPRJMOD}/lib/SN74LVC125ADBR/New_Library.kicad_sym")(options "")(descr ""))
+  (lib (name "SN74LVC244ADBR")(type "KiCad")(uri "${KIPRJMOD}/lib/SN74LVC244ADBR/SN74LVC244ADBR.kicad_sym")(options "")(descr ""))
 )
