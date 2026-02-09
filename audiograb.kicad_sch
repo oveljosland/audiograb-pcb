@@ -3257,6 +3257,166 @@
 				(justify left top)
 			)
 		)
+		(pin "Buffer_sd2" output
+			(at 34.29 146.05 180)
+			(uuid "5806f9e0-ec68-4b40-abcc-c889991766b9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Buffer_sd3" output
+			(at 34.29 149.86 180)
+			(uuid "6719a941-9567-40c7-b064-897fcac4e4f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Buffer_sd5" output
+			(at 34.29 153.67 180)
+			(uuid "d6807b3a-81eb-4b77-8dfb-fc8a4e56af4b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Buffer_sd7" output
+			(at 34.29 157.48 180)
+			(uuid "4973741f-81d0-4cfa-8165-0694060cdd72")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "R_En_switch" input
+			(at 34.29 160.02 180)
+			(uuid "47094af9-c598-444b-9e79-d98f024ca126")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "R_En_Vout" input
+			(at 80.01 162.56 0)
+			(uuid "41dd4ad3-b123-47b6-b493-9a979f890d8c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "R_swicth" input
+			(at 80.01 158.75 0)
+			(uuid "dbed8804-94ea-4f7e-8e7a-7ab85010d963")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SD-pin1" bidirectional
+			(at 80.01 153.67 0)
+			(uuid "b1791487-95db-485d-bdb8-592c84d74983")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SD-pin2" bidirectional
+			(at 80.01 149.86 0)
+			(uuid "e0b26040-b640-4108-a584-1ff5414475c7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SD-pin3" bidirectional
+			(at 80.01 146.05 0)
+			(uuid "f05d6465-7d45-4208-903d-d409ad2aea13")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SD-pin5" bidirectional
+			(at 80.01 142.24 0)
+			(uuid "79db219c-12e4-403f-a258-64b7f75d9470")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SD-pin7" bidirectional
+			(at 67.31 137.16 90)
+			(uuid "387e9ef3-d6e4-4817-b24f-e13895ea0781")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SD-pin8" bidirectional
+			(at 60.96 137.16 90)
+			(uuid "d56cc236-a904-46ee-aa03-dbcb4c74d4d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "S_En_switch" input
+			(at 57.15 137.16 90)
+			(uuid "aba7d7a9-9a49-4b2a-8a69-a4060b412255")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "S_En_Vout" input
+			(at 52.07 137.16 90)
+			(uuid "5bffdd15-38a0-4b79-a10e-2e271ff453e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "S_switch" input
+			(at 48.26 137.16 90)
+			(uuid "d6d9b9be-87ed-4472-ac80-3a1c903f7472")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d"
