@@ -7018,10 +7018,6 @@
 		(uuid "c1144fbe-3530-4a9b-a179-2c0d4e0a3a00")
 	)
 	(no_connect
-		(at 38.1 180.34)
-		(uuid "c14a8ef6-6585-4205-a521-d1f484db0e36")
-	)
-	(no_connect
 		(at 220.98 91.44)
 		(uuid "c161697e-9196-4e44-b798-8085a3d802c7")
 	)
@@ -9775,6 +9771,16 @@
 		)
 		(uuid "47c4df0c-917d-4ab7-97e3-00d43ac73aff")
 	)
+	(label "USBOTG_ID"
+		(at 38.1 180.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4c63dc29-b60a-4a3d-9e21-a3540788fcaa")
+	)
 	(label "PWR_BUT"
 		(at 26.67 134.62 180)
 		(effects
@@ -9814,6 +9820,16 @@
 			(justify right bottom)
 		)
 		(uuid "57e3bd4c-d6d4-4173-a809-98a132f70618")
+	)
+	(label "USBOTG_ID"
+		(at 210.82 20.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "58e05841-4995-41c1-98ed-907e81669c3f")
 	)
 	(label "GPIO10"
 		(at 252.73 109.22 180)
@@ -10900,17 +10916,6 @@
 			(justify right)
 		)
 		(uuid "6095bb2b-e45a-4613-89d3-3392722b201c")
-	)
-	(hierarchical_label "USBOTG_ID"
-		(shape input)
-		(at 210.82 20.32 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8d5171f2-1c7e-4b19-a53a-5ca484567b2c")
 	)
 	(hierarchical_label "USB3_1_D_N"
 		(shape bidirectional)

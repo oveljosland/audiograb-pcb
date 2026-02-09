@@ -3359,16 +3359,6 @@
 				(justify right)
 			)
 		)
-		(pin "USBOTG_ID" input
-			(at 123.19 96.52 180)
-			(uuid "a9f918af-c3df-4381-b170-15869969f881")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "GPCLK" output
 			(at 157.48 90.17 0)
 			(uuid "5b582085-e338-4904-bb77-7aaa1d5026db")
