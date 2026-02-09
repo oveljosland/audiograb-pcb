@@ -13,4 +13,6 @@
   (lib (name "691137710002")(type "KiCad")(uri "${KIPRJMOD}/lib/691137710002/691137710002.kicad_sym")(options "")(descr ""))
   (lib (name "New_Library")(type "KiCad")(uri "${KIPRJMOD}/lib/SN74LVC125ADBR/New_Library.kicad_sym")(options "")(descr ""))
   (lib (name "SN74LVC244ADBR")(type "KiCad")(uri "${KIPRJMOD}/lib/SN74LVC244ADBR/SN74LVC244ADBR.kicad_sym")(options "")(descr ""))
+  (lib (name "SF72S006VBAR2500")(type "KiCad")(uri "${KIPRJMOD}/lib/SF72S006VBAR2500/SF72S006VBAR2500.kicad_sym")(options "")(descr ""))
+  (lib (name "NX3008NBKW_115")(type "KiCad")(uri "${KIPRJMOD}/lib/NX3008NBKW_115/NX3008NBKW_115.kicad_sym")(options "")(descr ""))
 )
