@@ -13,4 +13,6 @@
   (lib (name "TPS22919DCKR")(type "KiCad")(uri "${KIPRJMOD}/lib/TPS22919DCKR")(options "")(descr ""))
   (lib (name "691137710002")(type "KiCad")(uri "${KIPRJMOD}/lib/691137710002")(options "")(descr ""))
   (lib (name "SN74LVC244ADBR")(type "KiCad")(uri "${KIPRJMOD}/lib/SN74LVC244ADBR")(options "")(descr ""))
+  (lib (name "SN74AVCH4T245PWR")(type "KiCad")(uri "${KIPRJMOD}/lib/SN74AVCH4T245PWR")(options "")(descr ""))
+  (lib (name "SN74AVCH4T245PW")(type "KiCad")(uri "${KIPRJMOD}/lib/SN74AVCH4T245PW")(options "")(descr ""))
 )
