@@ -13146,7 +13146,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LTST-C190GKT:LEDM1608X80"
 			(at 231.14 116.84 0)
 			(effects
 				(font
@@ -13174,6 +13174,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 231.14 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LTST-C190GKT"
 			(at 231.14 116.84 0)
 			(effects
 				(font

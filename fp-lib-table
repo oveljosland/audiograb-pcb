@@ -15,4 +15,7 @@
   (lib (name "SN74LVC244ADBR")(type "KiCad")(uri "${KIPRJMOD}/lib/SN74LVC244ADBR")(options "")(descr ""))
   (lib (name "SN74AVCH4T245PWR")(type "KiCad")(uri "${KIPRJMOD}/lib/SN74AVCH4T245PWR")(options "")(descr ""))
   (lib (name "SN74AVCH4T245PW")(type "KiCad")(uri "${KIPRJMOD}/lib/SN74AVCH4T245PW")(options "")(descr ""))
+  (lib (name "1825910-6")(type "KiCad")(uri "${KIPRJMOD}/lib/1825910-6")(options "")(descr ""))
+  (lib (name "LTST-C190GKT")(type "KiCad")(uri "${KIPRJMOD}/lib/LTST-C190GKT")(options "")(descr ""))
+  (lib (name "IP4220CZ6F")(type "KiCad")(uri "${KIPRJMOD}/lib/IP4220CZ6F")(options "")(descr ""))
 )

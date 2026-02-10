@@ -16,4 +16,7 @@
   (lib (name "SF72S006VBAR2500")(type "KiCad")(uri "${KIPRJMOD}/lib/SF72S006VBAR2500/SF72S006VBAR2500.kicad_sym")(options "")(descr ""))
   (lib (name "NX3008NBKW_115")(type "KiCad")(uri "${KIPRJMOD}/lib/NX3008NBKW_115/NX3008NBKW_115.kicad_sym")(options "")(descr ""))
   (lib (name "SN74AVCH4T245PWR")(type "KiCad")(uri "${KIPRJMOD}/lib/SN74AVCH4T245PWR/SN74AVCH4T245PWR.kicad_sym")(options "")(descr ""))
+  (lib (name "1825910-6")(type "KiCad")(uri "${KIPRJMOD}/lib/1825910-6/1825910-6.kicad_sym")(options "")(descr ""))
+  (lib (name "LTST-C190GKT")(type "KiCad")(uri "${KIPRJMOD}/lib/LTST-C190GKT/LTST-C190GKT.kicad_sym")(options "")(descr ""))
+  (lib (name "IP4220CZ6F")(type "KiCad")(uri "${KIPRJMOD}/lib/IP4220CZ6F/IP4220CZ6F.kicad_sym")(options "")(descr ""))
 )
