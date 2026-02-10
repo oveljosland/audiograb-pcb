@@ -2456,7 +2456,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ca772db-be22-4495-96d0-b244de494542")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR02"
 			(at 35.56 107.95 0)
 			(effects
 				(font
@@ -2506,7 +2506,7 @@
 		(instances
 			(project ""
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d"
-					(reference "#PWR04")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -2522,7 +2522,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e6e0420-418e-4d97-a547-d827dd3cc3a9")
-		(property "Reference" "D2"
+		(property "Reference" "D1"
 			(at 59.69 22.8599 90)
 			(effects
 				(font
@@ -2576,7 +2576,7 @@
 		(instances
 			(project ""
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -2591,7 +2591,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2ed8f44e-8416-4cdf-bb99-6b23a49f6da3")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR04"
 			(at 60.96 57.15 0)
 			(effects
 				(font
@@ -2641,7 +2641,7 @@
 		(instances
 			(project ""
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d"
-					(reference "#PWR02")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -2656,7 +2656,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "70717fca-1380-4240-81f2-72ee06547bbb")
-		(property "Reference" "C9"
+		(property "Reference" "C1"
 			(at 33.02 96.5199 0)
 			(effects
 				(font
@@ -2674,7 +2674,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 30.1752 101.6 0)
 			(effects
 				(font
@@ -2701,6 +2701,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C0603C104K3RACTU"
+			(at 29.21 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e098c37e-5eaa-4ae8-b2ea-19d27ae3017f")
 		)
@@ -2710,7 +2719,7 @@
 		(instances
 			(project ""
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d"
-					(reference "C9")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -2796,7 +2805,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98b0a68d-45ba-4be5-a333-2213e03e9f35")
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at 36.83 36.83 0)
 			(effects
 				(font
@@ -2893,7 +2902,7 @@
 		(instances
 			(project ""
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d"
-					(reference "J2")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -2909,7 +2918,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a41b2556-b96c-4c66-8276-eb562397b8c4")
-		(property "Reference" "D4"
+		(property "Reference" "D3"
 			(at 82.55 22.8599 90)
 			(effects
 				(font
@@ -2963,7 +2972,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d"
-					(reference "D4")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -2979,7 +2988,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1785e7d-56d4-4518-921f-827fd92208bc")
-		(property "Reference" "D5"
+		(property "Reference" "D4"
 			(at 93.98 22.8599 90)
 			(effects
 				(font
@@ -3033,7 +3042,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d"
-					(reference "D5")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -3115,7 +3124,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b647716d-626f-44fd-9e1f-ccf074659959")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR03"
 			(at 57.15 34.29 0)
 			(effects
 				(font
@@ -3165,7 +3174,7 @@
 		(instances
 			(project ""
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d"
-					(reference "#PWR05")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -3247,7 +3256,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cadd3969-7a03-4fcf-a37e-f70d67c481f9")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR05"
 			(at 68.58 34.29 0)
 			(effects
 				(font
@@ -3297,7 +3306,7 @@
 		(instances
 			(project ""
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d"
-					(reference "#PWR01")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -3313,7 +3322,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dad419f7-84cd-4253-b4fb-27fe87f56fa1")
-		(property "Reference" "D3"
+		(property "Reference" "D2"
 			(at 71.12 22.8599 90)
 			(effects
 				(font
@@ -3367,7 +3376,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d"
-					(reference "D3")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -3383,7 +3392,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dfe6d81b-4af7-425c-aabb-95d2e54a9f9a")
-		(property "Reference" "C18"
+		(property "Reference" "C2"
 			(at 45.72 96.5199 0)
 			(effects
 				(font
@@ -3401,7 +3410,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 42.8752 101.6 0)
 			(effects
 				(font
@@ -3428,6 +3437,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C0603C104K3RACTU"
+			(at 41.91 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "025411b6-82a7-49b3-b1b7-0fbeb5443e37")
 		)
@@ -3437,7 +3455,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d"
-					(reference "C18")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -3453,7 +3471,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea125497-84b3-4cf1-9d1d-5980c12ec0e8")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR01"
 			(at 33.02 88.9 0)
 			(effects
 				(font
@@ -3503,7 +3521,7 @@
 		(instances
 			(project ""
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d"
-					(reference "#PWR03")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)

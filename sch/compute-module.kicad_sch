@@ -10975,7 +10975,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d18172e")
-		(property "Reference" "#PWR0130"
+		(property "Reference" "#PWR014"
 			(at 207.01 153.67 0)
 			(effects
 				(font
@@ -11025,7 +11025,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/75b669f4-4784-4707-8d6c-b4da66be0510"
-					(reference "#PWR0130")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -11040,7 +11040,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d1874b1")
-		(property "Reference" "#PWR0131"
+		(property "Reference" "#PWR013"
 			(at 140.97 153.67 0)
 			(effects
 				(font
@@ -11090,7 +11090,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/75b669f4-4784-4707-8d6c-b4da66be0510"
-					(reference "#PWR0131")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -11105,7 +11105,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005dc6d7d8")
-		(property "Reference" "Module1"
+		(property "Reference" "Module2"
 			(at 60.96 14.224 0)
 			(effects
 				(font
@@ -11801,7 +11801,7 @@
 			)
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/75b669f4-4784-4707-8d6c-b4da66be0510"
-					(reference "Module1")
+					(reference "Module2")
 					(unit 1)
 				)
 			)
@@ -11817,7 +11817,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "063c1c9b-8b59-4116-9504-73fc54a1b110")
-		(property "Reference" "J1"
+		(property "Reference" "J3"
 			(at 259.08 80.01 0)
 			(effects
 				(font
@@ -11983,7 +11983,7 @@
 		(instances
 			(project ""
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/75b669f4-4784-4707-8d6c-b4da66be0510"
-					(reference "J1")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -11999,7 +11999,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b09d7c4-e3ab-45e8-8722-8c46488d082c")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR09"
 			(at 29.21 153.67 0)
 			(effects
 				(font
@@ -12055,7 +12055,7 @@
 			)
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/75b669f4-4784-4707-8d6c-b4da66be0510"
-					(reference "#PWR0101")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -12137,7 +12137,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ff0ad34-08f7-4fb5-b0ab-901f1e203350")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 31.75 163.83 0)
 			(effects
 				(font
@@ -12225,7 +12225,7 @@
 		(instances
 			(project ""
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/75b669f4-4784-4707-8d6c-b4da66be0510"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -12307,7 +12307,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69e64440-de34-4729-aab3-2782a153e6bd")
-		(property "Reference" "D1"
+		(property "Reference" "D5"
 			(at 100.33 28.2574 90)
 			(effects
 				(font
@@ -12376,7 +12376,7 @@
 			)
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/75b669f4-4784-4707-8d6c-b4da66be0510"
-					(reference "D1")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -12392,7 +12392,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72dc048e-4498-4358-94bc-689769302f02")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR012"
 			(at 92.71 153.67 0)
 			(effects
 				(font
@@ -12448,7 +12448,7 @@
 			)
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/75b669f4-4784-4707-8d6c-b4da66be0510"
-					(reference "#PWR0102")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -12464,7 +12464,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75f9591f-7950-4bc1-98cd-edead35a196f")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR011"
 			(at 82.55 193.04 0)
 			(effects
 				(font
@@ -12514,7 +12514,7 @@
 		(instances
 			(project ""
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/75b669f4-4784-4707-8d6c-b4da66be0510"
-					(reference "#PWR09")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -12626,7 +12626,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "90f281bd-df14-43bd-b524-4929369dffa2")
-		(property "Reference" "Module2"
+		(property "Reference" "Module1"
 			(at 173.99 9.017 0)
 			(effects
 				(font
@@ -13317,7 +13317,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/75b669f4-4784-4707-8d6c-b4da66be0510"
-					(reference "Module2")
+					(reference "Module1")
 					(unit 2)
 				)
 			)
