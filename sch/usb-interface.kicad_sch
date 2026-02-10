@@ -1735,7 +1735,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 77.47 47.498 90)
 			(effects
 				(font
@@ -1755,6 +1755,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 77.47 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-0712KL"
+			(at 77.47 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
