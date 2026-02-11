@@ -276,22 +276,20 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -12.7 21.32 0)
+			(property "Reference" "U10"
+				(at 0 -25.4 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Value" "CD4043BDR"
-				(at -12.7 -24.32 0)
+				(at 0 -22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Footprint" "CD4043BDR:SOIC127P600X175-16N"
@@ -680,6 +678,26 @@
 						(effects
 							(font
 								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "CD4043BDR_1_1"
+				(pin passive line
+					(at -17.78 -11.43 0)
+					(length 5.08)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -1377,22 +1395,20 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at -5.08 31.242 0)
+			(property "Reference" "J15"
+				(at 10.16 1.27 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Value" "F32Q-1A7H1-11022"
-				(at -5.08 -30.48 0)
+				(at 7.62 1.27 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Footprint" "F32Q-1A7H1-11022:AMPHENOL_F32Q-1A7H1-11022"
@@ -1947,6 +1963,44 @@
 						(effects
 							(font
 								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "F32Q-1A7H1-11022_1_1"
+				(pin passive line
+					(at 0 -30.48 90)
+					(length 2.54)
+					(name "SH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -30.48 90)
+					(length 2.54)
+					(name "SH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH2"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -4874,22 +4928,20 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -12.7 11.16 0)
+			(property "Reference" "U11"
+				(at 0 15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Value" "TPS22919DCKR"
-				(at -12.7 -14.16 0)
+				(at 0 12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Footprint" "TPS22919DCKR:SOT65P210X110-6N"
@@ -5108,6 +5160,26 @@
 						(effects
 							(font
 								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TPS22919DCKR_1_1"
+				(pin passive line
+					(at -17.78 -6.35 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -5655,12 +5727,6 @@
 		(uuid "14372274-e787-4308-aa79-6a57c1d8d6d3")
 	)
 	(junction
-		(at 275.59 213.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1600f11b-8468-4ef6-a6b8-9ffe8ba514e1")
-	)
-	(junction
 		(at 135.89 227.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5769,6 +5835,12 @@
 		(uuid "4c556647-d333-4042-8bc8-e1b7e1daaf94")
 	)
 	(junction
+		(at 119.38 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ce9ebe6-21a7-45d0-bb38-c721bafbe44f")
+	)
+	(junction
 		(at 63.5 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5841,6 +5913,12 @@
 		(uuid "78a5095e-5ea3-4040-b9d8-f159590e5f3f")
 	)
 	(junction
+		(at 270.51 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80861829-bd10-40d1-9fd3-c5153ff7b1e1")
+	)
+	(junction
 		(at 222.25 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5863,6 +5941,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8786e1c3-faef-48cf-aa94-3866639e2e53")
+	)
+	(junction
+		(at 109.22 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89f90791-3101-42ff-86ad-f9fc940bd267")
 	)
 	(junction
 		(at 182.88 259.08)
@@ -6007,12 +6091,20 @@
 		(uuid "2b9f4a2e-6146-4984-b182-8b06fd426582")
 	)
 	(no_connect
+		(at 299.72 125.73)
+		(uuid "4043bd80-66b8-4a85-96a5-c4635c0280de")
+	)
+	(no_connect
 		(at 314.96 213.36)
 		(uuid "8acd2987-fe09-4cdb-95df-f46b13271462")
 	)
 	(no_connect
 		(at 299.72 137.16)
 		(uuid "94907fe1-0685-47ee-babb-ea6473e2a0f2")
+	)
+	(no_connect
+		(at 279.4 227.33)
+		(uuid "afde1342-683f-443c-ba95-17db7c7909d2")
 	)
 	(no_connect
 		(at 175.26 266.7)
@@ -6051,16 +6143,6 @@
 			(type default)
 		)
 		(uuid "048e8607-0f66-4352-b55e-efde72e23ad0")
-	)
-	(wire
-		(pts
-			(xy 279.4 213.36) (xy 275.59 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05545a5a-f078-499c-ab6c-5b71e85aa0e4")
 	)
 	(wire
 		(pts
@@ -6564,7 +6646,7 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 223.52) (xy 275.59 213.36)
+			(xy 270.51 223.52) (xy 270.51 213.36)
 		)
 		(stroke
 			(width 0)
@@ -6744,7 +6826,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 213.36) (xy 275.59 213.36)
+			(xy 269.24 213.36) (xy 270.51 213.36)
 		)
 		(stroke
 			(width 0)
@@ -7384,6 +7466,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 41.91) (xy 119.38 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e7536c9-3776-4039-89ef-8c80573cff2d")
+	)
+	(wire
+		(pts
 			(xy 207.01 58.42) (xy 227.33 58.42)
 		)
 		(stroke
@@ -7491,6 +7583,16 @@
 			(type default)
 		)
 		(uuid "a8a2015e-9d09-4c2f-b508-e0a9e948d91b")
+	)
+	(wire
+		(pts
+			(xy 270.51 213.36) (xy 279.4 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8bf6d88-4884-43fe-bd76-3bdcc56c45f6")
 	)
 	(wire
 		(pts
@@ -7904,6 +8006,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 41.91) (xy 119.38 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccbe95a9-454d-4cb0-b829-ed93413546e8")
+	)
+	(wire
+		(pts
 			(xy 133.35 229.87) (xy 137.16 229.87)
 		)
 		(stroke
@@ -8011,6 +8123,16 @@
 			(type default)
 		)
 		(uuid "dcb68f7e-2ba4-4a0e-a910-356c41854044")
+	)
+	(wire
+		(pts
+			(xy 119.38 26.67) (xy 119.38 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcd1c32d-60a2-42db-b6e9-ec8429ef41eb")
 	)
 	(wire
 		(pts
@@ -8466,7 +8588,7 @@
 			)
 		)
 	)
-	(global_label "3v3"
+	(global_label "+3V3"
 		(shape input)
 		(at 222.25 34.29 0)
 		(fields_autoplaced yes)
@@ -8478,7 +8600,7 @@
 		)
 		(uuid "2ccee583-64d8-4244-a080-ead8c166591c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 228.6218 34.29 0)
+			(at 230.3152 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8488,7 +8610,7 @@
 			)
 		)
 	)
-	(global_label "1V8"
+	(global_label "+1V8"
 		(shape input)
 		(at 170.18 34.29 180)
 		(fields_autoplaced yes)
@@ -8500,7 +8622,7 @@
 		)
 		(uuid "3fccecf9-1df7-410e-b028-b59d23a5852d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.6872 34.29 0)
+			(at 162.1148 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9493,7 +9615,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 275.59 226.06 0)
+		(at 270.51 226.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9502,7 +9624,7 @@
 		(fields_autoplaced yes)
 		(uuid "2274dabd-da7d-4225-b05f-f9e1ae7c4f8f")
 		(property "Reference" "C14"
-			(at 278.13 224.7962 0)
+			(at 273.05 224.7962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9511,7 +9633,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 278.13 227.3362 0)
+			(at 273.05 227.3362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9520,7 +9642,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 275.59 226.06 0)
+			(at 270.51 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9529,7 +9651,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 275.59 226.06 0)
+			(at 270.51 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9538,7 +9660,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 275.59 226.06 0)
+			(at 270.51 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9547,7 +9669,7 @@
 			)
 		)
 		(property "MPN" "CL10B105KP8NNNC"
-			(at 275.59 226.06 0)
+			(at 270.51 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10271,6 +10393,9 @@
 		(pin "1"
 			(uuid "753240ae-f4fc-44d3-a4f3-964b1345a41d")
 		)
+		(pin "4"
+			(uuid "d5df6dba-a961-41b4-8e4d-719cff5f461c")
+		)
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
@@ -10682,6 +10807,12 @@
 		(pin "22"
 			(uuid "53139292-f762-4c94-bc79-b3a2b3e14d86")
 		)
+		(pin "SH1"
+			(uuid "319ced81-39e3-465b-b68b-24bc95002472")
+		)
+		(pin "SH2"
+			(uuid "edb7e2f3-12a4-4cb4-a6ca-4ae39ccb191e")
+		)
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
@@ -10758,7 +10889,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 275.59 228.6 0)
+		(at 270.51 228.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10767,7 +10898,7 @@
 		(fields_autoplaced yes)
 		(uuid "6c47c7ac-d8f8-4b37-a03d-98479533b673")
 		(property "Reference" "#PWR055"
-			(at 275.59 234.95 0)
+			(at 270.51 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10776,7 +10907,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 275.59 233.68 0)
+			(at 270.51 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10784,7 +10915,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 275.59 228.6 0)
+			(at 270.51 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10793,7 +10924,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 275.59 228.6 0)
+			(at 270.51 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10802,7 +10933,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 275.59 228.6 0)
+			(at 270.51 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11674,6 +11805,9 @@
 		)
 		(pin "2"
 			(uuid "2582f314-2433-4d1e-8868-72c22bffb17b")
+		)
+		(pin "13"
+			(uuid "7531b3ea-2291-43ab-9206-9715ee4ec0cd")
 		)
 		(instances
 			(project "audiograb"

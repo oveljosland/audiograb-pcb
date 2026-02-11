@@ -13,31 +13,42 @@
 		(comment 2 "GNU Affero General Public Licence Version 3")
 	)
 	(lib_symbols
-		(symbol "Connector:Conn_Coaxial"
+		(symbol "CONMHF1-SMD-G-T:CONMHF1-SMD-G-T"
 			(pin_names
 				(offset 1.016)
-				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0.254 3.048 0)
+				(at -3.81 1.524 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Value" "Conn_Coaxial"
-				(at 2.921 0 90)
+			(property "Value" "CONMHF1-SMD-G-T"
+				(at -4.064 -6.858 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "CONMHF1-SMD-G-T:LINX_CONMHF1-SMD-G-T"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -46,7 +57,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -55,50 +66,101 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/CONMHF1-SMD-G-T/TE+Connectivity/view-part/?ref=snap"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"
+			(property "Check_prices" "https://www.snapeda.com/parts/CONMHF1-SMD-G-T/TE+Connectivity/view-part/?ref=eda"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"
+			(property "Package" "None"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(symbol "Conn_Coaxial_0_1"
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MF" "TE Connectivity"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "CONMHF1-SMD-G-T"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=9180172&manufacturer=TE Connectivity&part_name=CONMHF1-SMD-G-T&search_term=conmhf1-smd-g-t"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "U.FL/MHF1 Jack 50 Ohm PCB Surface Mount"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "CONMHF1-SMD-G-T_0_0"
 				(polyline
 					(pts
-						(xy -2.54 0) (xy -0.508 0)
+						(xy -1.016 -1.016) (xy 0 -1.016)
 					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.778 0)
-					(mid 0.222 -1.8079)
-					(end -1.778 -0.508)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -107,10 +169,10 @@
 						(type none)
 					)
 				)
-				(arc
-					(start -1.778 0.508)
-					(mid 0.2221 1.8084)
-					(end 1.778 0)
+				(polyline
+					(pts
+						(xy -0.762 -3.302) (xy -1.27 -4.064)
+					)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -121,9 +183,9 @@
 				)
 				(circle
 					(center 0 0)
-					(radius 0.508)
+					(radius 1.016)
 					(stroke
-						(width 0.2032)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -132,50 +194,179 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -2.54) (xy 0 -1.778)
+						(xy 0 -1.016) (xy 0 -3.302)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-			)
-			(symbol "Conn_Coaxial_1_1"
+				(polyline
+					(pts
+						(xy 0 -1.016) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.254)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.302) (xy -0.762 -3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.302) (xy -0.508 -4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.302) (xy 0.762 -3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -3.302) (xy 0.254 -4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.5875 -0.3175)
+					(end 3.4925 0.3175)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.5875 -2.8575)
+					(end 3.4925 -2.2225)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "In"
+					(at -2.54 0 0)
+					(length 5.08)
+					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "Ext"
+					(at -2.54 -2.54 0)
+					(length 5.08)
+					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "2"
+					(number "S1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 5.08)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "S2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 5.08)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "S3"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -7419,10 +7610,10 @@
 		(uuid "039c68f2-4ec7-4eef-b4c8-a5eb126271a4")
 	)
 	(junction
-		(at 215.9 16.51)
+		(at 215.9 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0cefacf5-cfaa-42fc-a343-f6edf51d8bd9")
+		(uuid "12e2a221-6acf-4a8f-8127-8b89325d8bdc")
 	)
 	(junction
 		(at 104.14 166.37)
@@ -7461,6 +7652,12 @@
 		(uuid "2afffb26-6ae0-4244-82bc-9c9b3b164530")
 	)
 	(junction
+		(at 31.75 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2cc55994-5f50-4d22-abba-42ab7e5e6b95")
+	)
+	(junction
 		(at 257.81 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7485,18 +7682,6 @@
 		(uuid "35cab3d4-0caf-4e7c-b9fd-d7d5102a2eaa")
 	)
 	(junction
-		(at 236.22 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "391f65c3-939d-4a87-9a6b-9d18d2cf416a")
-	)
-	(junction
-		(at 205.74 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "40c98bdf-44f3-48f3-9c2c-11b2a8527ed5")
-	)
-	(junction
 		(at 205.74 16.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7507,12 +7692,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "46b840e5-0bba-4819-aa9c-61454d3e7b72")
-	)
-	(junction
-		(at 236.22 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "49e5f76e-8409-47d1-941e-b562d78242b4")
 	)
 	(junction
 		(at 63.5 166.37)
@@ -7527,12 +7706,6 @@
 		(uuid "54457cff-693e-44a3-b2f5-0102ca60b651")
 	)
 	(junction
-		(at 215.9 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "54d5def9-9810-4eb1-896c-bd41c3c221a1")
-	)
-	(junction
 		(at 219.71 16.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7545,22 +7718,40 @@
 		(uuid "5b682931-62ba-492d-b2f2-d88216cca4bf")
 	)
 	(junction
+		(at 213.36 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d159797-3d23-4b0c-983a-24608aa15ecc")
+	)
+	(junction
 		(at 104.14 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5d7a08a1-2def-49c0-9ed4-4ef7de4f7180")
 	)
 	(junction
-		(at 246.38 50.8)
+		(at 220.98 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7bf077de-5d39-408e-9683-f0b75c79d654")
+		(uuid "70682749-8447-445a-a1cf-27b22df40c6c")
 	)
 	(junction
-		(at 226.06 52.07)
+		(at 215.9 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8f697056-aa04-4327-885f-dff9f730160f")
+		(uuid "7beed9f5-ab69-4e2e-ab91-90baa83bfc96")
+	)
+	(junction
+		(at 223.52 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c0169a3-ea67-4fa4-bb09-f9ed55d91b91")
+	)
+	(junction
+		(at 223.52 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "956ab730-dbeb-439a-b81d-b14523fa47a3")
 	)
 	(junction
 		(at 245.11 16.51)
@@ -7575,28 +7766,28 @@
 		(uuid "a035ddfb-b1d1-4c1f-972a-64be753a733a")
 	)
 	(junction
-		(at 24.13 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a3d3b577-37a1-48b4-92b4-f3c46c7e27bb")
-	)
-	(junction
 		(at 167.64 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a7ffcc6a-b18c-4cea-8d7c-f7d9c0a56820")
 	)
 	(junction
-		(at 226.06 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aa6297e6-d913-4b19-a9da-fb721cdfc66c")
-	)
-	(junction
 		(at 104.14 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b775a9fa-d9da-4b59-b301-204642184846")
+	)
+	(junction
+		(at 26.67 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7a0c1ad-abb5-4beb-882f-3ae3a360cda4")
+	)
+	(junction
+		(at 220.98 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba6c5372-de04-4186-945c-16e5fe8c7ff8")
 	)
 	(junction
 		(at 167.64 106.68)
@@ -7609,12 +7800,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c5ce5ab4-6efd-4c06-b28d-f9a4958be80c")
-	)
-	(junction
-		(at 24.13 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cec7aacb-011b-4aa6-9999-c034d8f0013d")
 	)
 	(junction
 		(at 247.65 116.84)
@@ -7639,6 +7824,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dfa28bdf-fe2b-41fd-b9d2-026ef6f8020c")
+	)
+	(junction
+		(at 213.36 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfea9145-e923-4d3a-8bd5-723785e01c12")
 	)
 	(junction
 		(at 243.84 93.98)
@@ -7852,7 +8043,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 82.55) (xy 40.64 82.55)
+			(xy 22.86 82.55) (xy 31.75 82.55)
 		)
 		(stroke
 			(width 0)
@@ -7912,23 +8103,13 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 50.8) (xy 261.62 50.8)
+			(xy 220.98 50.8) (xy 261.62 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1efc7b05-36d4-433b-b04d-4e9578d4d704")
-	)
-	(wire
-		(pts
-			(xy 24.13 102.87) (xy 44.45 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2459dd71-f396-4f05-88cd-0e8558dfac45")
 	)
 	(wire
 		(pts
@@ -7982,7 +8163,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 43.18) (xy 261.62 43.18)
+			(xy 205.74 43.18) (xy 223.52 43.18)
 		)
 		(stroke
 			(width 0)
@@ -7992,7 +8173,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 16.51) (xy 219.71 16.51)
+			(xy 205.74 16.51) (xy 219.71 16.51)
 		)
 		(stroke
 			(width 0)
@@ -8022,16 +8203,6 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 59.69) (xy 246.38 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "374ab266-289d-496e-aad2-021b9e32f15f")
-	)
-	(wire
-		(pts
 			(xy 167.64 83.82) (xy 171.45 83.82)
 		)
 		(stroke
@@ -8039,6 +8210,16 @@
 			(type default)
 		)
 		(uuid "376112c1-2b41-458b-a517-e1e7aa612efa")
+	)
+	(wire
+		(pts
+			(xy 213.36 35.56) (xy 213.36 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bfea3ee-dc23-4ba4-90a1-8299063d1233")
 	)
 	(wire
 		(pts
@@ -8212,6 +8393,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 43.18) (xy 223.52 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cc8b763-1616-41d2-8622-de81d6331b9f")
+	)
+	(wire
+		(pts
 			(xy 231.14 125.73) (xy 240.03 125.73)
 		)
 		(stroke
@@ -8272,6 +8463,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 50.8) (xy 220.98 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bc47890-b489-4c84-83b6-ff30ec992ac3")
+	)
+	(wire
+		(pts
 			(xy 24.13 21.59) (xy 44.45 21.59)
 		)
 		(stroke
@@ -8292,23 +8493,13 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 52.07) (xy 238.76 52.07)
+			(xy 220.98 52.07) (xy 238.76 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "708b62c6-8ec1-4bce-82e4-2812642f7408")
-	)
-	(wire
-		(pts
-			(xy 226.06 33.02) (xy 226.06 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77422693-5de3-425c-a30c-679a916d422c")
 	)
 	(wire
 		(pts
@@ -8332,17 +8523,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 35.56) (xy 236.22 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f481c77-ccb8-4818-8133-c5ad31fa68eb")
-	)
-	(wire
-		(pts
-			(xy 236.22 35.56) (xy 261.62 35.56)
+			(xy 179.07 35.56) (xy 213.36 35.56)
 		)
 		(stroke
 			(width 0)
@@ -8372,6 +8553,26 @@
 	)
 	(wire
 		(pts
+			(xy 20.32 105.41) (xy 21.59 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8acd6cef-8188-4ef6-aae6-5cf28388bb32")
+	)
+	(wire
+		(pts
+			(xy 22.86 85.09) (xy 24.13 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8baf2286-e48f-438a-8db9-36db79a1f330")
+	)
+	(wire
+		(pts
 			(xy 224.79 115.57) (xy 224.79 116.84)
 		)
 		(stroke
@@ -8389,16 +8590,6 @@
 			(type default)
 		)
 		(uuid "9177f6a0-d431-4f3d-a50c-cf3595f6a266")
-	)
-	(wire
-		(pts
-			(xy 179.07 35.56) (xy 236.22 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91d8c818-ed65-4cb0-afce-fc42bea40ae7")
 	)
 	(wire
 		(pts
@@ -8492,16 +8683,6 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 52.07) (xy 246.38 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aaf68420-d9d2-47cd-bcd8-ac400fdbefd2")
-	)
-	(wire
-		(pts
 			(xy 179.07 76.2) (xy 179.07 74.93)
 		)
 		(stroke
@@ -8532,13 +8713,13 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 16.51) (xy 215.9 52.07)
+			(xy 26.67 114.3) (xy 26.67 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "afcbd883-e76c-497d-9733-5d3811459d19")
+		(uuid "af504fb4-b330-4094-b26b-2e9708c9056d")
 	)
 	(wire
 		(pts
@@ -8562,7 +8743,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 33.02) (xy 261.62 33.02)
+			(xy 179.07 33.02) (xy 215.9 33.02)
 		)
 		(stroke
 			(width 0)
@@ -8652,13 +8833,13 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 43.18) (xy 205.74 55.88)
+			(xy 20.32 102.87) (xy 26.67 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c4049089-4a09-416a-86d2-7573befc5ea0")
+		(uuid "c859ab86-8b79-4cf5-b7c1-316f8004ff66")
 	)
 	(wire
 		(pts
@@ -8682,16 +8863,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 33.02) (xy 226.06 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cba9b947-2521-4ae2-b2f7-5aeac01ce076")
-	)
-	(wire
-		(pts
 			(xy 165.1 128.27) (xy 167.64 128.27)
 		)
 		(stroke
@@ -8709,16 +8880,6 @@
 			(type default)
 		)
 		(uuid "cf36c876-874f-40eb-984e-fb556f8483d6")
-	)
-	(wire
-		(pts
-			(xy 220.98 52.07) (xy 226.06 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf3ee961-5f63-4d5d-8d97-cfba05f85d10")
 	)
 	(wire
 		(pts
@@ -8832,13 +8993,23 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 50.8) (xy 246.38 50.8)
+			(xy 195.58 50.8) (xy 220.98 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "df044706-4fab-4efa-80a0-f350070341f1")
+	)
+	(wire
+		(pts
+			(xy 215.9 33.02) (xy 215.9 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e235a21f-5b4e-482c-8f66-05a4d4bcf7ee")
 	)
 	(wire
 		(pts
@@ -8872,6 +9043,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 35.56) (xy 261.62 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e561e3e0-fdca-47e3-b81e-88c5fdd45f02")
+	)
+	(wire
+		(pts
 			(xy 165.1 106.68) (xy 167.64 106.68)
 		)
 		(stroke
@@ -8902,6 +9083,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 43.18) (xy 261.62 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec2a4325-7b6e-4483-8981-94ecddf2cf8d")
+	)
+	(wire
+		(pts
 			(xy 205.74 55.88) (xy 213.36 55.88)
 		)
 		(stroke
@@ -8909,6 +9100,16 @@
 			(type default)
 		)
 		(uuid "ee0bad3d-9eb5-4c82-87bd-ac1c5f83854e")
+	)
+	(wire
+		(pts
+			(xy 26.67 102.87) (xy 44.45 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef5f13b6-58fe-4a93-9c07-7d4225a34de4")
 	)
 	(wire
 		(pts
@@ -8962,13 +9163,23 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 16.51) (xy 215.9 16.51)
+			(xy 31.75 82.55) (xy 40.64 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f87e7740-901a-4001-a03a-a50403b0fdb3")
+		(uuid "f74a8ddd-a8aa-4737-a5cf-0ce32c286013")
+	)
+	(wire
+		(pts
+			(xy 215.9 33.02) (xy 261.62 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc4c9245-3b35-4c43-8dcc-7191a752da00")
 	)
 	(wire
 		(pts
@@ -9890,7 +10101,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 19.05 87.63 0)
+		(at 24.13 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9899,7 +10110,7 @@
 		(fields_autoplaced yes)
 		(uuid "128c4387-704d-40f7-b6c9-adeab7aeaaea")
 		(property "Reference" "#PWR015"
-			(at 19.05 93.98 0)
+			(at 24.13 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9908,7 +10119,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 19.05 92.71 0)
+			(at 24.13 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9916,7 +10127,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 19.05 87.63 0)
+			(at 24.13 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9925,7 +10136,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 19.05 87.63 0)
+			(at 24.13 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9934,7 +10145,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 19.05 87.63 0)
+			(at 24.13 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10272,7 +10483,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 24.13 106.68 90)
+		(at 26.67 118.11 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10281,7 +10492,7 @@
 		(fields_autoplaced yes)
 		(uuid "1c525a2a-612f-4af2-92bb-d768da265dc2")
 		(property "Reference" "D7"
-			(at 26.67 105.4099 90)
+			(at 29.21 116.8399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10290,7 +10501,7 @@
 			)
 		)
 		(property "Value" "D_TVS"
-			(at 26.67 107.9499 90)
+			(at 29.21 119.3799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10299,7 +10510,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
-			(at 24.13 106.68 0)
+			(at 26.67 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10308,7 +10519,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 24.13 106.68 0)
+			(at 26.67 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10317,7 +10528,7 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 24.13 106.68 0)
+			(at 26.67 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10325,8 +10536,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ESD7004MUTAG"
-			(at 24.13 106.68 90)
+		(property "MPN" "0402ESDA-MLP1"
+			(at 26.67 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10672,140 +10883,6 @@
 			(project ""
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/1e6f47c9-dd69-4161-87eb-dd6f588b76d5"
 					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 246.38 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2fc4b748-363b-428c-bf93-4f7a91facce8")
-		(property "Reference" "#PWR034"
-			(at 246.38 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 246.38 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 246.38 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 246.38 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 246.38 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f6b157ef-1c25-4c17-b4ab-8560cb8526a8")
-		)
-		(instances
-			(project ""
-				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/1e6f47c9-dd69-4161-87eb-dd6f588b76d5"
-					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_Coaxial")
-		(at 19.05 102.87 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2fca27c7-9240-482c-a604-03c775eac207")
-		(property "Reference" "J5"
-			(at 19.3432 96.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_Coaxial"
-			(at 19.3432 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 19.05 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 19.05 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 19.05 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2dafaa18-6d19-4e23-8611-1ad7ff2c82ad")
-		)
-		(pin "1"
-			(uuid "36111176-f337-474a-814c-5385d8fdd5ea")
-		)
-		(instances
-			(project "audiograb"
-				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/1e6f47c9-dd69-4161-87eb-dd6f588b76d5"
-					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -11299,6 +11376,172 @@
 		)
 	)
 	(symbol
+		(lib_id "CONMHF1-SMD-G-T:CONMHF1-SMD-G-T")
+		(at 20.32 82.55 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "442a016d-f44b-4496-bd52-44474f7a2e29")
+		(property "Reference" "J4"
+			(at 19.05 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CONMHF1-SMD-G-T"
+			(at 18.288 78.994 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "CONMHF1-SMD-G-T:LINX_CONMHF1-SMD-G-T"
+			(at 20.32 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 20.32 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 20.32 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CONMHF1-SMD-G-T/TE+Connectivity/view-part/?ref=snap"
+			(at 20.32 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/CONMHF1-SMD-G-T/TE+Connectivity/view-part/?ref=eda"
+			(at 20.32 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 20.32 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 20.32 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "TE Connectivity"
+			(at 20.32 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "CONMHF1-SMD-G-T"
+			(at 20.32 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=9180172&manufacturer=TE Connectivity&part_name=CONMHF1-SMD-G-T&search_term=conmhf1-smd-g-t"
+			(at 20.32 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 20.32 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "U.FL/MHF1 Jack 50 Ohm PCB Surface Mount"
+			(at 20.32 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "S3"
+			(uuid "881019dc-5140-4879-be48-999dff9699fa")
+		)
+		(pin "S1"
+			(uuid "21e05547-272f-4e09-b33c-c2888f05638e")
+		)
+		(pin "1"
+			(uuid "856d68e6-4d2a-43f4-9538-c19240b219a1")
+		)
+		(pin "S2"
+			(uuid "f9486550-00fe-4020-a351-db0557628129")
+		)
+		(instances
+			(project ""
+				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/1e6f47c9-dd69-4161-87eb-dd6f588b76d5"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 167.64 132.08 0)
 		(unit 1)
@@ -11445,7 +11688,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 24.13 86.36 90)
+		(at 31.75 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11454,7 +11697,7 @@
 		(fields_autoplaced yes)
 		(uuid "45d7a893-ff38-45fb-97e2-fd33de45eef5")
 		(property "Reference" "D6"
-			(at 26.67 85.0899 90)
+			(at 34.29 85.0899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11463,7 +11706,7 @@
 			)
 		)
 		(property "Value" "D_TVS"
-			(at 26.67 87.6299 90)
+			(at 34.29 87.6299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11472,7 +11715,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
-			(at 24.13 86.36 0)
+			(at 31.75 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11481,7 +11724,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 24.13 86.36 0)
+			(at 31.75 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11490,7 +11733,7 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 24.13 86.36 0)
+			(at 31.75 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11498,8 +11741,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ESD7004MUTAG"
-			(at 24.13 86.36 90)
+		(property "MPN" "0402ESDA-MLP1"
+			(at 31.75 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11601,7 +11844,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 24.13 110.49 0)
+		(at 26.67 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11610,7 +11853,7 @@
 		(fields_autoplaced yes)
 		(uuid "4b892447-3eee-422e-ab4a-b3980ce9728a")
 		(property "Reference" "#PWR018"
-			(at 24.13 116.84 0)
+			(at 26.67 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11619,7 +11862,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 24.13 115.57 0)
+			(at 26.67 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11627,7 +11870,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 110.49 0)
+			(at 26.67 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11636,7 +11879,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 110.49 0)
+			(at 26.67 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11645,7 +11888,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 24.13 110.49 0)
+			(at 26.67 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13123,7 +13366,8 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 231.14 116.84 180)
+		(at 231.14 116.84 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13131,7 +13375,7 @@
 		(dnp no)
 		(uuid "655871c5-1604-4a01-81f0-235e89ea7d5e")
 		(property "Reference" "D11"
-			(at 232.7275 109.22 0)
+			(at 232.7275 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13139,7 +13383,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 232.7275 111.76 0)
+			(at 232.7275 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13201,85 +13445,6 @@
 			(project ""
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/1e6f47c9-dd69-4161-87eb-dd6f588b76d5"
 					(reference "D11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_TVS")
-		(at 246.38 55.88 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "68aef8d9-5e1a-4edb-97ce-049d0c8b807c")
-		(property "Reference" "D13"
-			(at 248.92 54.6099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D_TVS"
-			(at 248.92 57.1499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
-			(at 246.38 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 246.38 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 246.38 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "ESD7004MUTAG"
-			(at 246.38 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "473a617a-408f-414f-8527-eb00baf5cc5f")
-		)
-		(pin "1"
-			(uuid "1dc4b40a-5911-4646-9468-94a4134349ac")
-		)
-		(instances
-			(project ""
-				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/1e6f47c9-dd69-4161-87eb-dd6f588b76d5"
-					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -13425,6 +13590,172 @@
 			(project ""
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/1e6f47c9-dd69-4161-87eb-dd6f588b76d5"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CONMHF1-SMD-G-T:CONMHF1-SMD-G-T")
+		(at 17.78 102.87 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f8918ef-7639-4736-919f-173fd434b9d1")
+		(property "Reference" "J5"
+			(at 16.51 99.822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CONMHF1-SMD-G-T"
+			(at 15.748 99.314 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "CONMHF1-SMD-G-T:LINX_CONMHF1-SMD-G-T"
+			(at 17.78 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 17.78 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 17.78 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CONMHF1-SMD-G-T/TE+Connectivity/view-part/?ref=snap"
+			(at 17.78 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/CONMHF1-SMD-G-T/TE+Connectivity/view-part/?ref=eda"
+			(at 17.78 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 17.78 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 17.78 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "TE Connectivity"
+			(at 17.78 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "CONMHF1-SMD-G-T"
+			(at 17.78 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=9180172&manufacturer=TE Connectivity&part_name=CONMHF1-SMD-G-T&search_term=conmhf1-smd-g-t"
+			(at 17.78 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 17.78 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "U.FL/MHF1 Jack 50 Ohm PCB Surface Mount"
+			(at 17.78 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "S3"
+			(uuid "f9b040e3-e11b-4fcf-8f13-20842b45bfdc")
+		)
+		(pin "S1"
+			(uuid "bd50599a-0dff-4b0f-9796-5f8b52862aab")
+		)
+		(pin "1"
+			(uuid "df13b872-11a5-42e3-a87e-2edbd94fb48f")
+		)
+		(pin "S2"
+			(uuid "ca054cbd-f60e-4f5c-bbd7-31c886d03feb")
+		)
+		(instances
+			(project "audiograb"
+				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/1e6f47c9-dd69-4161-87eb-dd6f588b76d5"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -14734,6 +15065,72 @@
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/1e6f47c9-dd69-4161-87eb-dd6f588b76d5"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 21.59 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92dad310-7064-4361-befc-0380e76fedc1")
+		(property "Reference" "#PWR03"
+			(at 21.59 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 21.59 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 21.59 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 21.59 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a447a53-cff2-4ea5-b7c1-d3fadcfaa58e")
+		)
+		(instances
+			(project "audiograb"
+				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/1e6f47c9-dd69-4161-87eb-dd6f588b76d5"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -16058,74 +16455,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_Coaxial")
-		(at 19.05 82.55 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ce169b8c-a929-4a51-8bef-c93ce1430864")
-		(property "Reference" "J4"
-			(at 19.3432 76.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_Coaxial"
-			(at 19.3432 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 19.05 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 19.05 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 19.05 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "339ad9e0-3e10-43ca-b2cb-be4759b97207")
-		)
-		(pin "1"
-			(uuid "2931a61b-6070-48a4-8e8a-8c3d9d0c4254")
-		)
-		(instances
-			(project ""
-				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/1e6f47c9-dd69-4161-87eb-dd6f588b76d5"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 44.45 44.45 90)
 		(unit 1)
@@ -16922,7 +17251,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 24.13 90.17 0)
+		(at 31.75 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16931,7 +17260,7 @@
 		(fields_autoplaced yes)
 		(uuid "ef53fcfa-69d4-4a55-80b1-337d0a8d5778")
 		(property "Reference" "#PWR017"
-			(at 24.13 96.52 0)
+			(at 31.75 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16940,7 +17269,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 24.13 95.25 0)
+			(at 31.75 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16948,7 +17277,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 90.17 0)
+			(at 31.75 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16957,7 +17286,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 90.17 0)
+			(at 31.75 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16966,7 +17295,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 24.13 90.17 0)
+			(at 31.75 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18022,72 +18351,6 @@
 			(project ""
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/1e6f47c9-dd69-4161-87eb-dd6f588b76d5"
 					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 19.05 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fe546321-32e5-4d86-99d4-0dc11b08ee74")
-		(property "Reference" "#PWR016"
-			(at 19.05 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 19.05 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 19.05 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 19.05 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 19.05 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2773dc9d-b569-4214-a408-f48dd080d928")
-		)
-		(instances
-			(project ""
-				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/1e6f47c9-dd69-4161-87eb-dd6f588b76d5"
-					(reference "#PWR016")
 					(unit 1)
 				)
 			)
