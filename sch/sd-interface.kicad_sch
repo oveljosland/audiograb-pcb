@@ -6716,6 +6716,16 @@
 	)
 	(wire
 		(pts
+			(xy 334.01 48.26) (xy 337.82 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d125457-3176-4192-b173-25a33c25e8f4")
+	)
+	(wire
+		(pts
 			(xy 60.96 41.91) (xy 50.8 41.91)
 		)
 		(stroke
@@ -6853,6 +6863,16 @@
 			(type default)
 		)
 		(uuid "5a360c42-6481-4e17-bfd0-6970d48fc517")
+	)
+	(wire
+		(pts
+			(xy 337.82 50.8) (xy 337.82 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a7c0025-cdc0-40fe-b9ca-08e25270f6cd")
 	)
 	(wire
 		(pts
@@ -8544,7 +8564,7 @@
 		)
 		(uuid "bcace3d6-c622-44e5-91ea-76c6adc11b0f")
 	)
-	(global_label "+3V3"
+	(global_label "+3V3_e"
 		(shape input)
 		(at 146.05 153.67 0)
 		(fields_autoplaced yes)
@@ -8556,7 +8576,7 @@
 		)
 		(uuid "01f09a45-ad7e-4880-ad35-c5dfdf1a9c92")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.1152 153.67 0)
+			(at 156.1714 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8588,7 +8608,7 @@
 			)
 		)
 	)
-	(global_label "+3V3"
+	(global_label "+3V3_CM5"
 		(shape input)
 		(at 222.25 34.29 0)
 		(fields_autoplaced yes)
@@ -8600,7 +8620,7 @@
 		)
 		(uuid "2ccee583-64d8-4244-a080-ead8c166591c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 230.3152 34.29 0)
+			(at 235.2137 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8610,7 +8630,7 @@
 			)
 		)
 	)
-	(global_label "+1V8"
+	(global_label "+1V8_CM5"
 		(shape input)
 		(at 170.18 34.29 180)
 		(fields_autoplaced yes)
@@ -8622,7 +8642,7 @@
 		)
 		(uuid "3fccecf9-1df7-410e-b028-b59d23a5852d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.1148 34.29 0)
+			(at 157.2163 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8632,7 +8652,7 @@
 			)
 		)
 	)
-	(global_label "+3V3"
+	(global_label "+3V3_e"
 		(shape input)
 		(at 194.31 222.25 180)
 		(fields_autoplaced yes)
@@ -8654,7 +8674,7 @@
 			)
 		)
 	)
-	(global_label "3v3"
+	(global_label "+3v3_e"
 		(shape input)
 		(at 252.73 154.94 180)
 		(fields_autoplaced yes)
@@ -8667,6 +8687,28 @@
 		(uuid "810b667a-83f4-49a4-8739-222609c2fd82")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 246.3582 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3V3_e"
+		(shape output)
+		(at 334.01 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ffced156-f61f-49b1-a09a-eb9dc215b85d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 323.8886 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8851,6 +8893,167 @@
 			(justify left)
 		)
 		(uuid "ea137060-8599-4f0d-a322-1aae46b83d6f")
+	)
+	(symbol
+		(lib_id "691137710002:691137710002")
+		(at 342.9 50.8 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "012b0545-f32f-4398-9ac3-8601ca00d8b6")
+		(property "Reference" "J19"
+			(at 344.17 48.2599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3V3_in"
+			(at 344.17 50.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "691137710002:691137710002"
+			(at 342.9 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 342.9 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.3 V power in"
+			(at 342.9 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Würth Elektronik"
+			(at 342.9 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "2 Position Wire to Board Terminal Block Horizontal with Board 0.197 (5.00mm) Through Hole"
+			(at 342.9 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 342.9 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 342.9 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/691137710002/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=snap"
+			(at 342.9 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "691137710002"
+			(at 342.9 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=4793356&manufacturer=Würth Elektronik&part_name=691137710002&search_term=691137710002"
+			(at 342.9 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 342.9 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/691137710002/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda"
+			(at 342.9 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d5013f9c-827b-478b-bb2a-b262ac9a6e2a")
+		)
+		(pin "1"
+			(uuid "6efa9891-b7be-4581-abdb-f0d8ec03f538")
+		)
+		(instances
+			(project "audiograb"
+				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
+					(reference "J19")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -9191,7 +9394,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "691137710002"
+		(property "Value" "5V_out"
 			(at 355.6 218.4399 90)
 			(effects
 				(font
@@ -9219,7 +9422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "5V power out"
 			(at 354.33 218.44 0)
 			(effects
 				(font
@@ -9475,6 +9678,72 @@
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
 					(reference "TP14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 337.82 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14a976a3-2eb1-4b29-a552-a9190ab39d24")
+		(property "Reference" "#PWR07"
+			(at 337.82 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 337.82 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 337.82 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 337.82 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 337.82 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35d29633-2890-49dc-88d2-379332890077")
+		)
+		(instances
+			(project ""
+				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)

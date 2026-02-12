@@ -11222,8 +11222,8 @@
 		)
 		(uuid "f8279074-d07f-4e7d-9526-8fc84b031b76")
 	)
-	(global_label "+3V3"
-		(shape input)
+	(global_label "+3V3_CM5"
+		(shape output)
 		(at 15.24 118.11 0)
 		(fields_autoplaced yes)
 		(effects
@@ -11244,7 +11244,7 @@
 			)
 		)
 	)
-	(global_label "+3V3"
+	(global_label "+3V3_CM5"
 		(shape input)
 		(at 109.22 21.59 0)
 		(fields_autoplaced yes)
@@ -11266,8 +11266,8 @@
 			)
 		)
 	)
-	(global_label "+1V8"
-		(shape input)
+	(global_label "+1V8_CM5"
+		(shape output)
 		(at 25.4 128.27 0)
 		(fields_autoplaced yes)
 		(effects
