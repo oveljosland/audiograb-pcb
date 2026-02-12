@@ -11757,7 +11757,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005dc6d7d8")
-		(property "Reference" "Module2"
+		(property "Reference" "M1"
 			(at 73.66 14.224 0)
 			(effects
 				(font
@@ -11766,7 +11766,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "Raspberry Pi Compute Module 5 Header A"
+		(property "Value" "ComputeModule5-CM5"
 			(at 73.66 16.256 0)
 			(effects
 				(font
@@ -11774,7 +11774,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CM5IO:Raspberry-Pi-5-Compute-Module"
+		(property "Footprint" "CM5108032:MODULE_CM5108032"
 			(at 218.44 102.87 0)
 			(effects
 				(font
@@ -12453,7 +12453,7 @@
 			)
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/75b669f4-4784-4707-8d6c-b4da66be0510"
-					(reference "Module2")
+					(reference "M1")
 					(unit 1)
 				)
 			)
@@ -13868,7 +13868,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "90f281bd-df14-43bd-b524-4929369dffa2")
-		(property "Reference" "Module1"
+		(property "Reference" "M1"
 			(at 187.96 9.017 0)
 			(effects
 				(font
@@ -13886,7 +13886,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "CM5IO:Raspberry-Pi-5-Compute-Module"
+		(property "Footprint" "CM5108032:MODULE_CM5108032"
 			(at 190.5 107.95 0)
 			(effects
 				(font
@@ -14559,7 +14559,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/75b669f4-4784-4707-8d6c-b4da66be0510"
-					(reference "Module1")
+					(reference "M1")
 					(unit 2)
 				)
 			)
