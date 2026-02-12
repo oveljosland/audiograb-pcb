@@ -812,6 +812,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -5721,6 +5860,12 @@
 		(uuid "0b7feea0-1ae2-4281-ae9d-7fda5fb75920")
 	)
 	(junction
+		(at 326.39 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13abb1e3-dc0d-4e05-be0f-377d935e12e0")
+	)
+	(junction
 		(at 114.3 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5953,6 +6098,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8d8a4c1a-3d37-4e56-b0bf-fe2b72e67aab")
+	)
+	(junction
+		(at 337.82 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91324aa2-0bfa-4c9b-b8e3-bb5b7a548ebe")
 	)
 	(junction
 		(at 91.44 163.83)
@@ -6716,7 +6867,7 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 48.26) (xy 337.82 48.26)
+			(xy 313.69 48.26) (xy 326.39 48.26)
 		)
 		(stroke
 			(width 0)
@@ -6866,7 +7017,7 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 50.8) (xy 337.82 53.34)
+			(xy 337.82 50.8) (xy 337.82 55.88)
 		)
 		(stroke
 			(width 0)
@@ -7043,6 +7194,16 @@
 			(type default)
 		)
 		(uuid "6cc46424-dd65-4a4c-8bad-ab5d04b6884e")
+	)
+	(wire
+		(pts
+			(xy 326.39 55.88) (xy 337.82 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cf6b626-b9da-41a0-8ac8-cb1f8397a849")
 	)
 	(wire
 		(pts
@@ -7353,6 +7514,16 @@
 			(type default)
 		)
 		(uuid "9201eeba-5821-43f8-8500-81eb92e153c6")
+	)
+	(wire
+		(pts
+			(xy 326.39 48.26) (xy 337.82 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "923d11a6-498d-41f1-82e5-e11301c141b7")
 	)
 	(wire
 		(pts
@@ -8096,6 +8267,16 @@
 	)
 	(wire
 		(pts
+			(xy 337.82 55.88) (xy 337.82 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d520a698-3786-4133-bfc7-212e6ecba50f")
+	)
+	(wire
+		(pts
 			(xy 99.06 190.5) (xy 130.81 190.5)
 		)
 		(stroke
@@ -8698,7 +8879,7 @@
 	)
 	(global_label "+3V3_e"
 		(shape output)
-		(at 334.01 48.26 180)
+		(at 313.69 48.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8708,7 +8889,7 @@
 		)
 		(uuid "ffced156-f61f-49b1-a09a-eb9dc215b85d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 323.8886 48.26 0)
+			(at 303.5686 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9685,7 +9866,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 337.82 53.34 0)
+		(at 337.82 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9694,7 +9875,7 @@
 		(fields_autoplaced yes)
 		(uuid "14a976a3-2eb1-4b29-a552-a9190ab39d24")
 		(property "Reference" "#PWR07"
-			(at 337.82 59.69 0)
+			(at 337.82 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9703,7 +9884,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 337.82 58.42 0)
+			(at 337.82 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9711,7 +9892,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 337.82 53.34 0)
+			(at 337.82 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9720,7 +9901,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 337.82 53.34 0)
+			(at 337.82 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9729,7 +9910,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 337.82 53.34 0)
+			(at 337.82 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11284,6 +11465,84 @@
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
 					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 326.39 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "75adb751-3d6e-4b49-8903-435c5ec303a5")
+		(property "Reference" "C20"
+			(at 330.2 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 330.2 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 327.3552 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 326.39 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 326.39 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C104K3RACTU"
+			(at 326.39 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b4b2ffcd-55e2-4045-bfc0-454850f0ecb8")
+		)
+		(pin "1"
+			(uuid "f904aa5a-d38f-4916-99c1-9b907da873ef")
+		)
+		(instances
+			(project "audiograb"
+				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
+					(reference "C20")
 					(unit 1)
 				)
 			)
