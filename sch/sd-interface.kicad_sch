@@ -9219,7 +9219,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "5V power"
 			(at 354.33 218.44 0)
 			(effects
 				(font

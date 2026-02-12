@@ -13,6 +13,270 @@
 		(comment 2 "GNU Affero General Public Licence Version 3")
 	)
 	(lib_symbols
+		(symbol "691137710002:691137710002"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -4.88 -0.922 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Value" "691137710002"
+				(at -4.83 -2.58 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Footprint" "691137710002:691137710002"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Würth Elektronik"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "2 Position Wire to Board Terminal Block Horizontal with Board 0.197 (5.00mm) Through Hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/691137710002/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "691137710002"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=4793356&manufacturer=Würth Elektronik&part_name=691137710002&search_term=691137710002"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/691137710002/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "691137710002_0_0"
+				(rectangle
+					(start -3.81 -2.54)
+					(end 1.27 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -2.54 -1.27)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.778) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 -1.016) (xy -2.794 -1.524)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -1.27)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.778) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -1.016) (xy -0.254 -1.524)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "CONMHF1-SMD-G-T:CONMHF1-SMD-G-T"
 			(pin_names
 				(offset 1.016)
@@ -7664,6 +7928,12 @@
 		(uuid "2ffbcbd4-7eb9-4c21-bf7b-fc5f11d5aa56")
 	)
 	(junction
+		(at 213.36 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30a899e1-6ab8-4719-8f5b-89e655f96edc")
+	)
+	(junction
 		(at 232.41 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7674,6 +7944,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "32d0f625-f826-4912-917e-2a80de2ee815")
+	)
+	(junction
+		(at 213.36 16.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3461fb21-721f-4458-96a1-31f4dd881fc1")
 	)
 	(junction
 		(at 231.14 125.73)
@@ -7718,22 +7994,10 @@
 		(uuid "5b682931-62ba-492d-b2f2-d88216cca4bf")
 	)
 	(junction
-		(at 213.36 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5d159797-3d23-4b0c-983a-24608aa15ecc")
-	)
-	(junction
 		(at 104.14 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5d7a08a1-2def-49c0-9ed4-4ef7de4f7180")
-	)
-	(junction
-		(at 220.98 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "70682749-8447-445a-a1cf-27b22df40c6c")
 	)
 	(junction
 		(at 215.9 33.02)
@@ -7746,6 +8010,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c0169a3-ea67-4fa4-bb09-f9ed55d91b91")
+	)
+	(junction
+		(at 220.98 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f470849-73ef-4a5e-8e8d-24cdea7c0d41")
 	)
 	(junction
 		(at 223.52 43.18)
@@ -7784,12 +8054,6 @@
 		(uuid "b7a0c1ad-abb5-4beb-882f-3ae3a360cda4")
 	)
 	(junction
-		(at 220.98 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ba6c5372-de04-4186-945c-16e5fe8c7ff8")
-	)
-	(junction
 		(at 167.64 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7800,6 +8064,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c5ce5ab4-6efd-4c06-b28d-f9a4958be80c")
+	)
+	(junction
+		(at 246.38 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca99a05d-5133-4e8f-a734-72f2c74dc2d3")
 	)
 	(junction
 		(at 247.65 116.84)
@@ -7826,16 +8096,16 @@
 		(uuid "dfa28bdf-fe2b-41fd-b9d2-026ef6f8020c")
 	)
 	(junction
-		(at 213.36 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dfea9145-e923-4d3a-8bd5-723785e01c12")
-	)
-	(junction
 		(at 243.84 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e57e5e64-e6ea-40ee-aa7a-72efc1b39890")
+	)
+	(junction
+		(at 220.98 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f82d4d88-c772-4f0f-a6f2-ad49099639c5")
 	)
 	(no_connect
 		(at 125.73 39.37)
@@ -8103,7 +8373,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 50.8) (xy 261.62 50.8)
+			(xy 195.58 50.8) (xy 246.38 50.8)
 		)
 		(stroke
 			(width 0)
@@ -8173,7 +8443,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 16.51) (xy 219.71 16.51)
+			(xy 205.74 16.51) (xy 213.36 16.51)
 		)
 		(stroke
 			(width 0)
@@ -8210,16 +8480,6 @@
 			(type default)
 		)
 		(uuid "376112c1-2b41-458b-a517-e1e7aa612efa")
-	)
-	(wire
-		(pts
-			(xy 213.36 35.56) (xy 213.36 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3bfea3ee-dc23-4ba4-90a1-8299063d1233")
 	)
 	(wire
 		(pts
@@ -8413,6 +8673,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 142.24) (xy 251.46 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63dcbf75-2cfb-4cff-a6ea-618ba940fd5e")
+	)
+	(wire
+		(pts
 			(xy 248.92 85.09) (xy 245.11 85.09)
 		)
 		(stroke
@@ -8463,16 +8733,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 50.8) (xy 220.98 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6bc47890-b489-4c84-83b6-ff30ec992ac3")
-	)
-	(wire
-		(pts
 			(xy 24.13 21.59) (xy 44.45 21.59)
 		)
 		(stroke
@@ -8503,6 +8763,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 144.78) (xy 261.62 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75c133dd-0acb-4687-81d8-d891f9148860")
+	)
+	(wire
+		(pts
 			(xy 215.9 88.9) (xy 215.9 90.17)
 		)
 		(stroke
@@ -8523,7 +8793,17 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 35.56) (xy 213.36 35.56)
+			(xy 251.46 142.24) (xy 261.62 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "834a16f9-2317-4055-8ca4-422266c1dd5b")
+	)
+	(wire
+		(pts
+			(xy 179.07 35.56) (xy 220.98 35.56)
 		)
 		(stroke
 			(width 0)
@@ -8773,16 +9053,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 149.86) (xy 251.46 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3b233b8-7048-4a54-8b60-2bb072f360cc")
-	)
-	(wire
-		(pts
 			(xy 179.07 16.51) (xy 195.58 16.51)
 		)
 		(stroke
@@ -8810,6 +9080,16 @@
 			(type default)
 		)
 		(uuid "b62117dd-cb3c-4e9d-bf32-798c7e75c439")
+	)
+	(wire
+		(pts
+			(xy 213.36 16.51) (xy 213.36 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8b2983c-3d23-4588-a2a8-3725ece93cb1")
 	)
 	(wire
 		(pts
@@ -8860,6 +9140,16 @@
 			(type default)
 		)
 		(uuid "cb1f2684-2850-4038-bdba-6e873f358ca2")
+	)
+	(wire
+		(pts
+			(xy 246.38 50.8) (xy 246.38 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdb9fab0-b9c1-46cc-8ccd-b6365d880d20")
 	)
 	(wire
 		(pts
@@ -8973,6 +9263,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 35.56) (xy 261.62 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc9b8c82-94bc-4674-a644-35ada7bd5d16")
+	)
+	(wire
+		(pts
 			(xy 205.74 26.67) (xy 205.74 43.18)
 		)
 		(stroke
@@ -8993,13 +9293,13 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 50.8) (xy 220.98 50.8)
+			(xy 213.36 16.51) (xy 219.71 16.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "df044706-4fab-4efa-80a0-f350070341f1")
+		(uuid "e19742ba-dca0-48a9-9c25-b3ffe97b253c")
 	)
 	(wire
 		(pts
@@ -9043,16 +9343,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 35.56) (xy 261.62 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e561e3e0-fdca-47e3-b81e-88c5fdd45f02")
-	)
-	(wire
-		(pts
 			(xy 165.1 106.68) (xy 167.64 106.68)
 		)
 		(stroke
@@ -9090,6 +9380,16 @@
 			(type default)
 		)
 		(uuid "ec2a4325-7b6e-4483-8981-94ecddf2cf8d")
+	)
+	(wire
+		(pts
+			(xy 246.38 50.8) (xy 261.62 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecf90c63-e684-4436-8ea2-1b7d6f00320d")
 	)
 	(wire
 		(pts
@@ -9170,6 +9470,16 @@
 			(type default)
 		)
 		(uuid "f74a8ddd-a8aa-4737-a5cf-0ce32c286013")
+	)
+	(wire
+		(pts
+			(xy 220.98 35.56) (xy 220.98 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbaa953b-7573-4a74-82b4-ad4358809dbc")
 	)
 	(wire
 		(pts
@@ -9786,7 +10096,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V8"
+		(property "Value" "+3V3"
 			(at 224.79 110.49 0)
 			(effects
 				(font
@@ -11982,6 +12292,85 @@
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/1e6f47c9-dd69-4161-87eb-dd6f588b76d5"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS")
+		(at 246.38 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55570a89-ce53-460b-9b36-f3434467aad9")
+		(property "Reference" "D1"
+			(at 248.92 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_TVS"
+			(at 248.92 58.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
+			(at 246.38 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 246.38 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 246.38 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402ESDA-MLP1"
+			(at 246.38 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3f27e0ef-2312-46bb-84ff-08df9ef98f3d")
+		)
+		(pin "1"
+			(uuid "152329db-9fa8-4a1a-aa2d-ba1b2ceb772b")
+		)
+		(instances
+			(project ""
+				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/1e6f47c9-dd69-4161-87eb-dd6f588b76d5"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -15023,7 +15412,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V8"
+		(property "Value" "+3V3"
 			(at 245.11 78.74 0)
 			(effects
 				(font
@@ -15489,6 +15878,72 @@
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/1e6f47c9-dd69-4161-87eb-dd6f588b76d5"
 					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 246.38 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "afacdf97-0f5e-4c41-bf3c-9c45e5ef8a3b")
+		(property "Reference" "#PWR05"
+			(at 246.38 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 246.38 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 246.38 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68f5e5a6-0818-4201-85f6-a3155584e530")
+		)
+		(instances
+			(project ""
+				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/1e6f47c9-dd69-4161-87eb-dd6f588b76d5"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -16240,6 +16695,167 @@
 		)
 	)
 	(symbol
+		(lib_id "691137710002:691137710002")
+		(at 266.7 144.78 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4388813-cffd-4b6e-95d0-52ea6da0a2b2")
+		(property "Reference" "J18"
+			(at 267.97 142.2399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "691137710002"
+			(at 267.97 144.7799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "691137710002:691137710002"
+			(at 266.7 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3V7 power"
+			(at 266.7 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Würth Elektronik"
+			(at 266.7 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "2 Position Wire to Board Terminal Block Horizontal with Board 0.197 (5.00mm) Through Hole"
+			(at 266.7 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 266.7 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 266.7 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/691137710002/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=snap"
+			(at 266.7 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "691137710002"
+			(at 266.7 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=4793356&manufacturer=Würth Elektronik&part_name=691137710002&search_term=691137710002"
+			(at 266.7 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 266.7 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/691137710002/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda"
+			(at 266.7 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e294e4ea-1a7d-4fb1-a30e-df44833f7c8a")
+		)
+		(pin "1"
+			(uuid "72fa6cfc-1cd3-453e-bcb1-a43c2babc205")
+		)
+		(instances
+			(project "audiograb"
+				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/1e6f47c9-dd69-4161-87eb-dd6f588b76d5"
+					(reference "J18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 205.74 22.86 0)
 		(unit 1)
@@ -16792,6 +17408,72 @@
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/1e6f47c9-dd69-4161-87eb-dd6f588b76d5"
 					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 261.62 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e60ac749-927c-4246-b492-f258049776b3")
+		(property "Reference" "#PWR06"
+			(at 261.62 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 261.62 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 261.62 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c98e8e4-5061-44f1-815c-7afd57c9d272")
+		)
+		(instances
+			(project ""
+				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/1e6f47c9-dd69-4161-87eb-dd6f588b76d5"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -18218,72 +18900,6 @@
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/1e6f47c9-dd69-4161-87eb-dd6f588b76d5"
 					(reference "U1")
 					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V8")
-		(at 251.46 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f7839aec-878f-4a76-8458-bf9a92a5ac4b")
-		(property "Reference" "#PWR037"
-			(at 251.46 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V8"
-			(at 251.46 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 251.46 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 251.46 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V8\""
-			(at 251.46 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cf2c7fad-4cab-47f6-abc0-b7dcf264fb16")
-		)
-		(instances
-			(project ""
-				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/1e6f47c9-dd69-4161-87eb-dd6f588b76d5"
-					(reference "#PWR037")
-					(unit 1)
 				)
 			)
 		)
