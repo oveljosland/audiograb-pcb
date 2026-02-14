@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "USB Interface")
-		(date "2026-01-29")
+		(date "2026-02-13")
 		(rev "0")
 		(company "NTNU, NINA")
 		(comment 1 "https://github.com/oveljosland/audiograb-pcb/")

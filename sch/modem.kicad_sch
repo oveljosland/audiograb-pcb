@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Modem")
-		(date "2026-01-29")
+		(date "2026-02-13")
 		(rev "0")
 		(company "NTNU, NINA")
 		(comment 1 "https://github.com/oveljosland/audiograb-pcb/")
@@ -9636,7 +9636,7 @@
 		)
 		(uuid "f956b5f4-468a-4fb1-a6ef-975b255a2eef")
 	)
-	(global_label "+3V3_CM5"
+	(global_label "+3V3"
 		(shape input)
 		(at 223.52 116.84 180)
 		(fields_autoplaced yes)
@@ -9658,7 +9658,7 @@
 			)
 		)
 	)
-	(global_label "+3V3_CM5"
+	(global_label "+3V3"
 		(shape input)
 		(at 245.11 83.82 90)
 		(fields_autoplaced yes)
