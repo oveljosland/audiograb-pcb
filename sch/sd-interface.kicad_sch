@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "e567d35c-bd3f-48fd-a93d-0c1960b0eff1")
 	(paper "A3")
+	(title_block
+		(date "2026-02-13")
+		(rev "0")
+		(company "NTNU, NINA")
+		(comment 1 "https://github.com/oveljosland/audiograb-pcb/")
+		(comment 2 "GNU Affero General Public Licence Version 3")
+	)
 	(lib_symbols
 		(symbol "691137710002:691137710002"
 			(pin_names
@@ -8789,7 +8796,7 @@
 			)
 		)
 	)
-	(global_label "+3V3_CM5"
+	(global_label "+3V3"
 		(shape input)
 		(at 222.25 34.29 0)
 		(fields_autoplaced yes)
@@ -8801,7 +8808,7 @@
 		)
 		(uuid "2ccee583-64d8-4244-a080-ead8c166591c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 235.2137 34.29 0)
+			(at 230.3152 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8811,7 +8818,7 @@
 			)
 		)
 	)
-	(global_label "+1V8_CM5"
+	(global_label "+1V8"
 		(shape input)
 		(at 170.18 34.29 180)
 		(fields_autoplaced yes)
@@ -8823,7 +8830,7 @@
 		)
 		(uuid "3fccecf9-1df7-410e-b028-b59d23a5852d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.2163 34.29 0)
+			(at 162.1148 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
