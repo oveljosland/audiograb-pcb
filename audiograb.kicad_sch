@@ -2359,7 +2359,7 @@
 		(uuid "56fd7009-a37a-4054-bcd8-994bd7f061a0")
 	)
 	(label "USB2_P"
-		(at 81.28 34.29 180)
+		(at 81.28 31.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2439,12 +2439,12 @@
 		(uuid "694be34b-54de-4ae9-96fa-462b3c8ecbe1")
 	)
 	(label "CC2"
-		(at 111.76 31.75 0)
+		(at 81.28 34.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "6ae9aa0d-c685-4a1f-ba6f-361bdc436e26")
 	)
@@ -2599,12 +2599,12 @@
 		(uuid "a9775af5-e5c6-47b2-8f36-404a63a7e3f1")
 	)
 	(label "USB2_N"
-		(at 81.28 31.75 180)
+		(at 111.76 31.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "af32fce3-c04d-4ba5-ac6c-361950dfe6bb")
 	)
