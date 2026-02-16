@@ -5802,16 +5802,6 @@
 		)
 		(uuid "8daa3f04-d6d9-4181-94eb-469977f620bf")
 	)
-	(text "CIRCUIT IS DESIGNED FOR ONLY 3.3V SD \nOPERATION, NOT 1.8V"
-		(exclude_from_sim no)
-		(at 304.8 29.718 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a6d47ba0-02f1-42c9-92ff-ea878f1a40f8")
-	)
 	(text "8: DAT1 // X"
 		(exclude_from_sim no)
 		(at 134.112 35.052 0)
@@ -8796,7 +8786,7 @@
 		)
 		(uuid "bcace3d6-c622-44e5-91ea-76c6adc11b0f")
 	)
-	(global_label "+3V3_e"
+	(global_label "+3V3"
 		(shape input)
 		(at 146.05 153.67 0)
 		(fields_autoplaced yes)
@@ -8808,7 +8798,7 @@
 		)
 		(uuid "01f09a45-ad7e-4880-ad35-c5dfdf1a9c92")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.1714 153.67 0)
+			(at 154.1152 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8884,7 +8874,7 @@
 			)
 		)
 	)
-	(global_label "+3V3_e"
+	(global_label "+3V3"
 		(shape input)
 		(at 194.31 222.25 180)
 		(fields_autoplaced yes)
@@ -8906,7 +8896,7 @@
 			)
 		)
 	)
-	(global_label "+3v3_e"
+	(global_label "+3V3"
 		(shape input)
 		(at 252.73 154.94 180)
 		(fields_autoplaced yes)
@@ -8918,7 +8908,7 @@
 		)
 		(uuid "810b667a-83f4-49a4-8739-222609c2fd82")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 246.3582 154.94 0)
+			(at 244.6648 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8928,7 +8918,7 @@
 			)
 		)
 	)
-	(global_label "+3V3_e"
+	(global_label "+3V3"
 		(shape output)
 		(at 313.69 48.26 180)
 		(fields_autoplaced yes)
@@ -8940,7 +8930,7 @@
 		)
 		(uuid "ffced156-f61f-49b1-a09a-eb9dc215b85d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 303.5686 48.26 0)
+			(at 305.6248 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9876,7 +9866,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.85mm"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded"
 			(at 213.36 73.66 0)
 			(effects
 				(font
@@ -10075,7 +10065,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.85mm"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded"
 			(at 200.66 261.62 0)
 			(effects
 				(font
@@ -11029,7 +11019,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.85mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 76.2 158.75 0)
 			(effects
 				(font
@@ -11628,7 +11618,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.85mm"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded"
 			(at 222.25 73.66 0)
 			(effects
 				(font
@@ -11695,7 +11685,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.85mm"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded"
 			(at 252.73 138.43 0)
 			(effects
 				(font
@@ -11762,7 +11752,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.85mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 91.44 158.75 0)
 			(effects
 				(font
@@ -12101,7 +12091,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.85mm"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded"
 			(at 229.87 73.66 0)
 			(effects
 				(font
@@ -12557,7 +12547,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.85mm"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded"
 			(at 240.03 138.43 0)
 			(effects
 				(font
@@ -12690,7 +12680,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.85mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 114.3 158.75 0)
 			(effects
 				(font
@@ -13273,7 +13263,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.85mm"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded"
 			(at 237.49 73.66 0)
 			(effects
 				(font
@@ -13406,7 +13396,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.85mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 121.92 158.75 0)
 			(effects
 				(font
@@ -13473,7 +13463,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.85mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 68.58 158.75 0)
 			(effects
 				(font
@@ -13619,7 +13609,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.85mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 99.06 158.75 0)
 			(effects
 				(font
