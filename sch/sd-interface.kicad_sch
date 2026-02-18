@@ -8852,7 +8852,7 @@
 			)
 		)
 	)
-	(global_label "+1V8"
+	(global_label "+1V8_CM5"
 		(shape input)
 		(at 170.18 34.29 180)
 		(fields_autoplaced yes)
