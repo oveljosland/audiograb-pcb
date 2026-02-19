@@ -7305,6 +7305,10 @@
 		(uuid "46c16ace-b0d0-4f5d-ac4f-01030c9ec672")
 	)
 	(no_connect
+		(at 31.75 50.8)
+		(uuid "494acd84-b606-471a-a8ce-0df96eac5d2a")
+	)
+	(no_connect
 		(at 97.79 30.48)
 		(uuid "4dded355-b480-432f-8c59-77b015936aef")
 	)
@@ -7491,6 +7495,10 @@
 	(no_connect
 		(at 201.93 137.16)
 		(uuid "b4feb8cd-f39d-4e06-88f4-a51f0676d01c")
+	)
+	(no_connect
+		(at 31.75 48.26)
+		(uuid "b5c73e91-e595-4e2a-8608-69428522ab1e")
 	)
 	(no_connect
 		(at 158.75 38.1)
@@ -9854,16 +9862,6 @@
 		)
 		(uuid "66b9b367-ebd1-425a-a4c9-55c7d6df4964")
 	)
-	(label "GPIO22"
-		(at 93.98 81.28 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "68972546-1015-48f4-a00c-f53214ca39d5")
-	)
 	(label "GPIO2"
 		(at 93.98 96.52 180)
 		(effects
@@ -10004,16 +10002,6 @@
 		)
 		(uuid "b4ef65f4-9cb0-4635-a1a6-221bbaff87b7")
 	)
-	(label "GPIO27"
-		(at 31.75 48.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bfbf6cea-456c-402f-b43a-70481d0eb234")
-	)
 	(label "GND"
 		(at 44.45 38.1 0)
 		(effects
@@ -10074,16 +10062,6 @@
 		)
 		(uuid "d1df3924-9bc2-49cf-b878-7953b163e05d")
 	)
-	(label "GPIO27"
-		(at 93.98 83.82 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d322b37c-b63f-453f-ac4e-e1fd3d0e888e")
-	)
 	(label "GPIO17"
 		(at 31.75 45.72 180)
 		(effects
@@ -10093,16 +10071,6 @@
 			(justify right bottom)
 		)
 		(uuid "e171bcba-22c1-4a48-b3fa-de30a7ac75b8")
-	)
-	(label "GPIO22"
-		(at 31.75 50.8 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e3d882cf-ae1f-4f1f-965c-e9c84e40642d")
 	)
 	(label "GND"
 		(at 31.75 63.5 180)
@@ -10419,6 +10387,17 @@
 		)
 		(uuid "3cf4282b-846d-4667-8e68-8b8dfc7c9660")
 	)
+	(hierarchical_label "GPIO27"
+		(shape output)
+		(at 93.98 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4447d108-4735-4c38-a1f0-9a8f28142324")
+	)
 	(hierarchical_label "USB3-0-TX_P"
 		(shape output)
 		(at 196.85 76.2 180)
@@ -10660,6 +10639,17 @@
 			(justify left)
 		)
 		(uuid "d7b49fd1-7433-4cb3-8432-69b2b7b25eb1")
+	)
+	(hierarchical_label "GPIO22"
+		(shape output)
+		(at 93.98 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e10ce0ed-12a5-49fc-9742-23a92670fac3")
 	)
 	(hierarchical_label "GPIO14"
 		(shape input)

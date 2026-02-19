@@ -2004,6 +2004,16 @@
 		)
 		(uuid "320af6e4-e335-4d57-99c8-e6ced63939be")
 	)
+	(label "2DIR"
+		(at 142.24 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "334c393a-5c68-4843-8269-b32beeef73ba")
+	)
 	(label "MODEM_POWER_ON_N"
 		(at 142.24 50.8 180)
 		(effects
@@ -2013,6 +2023,16 @@
 			(justify right bottom)
 		)
 		(uuid "338b64d0-6f10-4042-946b-62baf80818e7")
+	)
+	(label "1DIR"
+		(at 142.24 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3632edf1-94cc-4a94-b73c-4008b2b58121")
 	)
 	(label "SD_RESET_HOST"
 		(at 177.8 73.66 0)
@@ -2103,6 +2123,16 @@
 			(justify right bottom)
 		)
 		(uuid "5b7ad99d-5bf6-4f59-9ebf-db1ffa6ac158")
+	)
+	(label "2DIR"
+		(at 49.53 156.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5c896955-8f69-4d46-b5a9-9130056be28e")
 	)
 	(label "MODEM_WAKE"
 		(at 142.24 69.85 180)
@@ -2453,6 +2483,16 @@
 			(justify right bottom)
 		)
 		(uuid "dceefb02-39c7-49ba-a008-6030c8c86faa")
+	)
+	(label "1DIR"
+		(at 49.53 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "de44eb9f-3e88-4110-84a2-d2bd8c13f694")
 	)
 	(label "CC1"
 		(at 142.24 24.13 180)
@@ -4233,6 +4273,26 @@
 				(justify right)
 			)
 		)
+		(pin "1DIR" input
+			(at 49.53 152.4 180)
+			(uuid "6f9f71ab-da59-4bae-8a4c-674429ec2a76")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2DIR" input
+			(at 49.53 156.21 180)
+			(uuid "6d3466f6-0ba2-48ab-b204-b219fc1e9051")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d"
@@ -4553,6 +4613,26 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "GPIO22" output
+			(at 142.24 39.37 180)
+			(uuid "f7755349-318b-4980-b488-8671419d85c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO27" output
+			(at 142.24 35.56 180)
+			(uuid "ed05b662-2d58-43ed-8b1f-216ec96b7d4e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
