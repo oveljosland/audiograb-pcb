@@ -2004,6 +2004,16 @@
 		)
 		(uuid "320af6e4-e335-4d57-99c8-e6ced63939be")
 	)
+	(label "2DIR"
+		(at 142.24 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "334c393a-5c68-4843-8269-b32beeef73ba")
+	)
 	(label "MODEM_POWER_ON_N"
 		(at 142.24 50.8 180)
 		(effects
@@ -2013,6 +2023,16 @@
 			(justify right bottom)
 		)
 		(uuid "338b64d0-6f10-4042-946b-62baf80818e7")
+	)
+	(label "1DIR"
+		(at 142.24 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3632edf1-94cc-4a94-b73c-4008b2b58121")
 	)
 	(label "SD_RESET_HOST"
 		(at 177.8 73.66 0)
@@ -2104,6 +2124,16 @@
 		)
 		(uuid "5b7ad99d-5bf6-4f59-9ebf-db1ffa6ac158")
 	)
+	(label "2DIR"
+		(at 49.53 156.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5c896955-8f69-4d46-b5a9-9130056be28e")
+	)
 	(label "MODEM_WAKE"
 		(at 142.24 69.85 180)
 		(effects
@@ -2144,6 +2174,16 @@
 		)
 		(uuid "61426457-5f82-488d-9286-6a7e0b8754a5")
 	)
+	(label "Wake"
+		(at 223.52 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "63033f77-9fbc-4fb0-b38f-b7582175fbd7")
+	)
 	(label "SD_RESET_HOST"
 		(at 67.31 137.16 90)
 		(effects
@@ -2153,6 +2193,16 @@
 			(justify left bottom)
 		)
 		(uuid "640fa1c0-1ae4-4554-b9cb-84ae0e2c03b9")
+	)
+	(label "Wake"
+		(at 177.8 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "64b14582-a936-42dd-9fb6-d853bc78fdfd")
 	)
 	(label "SD_SWITCH_DISABLE"
 		(at 86.36 137.16 90)
@@ -2433,6 +2483,16 @@
 			(justify right bottom)
 		)
 		(uuid "dceefb02-39c7-49ba-a008-6030c8c86faa")
+	)
+	(label "1DIR"
+		(at 49.53 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "de44eb9f-3e88-4110-84a2-d2bd8c13f694")
 	)
 	(label "CC1"
 		(at 142.24 24.13 180)
@@ -3737,7 +3797,7 @@
 	)
 	(sheet
 		(at 223.52 48.26)
-		(size 48.26 31.75)
+		(size 48.26 35.56)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3761,7 +3821,7 @@
 			)
 		)
 		(property "Sheetfile" "sch/modem.kicad_sch"
-			(at 223.52 80.5946 0)
+			(at 223.52 84.4046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3842,6 +3902,16 @@
 		(pin "WAKE_ON_WWAN_port" output
 			(at 223.52 66.04 180)
 			(uuid "dc3d67e9-0e69-4b56-915f-3a78ceb20f9d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "WAKE" input
+			(at 223.52 81.28 180)
+			(uuid "4ee2996d-6e76-4b8a-aad2-9d2621f2be8f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4203,6 +4273,26 @@
 				(justify right)
 			)
 		)
+		(pin "1DIR" input
+			(at 49.53 152.4 180)
+			(uuid "6f9f71ab-da59-4bae-8a4c-674429ec2a76")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2DIR" input
+			(at 49.53 156.21 180)
+			(uuid "6d3466f6-0ba2-48ab-b204-b219fc1e9051")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d"
@@ -4508,6 +4598,36 @@
 		(pin "GPIO3" bidirectional
 			(at 142.24 43.18 180)
 			(uuid "08c8c294-e41e-4a97-954b-00e91aaab7a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO12" output
+			(at 177.8 39.37 0)
+			(uuid "8d9f2dd4-eda1-4ef3-b61e-18364f501193")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO22" output
+			(at 142.24 39.37 180)
+			(uuid "f7755349-318b-4980-b488-8671419d85c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO27" output
+			(at 142.24 35.56 180)
+			(uuid "ed05b662-2d58-43ed-8b1f-216ec96b7d4e")
 			(effects
 				(font
 					(size 1.27 1.27)
