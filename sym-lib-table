@@ -20,4 +20,5 @@
   (lib (name "LTST-C190GKT")(type "KiCad")(uri "${KIPRJMOD}/lib/LTST-C190GKT/LTST-C190GKT.kicad_sym")(options "")(descr ""))
   (lib (name "IP4220CZ6F")(type "KiCad")(uri "${KIPRJMOD}/lib/IP4220CZ6F/IP4220CZ6F.kicad_sym")(options "")(descr ""))
   (lib (name "CONMHF1-SMD-G-T")(type "KiCad")(uri "${KIPRJMOD}/lib/CONMHF1-SMD-G-T/CONMHF1-SMD-G-T.kicad_sym")(options "")(descr ""))
+  (lib (name "EMPCB.SMAFSTJ.B.HT")(type "KiCad")(uri "${KIPRJMOD}/lib/EMPCB.SMAFSTJ.B.HT/EMPCB.SMAFSTJ.B.HT.kicad_sym")(options "")(descr ""))
 )

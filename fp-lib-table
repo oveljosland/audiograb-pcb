@@ -23,4 +23,5 @@
   (lib (name "USB2244I-AEZG-06")(type "KiCad")(uri "${KIPRJMOD}/lib/USB2244I-AEZG-06")(options "")(descr ""))
   (lib (name "SF72S006VBAR2500")(type "KiCad")(uri "${KIPRJMOD}/lib/SF72S006VBAR2500")(options "")(descr ""))
   (lib (name "Raspberry Pi Compute Module 5")(type "KiCad")(uri "${KIPRJMOD}/lib/Raspberry Pi Compute Module 5")(options "")(descr ""))
+  (lib (name "EMPCB.SMAFSTJ.B.HT")(type "KiCad")(uri "${KIPRJMOD}/lib/EMPCB.SMAFSTJ.B.HT")(options "")(descr ""))
 )
