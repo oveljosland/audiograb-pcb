@@ -1,0 +1,23 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,9.0.2*%
+%TF.CreationDate,2026-02-23T14:19:41+01:00*%
+%TF.ProjectId,audiograb,61756469-6f67-4726-9162-2e6b69636164,0*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Profile,NP*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 9.0.2) date 2026-02-23 14:19:41*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,Profile*%
+%ADD10C,0.050000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+X78325000Y-20200000D02*
+X244925000Y-20200000D01*
+X244925000Y-89900000D01*
+X78325000Y-89900000D01*
+X78325000Y-20200000D01*
+M02*

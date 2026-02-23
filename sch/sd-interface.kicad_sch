@@ -5965,6 +5965,12 @@
 		(uuid "44858ff0-6476-40a8-91cb-1c2e7aa57f76")
 	)
 	(junction
+		(at 255.27 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "456d7af2-cdb3-46f1-bb85-72d58c421fbf")
+	)
+	(junction
 		(at 182.88 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6089,6 +6095,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "91324aa2-0bfa-4c9b-b8e3-bb5b7a548ebe")
+	)
+	(junction
+		(at 264.16 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "954f1a94-6261-41a0-9739-1d9742e904fc")
 	)
 	(junction
 		(at 91.44 163.83)
@@ -6476,7 +6488,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 58.42) (xy 274.32 58.42)
+			(xy 227.33 58.42) (xy 255.27 58.42)
 		)
 		(stroke
 			(width 0)
@@ -7136,6 +7148,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 58.42) (xy 255.27 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c048eac-b304-4a82-a3ee-16230e444968")
+	)
+	(wire
+		(pts
 			(xy 50.8 41.91) (xy 50.8 68.58)
 		)
 		(stroke
@@ -7273,6 +7295,16 @@
 			(type default)
 		)
 		(uuid "7ca41fde-f54c-4a76-871e-3564b84e2d9b")
+	)
+	(wire
+		(pts
+			(xy 264.16 62.23) (xy 274.32 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f528154-a038-495d-8030-5df60b3a10f1")
 	)
 	(wire
 		(pts
@@ -7483,6 +7515,16 @@
 			(type default)
 		)
 		(uuid "91806a78-4f09-4542-9eaf-d3250d195358")
+	)
+	(wire
+		(pts
+			(xy 255.27 58.42) (xy 274.32 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91a0cb0e-c68d-4cb3-bc1f-2914728518b3")
 	)
 	(wire
 		(pts
@@ -7796,7 +7838,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 62.23) (xy 274.32 62.23)
+			(xy 234.95 62.23) (xy 264.16 62.23)
 		)
 		(stroke
 			(width 0)
@@ -8593,6 +8635,16 @@
 			(type default)
 		)
 		(uuid "f6f28de7-b74c-4266-ba7a-c427eb27da18")
+	)
+	(wire
+		(pts
+			(xy 264.16 62.23) (xy 264.16 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f78d9ba8-ec76-4ace-8327-e2c183996302")
 	)
 	(wire
 		(pts
@@ -12746,6 +12798,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 264.16 69.85 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca6dea61-a941-4a51-891d-80615bf096a3")
+		(property "Reference" "TP21"
+			(at 266.7 73.1519 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 261.62 71.8821 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 259.08 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 264.16 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b770f1ec-98c4-4c8f-9b19-a398f3cec219")
+		)
+		(instances
+			(project "audiograb"
+				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
+					(reference "TP21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 346.71 220.98 0)
 		(unit 1)
@@ -12806,6 +12926,74 @@
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
 					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 255.27 69.85 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5f89cf1-3162-4cfc-ac30-30ad036142ff")
+		(property "Reference" "TP20"
+			(at 257.81 73.1519 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 252.73 71.8821 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 250.19 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 250.19 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 255.27 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3038c301-e9e7-4399-83a9-c28a82c81355")
+		)
+		(instances
+			(project "audiograb"
+				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
+					(reference "TP20")
 					(unit 1)
 				)
 			)

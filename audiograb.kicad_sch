@@ -1734,16 +1734,6 @@
 		)
 		(uuid "51c77d71-9c08-4518-8842-b5bfc45a1aa9")
 	)
-	(text "bytta navn for å\nunngaa label konflikt"
-		(exclude_from_sim no)
-		(at 256.794 66.548 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "d4ad70f2-9ecb-4816-accc-bc029832d5e4")
-	)
 	(text "USB Receptacle"
 		(exclude_from_sim no)
 		(at 22.86 16.764 0)
@@ -4639,6 +4629,48 @@
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 217.424 122.174)
+		(size 36.576 22.352)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e12a1f06-e701-4393-a8dc-cf8951bd0212")
+		(property "Sheetname" "div"
+			(at 217.424 121.4624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "div.kicad_sch"
+			(at 217.424 145.1106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "audiograb"
+				(path "/c46c2311-6d4b-411d-b012-c7730eac136d"
+					(page "6")
 				)
 			)
 		)

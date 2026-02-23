@@ -24,4 +24,6 @@
   (lib (name "SF72S006VBAR2500")(type "KiCad")(uri "${KIPRJMOD}/lib/SF72S006VBAR2500")(options "")(descr ""))
   (lib (name "Raspberry Pi Compute Module 5")(type "KiCad")(uri "${KIPRJMOD}/lib/Raspberry Pi Compute Module 5")(options "")(descr ""))
   (lib (name "EMPCB.SMAFSTJ.B.HT")(type "KiCad")(uri "${KIPRJMOD}/lib/EMPCB.SMAFSTJ.B.HT")(options "")(descr ""))
+  (lib (name "WA-SMSI_9774XXX151")(type "KiCad")(uri "${KIPRJMOD}/lib/WA-SMSI_9774XXX151")(options "")(descr ""))
+  (lib (name "DF40HC_3.0_-100DS-0.4V_58")(type "KiCad")(uri "${KIPRJMOD}/lib/DF40HC_3.0_-100DS-0.4V_58")(options "")(descr ""))
 )

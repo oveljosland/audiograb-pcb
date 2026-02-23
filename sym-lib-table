@@ -21,4 +21,6 @@
   (lib (name "IP4220CZ6F")(type "KiCad")(uri "${KIPRJMOD}/lib/IP4220CZ6F/IP4220CZ6F.kicad_sym")(options "")(descr ""))
   (lib (name "CONMHF1-SMD-G-T")(type "KiCad")(uri "${KIPRJMOD}/lib/CONMHF1-SMD-G-T/CONMHF1-SMD-G-T.kicad_sym")(options "")(descr ""))
   (lib (name "EMPCB.SMAFSTJ.B.HT")(type "KiCad")(uri "${KIPRJMOD}/lib/EMPCB.SMAFSTJ.B.HT/EMPCB.SMAFSTJ.B.HT.kicad_sym")(options "")(descr ""))
+  (lib (name "WA-SMSI_9774XXX151")(type "KiCad")(uri "${KIPRJMOD}/lib/WA-SMSI_9774XXX151/WA-SMSI_9774XXX151.kicad_sym")(options "")(descr ""))
+  (lib (name "DF40HC_3.0_-100DS-0.4V_58")(type "KiCad")(uri "${KIPRJMOD}/lib/DF40HC_3.0_-100DS-0.4V_58/DF40HC_3.0_-100DS-0.4V_58.kicad_sym")(options "")(descr ""))
 )
