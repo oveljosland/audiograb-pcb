@@ -1979,13 +1979,14 @@
 					(justify bottom)
 				)
 			)
-			(property "Value" "WA-SMSI_9774XXX151"
-				(at -3.048 -4.572 0)
+			(property "Value" "M2.5 x 3mm"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify bottom)
+					(hide yes)
 				)
 			)
 			(property "Footprint" "WA-SMSI_9774XXX151:WA-SMSI_9774030151"
@@ -2087,16 +2088,6 @@
 				)
 			)
 			(property "INNER-THREAD-LENGTH" "-"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "VALUE" "M2.5 x 3mm"
 				(at 0 0 0)
 				(effects
 					(font
