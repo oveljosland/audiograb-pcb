@@ -9901,7 +9901,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "SF72S006VBAR2500"
+		(property "Value" "SF72S006VBDR2500"
 			(at 280.67 44.4499 90)
 			(effects
 				(font
@@ -12509,7 +12509,7 @@
 				)
 			)
 		)
-		(property "Value" "RC7620_1104625"
+		(property "Value" "RC7620_1105027"
 			(at 85.09 16.51 0)
 			(effects
 				(font
@@ -14418,7 +14418,7 @@
 				)
 			)
 		)
-		(property "Value" "RC7620_1104625"
+		(property "Value" "RC7620_1105027"
 			(at 85.09 177.8 0)
 			(effects
 				(font
@@ -17940,7 +17940,7 @@
 				)
 			)
 		)
-		(property "Value" "RC7620_1104625"
+		(property "Value" "RC7620_1105027"
 			(at 83.82 148.59 0)
 			(effects
 				(font
