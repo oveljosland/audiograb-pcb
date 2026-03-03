@@ -1279,6 +1279,236 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PCM_4ms_Connector:Conn_01x04"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "4ms_Connector:Pins_1x04_2.54mm_TH_SWD"
+				(at 0 6.985 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "HEADER 1x4 MALE PINS 0.100” 180deg"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Specifications" "HEADER 1x4 MALE PINS 0.100” 180deg"
+				(at -3.175 -14.605 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "TAD"
+				(at -2.54 -9.398 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "1-0401FBV0T"
+				(at -2.54 -10.922 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Conn_01x04"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_??x*mm* Connector*:*1x??x*mm* Pin?Header?Straight?1X* Pin?Header?Angled?1X* Socket?Strip?Straight?1X* Socket?Strip?Angled?1X*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SMAJ6.0A:SMAJ6.0A"
 			(pin_names
 				(offset 1.016)
@@ -1702,6 +1932,18 @@
 		(uuid 4cd56ed0-eb22-45cb-a93a-8517f78d4dbf)
 	)
 	(rectangle
+		(start 16.51 82.55)
+		(end 62.23 107.95)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7951ac44-cb10-431c-9157-7a173d4e18ea)
+	)
+	(rectangle
 		(start 15.24 17.78)
 		(end 71.12 76.2)
 		(stroke
@@ -1733,6 +1975,66 @@
 			)
 		)
 		(uuid "51c77d71-9c08-4518-8842-b5bfc45a1aa9")
+	)
+	(text "2\n"
+		(exclude_from_sim no)
+		(at 44.45 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "55eb11a4-01f4-4e1a-a0fc-c5cb529e60eb")
+	)
+	(text "4"
+		(exclude_from_sim no)
+		(at 44.45 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7231c767-7097-4eda-bdfc-23ef7a0c2642")
+	)
+	(text "JST connector for BMS"
+		(exclude_from_sim no)
+		(at 27.686 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7f94b506-84a1-4c94-abe7-4e60a3061bfb")
+	)
+	(text "1"
+		(exclude_from_sim no)
+		(at 44.45 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bb424ee7-3317-479f-b7dd-29f94ca621c4")
+	)
+	(text "3\n"
+		(exclude_from_sim no)
+		(at 44.45 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d2ee13b4-b96b-4a36-8597-3ce9c0a09b23")
+	)
+	(text "It looks like this\n"
+		(exclude_from_sim no)
+		(at 49.276 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ea1f7663-dec3-4a81-80ab-70f2a2113fb0")
 	)
 	(text "USB Receptacle"
 		(exclude_from_sim no)
@@ -1783,6 +2085,16 @@
 			(type default)
 		)
 		(uuid "1686d1d3-50bc-49c1-9c07-24d3a465fc15")
+	)
+	(polyline
+		(pts
+			(xy 46.99 102.87) (xy 41.91 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b9f9dec-1d5b-459e-810e-dd0a5d6312dc")
 	)
 	(wire
 		(pts
@@ -1854,6 +2166,16 @@
 		)
 		(uuid "48c09e9e-6248-4532-b2be-031fc74c7d6a")
 	)
+	(polyline
+		(pts
+			(xy 41.91 90.17) (xy 46.99 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a4db6fb-974e-4885-9369-b7bd8174902c")
+	)
 	(wire
 		(pts
 			(xy 99.06 142.24) (xy 137.16 142.24)
@@ -1874,6 +2196,16 @@
 		)
 		(uuid "6d91c4c8-5289-4092-8eeb-419de4593acc")
 	)
+	(polyline
+		(pts
+			(xy 46.99 90.17) (xy 46.99 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86ea9cc6-0418-47b4-b73c-cd0329beef71")
+	)
 	(wire
 		(pts
 			(xy 48.26 30.48) (xy 50.8 30.48)
@@ -1893,6 +2225,26 @@
 			(type default)
 		)
 		(uuid "9c67eea2-c6f1-4779-accd-a4079f5d385d")
+	)
+	(polyline
+		(pts
+			(xy 41.91 90.17) (xy 41.91 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7fa18b1-a5f5-4631-8b40-ac392384972d")
+	)
+	(polyline
+		(pts
+			(xy 41.91 100.33) (xy 41.91 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c49125a4-8e91-44bb-a3ad-7ccb77804c20")
 	)
 	(wire
 		(pts
@@ -1973,6 +2325,16 @@
 			(justify left bottom)
 		)
 		(uuid "2c662e93-89d1-4036-a296-1b915104b231")
+	)
+	(label "BMS-TX"
+		(at 27.94 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2eb8d813-b157-4011-90f3-903c457a5f5f")
 	)
 	(label "MODEM_WAKE"
 		(at 223.52 62.23 180)
@@ -2524,6 +2886,16 @@
 		)
 		(uuid "f1bb45c5-ef9b-4b78-a429-b9025b1d3b9b")
 	)
+	(label "BMS_Power"
+		(at 27.94 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f2b63b95-35db-4efd-9c73-b2d303bc4a99")
+	)
 	(label "USB2_N"
 		(at 177.8 22.86 0)
 		(effects
@@ -2553,6 +2925,16 @@
 			(justify left bottom)
 		)
 		(uuid "f703d3ec-904d-4cda-a4f1-2d9e563ad1c5")
+	)
+	(label "BMS-RX"
+		(at 27.94 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fefb417e-0da7-400e-a83b-b0f4396d8c2d")
 	)
 	(global_label "+5V"
 		(shape input)
@@ -2978,6 +3360,110 @@
 			(project ""
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Connector:Conn_01x04")
+		(at 22.86 96.52 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73ca2496-028b-41e2-be0c-047c01956034")
+		(property "Reference" "J20"
+			(at 22.86 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4-pin JST"
+			(at 22.86 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "4ms_Connector:Pins_1x04_2.54mm_TH_SWD"
+			(at 22.86 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "HEADER 1x4 MALE PINS 0.100” 180deg"
+			(at 22.86 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "HEADER 1x4 MALE PINS 0.100” 180deg"
+			(at 26.035 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TAD"
+			(at 25.4 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "1-0401FBV0T"
+			(at 25.4 85.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "4d849cc1-590a-4155-b74d-a0a58e7dd8d2")
+		)
+		(pin "2"
+			(uuid "c91895d3-c8e5-47e3-99e8-1cdd1f68cbc2")
+		)
+		(pin "1"
+			(uuid "12869166-4d0e-475f-ab2f-4d73779a7a26")
+		)
+		(pin "3"
+			(uuid "d2093d49-5a76-4636-923d-e7bd6f8418f8")
+		)
+		(instances
+			(project "audiograb"
+				(path "/c46c2311-6d4b-411d-b012-c7730eac136d"
+					(reference "J20")
 					(unit 1)
 				)
 			)
@@ -3780,6 +4266,72 @@
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d"
 					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 27.94 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f738d737-ec6b-4aa5-b4d5-4b9e083ca56f")
+		(property "Reference" "#PWR073"
+			(at 27.94 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 27.94 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 27.94 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2aa90b0e-5ea6-4014-80f4-1928d0082c88")
+		)
+		(instances
+			(project "audiograb"
+				(path "/c46c2311-6d4b-411d-b012-c7730eac136d"
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
