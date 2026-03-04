@@ -5742,16 +5742,6 @@
 		)
 		(uuid "33066e07-535d-4b7b-8313-81cac4245d31")
 	)
-	(text "Testpoints at CM"
-		(exclude_from_sim no)
-		(at 266.954 75.946 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "3cdc6509-4387-4f9c-b8f1-ef531b779585")
-	)
 	(text "7: DAT0 // DO"
 		(exclude_from_sim no)
 		(at 134.62 31.242 0)
@@ -5831,16 +5821,6 @@
 			)
 		)
 		(uuid "c8617354-568d-4fc2-a1da-9d6812eacb38")
-	)
-	(text "Testpoints at buffer"
-		(exclude_from_sim no)
-		(at 230.632 75.946 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "da52e9e1-d45c-45e4-8996-73875946b524")
 	)
 	(text "2: CD/DAT3 // CS"
 		(exclude_from_sim no)
@@ -5961,22 +5941,10 @@
 		(uuid "3a93a9c3-2d38-45b6-b9b9-3860e4635ecc")
 	)
 	(junction
-		(at 260.35 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3b06a90a-c3d4-4da7-b739-428dc28a1402")
-	)
-	(junction
 		(at 121.92 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3bcdc79e-8864-4f08-bfa1-730310fe745e")
-	)
-	(junction
-		(at 269.24 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3bea7585-1d3c-4edd-9384-df368b9953b3")
 	)
 	(junction
 		(at 227.33 58.42)
@@ -5995,6 +5963,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "44858ff0-6476-40a8-91cb-1c2e7aa57f76")
+	)
+	(junction
+		(at 255.27 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "456d7af2-cdb3-46f1-bb85-72d58c421fbf")
 	)
 	(junction
 		(at 182.88 74.93)
@@ -6121,6 +6095,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "91324aa2-0bfa-4c9b-b8e3-bb5b7a548ebe")
+	)
+	(junction
+		(at 264.16 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "954f1a94-6261-41a0-9739-1d9742e904fc")
 	)
 	(junction
 		(at 91.44 163.83)
@@ -6508,7 +6488,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 58.42) (xy 260.35 58.42)
+			(xy 227.33 58.42) (xy 255.27 58.42)
 		)
 		(stroke
 			(width 0)
@@ -6528,7 +6508,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 69.85) (xy 218.44 54.61)
+			(xy 218.44 73.66) (xy 218.44 54.61)
 		)
 		(stroke
 			(width 0)
@@ -6608,7 +6588,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 69.85) (xy 234.95 62.23)
+			(xy 234.95 73.66) (xy 234.95 62.23)
 		)
 		(stroke
 			(width 0)
@@ -6858,7 +6838,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 69.85) (xy 242.57 66.04)
+			(xy 242.57 73.66) (xy 242.57 66.04)
 		)
 		(stroke
 			(width 0)
@@ -6878,7 +6858,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 41.91) (xy 52.07 41.91)
+			(xy 60.96 41.91) (xy 50.8 41.91)
 		)
 		(stroke
 			(width 0)
@@ -6948,7 +6928,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 69.85) (xy 227.33 58.42)
+			(xy 227.33 73.66) (xy 227.33 58.42)
 		)
 		(stroke
 			(width 0)
@@ -7168,13 +7148,23 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 58.42) (xy 260.35 69.85)
+			(xy 255.27 58.42) (xy 255.27 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6c048eac-b304-4a82-a3ee-16230e444968")
+	)
+	(wire
+		(pts
+			(xy 50.8 41.91) (xy 50.8 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c506d79-e745-42e9-9b49-b6cc298f0a49")
 	)
 	(wire
 		(pts
@@ -7305,6 +7295,16 @@
 			(type default)
 		)
 		(uuid "7ca41fde-f54c-4a76-871e-3564b84e2d9b")
+	)
+	(wire
+		(pts
+			(xy 264.16 62.23) (xy 274.32 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f528154-a038-495d-8030-5df60b3a10f1")
 	)
 	(wire
 		(pts
@@ -7515,6 +7515,16 @@
 			(type default)
 		)
 		(uuid "91806a78-4f09-4542-9eaf-d3250d195358")
+	)
+	(wire
+		(pts
+			(xy 255.27 58.42) (xy 274.32 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91a0cb0e-c68d-4cb3-bc1f-2914728518b3")
 	)
 	(wire
 		(pts
@@ -7828,7 +7838,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 62.23) (xy 269.24 62.23)
+			(xy 234.95 62.23) (xy 264.16 62.23)
 		)
 		(stroke
 			(width 0)
@@ -7885,16 +7895,6 @@
 			(type default)
 		)
 		(uuid "ad4f6314-ce3d-4a83-a3e1-1e55f9d42ee9")
-	)
-	(wire
-		(pts
-			(xy 269.24 62.23) (xy 274.32 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae12bf19-ed6a-441f-9bde-dc3af46708a9")
 	)
 	(wire
 		(pts
@@ -8368,16 +8368,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 58.42) (xy 274.32 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dda03ab7-0216-4332-8c74-fcb90e4ca591")
-	)
-	(wire
-		(pts
 			(xy 184.15 66.04) (xy 152.4 66.04)
 		)
 		(stroke
@@ -8648,7 +8638,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 62.23) (xy 269.24 69.85)
+			(xy 264.16 62.23) (xy 264.16 69.85)
 		)
 		(stroke
 			(width 0)
@@ -9405,7 +9395,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ESD7004MUTAG:UDFN10_517BB_ONS"
+		(property "Footprint" "UDFN10_517BB_ONS"
 			(at 137.16 231.14 0)
 			(effects
 				(font
@@ -9861,7 +9851,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 218.44 69.85 180)
+		(at 218.44 73.66 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9869,8 +9859,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1392152d-cfa9-4ba4-a138-a2cfdf35afcb")
-		(property "Reference" "T20"
-			(at 220.98 73.1519 0)
+		(property "Reference" "TP14"
+			(at 220.98 76.9619 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9879,7 +9869,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 215.9 71.8821 0)
+			(at 215.9 75.6921 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9889,7 +9879,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded"
-			(at 213.36 69.85 0)
+			(at 213.36 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9898,7 +9888,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 213.36 69.85 0)
+			(at 213.36 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9906,8 +9896,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point Buffer sd2"
-			(at 218.44 69.85 0)
+		(property "Description" "test point"
+			(at 218.44 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9921,7 +9911,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "T20")
+					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -10945,7 +10935,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ESD7004MUTAG:UDFN10_517BB_ONS"
+		(property "Footprint" "UDFN10_517BB_ONS"
 			(at 137.16 186.69 0)
 			(effects
 				(font
@@ -11023,7 +11013,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "517c2ae9-f678-49c0-a3a8-e56f09410d18")
-		(property "Reference" "T13"
+		(property "Reference" "TP8"
 			(at 72.898 161.29 90)
 			(effects
 				(font
@@ -11059,7 +11049,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point  MAX4996"
+		(property "Description" "test point"
 			(at 76.2 163.83 0)
 			(effects
 				(font
@@ -11074,7 +11064,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "T13")
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -11613,7 +11603,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 227.33 69.85 180)
+		(at 227.33 73.66 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11621,8 +11611,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77ce79a7-6c33-478a-8795-846ed4609007")
-		(property "Reference" "T21"
-			(at 229.87 73.1519 0)
+		(property "Reference" "TP15"
+			(at 229.87 76.9619 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11631,7 +11621,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 224.79 71.8821 0)
+			(at 224.79 75.6921 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11641,7 +11631,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded"
-			(at 222.25 69.85 0)
+			(at 222.25 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11650,7 +11640,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 222.25 69.85 0)
+			(at 222.25 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11658,8 +11648,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point buffer sd3"
-			(at 227.33 69.85 0)
+		(property "Description" "test point"
+			(at 227.33 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11673,7 +11663,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "T21")
+					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -11689,7 +11679,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "811b82c7-893c-4028-a498-dcd7c6bdd63a")
-		(property "Reference" "T19"
+		(property "Reference" "TP19"
 			(at 250.19 133.8579 0)
 			(effects
 				(font
@@ -11725,7 +11715,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point RS Latch Enable"
+		(property "Description" "test point"
 			(at 247.65 138.43 0)
 			(effects
 				(font
@@ -11740,7 +11730,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "T19")
+					(reference "TP19")
 					(unit 1)
 				)
 			)
@@ -11756,7 +11746,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8652a257-8239-45c4-b9b8-782e3a31ae75")
-		(property "Reference" "T14"
+		(property "Reference" "TP9"
 			(at 88.138 161.29 90)
 			(effects
 				(font
@@ -11792,7 +11782,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point  MAX4996"
+		(property "Description" "test point"
 			(at 91.44 163.83 0)
 			(effects
 				(font
@@ -11807,7 +11797,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "T14")
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -12020,7 +12010,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 52.07 41.91 0)
+		(at 50.8 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12029,7 +12019,7 @@
 		(fields_autoplaced yes)
 		(uuid "8f7d152e-2610-4b21-b294-b4f66dfea0a8")
 		(property "Reference" "#PWR040"
-			(at 52.07 48.26 0)
+			(at 50.8 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12038,7 +12028,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 52.07 46.99 0)
+			(at 50.8 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12046,7 +12036,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 41.91 0)
+			(at 50.8 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12055,7 +12045,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 41.91 0)
+			(at 50.8 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12064,7 +12054,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 52.07 41.91 0)
+			(at 50.8 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12086,7 +12076,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 234.95 69.85 180)
+		(at 234.95 73.66 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12094,8 +12084,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92cb72a9-f742-4fa0-ad54-7226b1c6d8dd")
-		(property "Reference" "T22"
-			(at 237.49 73.1519 0)
+		(property "Reference" "TP16"
+			(at 237.49 76.9619 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12104,7 +12094,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 232.41 71.8821 0)
+			(at 232.41 75.6921 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12114,7 +12104,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded"
-			(at 229.87 69.85 0)
+			(at 229.87 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12123,7 +12113,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 229.87 69.85 0)
+			(at 229.87 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12131,8 +12121,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point buffer sd5"
-			(at 234.95 69.85 0)
+		(property "Description" "test point"
+			(at 234.95 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12146,7 +12136,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "T22")
+					(reference "TP16")
 					(unit 1)
 				)
 			)
@@ -12551,7 +12541,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d63a95f-fe96-44a9-a0ab-fb4226e0b337")
-		(property "Reference" "T18"
+		(property "Reference" "TP17"
 			(at 237.49 133.8579 0)
 			(effects
 				(font
@@ -12587,7 +12577,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point RS Latch Select"
+		(property "Description" "test point"
 			(at 234.95 138.43 0)
 			(effects
 				(font
@@ -12602,7 +12592,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "T18")
+					(reference "TP17")
 					(unit 1)
 				)
 			)
@@ -12684,7 +12674,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a04ec126-8a2a-4158-9de5-d6ee379953a1")
-		(property "Reference" "T16"
+		(property "Reference" "TP11"
 			(at 110.998 161.29 90)
 			(effects
 				(font
@@ -12720,7 +12710,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point  MAX4996"
+		(property "Description" "test point"
 			(at 114.3 163.83 0)
 			(effects
 				(font
@@ -12735,7 +12725,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "T16")
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -12809,7 +12799,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 269.24 69.85 180)
+		(at 264.16 69.85 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12817,8 +12807,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca6dea61-a941-4a51-891d-80615bf096a3")
-		(property "Reference" "T25"
-			(at 271.78 73.1519 0)
+		(property "Reference" "TP21"
+			(at 266.7 73.1519 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12827,7 +12817,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 266.7 71.8821 0)
+			(at 261.62 71.8821 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12837,7 +12827,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 264.16 69.85 0)
+			(at 259.08 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12846,7 +12836,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 264.16 69.85 0)
+			(at 259.08 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12854,8 +12844,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point buffer sd5 p2"
-			(at 269.24 69.85 0)
+		(property "Description" "test point"
+			(at 264.16 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12869,7 +12859,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "T25")
+					(reference "TP21")
 					(unit 1)
 				)
 			)
@@ -12943,7 +12933,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 260.35 69.85 180)
+		(at 255.27 69.85 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12951,8 +12941,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5f89cf1-3162-4cfc-ac30-30ad036142ff")
-		(property "Reference" "T24"
-			(at 262.89 73.1519 0)
+		(property "Reference" "TP20"
+			(at 257.81 73.1519 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12961,7 +12951,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 257.81 71.8821 0)
+			(at 252.73 71.8821 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12971,7 +12961,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 255.27 69.85 0)
+			(at 250.19 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12980,7 +12970,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 255.27 69.85 0)
+			(at 250.19 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12988,8 +12978,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point buffer sd3 p2"
-			(at 260.35 69.85 0)
+		(property "Description" "test point"
+			(at 255.27 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13003,7 +12993,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "T24")
+					(reference "TP20")
 					(unit 1)
 				)
 			)
@@ -13394,7 +13384,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 242.57 69.85 180)
+		(at 242.57 73.66 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13402,8 +13392,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eaae8855-2f25-44ed-b24f-78aae6cf66b8")
-		(property "Reference" "T23"
-			(at 245.11 73.1519 0)
+		(property "Reference" "TP18"
+			(at 245.11 76.9619 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13412,7 +13402,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 240.03 71.8821 0)
+			(at 240.03 75.6921 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13422,7 +13412,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded"
-			(at 237.49 69.85 0)
+			(at 237.49 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13431,7 +13421,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 237.49 69.85 0)
+			(at 237.49 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13439,8 +13429,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point buffer sd7"
-			(at 242.57 69.85 0)
+		(property "Description" "test point"
+			(at 242.57 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13454,7 +13444,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "T23")
+					(reference "TP18")
 					(unit 1)
 				)
 			)
@@ -13536,7 +13526,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec517f61-bfa2-4aab-b0bc-0e8f262dabbb")
-		(property "Reference" "T17"
+		(property "Reference" "TP12"
 			(at 118.618 161.29 90)
 			(effects
 				(font
@@ -13572,7 +13562,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point  MAX4996"
+		(property "Description" "test point"
 			(at 121.92 163.83 0)
 			(effects
 				(font
@@ -13587,7 +13577,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "T17")
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -13603,7 +13593,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ecd4050c-372e-4540-91c5-a00b4ddc63c7")
-		(property "Reference" "T12"
+		(property "Reference" "TP7"
 			(at 65.278 161.29 90)
 			(effects
 				(font
@@ -13639,7 +13629,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point MAX4996"
+		(property "Description" "test point"
 			(at 68.58 163.83 0)
 			(effects
 				(font
@@ -13654,7 +13644,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "T12")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -13749,7 +13739,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6770d24-0a70-4eb8-94d8-894cc52dc145")
-		(property "Reference" "T15"
+		(property "Reference" "TP10"
 			(at 95.758 161.29 90)
 			(effects
 				(font
@@ -13785,7 +13775,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point  MAX4996"
+		(property "Description" "test point"
 			(at 99.06 163.83 0)
 			(effects
 				(font
@@ -13800,7 +13790,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "T15")
+					(reference "TP10")
 					(unit 1)
 				)
 			)
