@@ -5304,7 +5304,49 @@
 		)
 	)
 	(sheet
-		(at 217.424 122.174)
+		(at 205.74 130.81)
+		(size 34.29 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c5e1d547-91ce-4e5a-a3a6-dc1f5ae9c9dc")
+		(property "Sheetname" "power-supply"
+			(at 205.74 130.0984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 205.74 160.6046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "audiograb"
+				(path "/c46c2311-6d4b-411d-b012-c7730eac136d"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 239.014 94.234)
 		(size 36.576 22.352)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5320,7 +5362,7 @@
 		)
 		(uuid "e12a1f06-e701-4393-a8dc-cf8951bd0212")
 		(property "Sheetname" "div"
-			(at 217.424 121.4624 0)
+			(at 239.014 93.5224 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5329,7 +5371,7 @@
 			)
 		)
 		(property "Sheetfile" "div.kicad_sch"
-			(at 217.424 145.1106 0)
+			(at 239.014 117.1706 0)
 			(effects
 				(font
 					(size 1.27 1.27)
