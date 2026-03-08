@@ -1890,7 +1890,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 34.29) (xy 190.5 34.29)
+			(xy 187.96 34.29) (xy 190.5 34.29)
 		)
 		(stroke
 			(width 0)
@@ -2040,7 +2040,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 34.29) (xy 177.8 34.29)
+			(xy 170.18 34.29) (xy 180.34 34.29)
 		)
 		(stroke
 			(width 0)
@@ -2944,7 +2944,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 204.47 39.3699 0)
 			(effects
 				(font
@@ -3084,7 +3084,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10uF"
 			(at 119.38 34.2899 0)
 			(effects
 				(font
@@ -3154,7 +3154,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "19.1k"
 			(at 193.04 58.4199 0)
 			(effects
 				(font
@@ -3294,7 +3294,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 217.17 39.3699 0)
 			(effects
 				(font
@@ -3496,7 +3496,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "33pF"
 			(at 205.74 48.2599 0)
 			(effects
 				(font
@@ -3699,7 +3699,7 @@
 				)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "21uH"
 			(at 93.98 26.67 90)
 			(effects
 				(font
@@ -3900,7 +3900,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "47uF"
 			(at 241.3 39.3699 0)
 			(effects
 				(font
@@ -4310,7 +4310,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "15k"
 			(at 129.54 48.2599 0)
 			(effects
 				(font
@@ -4495,7 +4495,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 181.61 34.29 90)
+		(at 184.15 34.29 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4504,15 +4504,15 @@
 		(fields_autoplaced yes)
 		(uuid "97add811-efeb-4efd-9b58-a90f7d6fc15d")
 		(property "Reference" "L4"
-			(at 181.61 29.21 90)
+			(at 184.15 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "L"
-			(at 181.61 31.75 90)
+		(property "Value" "4.7uH"
+			(at 184.15 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4520,7 +4520,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 34.29 0)
+			(at 184.15 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4529,7 +4529,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 181.61 34.29 0)
+			(at 184.15 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4538,7 +4538,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 181.61 34.29 0)
+			(at 184.15 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4910,7 +4910,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 173.99 31.7499 0)
 			(effects
 				(font
@@ -4980,7 +4980,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 175.26 93.9799 0)
 			(effects
 				(font
@@ -5050,7 +5050,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "47uF"
 			(at 229.87 39.3699 0)
 			(effects
 				(font
@@ -5120,7 +5120,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 107.95 34.2899 0)
 			(effects
 				(font
@@ -5532,7 +5532,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "19.6k"
 			(at 193.04 120.6499 0)
 			(effects
 				(font
@@ -6034,7 +6034,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "71050"
 			(at 193.04 101.5999 0)
 			(effects
 				(font
@@ -6240,7 +6240,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "100k"
 			(at 193.04 39.3699 0)
 			(effects
 				(font
