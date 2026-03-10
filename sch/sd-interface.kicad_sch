@@ -6177,10 +6177,22 @@
 		(uuid "b8ee3ddb-fb57-462c-9610-7b91f12b05fe")
 	)
 	(junction
+		(at 175.26 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0e93b37-86b2-42ff-865e-8f217244f967")
+	)
+	(junction
 		(at 60.96 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c68e4ee9-1a57-4cfa-9c4e-f1e17f473d56")
+	)
+	(junction
+		(at 182.88 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9ad048a-a716-4e96-900d-ee60af80d7a1")
 	)
 	(junction
 		(at 81.28 36.83)
@@ -6698,6 +6710,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 50.8) (xy 182.88 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3186f51e-88f8-48d5-9c0a-b0cf90122860")
+	)
+	(wire
+		(pts
 			(xy 114.3 185.42) (xy 114.3 274.32)
 		)
 		(stroke
@@ -6845,6 +6867,16 @@
 			(type default)
 		)
 		(uuid "4818d064-2580-4fc6-a9ac-4d5bd75564c9")
+	)
+	(wire
+		(pts
+			(xy 182.88 46.99) (xy 184.15 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4aaef444-261b-4827-ab37-ea40361c1efd")
 	)
 	(wire
 		(pts
@@ -7475,6 +7507,16 @@
 			(type default)
 		)
 		(uuid "8e4be58c-8dbd-41c5-8314-168cdad11f74")
+	)
+	(wire
+		(pts
+			(xy 175.26 43.18) (xy 184.15 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f27bfcc-d8e8-4504-9eb3-4c987fcbe62d")
 	)
 	(wire
 		(pts
@@ -8118,6 +8160,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 43.18) (xy 175.26 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdb7643e-2f8f-4dba-917e-e1f50b4b1858")
+	)
+	(wire
+		(pts
 			(xy 124.46 107.95) (xy 146.05 107.95)
 		)
 		(stroke
@@ -8638,7 +8690,17 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 43.18) (xy 184.15 43.18)
+			(xy 182.88 50.8) (xy 182.88 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f382e7e5-7f7a-4ae5-9e31-11dedbe834c5")
+	)
+	(wire
+		(pts
+			(xy 165.1 43.18) (xy 175.26 43.18)
 		)
 		(stroke
 			(width 0)
@@ -9083,17 +9145,6 @@
 		)
 		(uuid "c921bab9-b83c-40ed-afee-7842a86b36a9")
 	)
-	(hierarchical_label "1DIR"
-		(shape input)
-		(at 184.15 46.99 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "caabdd7e-9f20-4844-988d-5b9f724b89ce")
-	)
 	(hierarchical_label "R_En_switch"
 		(shape input)
 		(at 335.28 142.24 0)
@@ -9126,17 +9177,6 @@
 			(justify left)
 		)
 		(uuid "ea137060-8599-4f0d-a322-1aae46b83d6f")
-	)
-	(hierarchical_label "2DIR"
-		(shape input)
-		(at 184.15 50.8 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f2113bad-0ddb-4953-ac83-ffaf541fd975")
 	)
 	(symbol
 		(lib_id "691137710002:691137710002")
@@ -13321,6 +13361,83 @@
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
 					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 179.07 46.99 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e0122f8b-5062-446c-8b88-390b450bb321")
+		(property "Reference" "R3"
+			(at 179.07 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47k"
+			(at 179.07 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 179.07 45.212 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 179.07 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-0747KL"
+			(at 179.07 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97df9f36-ad2a-4119-8a33-f9029fe7e743")
+		)
+		(pin "2"
+			(uuid "6c1a44d4-91b4-4797-ad4b-fd365376c34f")
+		)
+		(instances
+			(project "audiograb"
+				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
+					(reference "R3")
 					(unit 1)
 				)
 			)

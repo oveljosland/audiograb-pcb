@@ -26,4 +26,6 @@
   (lib (name "SF72S006VBDR2500")(type "KiCad")(uri "C:/Users/Aaseb/Downloads/SF72S006VBDR2500/SF72S006VBDR2500.kicad_sym")(options "")(descr ""))
   (lib (name "SSM3J338R_LF")(type "KiCad")(uri "C:/Users/Aaseb/Downloads/SSM3J338R_LF/SSM3J338R_LF.kicad_sym")(options "")(descr ""))
   (lib (name "2199119-3")(type "KiCad")(uri "C:/Users/Aaseb/Downloads/2199119-3/2199119-3.kicad_sym")(options "")(descr ""))
+  (lib (name "20579-001E")(type "KiCad")(uri "C:/Users/Aaseb/Downloads/20579-001E/20579-001E.kicad_sym")(options "")(descr ""))
+  (lib (name "732511150")(type "KiCad")(uri "C:/Users/Aaseb/OneDrive/Skrivebord/Symbols+Footprints/732511150.kicad_sym")(options "")(descr ""))
 )

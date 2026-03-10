@@ -6792,6 +6792,16 @@
 		)
 		(uuid "291a2fa5-3489-4e74-a0ba-c8572baffaac")
 	)
+	(text "SD USB"
+		(exclude_from_sim no)
+		(at 189.23 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2d069f48-e3f3-444b-a340-de7dd55e31ce")
+	)
 	(text "In use by eMMC"
 		(exclude_from_sim no)
 		(at 85.344 101.854 0)
@@ -6832,6 +6842,16 @@
 		)
 		(uuid "52580496-fa1b-4301-ab65-49f79fc4e191")
 	)
+	(text "FLASH /\nBMS USB"
+		(exclude_from_sim no)
+		(at 280.67 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "575cca74-ff34-4afa-9e58-6d5b3231caaa")
+	)
 	(text "In use by eMMC"
 		(exclude_from_sim no)
 		(at 172.72 104.394 0)
@@ -6851,6 +6871,16 @@
 			)
 		)
 		(uuid "699f2eb8-0c4e-4361-bde4-80e5557d3238")
+	)
+	(text "MODEM USB"
+		(exclude_from_sim no)
+		(at 275.59 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6e1a2a9e-85bd-43f2-9b2b-45d7cf50ec7e")
 	)
 	(text "In use by eMMC"
 		(exclude_from_sim no)
