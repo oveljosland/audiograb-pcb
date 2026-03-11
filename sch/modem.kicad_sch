@@ -4021,6 +4021,16 @@
 		)
 		(uuid "1b4f11a1-a163-438f-8a61-8eafa3dda1dc")
 	)
+	(text "Airplane mode"
+		(exclude_from_sim no)
+		(at 119.126 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1be1e8d2-da2d-4b76-8ae2-93d07e22beb0")
+	)
 	(text "CD1"
 		(exclude_from_sim no)
 		(at 263.144 55.372 0)
@@ -4070,6 +4080,22 @@
 			)
 		)
 		(uuid "69e3ee24-8b0b-4bf6-8137-ee688197acbc")
+	)
+	(text "Disable GNSS"
+		(exclude_from_sim no)
+		(at 118.872 47.244 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dc243f7a-c697-43ff-90a2-f496cc4beff1")
+	)
+	(junction
+		(at 74.93 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "092e06a4-368d-4e7c-a3fb-b2c424ff2d18")
 	)
 	(junction
 		(at 226.06 26.67)
@@ -4336,6 +4362,14 @@
 		(uuid "efe2539c-d359-4a5c-8f4a-39b902e5d327")
 	)
 	(no_connect
+		(at 111.76 46.99)
+		(uuid "071e207b-52c1-4df2-9502-65d91b739b81")
+	)
+	(no_connect
+		(at 111.76 74.93)
+		(uuid "1f67d92b-4264-48bc-a63a-00c7a1f1f037")
+	)
+	(no_connect
 		(at 111.76 62.23)
 		(uuid "1fc6de39-ba33-4536-9ebc-ca524764bd36")
 	)
@@ -4344,8 +4378,16 @@
 		(uuid "29c250f3-26a6-4a6c-97ad-0b9f445dffed")
 	)
 	(no_connect
+		(at 111.76 69.85)
+		(uuid "2a0918a9-df1b-47fd-bee8-53ccf5fc5abd")
+	)
+	(no_connect
 		(at 76.2 95.25)
 		(uuid "2ebc7876-a99a-4f63-9014-752fbde91fb8")
+	)
+	(no_connect
+		(at 111.76 64.77)
+		(uuid "3aae856b-8103-40d5-ad49-6773342f7f32")
 	)
 	(no_connect
 		(at 76.2 90.17)
@@ -4356,12 +4398,28 @@
 		(uuid "52980a14-3ef3-4a34-8b54-65714b5cfeb6")
 	)
 	(no_connect
+		(at 111.76 29.21)
+		(uuid "5da85394-daa2-474b-9669-42d297fff309")
+	)
+	(no_connect
+		(at 76.2 107.95)
+		(uuid "66c436cf-e4e5-4112-830f-2686bb7df3b3")
+	)
+	(no_connect
 		(at 111.76 39.37)
 		(uuid "74ccd9a9-ac68-4bad-88f7-8943c569f5ec")
 	)
 	(no_connect
+		(at 111.76 67.31)
+		(uuid "882cdc17-67f2-43c7-852b-ae110f2845e6")
+	)
+	(no_connect
 		(at 111.76 49.53)
 		(uuid "9130c4f7-8411-4563-84ac-342ce40dcdf1")
+	)
+	(no_connect
+		(at 76.2 21.59)
+		(uuid "a41dfaf0-3918-4a7a-9af5-bfd00944ba54")
 	)
 	(no_connect
 		(at 76.2 92.71)
@@ -4370,6 +4428,14 @@
 	(no_connect
 		(at 111.76 41.91)
 		(uuid "a71ec5c6-7f6b-43dc-9efb-870abf0aa2a9")
+	)
+	(no_connect
+		(at 111.76 72.39)
+		(uuid "b56172aa-c329-4d0d-8809-0be089d50711")
+	)
+	(no_connect
+		(at 76.2 39.37)
+		(uuid "be81c474-aaf1-4134-8774-b373df387eeb")
 	)
 	(no_connect
 		(at 111.76 95.25)
@@ -4679,6 +4745,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 100.33) (xy 74.93 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f474ccc-a052-40bf-9d30-41e3a4797877")
+	)
+	(wire
+		(pts
 			(xy 74.93 26.67) (xy 76.2 26.67)
 		)
 		(stroke
@@ -4756,6 +4832,16 @@
 			(type default)
 		)
 		(uuid "36fd45e1-2729-405d-b855-5ed0e400311f")
+	)
+	(wire
+		(pts
+			(xy 72.39 52.07) (xy 76.2 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3730b4ab-ef6a-4250-b941-b258e6b07f73")
 	)
 	(wire
 		(pts
@@ -4846,6 +4932,16 @@
 			(type default)
 		)
 		(uuid "3f22ceb5-0a82-4b75-b49b-baf4e5b45941")
+	)
+	(wire
+		(pts
+			(xy 72.39 57.15) (xy 76.2 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f48c89a-70ec-49a9-804d-f4dc7809d849")
 	)
 	(wire
 		(pts
@@ -5119,6 +5215,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 59.69) (xy 76.2 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d4ad170-a7f0-4f89-b21a-6ce9e01fffda")
+	)
+	(wire
+		(pts
 			(xy 55.88 82.55) (xy 76.2 82.55)
 		)
 		(stroke
@@ -5226,16 +5332,6 @@
 			(type default)
 		)
 		(uuid "82192395-4790-493e-890d-403d9a874e12")
-	)
-	(wire
-		(pts
-			(xy 114.3 29.21) (xy 111.76 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84824c58-25e6-4801-b4b7-27b9a146d9ea")
 	)
 	(wire
 		(pts
@@ -5386,6 +5482,16 @@
 			(type default)
 		)
 		(uuid "9d362bdf-6236-46fb-b64c-427808167314")
+	)
+	(wire
+		(pts
+			(xy 72.39 49.53) (xy 76.2 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d894616-c665-4a17-bad5-c5854e5b2673")
 	)
 	(wire
 		(pts
@@ -5559,7 +5665,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 102.87) (xy 74.93 85.09)
+			(xy 74.93 102.87) (xy 74.93 100.33)
 		)
 		(stroke
 			(width 0)
@@ -5636,16 +5742,6 @@
 			(type default)
 		)
 		(uuid "cf36c876-874f-40eb-984e-fb556f8483d6")
-	)
-	(wire
-		(pts
-			(xy 115.57 46.99) (xy 111.76 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0db5674-7081-44e9-8d13-5b6a617ef2e7")
 	)
 	(wire
 		(pts
@@ -5859,6 +5955,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 100.33) (xy 76.2 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa4f41a6-73ac-4419-9adb-143d51111d9e")
+	)
+	(wire
+		(pts
 			(xy 111.76 80.01) (xy 115.57 80.01)
 		)
 		(stroke
@@ -6062,6 +6168,17 @@
 		)
 		(uuid "04b1ef0a-c3dc-40fa-917b-5ccb4085b0f8")
 	)
+	(hierarchical_label "MODEM_USB_TX_P"
+		(shape bidirectional)
+		(at 72.39 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "284cf7d2-738f-4a74-927e-8b59e07c502c")
+	)
 	(hierarchical_label "PCIE_TX_N"
 		(shape input)
 		(at 55.88 71.12 180)
@@ -6084,6 +6201,17 @@
 		)
 		(uuid "378e20fa-323b-40ef-8172-32281708f05d")
 	)
+	(hierarchical_label "MODEM_USB_TX_N"
+		(shape bidirectional)
+		(at 72.39 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "39d7fb57-6a4d-44ac-82b7-a05b67efdd99")
+	)
 	(hierarchical_label "PCIE_nCLKREQ"
 		(shape output)
 		(at 115.57 80.01 0)
@@ -6095,16 +6223,16 @@
 		)
 		(uuid "4f8f4cc8-22df-4bc9-91f9-9fe0203e428b")
 	)
-	(hierarchical_label "W_DISABLE2"
-		(shape input)
-		(at 115.57 46.99 0)
+	(hierarchical_label "MODEM_USB_RX_N"
+		(shape bidirectional)
+		(at 72.39 57.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "6cb12387-9f37-47b0-b12a-739ab3c13782")
+		(uuid "54a36cc9-3bb8-46ed-8894-f7c18602944e")
 	)
 	(hierarchical_label "PCIE_nWAKE"
 		(shape output)
@@ -6118,7 +6246,7 @@
 		(uuid "70541d52-cec5-405b-8968-0e37d760061e")
 	)
 	(hierarchical_label "WAKE_ON_WAN"
-		(shape bidirectional)
+		(shape output)
 		(at 72.39 41.91 180)
 		(effects
 			(font
@@ -6161,6 +6289,17 @@
 		)
 		(uuid "8c141796-84b4-4053-8569-7e36427fcd52")
 	)
+	(hierarchical_label "MODEM_USB_RX_P"
+		(shape bidirectional)
+		(at 72.39 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "91125326-336d-4ed8-a040-1ce384a4ea83")
+	)
 	(hierarchical_label "PCIE_CLK_N"
 		(shape input)
 		(at 55.88 80.01 180)
@@ -6182,17 +6321,6 @@
 			(justify right)
 		)
 		(uuid "da778e0c-be57-4381-b824-8e5d8c5ad13e")
-	)
-	(hierarchical_label "W_DISABLE1"
-		(shape input)
-		(at 114.3 29.21 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ea5cc464-1fdd-41fe-9f58-b8925530f43f")
 	)
 	(hierarchical_label "PCIE_nRST"
 		(shape input)

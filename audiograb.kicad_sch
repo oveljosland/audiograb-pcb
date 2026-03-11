@@ -1932,8 +1932,8 @@
 		(uuid 4cd56ed0-eb22-45cb-a93a-8517f78d4dbf)
 	)
 	(rectangle
-		(start 200.66 16.51)
-		(end 276.86 57.15)
+		(start 207.645 15.24)
+		(end 283.845 62.23)
 		(stroke
 			(width 0)
 			(type default)
@@ -1944,8 +1944,8 @@
 		(uuid 5540cb72-bbca-4a24-857b-6bb943e6f0f8)
 	)
 	(rectangle
-		(start 200.66 58.42)
-		(end 276.86 134.62)
+		(start 205.74 86.36)
+		(end 281.94 162.56)
 		(stroke
 			(width 0)
 			(type default)
@@ -2001,6 +2001,16 @@
 			(justify left)
 		)
 		(uuid "1dd1ad7a-a610-4036-914c-1d1a22b754dc")
+	)
+	(text "Wake the host"
+		(exclude_from_sim no)
+		(at 242.062 49.784 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "224244d2-c9ea-45a9-acb8-8c0ebb741126")
 	)
 	(text "USB ESD Protection\n"
 		(exclude_from_sim no)
@@ -2224,6 +2234,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 26.67) (xy 267.97 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e04bcfa-45a4-43c7-8812-97708765c4ad")
+	)
+	(wire
+		(pts
 			(xy 54.61 38.1) (xy 54.61 36.83)
 		)
 		(stroke
@@ -2314,6 +2334,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 31.75) (xy 267.97 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba5049dd-d2ef-44c7-a46a-adfa4a191b02")
+	)
+	(wire
+		(pts
 			(xy 30.48 91.44) (xy 30.48 88.9)
 		)
 		(stroke
@@ -2373,7 +2403,7 @@
 		(uuid "08c735cb-97d1-423e-80d2-60338ca58269")
 	)
 	(label "USB2_P"
-		(at 259.08 69.85 0)
+		(at 264.16 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2383,7 +2413,7 @@
 		(uuid "13368517-c79d-4fad-b690-e1d53c4202cd")
 	)
 	(label "GPCLK"
-		(at 223.52 82.55 180)
+		(at 228.6 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2422,16 +2452,6 @@
 		)
 		(uuid "2eb8d813-b157-4011-90f3-903c457a5f5f")
 	)
-	(label "MODEM_WAKE"
-		(at 223.52 33.02 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2fcbb1ab-1473-476d-99a5-e795f39b5fd7")
-	)
 	(label "SD7"
 		(at 38.1 158.75 90)
 		(effects
@@ -2442,18 +2462,8 @@
 		)
 		(uuid "320af6e4-e335-4d57-99c8-e6ced63939be")
 	)
-	(label "MODEM_POWER_ON_N"
-		(at 223.52 85.09 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "338b64d0-6f10-4042-946b-62baf80818e7")
-	)
 	(label "SD_RESET_HOST"
-		(at 223.52 100.33 180)
+		(at 228.6 128.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2463,7 +2473,7 @@
 		(uuid "3bf0b61c-e4e5-4467-b74c-3dfe9fa43888")
 	)
 	(label "BMS-TX"
-		(at 223.52 107.95 180)
+		(at 228.6 135.89 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2493,7 +2503,7 @@
 		(uuid "4bebfb78-f53c-4d63-a7ac-00d4f23e0e79")
 	)
 	(label "SD_SWITCH_ENABLE"
-		(at 223.52 90.17 180)
+		(at 228.6 118.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2512,18 +2522,8 @@
 		)
 		(uuid "530325ea-1bdb-43c1-829a-d72c13e23130")
 	)
-	(label "MODEM_POWER_ON_N"
-		(at 223.52 25.4 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "54ba08cd-e67e-4e54-a2ec-08172f8f7b4f")
-	)
 	(label "SD3"
-		(at 223.52 120.65 180)
+		(at 228.6 148.59 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2552,16 +2552,6 @@
 		)
 		(uuid "5c896955-8f69-4d46-b5a9-9130056be28e")
 	)
-	(label "MODEM_WAKE"
-		(at 223.52 97.79 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5d851d90-f05c-4840-914c-548a14dbbb95")
-	)
 	(label "CC1"
 		(at 111.76 34.29 0)
 		(effects
@@ -2582,18 +2572,8 @@
 		)
 		(uuid "5dc0afdd-5648-4be6-83d0-7a7a291a9c7c")
 	)
-	(label "SAFE_PWR_REMOVE"
-		(at 223.52 36.83 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "604604a9-25fe-43e5-a7f4-e812ba2bafb6")
-	)
 	(label "CC2"
-		(at 223.52 73.66 180)
+		(at 228.6 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2601,16 +2581,6 @@
 			(justify right bottom)
 		)
 		(uuid "61426457-5f82-488d-9286-6a7e0b8754a5")
-	)
-	(label "Wake"
-		(at 223.52 52.07 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "63033f77-9fbc-4fb0-b38f-b7582175fbd7")
 	)
 	(label "SD_RESET_HOST"
 		(at 41.91 158.75 90)
@@ -2621,16 +2591,6 @@
 			(justify left bottom)
 		)
 		(uuid "640fa1c0-1ae4-4554-b9cb-84ae0e2c03b9")
-	)
-	(label "Wake"
-		(at 223.52 77.47 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "64b14582-a936-42dd-9fb6-d853bc78fdfd")
 	)
 	(label "SD_SWITCH_DISABLE"
 		(at 60.96 158.75 90)
@@ -2643,12 +2603,12 @@
 		(uuid "6930326e-e8c9-4632-93db-d5f37719c003")
 	)
 	(label "USB3-1-D_N"
-		(at 223.52 48.26 180)
+		(at 267.97 24.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "694be34b-54de-4ae9-96fa-462b3c8ecbe1")
 	)
@@ -2662,18 +2622,8 @@
 		)
 		(uuid "6ae9aa0d-c685-4a1f-ba6f-361bdc436e26")
 	)
-	(label "MODEM_BOOT_MODE"
-		(at 223.52 21.59 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "781644bb-ceb4-4ae8-8f18-0f2e5bf26b27")
-	)
 	(label "EXT_5V_ENABLE"
-		(at 223.52 115.57 180)
+		(at 228.6 143.51 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2683,7 +2633,7 @@
 		(uuid "7f9bf796-2428-4d09-97bf-ae73e2c5e9d6")
 	)
 	(label "USB3-0-D_N"
-		(at 259.08 78.74 0)
+		(at 264.16 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2703,7 +2653,7 @@
 		(uuid "826dc566-c6bb-4656-910b-196643245315")
 	)
 	(label "SD_SET_HOST"
-		(at 223.52 92.71 180)
+		(at 228.6 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2723,7 +2673,7 @@
 		(uuid "884da1a7-a490-40ee-82e1-7aaab4ef222e")
 	)
 	(label "SD7"
-		(at 223.52 125.73 180)
+		(at 228.6 153.67 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2743,7 +2693,7 @@
 		(uuid "97e46aa1-aed2-487f-a264-04fa50dc722b")
 	)
 	(label "BMS-RX"
-		(at 223.52 110.49 180)
+		(at 228.6 138.43 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2753,7 +2703,7 @@
 		(uuid "9a2aaf78-8987-401b-b6ac-816b4f7909da")
 	)
 	(label "USB_INT_RESET"
-		(at 223.52 80.01 180)
+		(at 228.6 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2773,7 +2723,7 @@
 		(uuid "9d1aa55c-2b35-4934-a97e-de8fc02e5eb5")
 	)
 	(label "USB3-1-D_P"
-		(at 259.08 82.55 0)
+		(at 264.16 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2783,7 +2733,7 @@
 		(uuid "9ecdc75f-fcf5-456e-bbc8-d62d606d56a9")
 	)
 	(label "USB3-0-D_P"
-		(at 259.08 76.2 0)
+		(at 264.16 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2793,7 +2743,7 @@
 		(uuid "9f9159ef-6d8f-4e53-8e86-8346e04c228a")
 	)
 	(label "SD_SWITCH_DISABLE"
-		(at 223.52 102.87 180)
+		(at 228.6 130.81 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2822,18 +2772,8 @@
 		)
 		(uuid "b120b677-05df-4e62-97e8-dd1695b9b113")
 	)
-	(label "MODEM_TX_ON"
-		(at 223.52 40.64 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bc1895e9-5c25-4442-965f-3c5470488670")
-	)
 	(label "MODEM_BOOT_MODE"
-		(at 223.52 95.25 180)
+		(at 228.6 123.19 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2853,7 +2793,7 @@
 		(uuid "cf4955b6-2e86-4a2d-9b42-bfadf2fafe84")
 	)
 	(label "EXT_5V_DISABLE"
-		(at 223.52 113.03 180)
+		(at 228.6 140.97 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2863,27 +2803,17 @@
 		(uuid "d231ab1d-4eb7-4488-8195-952fbe3e5509")
 	)
 	(label "USB3-1-D_P"
-		(at 223.52 44.45 180)
+		(at 267.97 21.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "d47d75c8-e13b-479e-9483-61bf64b1d830")
 	)
-	(label "MODEM_TX_ON"
-		(at 223.52 105.41 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "da003ee3-5c25-43c4-ac56-91dddbc9847e")
-	)
 	(label "VBUS_EN"
-		(at 223.52 67.31 180)
+		(at 228.6 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2891,16 +2821,6 @@
 			(justify right bottom)
 		)
 		(uuid "db9d3cb2-f0f6-478c-98d4-bfa37c2359b5")
-	)
-	(label "MODEM_RESET_N"
-		(at 223.52 29.21 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "dceefb02-39c7-49ba-a008-6030c8c86faa")
 	)
 	(label "1DIR"
 		(at 24.13 173.99 180)
@@ -2913,7 +2833,7 @@
 		(uuid "de44eb9f-3e88-4110-84a2-d2bd8c13f694")
 	)
 	(label "SD5"
-		(at 223.52 123.19 180)
+		(at 228.6 151.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2923,7 +2843,7 @@
 		(uuid "df2168ad-402e-41b2-9ed9-56a7f94a5bac")
 	)
 	(label "CC1"
-		(at 223.52 71.12 180)
+		(at 228.6 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2953,7 +2873,7 @@
 		(uuid "f1a9d619-9685-4f0c-8098-a92bbbcfb0ae")
 	)
 	(label "USB3-1-D_N"
-		(at 259.08 85.09 0)
+		(at 264.16 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2963,7 +2883,7 @@
 		(uuid "f1bb45c5-ef9b-4b78-a429-b9025b1d3b9b")
 	)
 	(label "USB2_N"
-		(at 259.08 72.39 0)
+		(at 264.16 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2972,18 +2892,8 @@
 		)
 		(uuid "f3d2503e-2b88-43e4-aa38-b9e5f8adafc6")
 	)
-	(label "MODEM_RESET_N"
-		(at 223.52 87.63 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f451f739-922a-4c2b-882d-69e994db5605")
-	)
 	(label "SD2"
-		(at 223.52 118.11 180)
+		(at 228.6 146.05 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3114,7 +3024,7 @@
 	)
 	(hierarchical_label "PCIE_PWR_EN"
 		(shape output)
-		(at 222.25 130.81 180)
+		(at 227.33 158.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3125,7 +3035,7 @@
 	)
 	(hierarchical_label "PCIE_nWAKE"
 		(shape input)
-		(at 198.12 71.12 180)
+		(at 203.2 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3136,7 +3046,7 @@
 	)
 	(hierarchical_label "PCIE_CLK_N"
 		(shape output)
-		(at 198.12 81.28 180)
+		(at 203.2 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3147,7 +3057,7 @@
 	)
 	(hierarchical_label "PCIE_nRST"
 		(shape output)
-		(at 186.69 100.33 0)
+		(at 191.77 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3158,7 +3068,7 @@
 	)
 	(hierarchical_label "PCIE_TX_P"
 		(shape output)
-		(at 198.12 93.98 180)
+		(at 203.2 121.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3169,7 +3079,7 @@
 	)
 	(hierarchical_label "PCIE_TX_N"
 		(shape output)
-		(at 198.12 96.52 180)
+		(at 203.2 124.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3180,7 +3090,7 @@
 	)
 	(hierarchical_label "PCIE_RX_P"
 		(shape input)
-		(at 198.12 86.36 180)
+		(at 203.2 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3191,7 +3101,7 @@
 	)
 	(hierarchical_label "PCIE_RX_N"
 		(shape input)
-		(at 198.12 88.9 180)
+		(at 203.2 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3202,7 +3112,7 @@
 	)
 	(hierarchical_label "PCIE_CLK_P"
 		(shape output)
-		(at 198.12 78.74 180)
+		(at 203.2 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4525,8 +4435,8 @@
 		)
 	)
 	(sheet
-		(at 223.52 19.05)
-		(size 48.26 35.56)
+		(at 219.71 20.32)
+		(size 48.26 36.83)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4541,7 +4451,7 @@
 		)
 		(uuid "1e6f47c9-dd69-4161-87eb-dd6f588b76d5")
 		(property "Sheetname" "modem"
-			(at 223.52 18.3384 0)
+			(at 219.71 19.6084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4550,7 +4460,7 @@
 			)
 		)
 		(property "Sheetfile" "sch/modem.kicad_sch"
-			(at 223.52 55.1946 0)
+			(at 219.71 57.7346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4558,39 +4468,49 @@
 				(justify left top)
 			)
 		)
-		(pin "BOOT_MODE" input
-			(at 223.52 21.59 180)
-			(uuid "59a3ede0-81c9-495d-b2ab-79b32028c5c2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "MODEM_USB_DN" bidirectional
-			(at 223.52 48.26 180)
+			(at 267.97 24.13 0)
 			(uuid "87a74868-6f2a-4ed8-aeb8-0edb1272fa61")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "MODEM_USB_DP" bidirectional
-			(at 223.52 44.45 180)
+			(at 267.97 21.59 0)
 			(uuid "705f6125-5a14-4b79-90c8-771d9b1832de")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(pin "POWER_ON_N" input
-			(at 223.52 25.4 180)
-			(uuid "e5f03769-e108-44f8-8745-34ed4596f0cf")
+		(pin "MODEM_USB_RX_N" bidirectional
+			(at 267.97 29.21 0)
+			(uuid "7976d750-56e9-4713-b22c-804dc920d665")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MODEM_USB_TX_N" bidirectional
+			(at 267.97 34.29 0)
+			(uuid "057516bd-eafb-4f10-bf80-3bcc8350cb71")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIE_CLK_N" input
+			(at 219.71 21.59 180)
+			(uuid "55da974f-9a50-43f1-91cf-77e16b3f45c1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4598,9 +4518,9 @@
 				(justify left)
 			)
 		)
-		(pin "RESET_IN_N" input
-			(at 223.52 29.21 180)
-			(uuid "d6f5e227-69a9-45f8-a66a-036d5185db57")
+		(pin "PCIE_nCLKREQ" output
+			(at 219.71 26.67 180)
+			(uuid "bf1d2093-841c-4a93-98c5-d66b7cac4a57")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4608,9 +4528,9 @@
 				(justify left)
 			)
 		)
-		(pin "TX_ON" output
-			(at 223.52 40.64 180)
-			(uuid "d75c873b-9870-4396-9e63-973e62b02e8a")
+		(pin "PCIE_nWAKE" output
+			(at 219.71 31.75 180)
+			(uuid "b279ca86-01ff-4fcc-a5e7-4bc221681e92")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4618,9 +4538,9 @@
 				(justify left)
 			)
 		)
-		(pin "MODEM_WAKE" input
-			(at 223.52 33.02 180)
-			(uuid "7bc0b626-2d9f-4cd1-816d-af740e751c51")
+		(pin "PCIE_RX_N" output
+			(at 219.71 39.37 180)
+			(uuid "4e535435-a625-4093-b39f-d221851f0083")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4628,9 +4548,9 @@
 				(justify left)
 			)
 		)
-		(pin "SAFE_PWR_REMOVE" output
-			(at 223.52 36.83 180)
-			(uuid "dc3d67e9-0e69-4b56-915f-3a78ceb20f9d")
+		(pin "PCIE_TX_N" input
+			(at 219.71 44.45 180)
+			(uuid "68536e5c-f868-4cda-b823-705ce27335fd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4638,9 +4558,79 @@
 				(justify left)
 			)
 		)
-		(pin "WAKE" input
-			(at 223.52 52.07 180)
-			(uuid "4ee2996d-6e76-4b8a-aad2-9d2621f2be8f")
+		(pin "MODEM_USB_RX_P" bidirectional
+			(at 267.97 26.67 0)
+			(uuid "5a91eca4-6d22-461e-b767-5ad812119981")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MODEM_USB_TX_P" bidirectional
+			(at 267.97 31.75 0)
+			(uuid "f2afe06f-baf3-4eb6-b5b6-ed1c6e202ec6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIE_CLK_P" input
+			(at 219.71 24.13 180)
+			(uuid "e8a1024b-a9eb-4549-9592-5f6cc36dded9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PCIE_nRST" input
+			(at 219.71 29.21 180)
+			(uuid "2077c993-d423-44e4-8cd8-359dc054901f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PCIE_PWR_EN" input
+			(at 219.71 34.29 180)
+			(uuid "8035d65d-7a03-4b77-870b-31b65ee1edb4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PCIE_RX_P" output
+			(at 219.71 36.83 180)
+			(uuid "973e0efe-047f-424f-a311-4b7129014ee3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PCIE_TX_P" input
+			(at 219.71 41.91 180)
+			(uuid "368ebf28-7890-424f-a0ee-a09f9dff984a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "WAKE_ON_WAN" output
+			(at 219.71 49.53 180)
+			(uuid "ee99c4cb-7885-4cff-93fa-56142e89c4fc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5031,7 +5021,7 @@
 		)
 	)
 	(sheet
-		(at 223.52 63.5)
+		(at 228.6 91.44)
 		(size 35.56 66.04)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5047,7 +5037,7 @@
 		)
 		(uuid "75b669f4-4784-4707-8d6c-b4da66be0510")
 		(property "Sheetname" "compute-module"
-			(at 223.52 62.7884 0)
+			(at 228.6 90.7284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5056,7 +5046,7 @@
 			)
 		)
 		(property "Sheetfile" "sch/compute-module.kicad_sch"
-			(at 223.52 130.1246 0)
+			(at 228.6 158.0646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5065,7 +5055,7 @@
 			)
 		)
 		(pin "USB2_N" bidirectional
-			(at 259.08 72.39 0)
+			(at 264.16 100.33 0)
 			(uuid "f573706f-9f1e-4578-88ef-090ee4ed3924")
 			(effects
 				(font
@@ -5075,7 +5065,7 @@
 			)
 		)
 		(pin "USB2_P" bidirectional
-			(at 259.08 69.85 0)
+			(at 264.16 97.79 0)
 			(uuid "bff244fa-ebd8-41c3-ae78-6d4e9ad513ab")
 			(effects
 				(font
@@ -5085,7 +5075,7 @@
 			)
 		)
 		(pin "GPIO4" bidirectional
-			(at 223.52 82.55 180)
+			(at 228.6 110.49 180)
 			(uuid "5b582085-e338-4904-bb77-7aaa1d5026db")
 			(effects
 				(font
@@ -5095,7 +5085,7 @@
 			)
 		)
 		(pin "GPIO9" bidirectional
-			(at 223.52 95.25 180)
+			(at 228.6 123.19 180)
 			(uuid "54657f35-00a9-4b35-9b59-ee51575cc4e2")
 			(effects
 				(font
@@ -5105,7 +5095,7 @@
 			)
 		)
 		(pin "GPIO5" bidirectional
-			(at 223.52 85.09 180)
+			(at 228.6 113.03 180)
 			(uuid "d376202b-cf85-428c-8fd2-77adfba036a0")
 			(effects
 				(font
@@ -5115,7 +5105,7 @@
 			)
 		)
 		(pin "GPIO6" bidirectional
-			(at 223.52 87.63 180)
+			(at 228.6 115.57 180)
 			(uuid "de8439bb-8ae8-4c54-972b-e5d01fb4af12")
 			(effects
 				(font
@@ -5125,7 +5115,7 @@
 			)
 		)
 		(pin "GPIO13" bidirectional
-			(at 223.52 105.41 180)
+			(at 228.6 133.35 180)
 			(uuid "b2360926-c53d-489c-9a39-dda37a8038dd")
 			(effects
 				(font
@@ -5135,7 +5125,7 @@
 			)
 		)
 		(pin "GPIO10" bidirectional
-			(at 223.52 97.79 180)
+			(at 228.6 125.73 180)
 			(uuid "a9a9b956-9f65-4aaf-9ecd-74ef389fd4f4")
 			(effects
 				(font
@@ -5145,7 +5135,7 @@
 			)
 		)
 		(pin "GPIO8" bidirectional
-			(at 223.52 92.71 180)
+			(at 228.6 120.65 180)
 			(uuid "b0110f70-07e1-4d9e-aa33-95b40b5091cb")
 			(effects
 				(font
@@ -5155,7 +5145,7 @@
 			)
 		)
 		(pin "GPIO7" bidirectional
-			(at 223.52 90.17 180)
+			(at 228.6 118.11 180)
 			(uuid "7788036c-ad77-452f-b3ca-24dcf3bb5dac")
 			(effects
 				(font
@@ -5165,7 +5155,7 @@
 			)
 		)
 		(pin "GPIO15" input
-			(at 223.52 110.49 180)
+			(at 228.6 138.43 180)
 			(uuid "265887e7-5f20-476b-8d04-5f5e9dfd7aba")
 			(effects
 				(font
@@ -5175,7 +5165,7 @@
 			)
 		)
 		(pin "GPIO14" output
-			(at 223.52 107.95 180)
+			(at 228.6 135.89 180)
 			(uuid "2dadc38c-f0a0-42b3-8bee-c54f8d9c660b")
 			(effects
 				(font
@@ -5185,7 +5175,7 @@
 			)
 		)
 		(pin "CC1" input
-			(at 223.52 71.12 180)
+			(at 228.6 99.06 180)
 			(uuid "a9ccc6dd-3f31-498e-b0eb-5f0b428c8b10")
 			(effects
 				(font
@@ -5195,7 +5185,7 @@
 			)
 		)
 		(pin "CC2" input
-			(at 223.52 73.66 180)
+			(at 228.6 101.6 180)
 			(uuid "e2d5bcbf-087f-4101-b504-1009b179df79")
 			(effects
 				(font
@@ -5205,7 +5195,7 @@
 			)
 		)
 		(pin "USB3-0-D_N" bidirectional
-			(at 259.08 78.74 0)
+			(at 264.16 106.68 0)
 			(uuid "06df5afa-7391-495e-9858-b19207386a29")
 			(effects
 				(font
@@ -5215,7 +5205,7 @@
 			)
 		)
 		(pin "USB3-0-D_P" bidirectional
-			(at 259.08 76.2 0)
+			(at 264.16 104.14 0)
 			(uuid "eeda73f2-a86d-4f44-9745-5e60e1faf684")
 			(effects
 				(font
@@ -5225,7 +5215,7 @@
 			)
 		)
 		(pin "USB3-1-D_N" bidirectional
-			(at 259.08 85.09 0)
+			(at 264.16 113.03 0)
 			(uuid "4e94c09d-d3fe-471a-9192-26d4800feb97")
 			(effects
 				(font
@@ -5235,7 +5225,7 @@
 			)
 		)
 		(pin "USB3-1-D_P" bidirectional
-			(at 259.08 82.55 0)
+			(at 264.16 110.49 0)
 			(uuid "65f566b9-6ff3-4bc1-99f0-53fdebf4c200")
 			(effects
 				(font
@@ -5245,7 +5235,7 @@
 			)
 		)
 		(pin "VBUS_EN" input
-			(at 223.52 67.31 180)
+			(at 228.6 95.25 180)
 			(uuid "b48d3081-4ac1-4a22-bb85-d8d7e580a1f6")
 			(effects
 				(font
@@ -5255,7 +5245,7 @@
 			)
 		)
 		(pin "GPIO3" bidirectional
-			(at 223.52 80.01 180)
+			(at 228.6 107.95 180)
 			(uuid "08c8c294-e41e-4a97-954b-00e91aaab7a5")
 			(effects
 				(font
@@ -5265,7 +5255,7 @@
 			)
 		)
 		(pin "GPIO2" bidirectional
-			(at 223.52 77.47 180)
+			(at 228.6 105.41 180)
 			(uuid "6e18b7ba-d8c2-4696-b71b-ab1f9de8c2ed")
 			(effects
 				(font
@@ -5275,7 +5265,7 @@
 			)
 		)
 		(pin "GPIO11" bidirectional
-			(at 223.52 100.33 180)
+			(at 228.6 128.27 180)
 			(uuid "36bfa1ef-e57f-4208-bd5b-f46ef7695662")
 			(effects
 				(font
@@ -5285,7 +5275,7 @@
 			)
 		)
 		(pin "GPIO12" bidirectional
-			(at 223.52 102.87 180)
+			(at 228.6 130.81 180)
 			(uuid "ee9ff96b-11a7-477f-8889-1780043064b1")
 			(effects
 				(font
@@ -5295,7 +5285,7 @@
 			)
 		)
 		(pin "GPIO16" bidirectional
-			(at 223.52 113.03 180)
+			(at 228.6 140.97 180)
 			(uuid "26cfea71-302c-4d7a-ae63-832c33c558a8")
 			(effects
 				(font
@@ -5305,7 +5295,7 @@
 			)
 		)
 		(pin "GPIO17" bidirectional
-			(at 223.52 115.57 180)
+			(at 228.6 143.51 180)
 			(uuid "ede54ba3-aedd-40c5-8642-b8862ebf28c1")
 			(effects
 				(font
@@ -5315,7 +5305,7 @@
 			)
 		)
 		(pin "GPIO18" bidirectional
-			(at 223.52 118.11 180)
+			(at 228.6 146.05 180)
 			(uuid "d2db7db1-1ce9-4ece-ac0e-9bf11fe5a525")
 			(effects
 				(font
@@ -5325,7 +5315,7 @@
 			)
 		)
 		(pin "GPIO19" bidirectional
-			(at 223.52 120.65 180)
+			(at 228.6 148.59 180)
 			(uuid "38d7a19e-a79e-431c-8e6e-24e5097c7923")
 			(effects
 				(font
@@ -5335,7 +5325,7 @@
 			)
 		)
 		(pin "GPIO20" bidirectional
-			(at 223.52 123.19 180)
+			(at 228.6 151.13 180)
 			(uuid "dd3ac7ac-63dd-4f36-874e-df3c8a2d3f92")
 			(effects
 				(font
@@ -5345,7 +5335,7 @@
 			)
 		)
 		(pin "GPIO21" bidirectional
-			(at 223.52 125.73 180)
+			(at 228.6 153.67 180)
 			(uuid "7a378190-b439-47b0-90d9-3f98827d60fa")
 			(effects
 				(font
@@ -5355,7 +5345,7 @@
 			)
 		)
 		(pin "USB3-0-RX_N" input
-			(at 259.08 88.9 0)
+			(at 264.16 116.84 0)
 			(uuid "88f21ae6-8a21-4044-b41d-09f45285b555")
 			(effects
 				(font
@@ -5365,7 +5355,7 @@
 			)
 		)
 		(pin "USB3-0-RX_P" input
-			(at 259.08 91.44 0)
+			(at 264.16 119.38 0)
 			(uuid "30b34504-9416-4aeb-9edd-976ed4bafa68")
 			(effects
 				(font
@@ -5375,7 +5365,7 @@
 			)
 		)
 		(pin "USB3-0-TX_N" output
-			(at 259.08 95.25 0)
+			(at 264.16 123.19 0)
 			(uuid "4f04d16d-0bd8-43f5-a04c-9d69a090de3f")
 			(effects
 				(font
@@ -5385,7 +5375,7 @@
 			)
 		)
 		(pin "USB3-0-TX_P" output
-			(at 259.08 97.79 0)
+			(at 264.16 125.73 0)
 			(uuid "189cec4b-abcc-4b6a-ac71-473b8b95f696")
 			(effects
 				(font
@@ -5395,7 +5385,7 @@
 			)
 		)
 		(pin "USB3-1-RX_N" input
-			(at 259.08 101.6 0)
+			(at 264.16 129.54 0)
 			(uuid "7328bb2a-8dde-4e7b-b638-eeca67ad05b4")
 			(effects
 				(font
@@ -5405,7 +5395,7 @@
 			)
 		)
 		(pin "USB3-1-RX_P" input
-			(at 259.08 104.14 0)
+			(at 264.16 132.08 0)
 			(uuid "b1245a2b-67bc-4709-a140-b8c84733dd57")
 			(effects
 				(font
@@ -5415,7 +5405,7 @@
 			)
 		)
 		(pin "USB3-1-TX_N" input
-			(at 259.08 107.95 0)
+			(at 264.16 135.89 0)
 			(uuid "4c1447fa-94d8-45be-83e1-7f48d1d1e63a")
 			(effects
 				(font
@@ -5425,7 +5415,7 @@
 			)
 		)
 		(pin "USB3-1-TX_P" input
-			(at 259.08 110.49 0)
+			(at 264.16 138.43 0)
 			(uuid "6b9958fc-3ebc-444c-9e62-1ede7c7e5896")
 			(effects
 				(font
@@ -5443,7 +5433,7 @@
 		)
 	)
 	(sheet
-		(at 240.284 138.684)
+		(at 128.524 88.519)
 		(size 36.576 22.352)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5459,7 +5449,7 @@
 		)
 		(uuid "e12a1f06-e701-4393-a8dc-cf8951bd0212")
 		(property "Sheetname" "div"
-			(at 240.284 137.9724 0)
+			(at 128.524 87.8074 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5468,7 +5458,7 @@
 			)
 		)
 		(property "Sheetfile" "div.kicad_sch"
-			(at 240.284 161.6206 0)
+			(at 128.524 111.4556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
