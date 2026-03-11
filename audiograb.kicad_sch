@@ -2522,6 +2522,16 @@
 		)
 		(uuid "530325ea-1bdb-43c1-829a-d72c13e23130")
 	)
+	(label "MODEM_RESET_N"
+		(at 218.44 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "59021830-bcc1-4e34-86b3-d6d0ac4eb5e2")
+	)
 	(label "SD3"
 		(at 228.6 148.59 180)
 		(effects
@@ -2621,6 +2631,16 @@
 			(justify right bottom)
 		)
 		(uuid "6ae9aa0d-c685-4a1f-ba6f-361bdc436e26")
+	)
+	(label "MODEM_RESET_N"
+		(at 228.6 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7c9ac5f9-31f2-4e95-bd15-509de5eac28b")
 	)
 	(label "EXT_5V_ENABLE"
 		(at 228.6 143.51 180)
