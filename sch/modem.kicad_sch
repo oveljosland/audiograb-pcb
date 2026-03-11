@@ -4715,6 +4715,262 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "WA-SMSI_9774XXX243:WA-SMSI_9774XXX243"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "MP"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Value" "WA-SMSI_9774XXX243"
+				(at -3.048 -4.572 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "WA-SMSI_9774XXX243:WA-SMSI_9774030243"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/9774030243R/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MF" "Würth Elektronik"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "THREAD" "M2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "INNER-DIAMETER" "2.8mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PIN-LENGTH" "3mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "INNER-THREAD-LENGTH" "-"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "VALUE" "M2 x 3mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/9774030243R/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "DATASHEET-URL" "https://www.we-online.com/catalog/datasheet/9774030243R.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "9774030243R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=4874481&manufacturer=Würth Elektronik&part_name=9774030243R&search_term= 9774030243r"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PART-NUMBER" "9774030243R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "OUTER-DIAMETER" "4.35mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Round Standoff Threaded M2x0.4 Steel 0.118 (3.00mm) -"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "WA-SMSI_9774XXX243_0_0"
+				(circle
+					(center 0 0)
+					(radius 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -4887,6 +5143,16 @@
 		)
 		(uuid "69e3ee24-8b0b-4bf6-8137-ee688197acbc")
 	)
+	(text "M.2 Standoffs"
+		(exclude_from_sim no)
+		(at 256.286 121.412 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9ffa3670-20b9-47ea-9791-b5c0921594cc")
+	)
 	(text "Disable GNSS"
 		(exclude_from_sim no)
 		(at 118.872 47.244 0)
@@ -5052,6 +5318,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8f79f278-4338-408c-ae0c-85d2e404cf70")
+	)
+	(junction
+		(at 248.92 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9569c36e-eec1-4f4e-bc83-24087aaa8b6a")
 	)
 	(junction
 		(at 207.01 57.15)
@@ -5272,6 +5544,10 @@
 		(uuid "c6d4bfc2-7329-40e9-b60d-99c1b883b2bc")
 	)
 	(no_connect
+		(at 111.76 44.45)
+		(uuid "d8259cec-7c79-43cf-ae07-304c49958565")
+	)
+	(no_connect
 		(at 76.2 87.63)
 		(uuid "e29d8e43-40a4-412b-9259-6a4c34cd025a")
 	)
@@ -5472,16 +5748,6 @@
 			(type default)
 		)
 		(uuid "1554a91c-9826-4b4f-bd5c-fe4ce71fadc2")
-	)
-	(wire
-		(pts
-			(xy 115.57 44.45) (xy 111.76 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18a47651-7a8a-462b-af88-d7c6d987f2c8")
 	)
 	(wire
 		(pts
@@ -6295,6 +6561,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 127) (xy 248.92 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92133d76-60fe-48d6-bdaf-978e281ef3f4")
+	)
+	(wire
+		(pts
 			(xy 245.11 41.91) (xy 245.11 62.23)
 		)
 		(stroke
@@ -6795,6 +7071,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 134.62) (xy 248.92 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e93233ac-2ee1-4ebe-ae60-9f019cea6853")
+	)
+	(wire
+		(pts
 			(xy 115.57 52.07) (xy 111.76 52.07)
 		)
 		(stroke
@@ -6992,16 +7278,6 @@
 			(justify left bottom)
 		)
 		(uuid "5d9ffc39-8354-47c5-bd4c-75ce231dda97")
-	)
-	(label "VDDIO_1V8"
-		(at 115.57 44.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "71b848eb-1786-44ee-9e42-e64ed44b9403")
 	)
 	(label "USIM1_DET"
 		(at 158.75 57.15 0)
@@ -7315,7 +7591,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "006b5946-ee5f-4cfa-ab4a-e788d1f435e1")
-		(property "Reference" "R10"
+		(property "Reference" "R7"
 			(at 175.26 46.482 90)
 			(effects
 				(font
@@ -7358,7 +7634,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603FR-072K2L"
+		(property "MPN" "RC0603FR-0722RL"
 			(at 175.26 41.91 0)
 			(effects
 				(font
@@ -7376,7 +7652,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/1e6f47c9-dd69-4161-87eb-dd6f588b76d5"
-					(reference "R10")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -7609,7 +7885,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0639da95-c5d8-499a-b900-27e3f84e6911")
-		(property "Reference" "J11"
+		(property "Reference" "J7"
 			(at 86.614 138.938 90)
 			(effects
 				(font
@@ -7788,7 +8064,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/1e6f47c9-dd69-4161-87eb-dd6f588b76d5"
-					(reference "J11")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -7803,7 +8079,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1207b4e1-c19d-4e94-a5e2-2dccfb45f71c")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR029"
 			(at 266.7 74.93 0)
 			(effects
 				(font
@@ -7853,7 +8129,7 @@
 		(instances
 			(project ""
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/1e6f47c9-dd69-4161-87eb-dd6f588b76d5"
-					(reference "#PWR046")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -7868,7 +8144,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "14601ed3-7f9a-4544-bd6c-444dce829c14")
-		(property "Reference" "J9"
+		(property "Reference" "J10"
 			(at 103.124 138.938 90)
 			(effects
 				(font
@@ -8047,7 +8323,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/1e6f47c9-dd69-4161-87eb-dd6f588b76d5"
-					(reference "J9")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -8062,7 +8338,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "165ded64-9834-4266-9a58-e7c25175dfca")
-		(property "Reference" "J15"
+		(property "Reference" "J6"
 			(at 66.802 170.18 90)
 			(effects
 				(font
@@ -8230,7 +8506,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/1e6f47c9-dd69-4161-87eb-dd6f588b76d5"
-					(reference "J15")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -8245,7 +8521,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "17a543e1-36cf-4bab-9384-24ee93a08a83")
-		(property "Reference" "U3"
+		(property "Reference" "U2"
 			(at 234.95 80.01 0)
 			(effects
 				(font
@@ -8325,7 +8601,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/1e6f47c9-dd69-4161-87eb-dd6f588b76d5"
-					(reference "U3")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -8340,7 +8616,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "17a789dd-b3d9-44f5-affa-9623c7cfafb9")
-		(property "Reference" "T7"
+		(property "Reference" "T1"
 			(at 240.03 69.85 90)
 			(effects
 				(font
@@ -8392,7 +8668,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/1e6f47c9-dd69-4161-87eb-dd6f588b76d5"
-					(reference "T7")
+					(reference "T1")
 					(unit 1)
 				)
 			)
@@ -8408,7 +8684,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "17ccc661-8879-4ee4-949e-73a978db9366")
-		(property "Reference" "C24"
+		(property "Reference" "C9"
 			(at 190.754 63.5 0)
 			(effects
 				(font
@@ -8453,7 +8729,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0603C103K5RACTU"
+		(property "MPN" "C0603C100K1RACTU"
 			(at 193.04 64.77 0)
 			(effects
 				(font
@@ -8471,7 +8747,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/1e6f47c9-dd69-4161-87eb-dd6f588b76d5"
-					(reference "C24")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -8486,7 +8762,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1a6d011e-6774-4603-ae77-e981ccfbcea1")
-		(property "Reference" "T10"
+		(property "Reference" "T4"
 			(at 247.65 69.85 90)
 			(effects
 				(font
@@ -8538,7 +8814,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/1e6f47c9-dd69-4161-87eb-dd6f588b76d5"
-					(reference "T10")
+					(reference "T4")
 					(unit 1)
 				)
 			)
@@ -8553,7 +8829,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1f2c4cc1-9293-4bab-aa98-2c9356a285c9")
-		(property "Reference" "J14"
+		(property "Reference" "J5"
 			(at 69.85 139.192 90)
 			(effects
 				(font
@@ -8732,7 +9008,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/1e6f47c9-dd69-4161-87eb-dd6f588b76d5"
-					(reference "J14")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -8748,7 +9024,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2005f9ad-1cd2-4088-ac22-eb88307e963b")
-		(property "Reference" "C25"
+		(property "Reference" "C10"
 			(at 199.644 63.5 0)
 			(effects
 				(font
@@ -8793,7 +9069,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0603C103K5RACTU"
+		(property "MPN" "C0603C100K1RACTU"
 			(at 201.93 64.77 0)
 			(effects
 				(font
@@ -8811,7 +9087,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/1e6f47c9-dd69-4161-87eb-dd6f588b76d5"
-					(reference "C25")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -8870,7 +9146,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0603C104K3RACTU"
+		(property "MPN" "C0603C224K5RACTU"
 			(at 64.77 76.2 0)
 			(effects
 				(font
@@ -8904,7 +9180,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b221506-1e83-4c04-aae4-137b413c5207")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR023"
 			(at 107.95 162.56 0)
 			(effects
 				(font
@@ -8955,7 +9231,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/1e6f47c9-dd69-4161-87eb-dd6f588b76d5"
-					(reference "#PWR020")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -8971,7 +9247,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2ff40a08-e772-4d44-ad98-88ad090f64d8")
-		(property "Reference" "R7"
+		(property "Reference" "R5"
 			(at 138.684 26.924 0)
 			(effects
 				(font
@@ -9032,7 +9308,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/1e6f47c9-dd69-4161-87eb-dd6f588b76d5"
-					(reference "R7")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -9105,6 +9381,244 @@
 		)
 	)
 	(symbol
+		(lib_id "WA-SMSI_9774XXX243:WA-SMSI_9774XXX243")
+		(at 254 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "319df314-a148-40cc-9edc-46d0b30d5e48")
+		(property "Reference" "MP1"
+			(at 257.81 125.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "WA-SMSI_9774XXX243"
+			(at 257.81 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "WA-SMSI_9774XXX243:WA-SMSI_9774030243"
+			(at 254 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 254 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/9774030243R/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda"
+			(at 254 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Würth Elektronik"
+			(at 254 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "THREAD" "M2"
+			(at 254 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "INNER-DIAMETER" "2.8mm"
+			(at 254 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 254 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 254 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PIN-LENGTH" "3mm"
+			(at 254 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "INNER-THREAD-LENGTH" "-"
+			(at 254 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "VALUE" "M2 x 3mm"
+			(at 254 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 254 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/9774030243R/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=snap"
+			(at 254 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET-URL" "https://www.we-online.com/catalog/datasheet/9774030243R.pdf"
+			(at 254 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "9774030243R"
+			(at 254 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=4874481&manufacturer=Würth Elektronik&part_name=9774030243R&search_term= 9774030243r"
+			(at 254 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PART-NUMBER" "9774030243R"
+			(at 254 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "OUTER-DIAMETER" "4.35mm"
+			(at 254 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Round Standoff Threaded M2x0.4 Steel 0.118 (3.00mm) -"
+			(at 254 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db99e84e-e32e-4aa0-8350-b0e06c192db4")
+		)
+		(instances
+			(project ""
+				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/1e6f47c9-dd69-4161-87eb-dd6f588b76d5"
+					(reference "MP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 64.77 71.12 90)
 		(unit 1)
@@ -9157,7 +9671,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0603C104K3RACTU"
+		(property "MPN" "C0603C224K5RACTU"
 			(at 64.77 71.12 0)
 			(effects
 				(font
@@ -9191,7 +9705,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43d5d7f3-3935-4171-a152-0cbd8b0fcf65")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR019"
 			(at 58.42 162.56 0)
 			(effects
 				(font
@@ -9242,7 +9756,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/1e6f47c9-dd69-4161-87eb-dd6f588b76d5"
-					(reference "#PWR027")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -9257,7 +9771,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4580494f-955a-46ed-82f3-369d1035c52d")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR027"
 			(at 231.14 41.91 0)
 			(effects
 				(font
@@ -9307,7 +9821,7 @@
 		(instances
 			(project ""
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/1e6f47c9-dd69-4161-87eb-dd6f588b76d5"
-					(reference "#PWR038")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -9322,7 +9836,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4cb317c3-44ec-4464-9485-56a75a34bb2a")
-		(property "Reference" "J10"
+		(property "Reference" "J11"
 			(at 98.044 169.926 90)
 			(effects
 				(font
@@ -9490,7 +10004,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/1e6f47c9-dd69-4161-87eb-dd6f588b76d5"
-					(reference "J10")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -9505,7 +10019,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "554adfbf-5325-4ffd-835a-a0456c8471d4")
-		(property "Reference" "R11"
+		(property "Reference" "R6"
 			(at 175.514 35.306 90)
 			(effects
 				(font
@@ -9548,7 +10062,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603FR-072K2L"
+		(property "MPN" "RC0603FR-0722RL"
 			(at 175.26 39.37 0)
 			(effects
 				(font
@@ -9566,7 +10080,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/1e6f47c9-dd69-4161-87eb-dd6f588b76d5"
-					(reference "R11")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -9582,7 +10096,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "55570a89-ce53-460b-9b36-f3434467aad9")
-		(property "Reference" "D6"
+		(property "Reference" "D3"
 			(at 204.47 78.7399 90)
 			(effects
 				(font
@@ -9645,7 +10159,7 @@
 		(instances
 			(project ""
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/1e6f47c9-dd69-4161-87eb-dd6f588b76d5"
-					(reference "D6")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -9661,7 +10175,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5b74a238-59ac-496b-becc-c386d1d65cf9")
-		(property "Reference" "R9"
+		(property "Reference" "R8"
 			(at 175.26 54.102 90)
 			(effects
 				(font
@@ -9704,7 +10218,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603FR-072K2L"
+		(property "MPN" "RC0603FR-0722RL"
 			(at 175.26 49.53 0)
 			(effects
 				(font
@@ -9722,7 +10236,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/1e6f47c9-dd69-4161-87eb-dd6f588b76d5"
-					(reference "R9")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -9737,7 +10251,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6145dcd4-c741-46ee-8199-bbdcb5dcb0c9")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR025"
 			(at 220.98 59.69 0)
 			(effects
 				(font
@@ -9787,7 +10301,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/1e6f47c9-dd69-4161-87eb-dd6f588b76d5"
-					(reference "#PWR036")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -9802,7 +10316,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6d774db8-aad1-45c4-8c79-a3abf8a4e458")
-		(property "Reference" "T8"
+		(property "Reference" "T2"
 			(at 242.57 69.85 90)
 			(effects
 				(font
@@ -9854,7 +10368,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/1e6f47c9-dd69-4161-87eb-dd6f588b76d5"
-					(reference "T8")
+					(reference "T2")
 					(unit 1)
 				)
 			)
@@ -9869,7 +10383,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "72c13e64-bc58-4718-baf1-1a9edcfe3dc0")
-		(property "Reference" "Q"
+		(property "Reference" "Q1"
 			(at 56.134 103.378 0)
 			(effects
 				(font
@@ -10047,7 +10561,7 @@
 		(instances
 			(project ""
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/1e6f47c9-dd69-4161-87eb-dd6f588b76d5"
-					(reference "Q")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -10063,7 +10577,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "733e40ed-ca02-4f32-814e-a6555ab7fed5")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR026"
 			(at 220.98 106.68 0)
 			(effects
 				(font
@@ -10113,7 +10627,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/1e6f47c9-dd69-4161-87eb-dd6f588b76d5"
-					(reference "#PWR037")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -10129,7 +10643,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "852c94cd-ab3f-4051-a075-1045f9d90fd2")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR021"
 			(at 74.93 162.56 0)
 			(effects
 				(font
@@ -10180,7 +10694,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/1e6f47c9-dd69-4161-87eb-dd6f588b76d5"
-					(reference "#PWR024")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -10196,7 +10710,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8676a88f-2764-412c-bb3a-1c3ea32ec904")
-		(property "Reference" "R4"
+		(property "Reference" "R3"
 			(at 38.1 102.362 90)
 			(effects
 				(font
@@ -10257,7 +10771,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/1e6f47c9-dd69-4161-87eb-dd6f588b76d5"
-					(reference "R4")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -10273,7 +10787,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "86c9669a-2ad7-44ed-a4bd-44862b72f73d")
-		(property "Reference" "R13"
+		(property "Reference" "R9"
 			(at 187.706 32.004 0)
 			(effects
 				(font
@@ -10334,7 +10848,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/1e6f47c9-dd69-4161-87eb-dd6f588b76d5"
-					(reference "R13")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -10349,7 +10863,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "88c76743-ff98-4beb-b789-e8326a7c54b6")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR024"
 			(at 193.04 78.74 0)
 			(effects
 				(font
@@ -10399,7 +10913,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/1e6f47c9-dd69-4161-87eb-dd6f588b76d5"
-					(reference "#PWR026")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -10415,7 +10929,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8a785ef3-beea-457e-8d65-de692b383973")
-		(property "Reference" "D5"
+		(property "Reference" "D2"
 			(at 127 37.084 0)
 			(effects
 				(font
@@ -10485,7 +10999,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/1e6f47c9-dd69-4161-87eb-dd6f588b76d5"
-					(reference "D5")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -10501,7 +11015,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90db14c9-e50c-4171-8a69-6d2da7eaab40")
-		(property "Reference" "J8"
+		(property "Reference" "J9"
 			(at 93.98 13.97 0)
 			(effects
 				(font
@@ -10905,7 +11419,7 @@
 		(instances
 			(project ""
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/1e6f47c9-dd69-4161-87eb-dd6f588b76d5"
-					(reference "J8")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -10921,7 +11435,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "912b3ad4-2b3b-46b6-80b5-07b0adf9943d")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR020"
 			(at 74.93 124.46 0)
 			(effects
 				(font
@@ -10971,7 +11485,73 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/1e6f47c9-dd69-4161-87eb-dd6f588b76d5"
-					(reference "#PWR025")
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 248.92 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98f462b8-09bd-4f8b-907d-1b01af42f6ce")
+		(property "Reference" "#PWR028"
+			(at 248.92 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 248.92 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.92 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 248.92 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "46ff8cb2-e319-4531-b6eb-5593b5768225")
+		)
+		(instances
+			(project "audiograb"
+				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/1e6f47c9-dd69-4161-87eb-dd6f588b76d5"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -10987,7 +11567,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a573b10e-71bb-451d-94df-2bf869a819cb")
-		(property "Reference" "R8"
+		(property "Reference" "R10"
 			(at 278.13 59.6899 0)
 			(effects
 				(font
@@ -11032,7 +11612,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" "RC0603FR-0710KL"
+		(property "Field5" "RC0603FR-074K7L"
 			(at 280.67 60.96 0)
 			(effects
 				(font
@@ -11050,7 +11630,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/1e6f47c9-dd69-4161-87eb-dd6f588b76d5"
-					(reference "R8")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -11066,7 +11646,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "afb3be0d-c16b-45b0-ab56-4170e80c7f5a")
-		(property "Reference" "C10"
+		(property "Reference" "C8"
 			(at 181.864 63.5 0)
 			(effects
 				(font
@@ -11111,7 +11691,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0603C103K5RACTU"
+		(property "MPN" "C0603C100K1RACTU"
 			(at 184.15 64.77 0)
 			(effects
 				(font
@@ -11129,7 +11709,7 @@
 		(instances
 			(project ""
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/1e6f47c9-dd69-4161-87eb-dd6f588b76d5"
-					(reference "C10")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -11144,7 +11724,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b60fdecd-96e8-432f-94ac-bf5890e066be")
-		(property "Reference" "J13"
+		(property "Reference" "J8"
 			(at 82.55 170.18 90)
 			(effects
 				(font
@@ -11312,7 +11892,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/1e6f47c9-dd69-4161-87eb-dd6f588b76d5"
-					(reference "J13")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -11327,7 +11907,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b7be9f01-2f62-4ee9-a9fe-4306d1174fe6")
-		(property "Reference" "J7"
+		(property "Reference" "J13"
 			(at 115.062 169.926 90)
 			(effects
 				(font
@@ -11495,7 +12075,245 @@
 		(instances
 			(project ""
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/1e6f47c9-dd69-4161-87eb-dd6f588b76d5"
-					(reference "J7")
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WA-SMSI_9774XXX243:WA-SMSI_9774XXX243")
+		(at 254 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8932da2-aa6b-4bc5-9cab-446932393db8")
+		(property "Reference" "MP2"
+			(at 257.81 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "WA-SMSI_9774XXX243"
+			(at 257.81 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "WA-SMSI_9774XXX243:WA-SMSI_9774030243"
+			(at 254 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 254 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/9774030243R/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda"
+			(at 254 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Würth Elektronik"
+			(at 254 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "THREAD" "M2"
+			(at 254 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "INNER-DIAMETER" "2.8mm"
+			(at 254 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 254 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 254 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PIN-LENGTH" "3mm"
+			(at 254 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "INNER-THREAD-LENGTH" "-"
+			(at 254 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "VALUE" "M2 x 3mm"
+			(at 254 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 254 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/9774030243R/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=snap"
+			(at 254 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET-URL" "https://www.we-online.com/catalog/datasheet/9774030243R.pdf"
+			(at 254 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "9774030243R"
+			(at 254 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=4874481&manufacturer=Würth Elektronik&part_name=9774030243R&search_term= 9774030243r"
+			(at 254 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PART-NUMBER" "9774030243R"
+			(at 254 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "OUTER-DIAMETER" "4.35mm"
+			(at 254 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Round Standoff Threaded M2x0.4 Steel 0.118 (3.00mm) -"
+			(at 254 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00b5e6cd-2459-41ab-96fe-236039353ceb")
+		)
+		(instances
+			(project "audiograb"
+				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/1e6f47c9-dd69-4161-87eb-dd6f588b76d5"
+					(reference "MP2")
 					(unit 1)
 				)
 			)
@@ -11511,7 +12329,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c11e3419-d12d-4fa5-8fea-ec43b23776a5")
-		(property "Reference" "C9"
+		(property "Reference" "C11"
 			(at 234.95 30.4799 0)
 			(effects
 				(font
@@ -11574,7 +12392,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/1e6f47c9-dd69-4161-87eb-dd6f588b76d5"
-					(reference "C9")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -11589,7 +12407,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c611c42c-8dcb-42b0-a9b0-7cdf64c581a2")
-		(property "Reference" "T11"
+		(property "Reference" "T5"
 			(at 250.19 69.85 90)
 			(effects
 				(font
@@ -11641,7 +12459,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/1e6f47c9-dd69-4161-87eb-dd6f588b76d5"
-					(reference "T11")
+					(reference "T5")
 					(unit 1)
 				)
 			)
@@ -11657,7 +12475,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2c303a3-cfa1-4f59-bb77-dc454db4a038")
-		(property "Reference" "R5"
+		(property "Reference" "R4"
 			(at 45.72 110.4899 0)
 			(effects
 				(font
@@ -11675,7 +12493,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 41.402 111.76 90)
 			(effects
 				(font
@@ -11693,7 +12511,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor 100k"
+			(at 43.18 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT100K"
 			(at 43.18 111.76 0)
 			(effects
 				(font
@@ -11711,7 +12538,7 @@
 		(instances
 			(project ""
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/1e6f47c9-dd69-4161-87eb-dd6f588b76d5"
-					(reference "R5")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -11921,7 +12748,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7872adb-04b3-4283-8d2f-1613f813cb79")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR022"
 			(at 91.44 162.56 0)
 			(effects
 				(font
@@ -11972,7 +12799,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/1e6f47c9-dd69-4161-87eb-dd6f588b76d5"
-					(reference "#PWR023")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -11987,7 +12814,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ff09e1b7-0976-48e4-b294-b0ecb70a2e23")
-		(property "Reference" "T9"
+		(property "Reference" "T3"
 			(at 245.11 69.85 90)
 			(effects
 				(font
@@ -12039,7 +12866,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/1e6f47c9-dd69-4161-87eb-dd6f588b76d5"
-					(reference "T9")
+					(reference "T3")
 					(unit 1)
 				)
 			)

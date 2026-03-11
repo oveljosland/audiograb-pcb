@@ -1932,7 +1932,7 @@
 		(uuid 4cd56ed0-eb22-45cb-a93a-8517f78d4dbf)
 	)
 	(rectangle
-		(start 207.645 15.24)
+		(start 200.025 15.24)
 		(end 283.845 62.23)
 		(stroke
 			(width 0)
@@ -1979,18 +1979,6 @@
 		)
 		(uuid 86468f54-2b71-429a-a116-c3c7c60b0297)
 	)
-	(rectangle
-		(start 157.48 16.51)
-		(end 194.31 57.15)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid e7ed5b34-8b1a-4de3-83d8-df4ad998bdce)
-	)
 	(text "Discharge resistor\nneeded by some\nType C PSUs."
 		(exclude_from_sim no)
 		(at 51.816 26.67 0)
@@ -2004,7 +1992,7 @@
 	)
 	(text "Wake the host"
 		(exclude_from_sim no)
-		(at 242.062 49.784 0)
+		(at 244.348 52.578 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2032,16 +2020,6 @@
 		)
 		(uuid "55eb11a4-01f4-4e1a-a0fc-c5cb529e60eb")
 	)
-	(text "Connector Modem-bard \nto main PCB\n"
-		(exclude_from_sim no)
-		(at 175.514 19.05 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "55fb8711-ce0d-4961-add1-c15e4ef72bd2")
-	)
 	(text "4"
 		(exclude_from_sim no)
 		(at 44.45 92.71 0)
@@ -2061,6 +2039,16 @@
 			)
 		)
 		(uuid "7f94b506-84a1-4c94-abe7-4e60a3061bfb")
+	)
+	(text "Hard reset\n"
+		(exclude_from_sim no)
+		(at 242.316 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "836a8c54-32dd-433a-a1ed-09397884da9a")
 	)
 	(text "1"
 		(exclude_from_sim no)
@@ -2101,26 +2089,6 @@
 			)
 		)
 		(uuid "f3570e93-46bc-45ae-8b62-5e15f85b6800")
-	)
-	(text_box "NOTE:\nMissing connections for `1DIR` and `2DIR`"
-		(exclude_from_sim no)
-		(at 78.74 134.62 0)
-		(size 25.4 15.24)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "1387aaa1-31ad-42fe-a489-b36f0eb0a598")
 	)
 	(junction
 		(at 50.8 30.48)
@@ -2234,16 +2202,6 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 26.67) (xy 267.97 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e04bcfa-45a4-43c7-8812-97708765c4ad")
-	)
-	(wire
-		(pts
 			(xy 54.61 38.1) (xy 54.61 36.83)
 		)
 		(stroke
@@ -2334,16 +2292,6 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 31.75) (xy 267.97 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba5049dd-d2ef-44c7-a46a-adfa4a191b02")
-	)
-	(wire
-		(pts
 			(xy 30.48 91.44) (xy 30.48 88.9)
 		)
 		(stroke
@@ -2403,7 +2351,7 @@
 		(uuid "08c735cb-97d1-423e-80d2-60338ca58269")
 	)
 	(label "USB2_P"
-		(at 264.16 97.79 0)
+		(at 264.16 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2411,6 +2359,46 @@
 			(justify left bottom)
 		)
 		(uuid "13368517-c79d-4fad-b690-e1d53c4202cd")
+	)
+	(label "USB3-1-TX_N"
+		(at 267.97 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "15c642a0-2dc7-4aeb-88d1-c67f0a5637cb")
+	)
+	(label "PCIE_nCLKREQ"
+		(at 219.71 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1cb2de20-b39f-4140-aae4-4c1948df94e4")
+	)
+	(label "PCIE_CLK_N"
+		(at 219.71 24.13 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1f750d68-468c-412a-88c6-d072ed12ae1f")
+	)
+	(label "PCIE_RX_P"
+		(at 264.16 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2024c86a-c016-46e8-bdc9-4332f2fe8bf8")
 	)
 	(label "GPCLK"
 		(at 228.6 110.49 180)
@@ -2462,6 +2450,26 @@
 		)
 		(uuid "320af6e4-e335-4d57-99c8-e6ced63939be")
 	)
+	(label "PCIE_TX_P"
+		(at 264.16 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "344b0897-ca08-4e69-932f-ca3fccbe70da")
+	)
+	(label "PCIE_PWR_EN"
+		(at 264.16 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3b1883fb-6660-43c1-8cdb-0a579d76530d")
+	)
 	(label "SD_RESET_HOST"
 		(at 228.6 128.27 180)
 		(effects
@@ -2482,6 +2490,16 @@
 		)
 		(uuid "41a6ccc7-83ea-4651-a39e-fa831e8ef55f")
 	)
+	(label "PCIE_TX_N"
+		(at 219.71 34.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4335f67a-d925-4438-bac1-42374fdc6360")
+	)
 	(label "SD5"
 		(at 34.29 158.75 90)
 		(effects
@@ -2491,6 +2509,26 @@
 			(justify left bottom)
 		)
 		(uuid "4354446e-1aac-4b97-acf4-4f00b7639d52")
+	)
+	(label "USB3-1-RX_N"
+		(at 264.16 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "47017990-aebe-4fe5-be73-a2be87315aa3")
+	)
+	(label "PCIE_nCLKREQ"
+		(at 264.16 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4941c01d-d753-487a-ab8e-ecd05096589b")
 	)
 	(label "USB2_P"
 		(at 48.26 50.8 0)
@@ -2523,7 +2561,7 @@
 		(uuid "530325ea-1bdb-43c1-829a-d72c13e23130")
 	)
 	(label "MODEM_RESET_N"
-		(at 218.44 54.61 180)
+		(at 219.71 49.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2542,6 +2580,16 @@
 		)
 		(uuid "593c6d44-9c29-4438-8ffc-3ea30b2a0aab")
 	)
+	(label "USB3-1-RX_N"
+		(at 267.97 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "59ff547c-8de1-447b-9c7d-f9d6f907e000")
+	)
 	(label "USB2_P"
 		(at 81.28 31.75 180)
 		(effects
@@ -2551,16 +2599,6 @@
 			(justify right bottom)
 		)
 		(uuid "5b7ad99d-5bf6-4f59-9ebf-db1ffa6ac158")
-	)
-	(label "2DIR"
-		(at 24.13 177.8 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5c896955-8f69-4d46-b5a9-9130056be28e")
 	)
 	(label "CC1"
 		(at 111.76 34.29 0)
@@ -2582,6 +2620,26 @@
 		)
 		(uuid "5dc0afdd-5648-4be6-83d0-7a7a291a9c7c")
 	)
+	(label "PCIE_CLK_P"
+		(at 264.16 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5dd3855d-6e95-412d-a82d-3f6a39b44d48")
+	)
+	(label "PCIE_nWAKE"
+		(at 219.71 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6132e7d0-eb0e-4558-a0bd-72b8cd2b7bb0")
+	)
 	(label "CC2"
 		(at 228.6 101.6 180)
 		(effects
@@ -2601,6 +2659,26 @@
 			(justify left bottom)
 		)
 		(uuid "640fa1c0-1ae4-4554-b9cb-84ae0e2c03b9")
+	)
+	(label "USB3-1-TX_N"
+		(at 264.16 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "64f8310b-fe58-45ad-89b0-448b1296bb46")
+	)
+	(label "CM_WAKE_ON_WWAN"
+		(at 219.71 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "66e4946e-3e5a-4ad2-b744-4e20a1b87d97")
 	)
 	(label "SD_SWITCH_DISABLE"
 		(at 60.96 158.75 90)
@@ -2632,6 +2710,26 @@
 		)
 		(uuid "6ae9aa0d-c685-4a1f-ba6f-361bdc436e26")
 	)
+	(label "PCIE_RX_N"
+		(at 219.71 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "73617d2a-10d1-49e1-bbfd-daeea11b2cee")
+	)
+	(label "USB3-1-TX_P"
+		(at 264.16 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "77d6da82-3535-433d-a2e7-38e3bbdc4ba4")
+	)
 	(label "MODEM_RESET_N"
 		(at 228.6 115.57 180)
 		(effects
@@ -2653,7 +2751,7 @@
 		(uuid "7f9bf796-2428-4d09-97bf-ae73e2c5e9d6")
 	)
 	(label "USB3-0-D_N"
-		(at 264.16 106.68 0)
+		(at 264.16 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2681,6 +2779,16 @@
 			(justify right bottom)
 		)
 		(uuid "834f45f9-e68b-44da-b31a-81e9e50046d9")
+	)
+	(label "PCIE_nRST"
+		(at 219.71 26.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "87fbfd66-78ce-4de6-a6b6-2b836dc14843")
 	)
 	(label "EXT_5V_DISABLE"
 		(at 45.72 158.75 90)
@@ -2743,7 +2851,7 @@
 		(uuid "9d1aa55c-2b35-4934-a97e-de8fc02e5eb5")
 	)
 	(label "USB3-1-D_P"
-		(at 264.16 110.49 0)
+		(at 264.16 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2753,7 +2861,7 @@
 		(uuid "9ecdc75f-fcf5-456e-bbc8-d62d606d56a9")
 	)
 	(label "USB3-0-D_P"
-		(at 264.16 104.14 0)
+		(at 264.16 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2761,6 +2869,16 @@
 			(justify left bottom)
 		)
 		(uuid "9f9159ef-6d8f-4e53-8e86-8346e04c228a")
+	)
+	(label "CM_WAKE_ON_WWAN"
+		(at 228.6 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a13fedf0-fc4a-4f94-a99e-7bcba164977c")
 	)
 	(label "SD_SWITCH_DISABLE"
 		(at 228.6 130.81 180)
@@ -2792,15 +2910,55 @@
 		)
 		(uuid "b120b677-05df-4e62-97e8-dd1695b9b113")
 	)
-	(label "MODEM_BOOT_MODE"
-		(at 228.6 123.19 180)
+	(label "PCIE_nRST"
+		(at 264.16 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b6c48179-501b-4552-8ab8-b4f59650f3f4")
+	)
+	(label "USB3-1-TX_P"
+		(at 267.97 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c69665b3-c4d9-417e-8dcb-bd32fc6241be")
+	)
+	(label "PCIE_CLK_N"
+		(at 264.16 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca61e9dc-54cc-4f45-b32e-19490feca97d")
+	)
+	(label "USB3-1-RX_P"
+		(at 267.97 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cb5e4354-d8ba-4a05-b219-ca276da58eb7")
+	)
+	(label "PCIE_CLK_P"
+		(at 219.71 21.59 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "c15b993a-e158-4fac-95c4-c82c05aaa829")
+		(uuid "cba5f997-c9a7-4740-a55f-89c65adf322f")
 	)
 	(label "USB3-0-D_N"
 		(at 153.67 160.02 0)
@@ -2832,6 +2990,16 @@
 		)
 		(uuid "d47d75c8-e13b-479e-9483-61bf64b1d830")
 	)
+	(label "USB3-1-RX_P"
+		(at 264.16 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d91515f0-e559-4518-9d77-44a4b0e4e9e9")
+	)
 	(label "VBUS_EN"
 		(at 228.6 95.25 180)
 		(effects
@@ -2841,16 +3009,6 @@
 			(justify right bottom)
 		)
 		(uuid "db9d3cb2-f0f6-478c-98d4-bfa37c2359b5")
-	)
-	(label "1DIR"
-		(at 24.13 173.99 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "de44eb9f-3e88-4110-84a2-d2bd8c13f694")
 	)
 	(label "SD5"
 		(at 228.6 151.13 180)
@@ -2862,6 +3020,16 @@
 		)
 		(uuid "df2168ad-402e-41b2-9ed9-56a7f94a5bac")
 	)
+	(label "PCIE_RX_P"
+		(at 219.71 36.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "eb05c854-6c5c-4e01-b741-04dd88c4ce6d")
+	)
 	(label "CC1"
 		(at 228.6 99.06 180)
 		(effects
@@ -2871,6 +3039,16 @@
 			(justify right bottom)
 		)
 		(uuid "eebe4da7-4fea-42b5-95e8-d0b91456b9db")
+	)
+	(label "PCIE_RX_N"
+		(at 264.16 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ef29c172-170d-4429-9349-6a3a64a9933a")
 	)
 	(label "SD2"
 		(at 26.67 158.75 90)
@@ -2893,7 +3071,7 @@
 		(uuid "f1a9d619-9685-4f0c-8098-a92bbbcfb0ae")
 	)
 	(label "USB3-1-D_N"
-		(at 264.16 113.03 0)
+		(at 264.16 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2902,8 +3080,18 @@
 		)
 		(uuid "f1bb45c5-ef9b-4b78-a429-b9025b1d3b9b")
 	)
+	(label "PCIE_TX_P"
+		(at 219.71 31.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f3bc59e9-993a-4ebf-bccd-9d4c99a03b37")
+	)
 	(label "USB2_N"
-		(at 264.16 100.33 0)
+		(at 264.16 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2922,6 +3110,26 @@
 		)
 		(uuid "f703d3ec-904d-4cda-a4f1-2d9e563ad1c5")
 	)
+	(label "PCIE_PWR_EN"
+		(at 219.71 29.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f7c1e16d-d728-44e2-9f92-91ccf820ff4a")
+	)
+	(label "PCIE_nWAKE"
+		(at 264.16 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "faddcaf9-a4ad-41ed-a794-5dc980b1372e")
+	)
 	(label "BMS-RX"
 		(at 27.94 93.98 0)
 		(effects
@@ -2931,6 +3139,16 @@
 			(justify left bottom)
 		)
 		(uuid "fefb417e-0da7-400e-a83b-b0f4396d8c2d")
+	)
+	(label "PCIE_TX_N"
+		(at 264.16 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ff0f7c44-f24b-4972-b413-ae7a641350c0")
 	)
 	(global_label "+5V"
 		(shape input)
@@ -3041,105 +3259,6 @@
 				(hide yes)
 			)
 		)
-	)
-	(hierarchical_label "PCIE_PWR_EN"
-		(shape output)
-		(at 227.33 158.75 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1c5060c1-7f36-4513-b070-0ea2ba0f03f4")
-	)
-	(hierarchical_label "PCIE_nWAKE"
-		(shape input)
-		(at 203.2 99.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3ff03cdb-e4a5-4cb4-bc96-3fa4ad3501c1")
-	)
-	(hierarchical_label "PCIE_CLK_N"
-		(shape output)
-		(at 203.2 109.22 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "467a8fa5-a1a7-421f-aa9e-c0ee42570fd8")
-	)
-	(hierarchical_label "PCIE_nRST"
-		(shape output)
-		(at 191.77 128.27 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6786ebfe-2ab5-45b7-b30f-73a8fd688caa")
-	)
-	(hierarchical_label "PCIE_TX_P"
-		(shape output)
-		(at 203.2 121.92 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6bd886b1-2fcc-4b5d-ad01-0af90d3be1b8")
-	)
-	(hierarchical_label "PCIE_TX_N"
-		(shape output)
-		(at 203.2 124.46 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6ce94670-6993-4275-8fb0-6164f6d8e8cd")
-	)
-	(hierarchical_label "PCIE_RX_P"
-		(shape input)
-		(at 203.2 114.3 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9fd321b7-91b0-44d8-9ab9-0cf2df6f11e3")
-	)
-	(hierarchical_label "PCIE_RX_N"
-		(shape input)
-		(at 203.2 116.84 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c9dc9668-4fd1-44ca-887f-e613e9ce060b")
-	)
-	(hierarchical_label "PCIE_CLK_P"
-		(shape output)
-		(at 203.2 106.68 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e2d25b8c-1b36-4c0f-92e5-23e4f3ea2bb7")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -4529,7 +4648,7 @@
 			)
 		)
 		(pin "PCIE_CLK_N" input
-			(at 219.71 21.59 180)
+			(at 219.71 24.13 180)
 			(uuid "55da974f-9a50-43f1-91cf-77e16b3f45c1")
 			(effects
 				(font
@@ -4539,7 +4658,7 @@
 			)
 		)
 		(pin "PCIE_nCLKREQ" output
-			(at 219.71 26.67 180)
+			(at 219.71 44.45 180)
 			(uuid "bf1d2093-841c-4a93-98c5-d66b7cac4a57")
 			(effects
 				(font
@@ -4549,7 +4668,7 @@
 			)
 		)
 		(pin "PCIE_nWAKE" output
-			(at 219.71 31.75 180)
+			(at 219.71 41.91 180)
 			(uuid "b279ca86-01ff-4fcc-a5e7-4bc221681e92")
 			(effects
 				(font
@@ -4569,7 +4688,7 @@
 			)
 		)
 		(pin "PCIE_TX_N" input
-			(at 219.71 44.45 180)
+			(at 219.71 34.29 180)
 			(uuid "68536e5c-f868-4cda-b823-705ce27335fd")
 			(effects
 				(font
@@ -4599,7 +4718,7 @@
 			)
 		)
 		(pin "PCIE_CLK_P" input
-			(at 219.71 24.13 180)
+			(at 219.71 21.59 180)
 			(uuid "e8a1024b-a9eb-4549-9592-5f6cc36dded9")
 			(effects
 				(font
@@ -4609,7 +4728,7 @@
 			)
 		)
 		(pin "PCIE_nRST" input
-			(at 219.71 29.21 180)
+			(at 219.71 26.67 180)
 			(uuid "2077c993-d423-44e4-8cd8-359dc054901f")
 			(effects
 				(font
@@ -4619,7 +4738,7 @@
 			)
 		)
 		(pin "PCIE_PWR_EN" input
-			(at 219.71 34.29 180)
+			(at 219.71 29.21 180)
 			(uuid "8035d65d-7a03-4b77-870b-31b65ee1edb4")
 			(effects
 				(font
@@ -4639,7 +4758,7 @@
 			)
 		)
 		(pin "PCIE_TX_P" input
-			(at 219.71 41.91 180)
+			(at 219.71 31.75 180)
 			(uuid "368ebf28-7890-424f-a0ee-a09f9dff984a")
 			(effects
 				(font
@@ -4649,8 +4768,18 @@
 			)
 		)
 		(pin "WAKE_ON_WAN" output
-			(at 219.71 49.53 180)
+			(at 219.71 52.07 180)
 			(uuid "ee99c4cb-7885-4cff-93fa-56142e89c4fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MODEM_RESET_N" input
+			(at 219.71 49.53 180)
+			(uuid "78908b79-c701-4258-8cf5-8d5215a51085")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4825,7 +4954,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -4835,7 +4963,7 @@
 		)
 		(uuid "6c55ccce-577d-49c2-8294-3a5d8e11981e")
 		(property "Sheetname" "sd-interface"
-			(at 24.13 158.0384 0)
+			(at 61.722 157.988 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5012,26 +5140,6 @@
 				(justify right)
 			)
 		)
-		(pin "1DIR" input
-			(at 24.13 173.99 180)
-			(uuid "6f9f71ab-da59-4bae-8a4c-674429ec2a76")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "2DIR" input
-			(at 24.13 177.8 180)
-			(uuid "6d3466f6-0ba2-48ab-b204-b219fc1e9051")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d"
@@ -5075,7 +5183,7 @@
 			)
 		)
 		(pin "USB2_N" bidirectional
-			(at 264.16 100.33 0)
+			(at 264.16 96.52 0)
 			(uuid "f573706f-9f1e-4578-88ef-090ee4ed3924")
 			(effects
 				(font
@@ -5085,7 +5193,7 @@
 			)
 		)
 		(pin "USB2_P" bidirectional
-			(at 264.16 97.79 0)
+			(at 264.16 93.98 0)
 			(uuid "bff244fa-ebd8-41c3-ae78-6d4e9ad513ab")
 			(effects
 				(font
@@ -5215,7 +5323,7 @@
 			)
 		)
 		(pin "USB3-0-D_N" bidirectional
-			(at 264.16 106.68 0)
+			(at 264.16 101.6 0)
 			(uuid "06df5afa-7391-495e-9858-b19207386a29")
 			(effects
 				(font
@@ -5225,7 +5333,7 @@
 			)
 		)
 		(pin "USB3-0-D_P" bidirectional
-			(at 264.16 104.14 0)
+			(at 264.16 99.06 0)
 			(uuid "eeda73f2-a86d-4f44-9745-5e60e1faf684")
 			(effects
 				(font
@@ -5235,7 +5343,7 @@
 			)
 		)
 		(pin "USB3-1-D_N" bidirectional
-			(at 264.16 113.03 0)
+			(at 264.16 118.11 0)
 			(uuid "4e94c09d-d3fe-471a-9192-26d4800feb97")
 			(effects
 				(font
@@ -5245,7 +5353,7 @@
 			)
 		)
 		(pin "USB3-1-D_P" bidirectional
-			(at 264.16 110.49 0)
+			(at 264.16 115.57 0)
 			(uuid "65f566b9-6ff3-4bc1-99f0-53fdebf4c200")
 			(effects
 				(font
@@ -5365,7 +5473,7 @@
 			)
 		)
 		(pin "USB3-0-RX_N" input
-			(at 264.16 116.84 0)
+			(at 264.16 106.68 0)
 			(uuid "88f21ae6-8a21-4044-b41d-09f45285b555")
 			(effects
 				(font
@@ -5375,7 +5483,7 @@
 			)
 		)
 		(pin "USB3-0-RX_P" input
-			(at 264.16 119.38 0)
+			(at 264.16 104.14 0)
 			(uuid "30b34504-9416-4aeb-9edd-976ed4bafa68")
 			(effects
 				(font
@@ -5385,7 +5493,7 @@
 			)
 		)
 		(pin "USB3-0-TX_N" output
-			(at 264.16 123.19 0)
+			(at 264.16 111.76 0)
 			(uuid "4f04d16d-0bd8-43f5-a04c-9d69a090de3f")
 			(effects
 				(font
@@ -5395,7 +5503,7 @@
 			)
 		)
 		(pin "USB3-0-TX_P" output
-			(at 264.16 125.73 0)
+			(at 264.16 109.22 0)
 			(uuid "189cec4b-abcc-4b6a-ac71-473b8b95f696")
 			(effects
 				(font
@@ -5405,7 +5513,7 @@
 			)
 		)
 		(pin "USB3-1-RX_N" input
-			(at 264.16 129.54 0)
+			(at 264.16 123.19 0)
 			(uuid "7328bb2a-8dde-4e7b-b638-eeca67ad05b4")
 			(effects
 				(font
@@ -5415,7 +5523,7 @@
 			)
 		)
 		(pin "USB3-1-RX_P" input
-			(at 264.16 132.08 0)
+			(at 264.16 120.65 0)
 			(uuid "b1245a2b-67bc-4709-a140-b8c84733dd57")
 			(effects
 				(font
@@ -5425,7 +5533,7 @@
 			)
 		)
 		(pin "USB3-1-TX_N" input
-			(at 264.16 135.89 0)
+			(at 264.16 128.27 0)
 			(uuid "4c1447fa-94d8-45be-83e1-7f48d1d1e63a")
 			(effects
 				(font
@@ -5435,8 +5543,108 @@
 			)
 		)
 		(pin "USB3-1-TX_P" input
-			(at 264.16 138.43 0)
+			(at 264.16 125.73 0)
 			(uuid "6b9958fc-3ebc-444c-9e62-1ede7c7e5896")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIE_CLK_N" output
+			(at 264.16 134.62 0)
+			(uuid "150fe4dd-4c9f-4833-b374-cc5f4a288a58")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIE_CLK_P" output
+			(at 264.16 132.08 0)
+			(uuid "eed141f1-7e19-4aeb-8542-11a5361f5778")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIE_nCLKREQ" input
+			(at 264.16 154.94 0)
+			(uuid "669334ed-4a82-4a5e-aeca-9b90df204ad2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIE_nRST" output
+			(at 264.16 137.16 0)
+			(uuid "9da83efc-cf67-4ed5-ab05-9d3ffea5d111")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIE_nWAKE" input
+			(at 264.16 152.4 0)
+			(uuid "a030d5f9-a31d-4d60-8815-43b346b162ec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIE_PWR_EN" output
+			(at 264.16 139.7 0)
+			(uuid "f7be3c56-3ab3-405d-8bda-718e4470a046")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIE_RX_N" input
+			(at 264.16 149.86 0)
+			(uuid "0c7af0ac-a510-4494-a044-6d4ee6c65e44")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIE_RX_P" input
+			(at 264.16 147.32 0)
+			(uuid "1aaff215-1bd7-45ff-a35d-36900f17acdb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIE_TX_N" output
+			(at 264.16 144.78 0)
+			(uuid "ed762a93-77ac-4c4a-aa9a-5fed6b048c72")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIE_TX_P" output
+			(at 264.16 142.24 0)
+			(uuid "baa7bc1c-855d-492a-bafc-71e65f49e68a")
 			(effects
 				(font
 					(size 1.27 1.27)

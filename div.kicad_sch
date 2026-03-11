@@ -3645,7 +3645,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c806b0c-1e69-404f-a68c-332e394fc246")
-		(property "Reference" "MP2"
+		(property "Reference" "MP4"
 			(at 238.76 43.1799 0)
 			(effects
 				(font
@@ -3857,7 +3857,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/e12a1f06-e701-4393-a8dc-cf8951bd0212"
-					(reference "MP2")
+					(reference "MP4")
 					(unit 1)
 				)
 			)
@@ -3873,7 +3873,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ad2d290-8f43-474c-a5be-c068642a8933")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR059"
 			(at 223.52 73.66 0)
 			(effects
 				(font
@@ -3923,7 +3923,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/e12a1f06-e701-4393-a8dc-cf8951bd0212"
-					(reference "#PWR076")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -3939,7 +3939,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58bfee08-6391-4252-aa11-b1f0b6f31b3b")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR057"
 			(at 223.52 43.18 0)
 			(effects
 				(font
@@ -3989,7 +3989,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/e12a1f06-e701-4393-a8dc-cf8951bd0212"
-					(reference "#PWR074")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -4005,7 +4005,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "854cfd26-caf9-492b-b080-0cac52082e07")
-		(property "Reference" "MP1"
+		(property "Reference" "MP3"
 			(at 238.76 34.2899 0)
 			(effects
 				(font
@@ -4217,7 +4217,7 @@
 		(instances
 			(project ""
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/e12a1f06-e701-4393-a8dc-cf8951bd0212"
-					(reference "MP1")
+					(reference "MP3")
 					(unit 1)
 				)
 			)
@@ -4233,7 +4233,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85d69c17-be56-444e-9c35-9d5288a25f79")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR058"
 			(at 223.52 63.5 0)
 			(effects
 				(font
@@ -4283,7 +4283,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/e12a1f06-e701-4393-a8dc-cf8951bd0212"
-					(reference "#PWR075")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -4752,7 +4752,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e414109-06ed-48bb-9558-b2af68b399e1")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR060"
 			(at 224.79 53.34 0)
 			(effects
 				(font
@@ -4802,7 +4802,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/e12a1f06-e701-4393-a8dc-cf8951bd0212"
-					(reference "#PWR077")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -4818,7 +4818,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1b1441f-deb1-4c03-8771-48ba371c67a0")
-		(property "Reference" "MP3"
+		(property "Reference" "MP5"
 			(at 238.76 53.3399 0)
 			(effects
 				(font
@@ -5030,7 +5030,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/e12a1f06-e701-4393-a8dc-cf8951bd0212"
-					(reference "MP3")
+					(reference "MP5")
 					(unit 1)
 				)
 			)
@@ -5046,7 +5046,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f74f7586-6df2-4cb2-8bb5-20c5379365a1")
-		(property "Reference" "MP4"
+		(property "Reference" "MP6"
 			(at 238.76 62.2299 0)
 			(effects
 				(font
@@ -5258,7 +5258,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/e12a1f06-e701-4393-a8dc-cf8951bd0212"
-					(reference "MP4")
+					(reference "MP6")
 					(unit 1)
 				)
 			)
