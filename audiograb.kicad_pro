@@ -660,6 +660,10 @@
     [
       "e12a1f06-e701-4393-a8dc-cf8951bd0212",
       "div"
+    ],
+    [
+      "c5e1d547-91ce-4e5a-a3a6-dc1f5ae9c9dc",
+      "power-supply"
     ]
   ],
   "text_variables": {}
