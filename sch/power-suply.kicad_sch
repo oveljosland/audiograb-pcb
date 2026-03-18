@@ -293,6 +293,241 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "50ZLH100MEFC8X11_5:50ZLH100MEFC8X11.5"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "50ZLH100MEFC8X11.5"
+				(at 8.89 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "CAPPRD350W60D825H1350"
+				(at 8.89 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/50ZLH100MEFC8X11.5.pdf"
+				(at 8.89 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Rubycon 100uF 50 V dc Aluminium Electrolytic Capacitor, ZLH Series 8000h 8 Dia. x 11.5mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "13.5"
+				(at 8.89 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Rubycon"
+				(at 8.89 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "50ZLH100MEFC8X11.5"
+				(at 8.89 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "232-50ZLH100MEFC8X15"
+				(at 8.89 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Rubycon/50ZLH100MEFC8X11.5?qs=T3oQrply3y9LrKRTnEwlpw%3D%3D"
+				(at 8.89 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "50ZLH100MEFC8X11.5"
+				(at 8.89 -896.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/50zlh100mefc8x11.5/rubycon"
+				(at 8.89 -996.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "50ZLH100MEFC8X11.5_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.064 1.778) (xy 4.064 0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.572 1.27) (xy 3.556 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 2.54)
+					(end 5.842 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 7.62 -2.54) (xy 6.858 -2.54) (xy 6.858 2.54) (xy 7.62 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 10.16 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "691137710002:691137710002"
 			(pin_names
 				(offset 1.016)
@@ -2114,19 +2349,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Feil footprint\nmangler delenummer"
-		(exclude_from_sim no)
-		(at 216.154 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-				(color 255 7 23 1)
-			)
-		)
-		(uuid "123bedd2-a9cc-4136-9f29-87cccf473603")
-	)
 	(junction
 		(at 128.27 26.67)
 		(diameter 0)
@@ -2170,6 +2392,12 @@
 		(uuid "24b010eb-ba72-43a3-89a1-b730595989b7")
 	)
 	(junction
+		(at 116.84 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "276a18d9-5040-42b8-ac82-f69d5171b4e9")
+	)
+	(junction
 		(at 229.87 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2206,12 +2434,6 @@
 		(uuid "3ff777c6-b8d8-4fd0-9fe1-a8e5b8a4b2d1")
 	)
 	(junction
-		(at 92.71 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "48741f8f-70a3-499b-acec-611a389a6515")
-	)
-	(junction
 		(at 199.39 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2224,6 +2446,12 @@
 		(uuid "4a0fc3f8-42e5-4ea9-bf2f-781529928e6e")
 	)
 	(junction
+		(at 105.41 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "502e4e4e-7943-4fe8-bfc8-5435b091da3a")
+	)
+	(junction
 		(at 241.3 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2234,6 +2462,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "562aba15-31cd-4adc-9b27-9ac83939b0fa")
+	)
+	(junction
+		(at 104.14 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "575845b2-622b-4069-8d36-4d6f60df48f2")
+	)
+	(junction
+		(at 113.03 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57706595-e723-41f0-9bc0-b26d9aa0e553")
 	)
 	(junction
 		(at 73.66 31.75)
@@ -2314,16 +2554,22 @@
 		(uuid "abd76135-721b-4ef3-aebb-7fccfff426a4")
 	)
 	(junction
+		(at 93.98 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7cebfb5-0034-468b-8589-e0fea0664db9")
+	)
+	(junction
 		(at 73.66 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bb11c7bf-e754-4af6-b621-ce76b57d07c2")
 	)
 	(junction
-		(at 105.41 26.67)
+		(at 116.84 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d5e270cf-5709-4911-b3f0-21b5cbf176ca")
+		(uuid "d0f24dc8-7010-4e03-8788-3637306141b3")
 	)
 	(junction
 		(at 254 31.75)
@@ -2338,10 +2584,10 @@
 		(uuid "db0cd5c6-1086-4818-90d6-eb7c288d2ae4")
 	)
 	(junction
-		(at 115.57 26.67)
+		(at 154.94 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ef1501c5-c117-40c0-a731-50bbbafd1ae2")
+		(uuid "e01b8159-f9ff-41d7-9860-a233ed941fa6")
 	)
 	(junction
 		(at 193.04 49.53)
@@ -2369,6 +2615,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 93.98) (xy 154.94 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03060b39-5dd8-4fe1-a9b9-96c8581ee7b0")
+	)
+	(wire
+		(pts
 			(xy 44.45 53.34) (xy 44.45 26.67)
 		)
 		(stroke
@@ -2386,6 +2642,16 @@
 			(type default)
 		)
 		(uuid "07c4326a-4519-4a7a-a9c3-169971d485f4")
+	)
+	(wire
+		(pts
+			(xy 116.84 26.67) (xy 128.27 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a428120-e49c-4ea5-a2f6-82231fd57355")
 	)
 	(wire
 		(pts
@@ -2429,16 +2695,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 26.67) (xy 116.84 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e14a09a-c1d7-4f1f-8860-0a630cd626ab")
-	)
-	(wire
-		(pts
 			(xy 44.45 53.34) (xy 45.72 53.34)
 		)
 		(stroke
@@ -2456,6 +2712,16 @@
 			(type default)
 		)
 		(uuid "0f8d806a-a046-4c1b-a9d4-ba4d760c58c8")
+	)
+	(wire
+		(pts
+			(xy 113.03 26.67) (xy 116.84 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11fa688e-fff9-46b8-9e8c-3acddeb39781")
 	)
 	(wire
 		(pts
@@ -2529,7 +2795,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 88.9) (xy 118.11 88.9)
+			(xy 104.14 88.9) (xy 106.68 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2556,6 +2822,26 @@
 			(type default)
 		)
 		(uuid "2ba45955-b30a-47f1-821f-452acc2acbf1")
+	)
+	(wire
+		(pts
+			(xy 104.14 26.67) (xy 105.41 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dfa427e-99ce-4b4a-ac02-4181bf62a5ef")
+	)
+	(wire
+		(pts
+			(xy 93.98 26.67) (xy 104.14 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "314b230d-4f23-4d7a-bf98-52acdfdfac71")
 	)
 	(wire
 		(pts
@@ -2649,6 +2935,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 26.67) (xy 113.03 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ef546fd-48a9-450b-9f4b-b92c690b5206")
+	)
+	(wire
+		(pts
 			(xy 193.04 24.13) (xy 193.04 26.67)
 		)
 		(stroke
@@ -2709,7 +3005,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 88.9) (xy 158.75 88.9)
+			(xy 142.24 88.9) (xy 154.94 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2929,16 +3225,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 26.67) (xy 105.41 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f0e0d07-d7d3-4194-a272-859f16d76150")
-	)
-	(wire
-		(pts
 			(xy 218.44 110.49) (xy 229.87 110.49)
 		)
 		(stroke
@@ -2979,16 +3265,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 26.67) (xy 115.57 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7ec7491-6bcf-49fb-a700-b72c68648616")
-	)
-	(wire
-		(pts
 			(xy 81.28 66.04) (xy 81.28 68.58)
 		)
 		(stroke
@@ -3009,7 +3285,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 88.9) (xy 115.57 26.67)
+			(xy 104.14 88.9) (xy 104.14 26.67)
 		)
 		(stroke
 			(width 0)
@@ -3049,6 +3325,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 88.9) (xy 158.75 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0e3ea52-9d15-4a27-9deb-3203f50dca1c")
+	)
+	(wire
+		(pts
 			(xy 48.26 26.67) (xy 48.26 29.21)
 		)
 		(stroke
@@ -3066,6 +3352,16 @@
 			(type default)
 		)
 		(uuid "d3858dbf-37fb-4174-8269-686725951a5c")
+	)
+	(wire
+		(pts
+			(xy 116.84 88.9) (xy 129.54 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d565fa60-17c7-461a-bbef-0fe046a8c063")
 	)
 	(wire
 		(pts
@@ -3089,7 +3385,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 26.67) (xy 92.71 26.67)
+			(xy 80.01 26.67) (xy 93.98 26.67)
 		)
 		(stroke
 			(width 0)
@@ -3149,16 +3445,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 26.67) (xy 128.27 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9dd9e30-0628-4b52-a130-41f363dd8685")
-	)
-	(wire
-		(pts
 			(xy 38.1 58.42) (xy 38.1 63.5)
 		)
 		(stroke
@@ -3179,7 +3465,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 88.9) (xy 129.54 88.9)
+			(xy 114.3 88.9) (xy 116.84 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3196,6 +3482,16 @@
 			(type default)
 		)
 		(uuid "f2a2264f-2d1b-46f9-8385-959fc4ef8a1b")
+	)
+	(wire
+		(pts
+			(xy 158.75 93.98) (xy 154.94 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4455f65-fc9e-44dd-9d08-8d62e1cc23ca")
 	)
 	(wire
 		(pts
@@ -3247,6 +3543,17 @@
 		)
 		(uuid "f94a4fa8-b2af-49e6-83a4-1edf0583b8a9")
 	)
+	(label "+12V"
+		(at 21.59 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left bottom)
+		)
+		(uuid "a098e404-677b-4642-adf4-cbf94e08f584")
+	)
 	(global_label "+3V5"
 		(shape output)
 		(at 275.59 93.98 0)
@@ -3291,17 +3598,6 @@
 			)
 		)
 	)
-	(hierarchical_label "3V5_EN"
-		(shape input)
-		(at 158.75 93.98 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "35fda33d-9ed9-431e-a8ae-29f24deb73b1")
-	)
 	(symbol
 		(lib_id "power:GND")
 		(at 218.44 120.65 0)
@@ -3312,7 +3608,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0409a3dc-cb78-4072-a040-186afe63c2df")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR0112"
 			(at 218.44 127 0)
 			(effects
 				(font
@@ -3362,7 +3658,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/c5e1d547-91ce-4e5a-a3a6-dc1f5ae9c9dc"
-					(reference "#PWR070")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -3378,7 +3674,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a4c54bd-2170-4165-8aa6-3333e1909c90")
-		(property "Reference" "U6"
+		(property "Reference" "U?"
 			(at 175.26 19.05 0)
 			(effects
 				(font
@@ -3594,7 +3890,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/c5e1d547-91ce-4e5a-a3a6-dc1f5ae9c9dc"
-					(reference "U6")
+					(reference "U?")
 					(unit 1)
 				)
 			)
@@ -3610,7 +3906,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b1556fe-e753-4ae3-b506-3006e47999f2")
-		(property "Reference" "J8"
+		(property "Reference" "J?"
 			(at 17.78 20.32 90)
 			(effects
 				(font
@@ -3753,7 +4049,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/c5e1d547-91ce-4e5a-a3a6-dc1f5ae9c9dc"
-					(reference "J8")
+					(reference "J?")
 					(unit 1)
 				)
 			)
@@ -3769,7 +4065,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e1455c1-5830-4d48-bb38-29fec655f5f1")
-		(property "Reference" "C28"
+		(property "Reference" "C?"
 			(at 233.68 43.1799 0)
 			(effects
 				(font
@@ -3832,7 +4128,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/c5e1d547-91ce-4e5a-a3a6-dc1f5ae9c9dc"
-					(reference "C28")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -3848,7 +4144,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1541d5f0-9279-4ad5-b7cd-fd97ea19c81f")
-		(property "Reference" "C35"
+		(property "Reference" "C?"
 			(at 269.24 96.5199 0)
 			(effects
 				(font
@@ -3911,7 +4207,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/c5e1d547-91ce-4e5a-a3a6-dc1f5ae9c9dc"
-					(reference "C35")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -3927,7 +4223,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16eeadb2-295f-412b-92ae-81c586253047")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR0114"
 			(at 21.59 44.45 0)
 			(effects
 				(font
@@ -3977,7 +4273,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/c5e1d547-91ce-4e5a-a3a6-dc1f5ae9c9dc"
-					(reference "#PWR053")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -3993,7 +4289,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ba78762-4e66-4082-a860-f618d1c69c46")
-		(property "Reference" "R13"
+		(property "Reference" "R?"
 			(at 157.48 104.1399 0)
 			(effects
 				(font
@@ -4056,7 +4352,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/c5e1d547-91ce-4e5a-a3a6-dc1f5ae9c9dc"
-					(reference "R13")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -4071,7 +4367,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "274c98e0-d2d2-44fa-9508-6170fd5026e1")
-		(property "Reference" "C29"
+		(property "Reference" "C?"
 			(at 41.91 52.324 90)
 			(effects
 				(font
@@ -4132,7 +4428,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/c5e1d547-91ce-4e5a-a3a6-dc1f5ae9c9dc"
-					(reference "C29")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -4148,7 +4444,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27fb706c-c989-416f-b59d-9769bfdeae5c")
-		(property "Reference" "R10"
+		(property "Reference" "R?"
 			(at 220.98 53.3399 0)
 			(effects
 				(font
@@ -4211,7 +4507,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/c5e1d547-91ce-4e5a-a3a6-dc1f5ae9c9dc"
-					(reference "R10")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -4227,7 +4523,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a0a675f-9a10-46c5-b2ef-b2733ab42e87")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR0105"
 			(at 81.28 74.93 0)
 			(effects
 				(font
@@ -4277,7 +4573,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/c5e1d547-91ce-4e5a-a3a6-dc1f5ae9c9dc"
-					(reference "#PWR062")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -4293,7 +4589,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c1a45a6-261c-4c30-a474-4ca003011d67")
-		(property "Reference" "U7"
+		(property "Reference" "U?"
 			(at 63.5 45.72 0)
 			(effects
 				(font
@@ -4478,7 +4774,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/c5e1d547-91ce-4e5a-a3a6-dc1f5ae9c9dc"
-					(reference "U7")
+					(reference "U?")
 					(unit 1)
 				)
 			)
@@ -4494,7 +4790,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31c9a567-37c6-4c5c-9f59-a0c79ab2b157")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR0120"
 			(at 129.54 102.87 0)
 			(effects
 				(font
@@ -4544,7 +4840,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/c5e1d547-91ce-4e5a-a3a6-dc1f5ae9c9dc"
-					(reference "#PWR063")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -4559,7 +4855,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "330e8b84-b064-48a9-bcaf-7b2f281e5476")
-		(property "Reference" "C31"
+		(property "Reference" "C?"
 			(at 133.35 91.4399 0)
 			(effects
 				(font
@@ -4622,7 +4918,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/c5e1d547-91ce-4e5a-a3a6-dc1f5ae9c9dc"
-					(reference "C31")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -4638,7 +4934,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3bfd761c-017b-4f85-b06a-39726c2ec00d")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR0110"
 			(at 265.43 107.95 0)
 			(effects
 				(font
@@ -4688,42 +4984,24 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/c5e1d547-91ce-4e5a-a3a6-dc1f5ae9c9dc"
-					(reference "#PWR067")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 92.71 30.48 0)
+		(lib_id "power:GND")
+		(at 116.84 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "45bf1afb-16f6-42bc-aa74-0fb50b2fc443")
-		(property "Reference" "C20"
-			(at 96.52 29.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100uF"
-			(at 96.52 31.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 93.6752 34.29 0)
+		(uuid "45fcace3-809e-4ac4-b938-4e218395855f")
+		(property "Reference" "#PWR017"
+			(at 116.84 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4731,8 +5009,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 92.71 30.48 0)
+		(property "Value" "GND"
+			(at 116.84 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4740,8 +5026,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 92.71 30.48 0)
+		(property "Datasheet" ""
+			(at 116.84 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4749,8 +5035,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C1210C107M4PACTU"
-			(at 92.71 30.48 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 116.84 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4759,15 +5045,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f7447eef-70e8-463d-b90f-5c6a327f65da")
-		)
-		(pin "2"
-			(uuid "9770a6e0-bd3c-4be3-9fff-e4d91b299017")
+			(uuid "dab84c3b-9c07-43c9-b0cd-92fe63790222")
 		)
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/c5e1d547-91ce-4e5a-a3a6-dc1f5ae9c9dc"
-					(reference "C20")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -4783,7 +5066,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49ca3457-aab8-45a1-aeb8-e0404ddafc0f")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR0109"
 			(at 254 107.95 0)
 			(effects
 				(font
@@ -4833,7 +5116,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/c5e1d547-91ce-4e5a-a3a6-dc1f5ae9c9dc"
-					(reference "#PWR066")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -4848,7 +5131,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "50f887ec-c6c2-4fe2-b23c-844082dc1d4f")
-		(property "Reference" "C19"
+		(property "Reference" "C?"
 			(at 83.82 29.2099 0)
 			(effects
 				(font
@@ -4911,7 +5194,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/c5e1d547-91ce-4e5a-a3a6-dc1f5ae9c9dc"
-					(reference "C19")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -4919,7 +5202,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 120.65 26.67 90)
+		(at 109.22 26.67 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4927,8 +5210,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52abc8fa-6e71-496c-bb6e-910cf36b93ef")
-		(property "Reference" "L1"
-			(at 120.65 21.59 90)
+		(property "Reference" "L?"
+			(at 109.22 21.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4936,7 +5219,7 @@
 			)
 		)
 		(property "Value" "1uH"
-			(at 120.65 24.13 90)
+			(at 109.22 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4944,7 +5227,7 @@
 			)
 		)
 		(property "Footprint" "LQM2HPN1R0MJHL:INDC2520X120N"
-			(at 120.65 26.67 0)
+			(at 109.22 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4953,7 +5236,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 26.67 0)
+			(at 109.22 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4962,7 +5245,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 120.65 26.67 0)
+			(at 109.22 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4971,7 +5254,7 @@
 			)
 		)
 		(property "MPN" "LQM2HPN1R0MJHL"
-			(at 120.65 26.67 90)
+			(at 109.22 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4988,7 +5271,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/c5e1d547-91ce-4e5a-a3a6-dc1f5ae9c9dc"
-					(reference "L1")
+					(reference "L?")
 					(unit 1)
 				)
 			)
@@ -5004,7 +5287,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57f25a60-6e45-4424-b341-068d15cee573")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR0104"
 			(at 241.3 45.72 0)
 			(effects
 				(font
@@ -5054,7 +5337,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/c5e1d547-91ce-4e5a-a3a6-dc1f5ae9c9dc"
-					(reference "#PWR056")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -5070,7 +5353,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b1811c8-ae95-47f3-a12c-7ab721f76e06")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR0118"
 			(at 142.24 102.87 0)
 			(effects
 				(font
@@ -5120,7 +5403,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/c5e1d547-91ce-4e5a-a3a6-dc1f5ae9c9dc"
-					(reference "#PWR064")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -5136,7 +5419,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c509a7c-963b-40d6-95d2-8f7cd3f41078")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR0122"
 			(at 128.27 40.64 0)
 			(effects
 				(font
@@ -5186,7 +5469,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/c5e1d547-91ce-4e5a-a3a6-dc1f5ae9c9dc"
-					(reference "#PWR051")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -5201,7 +5484,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5c9ed0ec-5d2b-49ee-b5d7-8ba9604774d9")
-		(property "Reference" "C33"
+		(property "Reference" "C?"
 			(at 245.11 96.5199 0)
 			(effects
 				(font
@@ -5264,7 +5547,149 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/c5e1d547-91ce-4e5a-a3a6-dc1f5ae9c9dc"
-					(reference "C33")
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "50ZLH100MEFC8X11_5:50ZLH100MEFC8X11.5")
+		(at 93.98 26.67 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "687f9f28-dc9c-4862-91ce-ee2cf612c24a")
+		(property "Reference" "C?"
+			(at 97.79 31.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uF"
+			(at 97.79 34.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CAPPRD350W60D825H1350"
+			(at -2.21 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/50ZLH100MEFC8X11.5.pdf"
+			(at -102.21 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Rubycon 100uF 50 V dc Aluminium Electrolytic Capacitor, ZLH Series 8000h 8 Dia. x 11.5mm"
+			(at 93.98 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "13.5"
+			(at -302.21 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Rubycon"
+			(at -402.21 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "50ZLH100MEFC8X11.5"
+			(at -502.21 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "232-50ZLH100MEFC8X15"
+			(at -602.21 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Rubycon/50ZLH100MEFC8X11.5?qs=T3oQrply3y9LrKRTnEwlpw%3D%3D"
+			(at -702.21 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "50ZLH100MEFC8X11.5"
+			(at -802.21 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/50zlh100mefc8x11.5/rubycon"
+			(at -902.21 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "654255ad-904a-49a0-a620-a6c873850bb1")
+		)
+		(pin "2"
+			(uuid "1573f59d-ca2b-4034-ad4f-3d42c1dbe6ee")
+		)
+		(instances
+			(project ""
+				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/c5e1d547-91ce-4e5a-a3a6-dc1f5ae9c9dc"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -5280,7 +5705,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a0a5843-03a7-4c9d-97d5-bdef0ed1dd19")
-		(property "Reference" "Q2"
+		(property "Reference" "Q?"
 			(at 60.96 16.51 0)
 			(effects
 				(font
@@ -5425,7 +5850,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/c5e1d547-91ce-4e5a-a3a6-dc1f5ae9c9dc"
-					(reference "Q2")
+					(reference "Q?")
 					(unit 1)
 				)
 			)
@@ -5441,7 +5866,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6af62148-fd4c-4d69-b0cb-c2c64bf36a89")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR0116"
 			(at 193.04 55.88 0)
 			(effects
 				(font
@@ -5491,7 +5916,152 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/c5e1d547-91ce-4e5a-a3a6-dc1f5ae9c9dc"
-					(reference "#PWR060")
+					(reference "#PWR0116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 116.84 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d1f9c98-747b-4430-a09c-f277ccf287b7")
+		(property "Reference" "#PWR048"
+			(at 116.84 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 116.84 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 116.84 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e253a762-1689-4b5d-9f22-2c5f1da5fd13")
+		)
+		(instances
+			(project "audiograb"
+				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/c5e1d547-91ce-4e5a-a3a6-dc1f5ae9c9dc"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 116.84 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "711f8347-8674-4120-b3cb-892b56e01c8e")
+		(property "Reference" "C?"
+			(at 120.65 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 120.65 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 117.8052 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 116.84 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C1210C106M4PACTU"
+			(at 116.84 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12649670-5a4d-41b0-93eb-794c6d224b7e")
+		)
+		(pin "2"
+			(uuid "72e93536-de16-410c-a8c3-d3a28a03c001")
+		)
+		(instances
+			(project "audiograb"
+				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/c5e1d547-91ce-4e5a-a3a6-dc1f5ae9c9dc"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -5507,7 +6077,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "727aa58c-54df-4cbf-9051-d360c2ce5e37")
-		(property "Reference" "L4"
+		(property "Reference" "L?"
 			(at 213.36 88.9 90)
 			(effects
 				(font
@@ -5523,7 +6093,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD_Wurth:L_Wurth_WE-LQSH-2512"
+		(property "Footprint" "SLF12575T-2R7N7R0-H:IND_SLF12575T-2R7N7R0-H"
 			(at 213.36 93.98 0)
 			(effects
 				(font
@@ -5559,6 +6129,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "SLF12575T-2R7N7R0-H"
+			(at 213.36 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ae68f102-f389-48dd-bd78-796325710f62")
 		)
@@ -5568,7 +6147,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/c5e1d547-91ce-4e5a-a3a6-dc1f5ae9c9dc"
-					(reference "L4")
+					(reference "L?")
 					(unit 1)
 				)
 			)
@@ -5583,7 +6162,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "73328011-5d28-4404-8ee4-a70c34938d4d")
-		(property "Reference" "C18"
+		(property "Reference" "C?"
 			(at 201.93 26.6699 0)
 			(effects
 				(font
@@ -5646,7 +6225,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/c5e1d547-91ce-4e5a-a3a6-dc1f5ae9c9dc"
-					(reference "C18")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -5662,7 +6241,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "753d94c8-bc78-4301-92e1-049e540f1ea0")
-		(property "Reference" "C24"
+		(property "Reference" "C?"
 			(at 31.75 30.4799 0)
 			(effects
 				(font
@@ -5725,7 +6304,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/c5e1d547-91ce-4e5a-a3a6-dc1f5ae9c9dc"
-					(reference "C24")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -5741,7 +6320,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7803544e-f905-4a62-bc07-9fcd635e0734")
-		(property "Reference" "C23"
+		(property "Reference" "C?"
 			(at 144.78 29.2099 0)
 			(effects
 				(font
@@ -5804,7 +6383,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/c5e1d547-91ce-4e5a-a3a6-dc1f5ae9c9dc"
-					(reference "C23")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -5820,7 +6399,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7df2e5b8-2bb0-4ddb-aa46-f279b8b9fca8")
-		(property "Reference" "R9"
+		(property "Reference" "R?"
 			(at 157.48 43.1799 0)
 			(effects
 				(font
@@ -5883,7 +6462,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/c5e1d547-91ce-4e5a-a3a6-dc1f5ae9c9dc"
-					(reference "R9")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -5898,7 +6477,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "81f1ae40-c069-4b65-958f-5bc9ed9ec157")
-		(property "Reference" "C22"
+		(property "Reference" "C?"
 			(at 132.08 29.2099 0)
 			(effects
 				(font
@@ -5961,7 +6540,86 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/c5e1d547-91ce-4e5a-a3a6-dc1f5ae9c9dc"
-					(reference "C22")
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 116.84 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83ad501e-6d0f-42c8-9e9b-4c094c483dc5")
+		(property "Reference" "C?"
+			(at 120.65 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 120.65 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 117.8052 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 116.84 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C1210C106M4PACTU"
+			(at 116.84 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a56ae4a4-50f3-4c71-b38d-8daacba8e580")
+		)
+		(pin "2"
+			(uuid "2fbb5b4c-f1aa-4034-a7b4-a18386ffdb48")
+		)
+		(instances
+			(project "audiograb"
+				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/c5e1d547-91ce-4e5a-a3a6-dc1f5ae9c9dc"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -5977,7 +6635,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "851b1861-7d0c-40b9-b79b-7e78a0224ef8")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR0103"
 			(at 218.44 64.77 0)
 			(effects
 				(font
@@ -6027,7 +6685,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/c5e1d547-91ce-4e5a-a3a6-dc1f5ae9c9dc"
-					(reference "#PWR061")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -6043,7 +6701,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8531a2a9-076d-4333-83f9-96601d73b265")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR0115"
 			(at 27.94 44.45 0)
 			(effects
 				(font
@@ -6093,7 +6751,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/c5e1d547-91ce-4e5a-a3a6-dc1f5ae9c9dc"
-					(reference "#PWR054")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -6108,7 +6766,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "89fad5ae-02cc-4540-863f-e69c1c406d06")
-		(property "Reference" "C25"
+		(property "Reference" "C?"
 			(at 245.11 34.2899 0)
 			(effects
 				(font
@@ -6171,7 +6829,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/c5e1d547-91ce-4e5a-a3a6-dc1f5ae9c9dc"
-					(reference "C25")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -6179,7 +6837,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 121.92 88.9 90)
+		(at 110.49 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6187,8 +6845,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d137cde-7f29-4ce2-a0b1-b15e8e79e184")
-		(property "Reference" "L3"
-			(at 121.92 83.82 90)
+		(property "Reference" "L?"
+			(at 110.49 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6196,7 +6854,7 @@
 			)
 		)
 		(property "Value" "1uH"
-			(at 121.92 86.36 90)
+			(at 110.49 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6204,7 +6862,7 @@
 			)
 		)
 		(property "Footprint" "LQM2HPN1R0MJHL:INDC2520X120N"
-			(at 121.92 88.9 0)
+			(at 110.49 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6213,7 +6871,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 88.9 0)
+			(at 110.49 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6222,7 +6880,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 121.92 88.9 0)
+			(at 110.49 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6231,7 +6889,7 @@
 			)
 		)
 		(property "MPN" "LQM2HPN1R0MJHL"
-			(at 121.92 88.9 90)
+			(at 110.49 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6248,7 +6906,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/c5e1d547-91ce-4e5a-a3a6-dc1f5ae9c9dc"
-					(reference "L3")
+					(reference "L?")
 					(unit 1)
 				)
 			)
@@ -6264,7 +6922,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d235505-238e-42fa-af66-2b9ce4669e2a")
-		(property "Reference" "R14"
+		(property "Reference" "R?"
 			(at 220.98 115.5699 0)
 			(effects
 				(font
@@ -6327,7 +6985,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/c5e1d547-91ce-4e5a-a3a6-dc1f5ae9c9dc"
-					(reference "R14")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -6343,7 +7001,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97add811-efeb-4efd-9b58-a90f7d6fc15d")
-		(property "Reference" "L2"
+		(property "Reference" "L?"
 			(at 212.09 26.67 90)
 			(effects
 				(font
@@ -6404,7 +7062,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/c5e1d547-91ce-4e5a-a3a6-dc1f5ae9c9dc"
-					(reference "L2")
+					(reference "L?")
 					(unit 1)
 				)
 			)
@@ -6420,7 +7078,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a12c01a9-7d74-414d-af25-26630113f7bd")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR0121"
 			(at 140.97 40.64 0)
 			(effects
 				(font
@@ -6470,7 +7128,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/c5e1d547-91ce-4e5a-a3a6-dc1f5ae9c9dc"
-					(reference "#PWR052")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -6486,7 +7144,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3d9b7ce-923f-44e1-9164-6382e3ba03a5")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR0113"
 			(at 39.37 44.45 0)
 			(effects
 				(font
@@ -6536,7 +7194,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/c5e1d547-91ce-4e5a-a3a6-dc1f5ae9c9dc"
-					(reference "#PWR055")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -6552,7 +7210,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6d25db5-6d0d-4d9e-b190-3e9fbb0095eb")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR0101"
 			(at 254 45.72 0)
 			(effects
 				(font
@@ -6602,7 +7260,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/c5e1d547-91ce-4e5a-a3a6-dc1f5ae9c9dc"
-					(reference "#PWR057")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -6618,7 +7276,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac4cead0-1b1f-40c7-b62e-353fa5bcbc1d")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR0102"
 			(at 265.43 45.72 0)
 			(effects
 				(font
@@ -6668,7 +7326,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/c5e1d547-91ce-4e5a-a3a6-dc1f5ae9c9dc"
-					(reference "#PWR058")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -6684,7 +7342,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc614b1f-c767-4541-802b-0d63cbbd2415")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR0111"
 			(at 241.3 107.95 0)
 			(effects
 				(font
@@ -6734,7 +7392,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/c5e1d547-91ce-4e5a-a3a6-dc1f5ae9c9dc"
-					(reference "#PWR065")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -6742,73 +7400,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 105.41 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bf6b7e05-1ae6-487e-960d-577acf4f41af")
-		(property "Reference" "#PWR050"
-			(at 105.41 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 105.41 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 105.41 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 105.41 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f775f6db-414d-4fd4-ae90-3b163584e51e")
-		)
-		(instances
-			(project "audiograb"
-				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/c5e1d547-91ce-4e5a-a3a6-dc1f5ae9c9dc"
-					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 92.71 34.29 0)
+		(at 93.98 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6816,8 +7408,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2494926-be9a-4c7d-8cea-4a3d8ec71e3f")
-		(property "Reference" "#PWR049"
-			(at 92.71 40.64 0)
+		(property "Reference" "#PWR0107"
+			(at 93.98 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6826,7 +7418,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 92.71 39.37 0)
+			(at 93.98 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6834,7 +7426,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 34.29 0)
+			(at 93.98 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6843,7 +7435,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 34.29 0)
+			(at 93.98 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6852,7 +7444,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 92.71 34.29 0)
+			(at 93.98 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6866,7 +7458,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/c5e1d547-91ce-4e5a-a3a6-dc1f5ae9c9dc"
-					(reference "#PWR049")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -6882,7 +7474,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c2e546de-ed40-458c-a149-517aa44c65fd")
-		(property "Reference" "R8"
+		(property "Reference" "R?"
 			(at 233.426 34.544 0)
 			(effects
 				(font
@@ -6943,7 +7535,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/c5e1d547-91ce-4e5a-a3a6-dc1f5ae9c9dc"
-					(reference "R8")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -6959,7 +7551,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4112cd3-2745-4561-957a-0b8327c726d9")
-		(property "Reference" "C26"
+		(property "Reference" "C?"
 			(at 257.81 34.2899 0)
 			(effects
 				(font
@@ -7022,7 +7614,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/c5e1d547-91ce-4e5a-a3a6-dc1f5ae9c9dc"
-					(reference "C26")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -7038,7 +7630,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce5f7d61-c7e5-4cee-bd63-79167a2bdf17")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR0117"
 			(at 154.94 54.61 0)
 			(effects
 				(font
@@ -7088,7 +7680,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/c5e1d547-91ce-4e5a-a3a6-dc1f5ae9c9dc"
-					(reference "#PWR059")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -7104,7 +7696,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d0c40910-e5b8-4a77-8f6c-83259e2a1383")
-		(property "Reference" "R12"
+		(property "Reference" "R?"
 			(at 233.426 96.774 0)
 			(effects
 				(font
@@ -7165,86 +7757,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/c5e1d547-91ce-4e5a-a3a6-dc1f5ae9c9dc"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 105.41 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d223aef0-8f3e-4c54-8225-9e17dabc2302")
-		(property "Reference" "C21"
-			(at 109.22 29.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 109.22 31.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 106.3752 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 105.41 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 105.41 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C1210C106M4PACTU"
-			(at 105.41 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "30b3825a-4e4c-484c-8845-b7c753f9b324")
-		)
-		(pin "2"
-			(uuid "f6a07b09-3ef4-4085-b834-3203c8ae9d1a")
-		)
-		(instances
-			(project "audiograb"
-				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/c5e1d547-91ce-4e5a-a3a6-dc1f5ae9c9dc"
-					(reference "C21")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -7260,7 +7773,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d68c978d-b584-415b-ac04-173cd9f7be9d")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR0106"
 			(at 80.01 40.64 0)
 			(effects
 				(font
@@ -7310,7 +7823,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/c5e1d547-91ce-4e5a-a3a6-dc1f5ae9c9dc"
-					(reference "#PWR048")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -7326,7 +7839,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d89c7331-6710-43fb-8cbb-542247952d0a")
-		(property "Reference" "C36"
+		(property "Reference" "C?"
 			(at 233.68 105.4099 0)
 			(effects
 				(font
@@ -7389,7 +7902,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/c5e1d547-91ce-4e5a-a3a6-dc1f5ae9c9dc"
-					(reference "C36")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -7404,7 +7917,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "daa8ac42-6423-452f-a708-f33b570971c9")
-		(property "Reference" "C32"
+		(property "Reference" "C?"
 			(at 145.034 91.44 0)
 			(effects
 				(font
@@ -7467,7 +7980,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/c5e1d547-91ce-4e5a-a3a6-dc1f5ae9c9dc"
-					(reference "C32")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -7482,7 +7995,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dc0ef648-0a3b-48ff-893b-ac4378c58152")
-		(property "Reference" "C30"
+		(property "Reference" "C?"
 			(at 203.2 88.8999 0)
 			(effects
 				(font
@@ -7545,7 +8058,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/c5e1d547-91ce-4e5a-a3a6-dc1f5ae9c9dc"
-					(reference "C30")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -7561,7 +8074,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dca3f781-fa2c-4eaf-98ff-73592d850e55")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR0108"
 			(at 194.31 118.11 0)
 			(effects
 				(font
@@ -7611,7 +8124,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/c5e1d547-91ce-4e5a-a3a6-dc1f5ae9c9dc"
-					(reference "#PWR069")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -7626,7 +8139,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e400a219-eca2-47d4-a204-1b384591af1d")
-		(property "Reference" "D2"
+		(property "Reference" "D?"
 			(at 40.64 32.004 90)
 			(effects
 				(font
@@ -7811,7 +8324,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/c5e1d547-91ce-4e5a-a3a6-dc1f5ae9c9dc"
-					(reference "D2")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -7827,7 +8340,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4718d00-5ed5-47b3-afc5-dc5401d469a7")
-		(property "Reference" "U8"
+		(property "Reference" "U?"
 			(at 176.53 81.28 0)
 			(effects
 				(font
@@ -8043,7 +8556,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/c5e1d547-91ce-4e5a-a3a6-dc1f5ae9c9dc"
-					(reference "U8")
+					(reference "U?")
 					(unit 1)
 				)
 			)
@@ -8059,7 +8572,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e48577ce-15d8-4b4e-8ce4-b33c033d7988")
-		(property "Reference" "R11"
+		(property "Reference" "R?"
 			(at 220.98 96.5199 0)
 			(effects
 				(font
@@ -8122,7 +8635,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/c5e1d547-91ce-4e5a-a3a6-dc1f5ae9c9dc"
-					(reference "R11")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -8138,7 +8651,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed553180-dba4-4e71-9b4f-4f70fedca3c1")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR0119"
 			(at 154.94 115.57 0)
 			(effects
 				(font
@@ -8188,7 +8701,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/c5e1d547-91ce-4e5a-a3a6-dc1f5ae9c9dc"
-					(reference "#PWR068")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -8204,7 +8717,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eecd462a-057e-488d-9e1f-ef444a6ca4c9")
-		(property "Reference" "R7"
+		(property "Reference" "R?"
 			(at 220.98 34.2899 0)
 			(effects
 				(font
@@ -8267,7 +8780,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/c5e1d547-91ce-4e5a-a3a6-dc1f5ae9c9dc"
-					(reference "R7")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -8283,7 +8796,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb1da24b-0fc7-47d6-9306-141392bdba78")
-		(property "Reference" "C27"
+		(property "Reference" "C?"
 			(at 269.24 34.2899 0)
 			(effects
 				(font
@@ -8346,7 +8859,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/c5e1d547-91ce-4e5a-a3a6-dc1f5ae9c9dc"
-					(reference "C27")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -8362,7 +8875,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fda68895-d359-4d89-b22c-e7e9df0a8833")
-		(property "Reference" "C34"
+		(property "Reference" "C?"
 			(at 257.81 96.5199 0)
 			(effects
 				(font
@@ -8425,7 +8938,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/c5e1d547-91ce-4e5a-a3a6-dc1f5ae9c9dc"
-					(reference "C34")
+					(reference "C?")
 					(unit 1)
 				)
 			)

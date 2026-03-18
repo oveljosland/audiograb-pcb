@@ -5920,210 +5920,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Battery_Cell"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "BT"
-				(at 2.54 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Battery_Cell"
-				(at 2.54 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 1.524 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 1.524 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Single-cell battery"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Type" "DC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=+ 2=-"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "battery cell"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Battery_Cell_0_1"
-				(rectangle
-					(start -2.286 1.778)
-					(end 2.286 1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.524 1.016)
-					(end 1.524 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.778) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 3.048) (xy 1.778 3.048)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 3.556) (xy 1.27 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Battery_Cell_1_1"
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -6720,18 +6516,6 @@
 		)
 		(uuid 87852cbf-81d7-4e3d-9c5e-cdaf8a2cdd8b)
 	)
-	(rectangle
-		(start 19.05 170.18)
-		(end 39.37 190.5)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid a8629c7a-530f-4751-925d-bd7020df93b8)
-	)
 	(text "In use by eMMC"
 		(exclude_from_sim no)
 		(at 171.196 81.28 0)
@@ -6851,16 +6635,6 @@
 			)
 		)
 		(uuid "6b8b1685-ae77-4a86-a361-bf77e5e785e8")
-	)
-	(text "Coin Cell Battery"
-		(exclude_from_sim no)
-		(at 28.702 168.656 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "72612d01-5869-45b3-bde5-ed75996344b0")
 	)
 	(text "Power Button\n"
 		(exclude_from_sim no)
@@ -8114,6 +7888,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 119.38) (xy 96.52 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e824b76-4081-47fe-856a-76bcd6d90b68")
+	)
+	(wire
+		(pts
 			(xy 198.12 109.22) (xy 198.12 116.84)
 		)
 		(stroke
@@ -9344,6 +9128,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 118.11) (xy 93.98 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb5aee26-b908-4169-93c3-0df95bf1a756")
+	)
+	(wire
+		(pts
 			(xy 264.16 147.32) (xy 264.16 152.4)
 		)
 		(stroke
@@ -9354,7 +9148,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 119.38) (xy 96.52 119.38)
+			(xy 90.17 118.11) (xy 93.98 118.11)
 		)
 		(stroke
 			(width 0)
@@ -10172,16 +9966,6 @@
 		)
 		(uuid "5344f809-abc9-41f4-a6c4-6c43ba634319")
 	)
-	(label "VBAT"
-		(at 92.71 119.38 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5b5ff21e-7e87-4a0a-8496-b0f7016de841")
-	)
 	(label "PMIC_ENABLE"
 		(at 36.83 114.3 0)
 		(effects
@@ -10191,16 +9975,6 @@
 			(justify left bottom)
 		)
 		(uuid "5ba96872-4468-49a2-9b54-ce78183aff1d")
-	)
-	(label "VBAT"
-		(at 22.86 175.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6d79206a-8fa1-4cbf-85c7-fe0e78a3eb39")
 	)
 	(label "GPIO_VREF"
 		(at 29.21 71.12 180)
@@ -10471,6 +10245,28 @@
 		(uuid "96fda1ba-e239-4759-992b-0f8e59db3863")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 21.1448 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3V3_CM5"
+		(shape input)
+		(at 90.17 118.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dc3d948a-5a36-45a1-bac2-cd486eadaa07")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.1048 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12222,72 +12018,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 22.86 182.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0e35c54a-b89c-4e50-8fb0-2753b8d16992")
-		(property "Reference" "#PWR017"
-			(at 22.86 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 22.86 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 22.86 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 22.86 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 22.86 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "00ca1c8b-817a-44d2-a088-72bd8e8123db")
-		)
-		(instances
-			(project "audiograb"
-				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/980eb6bd-3c2d-40a6-a375-772dc2df4153"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 68.58 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12362,7 +12092,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1623aac3-0605-4af3-9096-24f2f8ae41e3")
-		(property "Reference" "C4"
+		(property "Reference" "C18"
 			(at 71.12 133.3562 0)
 			(effects
 				(font
@@ -12425,7 +12155,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/980eb6bd-3c2d-40a6-a375-772dc2df4153"
-					(reference "C4")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -12507,7 +12237,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "299db76a-59c0-42f1-bdd3-d5292b200a1e")
-		(property "Reference" "C3"
+		(property "Reference" "C17"
 			(at 168.91 125.7362 0)
 			(effects
 				(font
@@ -12570,7 +12300,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/980eb6bd-3c2d-40a6-a375-772dc2df4153"
-					(reference "C3")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -12793,7 +12523,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ff0ad34-08f7-4fb5-b0ab-901f1e203350")
-		(property "Reference" "J4"
+		(property "Reference" "J2"
 			(at 30.48 95.25 0)
 			(effects
 				(font
@@ -12890,7 +12620,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/980eb6bd-3c2d-40a6-a375-772dc2df4153"
-					(reference "J4")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -12972,7 +12702,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69e64440-de34-4729-aab3-2782a153e6bd")
-		(property "Reference" "D1"
+		(property "Reference" "D5"
 			(at 166.37 38.4174 90)
 			(effects
 				(font
@@ -13044,7 +12774,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/980eb6bd-3c2d-40a6-a375-772dc2df4153"
-					(reference "D1")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -13177,103 +12907,6 @@
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/980eb6bd-3c2d-40a6-a375-772dc2df4153"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Battery_Cell")
-		(at 22.86 180.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8f47c749-ee9d-4494-8fe1-02330b4544d5")
-		(property "Reference" "BT1"
-			(at 26.67 177.2284 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Battery_Cell"
-			(at 26.67 179.7684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Battery:BatteryHolder_Keystone_3034_1x20mm"
-			(at 22.86 178.816 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 22.86 178.816 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single-cell battery"
-			(at 22.86 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "V"
-			(at 22.86 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "DC"
-			(at 22.86 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=+ 2=-"
-			(at 22.86 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "45692e3f-2ec4-47df-9f83-4362ae9c3e2a")
-		)
-		(pin "2"
-			(uuid "53e02b37-f9be-4e43-9af6-35dbebb25d5b")
-		)
-		(instances
-			(project "audiograb"
-				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/980eb6bd-3c2d-40a6-a375-772dc2df4153"
-					(reference "BT1")
 					(unit 1)
 				)
 			)
@@ -14073,7 +13706,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bc534f87-d35f-441a-9290-e7bc6abca43e")
-		(property "Reference" "C5"
+		(property "Reference" "C19"
 			(at 71.882 138.43 0)
 			(effects
 				(font
@@ -14136,7 +13769,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/980eb6bd-3c2d-40a6-a375-772dc2df4153"
-					(reference "C5")
+					(reference "C19")
 					(unit 1)
 				)
 			)
