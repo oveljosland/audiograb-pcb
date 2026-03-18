@@ -6367,7 +6367,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "untitled.kicad_sch"
+		(property "Sheetfile" "sch/power-suply.kicad_sch"
 			(at 25.4 104.7246 0)
 			(effects
 				(font
