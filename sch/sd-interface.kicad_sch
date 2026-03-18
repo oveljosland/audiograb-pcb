@@ -819,145 +819,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -5822,6 +5683,26 @@
 		)
 		(uuid "c8617354-568d-4fc2-a1da-9d6812eacb38")
 	)
+	(text "Testpoints at CM"
+		(exclude_from_sim no)
+		(at 264.922 76.454 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d0e56cc9-9971-44de-83b1-d7c180077a29")
+	)
+	(text "Testpoints at buffer"
+		(exclude_from_sim no)
+		(at 228.6 76.454 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "efab6df4-d93e-4678-8290-bc3cd7d22ede")
+	)
 	(text "2: CD/DAT3 // CS"
 		(exclude_from_sim no)
 		(at 136.398 21.082 0)
@@ -5849,12 +5730,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "07092f5f-715b-49bc-a999-bc6e29e589ac")
-	)
-	(junction
-		(at 326.39 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "13abb1e3-dc0d-4e05-be0f-377d935e12e0")
 	)
 	(junction
 		(at 114.3 185.42)
@@ -6049,6 +5924,12 @@
 		(uuid "78a5095e-5ea3-4040-b9d8-f159590e5f3f")
 	)
 	(junction
+		(at 182.88 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ddb126a-89b8-494d-ab0e-42da7059e9da")
+	)
+	(junction
 		(at 270.51 213.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6089,12 +5970,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8d8a4c1a-3d37-4e56-b0bf-fe2b72e67aab")
-	)
-	(junction
-		(at 337.82 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "91324aa2-0bfa-4c9b-b8e3-bb5b7a548ebe")
 	)
 	(junction
 		(at 264.16 62.23)
@@ -6143,6 +6018,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b298a669-3bbc-4ca1-9c5f-28988932f752")
+	)
+	(junction
+		(at 175.26 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b386a4b3-77e1-4ff2-830d-488880f3077a")
 	)
 	(junction
 		(at 104.14 54.61)
@@ -6338,6 +6219,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 43.18) (xy 184.15 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a5cff1a-26af-4ae3-aa11-d6ba2b7634ac")
+	)
+	(wire
+		(pts
 			(xy 208.28 142.24) (xy 234.95 142.24)
 		)
 		(stroke
@@ -6508,7 +6399,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 73.66) (xy 218.44 54.61)
+			(xy 218.44 69.85) (xy 218.44 54.61)
 		)
 		(stroke
 			(width 0)
@@ -6588,7 +6479,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 73.66) (xy 234.95 62.23)
+			(xy 234.95 69.85) (xy 234.95 62.23)
 		)
 		(stroke
 			(width 0)
@@ -6838,23 +6729,13 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 73.66) (xy 242.57 66.04)
+			(xy 242.57 69.85) (xy 242.57 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4cb74352-2905-4073-a854-7a2391f937ba")
-	)
-	(wire
-		(pts
-			(xy 313.69 48.26) (xy 326.39 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d125457-3176-4192-b173-25a33c25e8f4")
 	)
 	(wire
 		(pts
@@ -6928,7 +6809,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 73.66) (xy 227.33 58.42)
+			(xy 227.33 69.85) (xy 227.33 58.42)
 		)
 		(stroke
 			(width 0)
@@ -6998,13 +6879,13 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 50.8) (xy 337.82 55.88)
+			(xy 182.88 50.8) (xy 182.88 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5a7c0025-cdc0-40fe-b9ca-08e25270f6cd")
+		(uuid "5ad76ac8-6fef-42f0-9d27-fc789d679219")
 	)
 	(wire
 		(pts
@@ -7118,6 +6999,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 43.18) (xy 175.26 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "647fea3c-293b-4537-afa6-32cba790e458")
+	)
+	(wire
+		(pts
 			(xy 68.58 163.83) (xy 68.58 229.87)
 		)
 		(stroke
@@ -7175,16 +7066,6 @@
 			(type default)
 		)
 		(uuid "6cc46424-dd65-4a4c-8bad-ab5d04b6884e")
-	)
-	(wire
-		(pts
-			(xy 326.39 55.88) (xy 337.82 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6cf6b626-b9da-41a0-8ac8-cb1f8397a849")
 	)
 	(wire
 		(pts
@@ -7535,16 +7416,6 @@
 			(type default)
 		)
 		(uuid "9201eeba-5821-43f8-8500-81eb92e153c6")
-	)
-	(wire
-		(pts
-			(xy 326.39 48.26) (xy 337.82 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "923d11a6-498d-41f1-82e5-e11301c141b7")
 	)
 	(wire
 		(pts
@@ -7968,6 +7839,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 50.8) (xy 182.88 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4cd8e56-e549-44e9-b55a-581980ec8e57")
+	)
+	(wire
+		(pts
 			(xy 255.27 154.94) (xy 255.27 170.18)
 		)
 		(stroke
@@ -8298,16 +8179,6 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 55.88) (xy 337.82 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d520a698-3786-4133-bfc7-212e6ecba50f")
-	)
-	(wire
-		(pts
 			(xy 99.06 190.5) (xy 130.81 190.5)
 		)
 		(stroke
@@ -8325,6 +8196,16 @@
 			(type default)
 		)
 		(uuid "da37c5c6-1a0b-4899-8cc0-4ddbd5d991f2")
+	)
+	(wire
+		(pts
+			(xy 182.88 46.99) (xy 184.15 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da5e0401-14f8-4355-bdf3-e63760cee8e0")
 	)
 	(wire
 		(pts
@@ -8628,7 +8509,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 43.18) (xy 184.15 43.18)
+			(xy 165.1 43.18) (xy 175.26 43.18)
 		)
 		(stroke
 			(width 0)
@@ -8776,7 +8657,7 @@
 		)
 		(uuid "bcace3d6-c622-44e5-91ea-76c6adc11b0f")
 	)
-	(global_label "+3V3"
+	(global_label "+3V3_CM5"
 		(shape input)
 		(at 146.05 153.67 0)
 		(fields_autoplaced yes)
@@ -8788,7 +8669,7 @@
 		)
 		(uuid "01f09a45-ad7e-4880-ad35-c5dfdf1a9c92")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.1152 153.67 0)
+			(at 159.0137 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8820,7 +8701,7 @@
 			)
 		)
 	)
-	(global_label "+3V3"
+	(global_label "+3V3_CM5"
 		(shape input)
 		(at 222.25 34.29 0)
 		(fields_autoplaced yes)
@@ -8832,7 +8713,7 @@
 		)
 		(uuid "2ccee583-64d8-4244-a080-ead8c166591c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 230.3152 34.29 0)
+			(at 235.2137 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8864,7 +8745,7 @@
 			)
 		)
 	)
-	(global_label "+3V3"
+	(global_label "+3V3_CM5"
 		(shape input)
 		(at 194.31 222.25 180)
 		(fields_autoplaced yes)
@@ -8876,7 +8757,7 @@
 		)
 		(uuid "7ebff1f3-343e-42cc-a6fe-c93cf099a143")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.2448 222.25 0)
+			(at 181.3463 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8886,7 +8767,7 @@
 			)
 		)
 	)
-	(global_label "+3V3"
+	(global_label "+3V3_CM5"
 		(shape input)
 		(at 252.73 154.94 180)
 		(fields_autoplaced yes)
@@ -8898,29 +8779,7 @@
 		)
 		(uuid "810b667a-83f4-49a4-8739-222609c2fd82")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 244.6648 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "+3V3"
-		(shape output)
-		(at 313.69 48.26 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ffced156-f61f-49b1-a09a-eb9dc215b85d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 305.6248 48.26 0)
+			(at 239.7663 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9073,17 +8932,6 @@
 		)
 		(uuid "c921bab9-b83c-40ed-afee-7842a86b36a9")
 	)
-	(hierarchical_label "1DIR"
-		(shape input)
-		(at 184.15 46.99 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "caabdd7e-9f20-4844-988d-5b9f724b89ce")
-	)
 	(hierarchical_label "R_En_switch"
 		(shape input)
 		(at 335.28 142.24 0)
@@ -9117,178 +8965,6 @@
 		)
 		(uuid "ea137060-8599-4f0d-a322-1aae46b83d6f")
 	)
-	(hierarchical_label "2DIR"
-		(shape input)
-		(at 184.15 50.8 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f2113bad-0ddb-4953-ac83-ffaf541fd975")
-	)
-	(symbol
-		(lib_id "691137710002:691137710002")
-		(at 342.9 50.8 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "012b0545-f32f-4398-9ac3-8601ca00d8b6")
-		(property "Reference" "J19"
-			(at 344.17 48.2599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3V3_in"
-			(at 344.17 50.7999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "691137710002:691137710002"
-			(at 342.9 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 342.9 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "3.3 V power in"
-			(at 342.9 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Würth Elektronik"
-			(at 342.9 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "2 Position Wire to Board Terminal Block Horizontal with Board 0.197 (5.00mm) Through Hole"
-			(at 342.9 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 342.9 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 342.9 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/691137710002/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=snap"
-			(at 342.9 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "691137710002"
-			(at 342.9 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=4793356&manufacturer=Würth Elektronik&part_name=691137710002&search_term=691137710002"
-			(at 342.9 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 342.9 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/691137710002/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda"
-			(at 342.9 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d5013f9c-827b-478b-bb2a-b262ac9a6e2a")
-		)
-		(pin "1"
-			(uuid "6efa9891-b7be-4581-abdb-f0d8ec03f538")
-		)
-		(instances
-			(project "audiograb"
-				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "J19")
-					(unit 1)
-				)
-			)
-		)
-	)
 	(symbol
 		(lib_id "Device:R")
 		(at 215.9 236.22 0)
@@ -9299,7 +8975,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01984340-3113-4099-9564-84d2f08dbf3d")
-		(property "Reference" "R16"
+		(property "Reference" "R5"
 			(at 218.44 234.9499 0)
 			(effects
 				(font
@@ -9362,7 +9038,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "R16")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -9377,7 +9053,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "02e5dbfa-d014-4eca-88ec-52315de91c1b")
-		(property "Reference" "CR2"
+		(property "Reference" "CR3"
 			(at 152.4 218.44 0)
 			(effects
 				(font
@@ -9457,7 +9133,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "CR2")
+					(reference "CR3")
 					(unit 1)
 				)
 			)
@@ -9473,7 +9149,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "059a309d-e854-41dc-8dcb-a246e073b413")
-		(property "Reference" "C10"
+		(property "Reference" "C6"
 			(at 167.64 44.4562 0)
 			(effects
 				(font
@@ -9536,7 +9212,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "C10")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -9552,7 +9228,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b5789e1-9ac7-47ba-b12f-305382efb558")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR027"
 			(at 128.27 187.96 0)
 			(effects
 				(font
@@ -9603,7 +9279,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "#PWR042")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -9619,7 +9295,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0bcf2fad-d2e3-4fbb-bdc4-05c795e3983a")
-		(property "Reference" "J17"
+		(property "Reference" "J6"
 			(at 355.6 215.8999 90)
 			(effects
 				(font
@@ -9764,7 +9440,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "J17")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -9851,16 +9527,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 218.44 73.66 180)
+		(at 218.44 69.85 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1392152d-cfa9-4ba4-a138-a2cfdf35afcb")
-		(property "Reference" "TP14"
-			(at 220.98 76.9619 0)
+		(property "Reference" "TP1"
+			(at 219.71 73.406 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9869,7 +9544,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 215.9 75.6921 0)
+			(at 215.9 71.8821 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9879,7 +9554,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded"
-			(at 213.36 73.66 0)
+			(at 213.36 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9888,7 +9563,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 213.36 73.66 0)
+			(at 213.36 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9897,7 +9572,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 218.44 73.66 0)
+			(at 218.44 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9911,73 +9586,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "TP14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 337.82 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "14a976a3-2eb1-4b29-a552-a9190ab39d24")
-		(property "Reference" "#PWR07"
-			(at 337.82 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 337.82 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 337.82 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 337.82 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 337.82 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "35d29633-2890-49dc-88d2-379332890077")
-		)
-		(instances
-			(project ""
-				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "#PWR07")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -9993,7 +9602,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18269bbe-8234-4074-9396-00acd199f371")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR031"
 			(at 318.77 237.49 0)
 			(effects
 				(font
@@ -10043,7 +9652,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "#PWR056")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -10059,7 +9668,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1941d7d9-24fa-4f87-8139-5dec4876f364")
-		(property "Reference" "TP13"
+		(property "Reference" "TP15"
 			(at 205.74 255.2699 90)
 			(effects
 				(font
@@ -10110,7 +9719,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "TP13")
+					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -10126,7 +9735,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2274dabd-da7d-4225-b05f-f9e1ae7c4f8f")
-		(property "Reference" "C14"
+		(property "Reference" "C10"
 			(at 273.05 224.7962 0)
 			(effects
 				(font
@@ -10189,7 +9798,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "C14")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -10205,7 +9814,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2419e793-9c06-4482-9b77-3f49fa273ffb")
-		(property "Reference" "C9"
+		(property "Reference" "C8"
 			(at 139.7 154.9462 0)
 			(effects
 				(font
@@ -10268,7 +9877,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "C9")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -10283,7 +9892,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "274aa4d1-c031-4afb-a6ff-fcfe53964dd4")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR019"
 			(at 210.82 54.61 0)
 			(effects
 				(font
@@ -10333,7 +9942,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "#PWR051")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -10349,7 +9958,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31c87c87-ef7c-4a40-b65a-d2a7a54a8d80")
-		(property "Reference" "J16"
+		(property "Reference" "J7"
 			(at 157.48 251.46 0)
 			(effects
 				(font
@@ -10545,7 +10154,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "J16")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -10561,7 +10170,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3751ae86-cacf-496a-b6b3-0a8fbfb16d57")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR032"
 			(at 128.27 232.41 0)
 			(effects
 				(font
@@ -10612,7 +10221,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "#PWR043")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -10628,7 +10237,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "427c746f-acf9-44c7-bb1c-38a6b82d9a6f")
-		(property "Reference" "U9"
+		(property "Reference" "U2"
 			(at 195.58 34.29 0)
 			(effects
 				(font
@@ -10731,7 +10340,7 @@
 		(instances
 			(project ""
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "U9")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -10747,7 +10356,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a3b597f-9fa5-4889-947a-1d586151d3bc")
-		(property "Reference" "U11"
+		(property "Reference" "U5"
 			(at 297.18 205.74 0)
 			(effects
 				(font
@@ -10902,7 +10511,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "U11")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -10917,7 +10526,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4f6af57d-ce1d-4396-9ef4-8a4bb6ac3e2a")
-		(property "Reference" "CR1"
+		(property "Reference" "CR2"
 			(at 152.4 173.99 0)
 			(effects
 				(font
@@ -10997,7 +10606,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "CR1")
+					(reference "CR2")
 					(unit 1)
 				)
 			)
@@ -11013,7 +10622,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "517c2ae9-f678-49c0-a3a8-e56f09410d18")
-		(property "Reference" "TP8"
+		(property "Reference" "TP10"
 			(at 72.898 161.29 90)
 			(effects
 				(font
@@ -11064,7 +10673,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "TP8")
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -11080,7 +10689,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53dfd55c-34bc-4441-b479-97954432f89d")
-		(property "Reference" "J15"
+		(property "Reference" "J5"
 			(at 87.63 16.51 90)
 			(effects
 				(font
@@ -11319,7 +10928,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "J15")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -11334,7 +10943,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "54c9f81d-75da-41dd-a54e-1e945c25c3d9")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR020"
 			(at 222.25 54.61 0)
 			(effects
 				(font
@@ -11384,7 +10993,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "#PWR052")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -11400,7 +11009,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c47c7ac-d8f8-4b37-a03d-98479533b673")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR030"
 			(at 270.51 234.95 0)
 			(effects
 				(font
@@ -11450,7 +11059,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "#PWR055")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -11466,7 +11075,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6db63c7a-37bf-4d6b-9899-cea459375cc9")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR033"
 			(at 179.07 232.41 0)
 			(effects
 				(font
@@ -11517,85 +11126,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 326.39 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "75adb751-3d6e-4b49-8903-435c5ec303a5")
-		(property "Reference" "C20"
-			(at 330.2 50.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 330.2 53.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 327.3552 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 326.39 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 326.39 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C0603C104K3RACTU"
-			(at 326.39 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b4b2ffcd-55e2-4045-bfc0-454850f0ecb8")
-		)
-		(pin "1"
-			(uuid "f904aa5a-d38f-4916-99c1-9b907da873ef")
-		)
-		(instances
-			(project "audiograb"
-				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "C20")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -11603,16 +11134,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 227.33 73.66 180)
+		(at 227.33 69.85 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "77ce79a7-6c33-478a-8795-846ed4609007")
-		(property "Reference" "TP15"
-			(at 229.87 76.9619 0)
+		(property "Reference" "TP2"
+			(at 228.6 73.406 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11621,7 +11151,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 224.79 75.6921 0)
+			(at 224.79 71.8821 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11631,7 +11161,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded"
-			(at 222.25 73.66 0)
+			(at 222.25 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11640,7 +11170,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 222.25 73.66 0)
+			(at 222.25 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11649,7 +11179,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 227.33 73.66 0)
+			(at 227.33 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11663,7 +11193,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "TP15")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -11679,7 +11209,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "811b82c7-893c-4028-a498-dcd7c6bdd63a")
-		(property "Reference" "TP19"
+		(property "Reference" "TP8"
 			(at 250.19 133.8579 0)
 			(effects
 				(font
@@ -11730,7 +11260,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "TP19")
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -11746,7 +11276,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8652a257-8239-45c4-b9b8-782e3a31ae75")
-		(property "Reference" "TP9"
+		(property "Reference" "TP11"
 			(at 88.138 161.29 90)
 			(effects
 				(font
@@ -11797,7 +11327,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "TP9")
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -11813,7 +11343,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86ac5681-0aaa-471b-9358-0b169e0016f8")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR028"
 			(at 179.07 187.96 0)
 			(effects
 				(font
@@ -11864,7 +11394,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "#PWR046")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -11952,7 +11482,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8cba61af-c01a-4751-b943-6950222b1b06")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR018"
 			(at 165.1 54.61 0)
 			(effects
 				(font
@@ -12002,7 +11532,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "#PWR045")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -12018,7 +11548,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f7d152e-2610-4b21-b294-b4f66dfea0a8")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR021"
 			(at 50.8 74.93 0)
 			(effects
 				(font
@@ -12068,7 +11598,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "#PWR040")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -12076,16 +11606,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 234.95 73.66 180)
+		(at 234.95 69.85 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "92cb72a9-f742-4fa0-ad54-7226b1c6d8dd")
-		(property "Reference" "TP16"
-			(at 237.49 76.9619 0)
+		(property "Reference" "TP3"
+			(at 236.474 73.406 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12094,7 +11623,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 232.41 75.6921 0)
+			(at 232.41 71.8821 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12104,7 +11633,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded"
-			(at 229.87 73.66 0)
+			(at 229.87 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12113,7 +11642,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 229.87 73.66 0)
+			(at 229.87 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12122,7 +11651,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 234.95 73.66 0)
+			(at 234.95 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12136,7 +11665,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "TP16")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -12152,7 +11681,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9932a1e0-6958-424a-875d-8ed9607475d0")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR035"
 			(at 176.53 281.94 0)
 			(effects
 				(font
@@ -12202,7 +11731,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "#PWR048")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -12218,7 +11747,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a46e22e-2d5c-4f8c-abb5-7a1df6f02833")
-		(property "Reference" "U10"
+		(property "Reference" "U3"
 			(at 281.94 111.76 0)
 			(effects
 				(font
@@ -12393,7 +11922,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "U10")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -12409,7 +11938,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9afdb11c-ab0f-4a4c-b8c2-8dd4fc5ec444")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR024"
 			(at 137.16 165.1 0)
 			(effects
 				(font
@@ -12459,7 +11988,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "#PWR044")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -12475,7 +12004,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b9acbd1-a27b-4dd3-bddb-d04c5d6566ea")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR025"
 			(at 53.34 166.37 0)
 			(effects
 				(font
@@ -12525,7 +12054,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "#PWR041")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -12541,7 +12070,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d63a95f-fe96-44a9-a0ab-fb4226e0b337")
-		(property "Reference" "TP17"
+		(property "Reference" "TP7"
 			(at 237.49 133.8579 0)
 			(effects
 				(font
@@ -12592,7 +12121,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "TP17")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -12608,7 +12137,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f53140b-5180-4302-b6aa-3d04449fafd9")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR022"
 			(at 182.88 83.82 0)
 			(effects
 				(font
@@ -12658,7 +12187,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "#PWR049")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -12674,7 +12203,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a04ec126-8a2a-4158-9de5-d6ee379953a1")
-		(property "Reference" "TP11"
+		(property "Reference" "TP13"
 			(at 110.998 161.29 90)
 			(effects
 				(font
@@ -12725,7 +12254,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "TP11")
+					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -12741,7 +12270,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bca1bc29-e5af-4322-bc80-fe71bfd9c4d3")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR026"
 			(at 257.81 167.64 0)
 			(effects
 				(font
@@ -12791,7 +12320,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "#PWR053")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -12807,7 +12336,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca6dea61-a941-4a51-891d-80615bf096a3")
-		(property "Reference" "TP21"
+		(property "Reference" "TP6"
 			(at 266.7 73.1519 0)
 			(effects
 				(font
@@ -12859,7 +12388,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "TP21")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -12875,7 +12404,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d59d677b-6a2b-4230-b382-38a5e59f62d5")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR029"
 			(at 346.71 227.33 0)
 			(effects
 				(font
@@ -12925,7 +12454,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "#PWR057")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -12941,7 +12470,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5f89cf1-3162-4cfc-ac30-30ad036142ff")
-		(property "Reference" "TP20"
+		(property "Reference" "TP5"
 			(at 257.81 73.1519 0)
 			(effects
 				(font
@@ -12993,7 +12522,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "TP20")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -13009,7 +12538,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d81bd989-d63e-43f2-8997-0ab9cdaa49c7")
-		(property "Reference" "U8"
+		(property "Reference" "U4"
 			(at 49.53 137.1599 90)
 			(effects
 				(font
@@ -13233,7 +12762,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "U8")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -13249,7 +12778,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd28a910-0e3e-4091-b4e0-38278f666973")
-		(property "Reference" "R15"
+		(property "Reference" "R4"
 			(at 205.74 223.52 90)
 			(effects
 				(font
@@ -13310,7 +12839,84 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "R15")
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 179.07 46.99 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e0122f8b-5062-446c-8b88-390b450bb321")
+		(property "Reference" "R3"
+			(at 179.07 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47k"
+			(at 179.07 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 179.07 45.212 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 179.07 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-0747KL"
+			(at 179.07 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97df9f36-ad2a-4119-8a33-f9029fe7e743")
+		)
+		(pin "2"
+			(uuid "6c1a44d4-91b4-4797-ad4b-fd365376c34f")
+		)
+		(instances
+			(project "audiograb"
+				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -13326,7 +12932,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e575a3c6-052a-4daa-a0ed-c2cb71171cbe")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR034"
 			(at 182.88 270.51 0)
 			(effects
 				(font
@@ -13376,7 +12982,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "#PWR050")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -13384,16 +12990,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 242.57 73.66 180)
+		(at 242.57 69.85 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "eaae8855-2f25-44ed-b24f-78aae6cf66b8")
-		(property "Reference" "TP18"
-			(at 245.11 76.9619 0)
+		(property "Reference" "TP4"
+			(at 243.586 73.406 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13402,7 +13007,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 240.03 75.6921 0)
+			(at 240.03 71.8821 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13412,7 +13017,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded"
-			(at 237.49 73.66 0)
+			(at 237.49 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13421,7 +13026,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 237.49 73.66 0)
+			(at 237.49 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13430,7 +13035,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 242.57 73.66 0)
+			(at 242.57 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13444,7 +13049,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "TP18")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -13460,7 +13065,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb7d39a6-6dcd-44bb-bfc7-689495e66ecf")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR023"
 			(at 261.62 130.81 0)
 			(effects
 				(font
@@ -13510,7 +13115,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "#PWR054")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -13526,7 +13131,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec517f61-bfa2-4aab-b0bc-0e8f262dabbb")
-		(property "Reference" "TP12"
+		(property "Reference" "TP14"
 			(at 118.618 161.29 90)
 			(effects
 				(font
@@ -13577,7 +13182,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "TP12")
+					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -13593,7 +13198,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ecd4050c-372e-4540-91c5-a00b4ddc63c7")
-		(property "Reference" "TP7"
+		(property "Reference" "TP9"
 			(at 65.278 161.29 90)
 			(effects
 				(font
@@ -13644,7 +13249,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "TP7")
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -13660,7 +13265,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1b8e06b-5e40-490f-a933-01d51ede6386")
-		(property "Reference" "C13"
+		(property "Reference" "C9"
 			(at 260.35 157.4862 0)
 			(effects
 				(font
@@ -13723,7 +13328,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "C13")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -13739,7 +13344,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6770d24-0a70-4eb8-94d8-894cc52dc145")
-		(property "Reference" "TP10"
+		(property "Reference" "TP12"
 			(at 95.758 161.29 90)
 			(effects
 				(font
@@ -13790,7 +13395,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "TP10")
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -13806,7 +13411,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f76524cc-18fb-4f27-9cf4-6416a6a078fb")
-		(property "Reference" "C12"
+		(property "Reference" "C7"
 			(at 224.79 44.4562 0)
 			(effects
 				(font
@@ -13869,7 +13474,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "C12")
+					(reference "C7")
 					(unit 1)
 				)
 			)

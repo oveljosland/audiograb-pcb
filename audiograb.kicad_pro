@@ -642,12 +642,8 @@
       "Root"
     ],
     [
-      "75b669f4-4784-4707-8d6c-b4da66be0510",
+      "980eb6bd-3c2d-40a6-a375-772dc2df4153",
       "compute-module"
-    ],
-    [
-      "1e6f47c9-dd69-4161-87eb-dd6f588b76d5",
-      "modem"
     ],
     [
       "6c55ccce-577d-49c2-8294-3a5d8e11981e",
@@ -664,6 +660,10 @@
     [
       "c5e1d547-91ce-4e5a-a3a6-dc1f5ae9c9dc",
       "power-supply"
+    ],
+    [
+      "0ab7621d-5895-4cff-b488-abb2b98a38d3",
+      "modem"
     ]
   ],
   "text_variables": {}
