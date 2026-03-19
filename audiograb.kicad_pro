@@ -506,6 +506,10 @@
       {
         "netclass": "Default",
         "pattern": "/MODEM_TX_ON"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/modem/USIM1_VDD"
       }
     ]
   },

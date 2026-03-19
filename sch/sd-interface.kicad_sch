@@ -12855,7 +12855,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e0122f8b-5062-446c-8b88-390b450bb321")
-		(property "Reference" "R?"
+		(property "Reference" "R3"
 			(at 179.07 53.34 90)
 			(effects
 				(font
@@ -12916,7 +12916,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "R?")
+					(reference "R3")
 					(unit 1)
 				)
 			)

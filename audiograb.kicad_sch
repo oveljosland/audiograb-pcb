@@ -4604,7 +4604,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a90e6e72-2e13-49a0-8591-b1493d616626")
-		(property "Reference" "J?"
+		(property "Reference" "J4"
 			(at 80.01 53.34 0)
 			(effects
 				(font
@@ -4692,7 +4692,7 @@
 		(instances
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d"
-					(reference "J?")
+					(reference "J4")
 					(unit 1)
 				)
 			)
