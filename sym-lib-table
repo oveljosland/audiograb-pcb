@@ -28,4 +28,5 @@
   (lib (name "LMR51450SDRRR")(type "KiCad")(uri "${KIPRJMOD}/lib/LMR51450SDRRR/LMR51450SDRRR.kicad_sym")(options "")(descr ""))
   (lib (name "LM74700QDBVTQ1")(type "KiCad")(uri "${KIPRJMOD}/lib/LM74700QDBVTQ1/LM74700QDBVTQ1.kicad_sym")(options "")(descr ""))
   (lib (name "DMT6007LFG-7")(type "KiCad")(uri "${KIPRJMOD}/lib/DMT6007LFG-7/DMT6007LFG-7.kicad_sym")(options "")(descr ""))
+  (lib (name "50ZLH100MEFC8X11_5")(type "KiCad")(uri "${KIPRJMOD}/lib/50ZLH100MEFC8X11_5/50ZLH100MEFC8X11_5.kicad_sym")(options "")(descr ""))
 )

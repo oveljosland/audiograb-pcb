@@ -26,4 +26,5 @@
   (lib (name "EMPCB.SMAFSTJ.B.HT")(type "KiCad")(uri "${KIPRJMOD}/lib/EMPCB.SMAFSTJ.B.HT")(options "")(descr ""))
   (lib (name "WA-SMSI_9774XXX151")(type "KiCad")(uri "${KIPRJMOD}/lib/WA-SMSI_9774XXX151")(options "")(descr ""))
   (lib (name "DF40HC_3.0_-100DS-0.4V_58")(type "KiCad")(uri "${KIPRJMOD}/lib/DF40HC_3.0_-100DS-0.4V_58")(options "")(descr ""))
+  (lib (name "CAPPRD350W60D800H1300")(type "KiCad")(uri "${KIPRJMOD}/lib/CAPPRD350W60D800H1300")(options "")(descr ""))
 )
