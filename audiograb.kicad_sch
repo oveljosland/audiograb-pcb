@@ -2464,6 +2464,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 114.3) (xy 224.79 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a52acf1-32ed-4e89-8589-ae5035260c56")
+	)
+	(wire
+		(pts
 			(xy 224.79 88.9) (xy 224.79 87.63)
 		)
 		(stroke
@@ -2551,6 +2561,16 @@
 			(type default)
 		)
 		(uuid "71fe9662-7504-4f9b-8850-144e623afd27")
+	)
+	(wire
+		(pts
+			(xy 224.79 104.14) (xy 224.79 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c31dc10-a87a-4f74-b465-fbe0a2c18a68")
 	)
 	(wire
 		(pts
@@ -2874,6 +2894,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 86.36) (xy 224.79 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db3ca3e7-f2c4-4d7c-9ac1-65d578014b6c")
+	)
+	(wire
+		(pts
 			(xy 224.79 109.22) (xy 224.79 107.95)
 		)
 		(stroke
@@ -2901,6 +2931,16 @@
 			(type default)
 		)
 		(uuid "e3f06297-4544-43ba-9ed0-e7a7ba4e9cc7")
+	)
+	(wire
+		(pts
+			(xy 224.79 106.68) (xy 224.79 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e56875b1-beea-4a00-9919-712df56ae289")
 	)
 	(wire
 		(pts
@@ -3492,6 +3532,16 @@
 		)
 		(uuid "884da1a7-a490-40ee-82e1-7aaab4ef222e")
 	)
+	(label "GPIO9"
+		(at 224.79 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8e09b3d4-317a-4851-9ca2-db47561b66c1")
+	)
 	(label "USB2_N"
 		(at 48.26 45.72 0)
 		(effects
@@ -3612,6 +3662,16 @@
 		)
 		(uuid "b120b677-05df-4e62-97e8-dd1695b9b113")
 	)
+	(label "GPIO2"
+		(at 224.79 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b36e0b69-bccc-4456-b037-6a2ebebbbaf9")
+	)
 	(label "PCIE_nRST"
 		(at 215.9 29.21 180)
 		(effects
@@ -3631,6 +3691,16 @@
 			(justify left bottom)
 		)
 		(uuid "c8a17fae-1830-48f1-9f3e-e3b297fbdec4")
+	)
+	(label "GPIO10"
+		(at 224.79 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ce9c3407-f57b-4547-81cc-f27b85d45fbd")
 	)
 	(label "USB3-0-D_N"
 		(at 153.67 161.29 0)
@@ -3691,6 +3761,16 @@
 			(justify left bottom)
 		)
 		(uuid "d7ddf4d0-2e9c-440a-858a-ef943e663ba8")
+	)
+	(label "GPIO13"
+		(at 224.79 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "df346310-eb11-47f3-99f2-503ed57d9f9f")
 	)
 	(label "CM_WAKE_ON_WWAN"
 		(at 215.9 54.61 180)
