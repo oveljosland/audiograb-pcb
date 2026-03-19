@@ -2062,6 +2062,16 @@
 		)
 		(uuid "7f94b506-84a1-4c94-abe7-4e60a3061bfb")
 	)
+	(text "P49\nP26\np27\nP25"
+		(exclude_from_sim no)
+		(at 214.122 130.048 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9f7abf05-a4c5-433a-9d43-302971e107c5")
+	)
 	(text "1"
 		(exclude_from_sim no)
 		(at 101.6 68.58 0)
@@ -2364,16 +2374,6 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 132.08) (xy 224.79 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31791836-5d92-41a4-987d-335edffa46d6")
-	)
-	(wire
-		(pts
 			(xy 224.79 96.52) (xy 224.79 95.25)
 		)
 		(stroke
@@ -2481,6 +2481,16 @@
 			(type default)
 		)
 		(uuid "5b32febf-4619-4c86-abef-ed467124e73a")
+	)
+	(wire
+		(pts
+			(xy 224.79 132.08) (xy 224.79 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "664d9bb0-6087-4b86-9e4c-02a2aac9d205")
 	)
 	(wire
 		(pts
@@ -3153,7 +3163,7 @@
 		(uuid "34335035-b151-4281-b0c8-f039b5979fc1")
 	)
 	(label "SD5"
-		(at 224.79 132.08 180)
+		(at 224.79 129.54 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3453,7 +3463,7 @@
 		(uuid "826dc566-c6bb-4656-910b-196643245315")
 	)
 	(label "SD3"
-		(at 224.79 129.54 180)
+		(at 224.79 132.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)

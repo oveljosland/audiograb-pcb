@@ -6596,6 +6596,16 @@
 		)
 		(uuid "47155cc7-17f8-4d02-939c-f6d65ce93f81")
 	)
+	(text "SD2"
+		(exclude_from_sim no)
+		(at 173.482 86.614 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "499b5986-c394-4ba9-9029-0c6be32714ed")
+	)
 	(text "In use by eMMC"
 		(exclude_from_sim no)
 		(at 84.074 101.854 0)
