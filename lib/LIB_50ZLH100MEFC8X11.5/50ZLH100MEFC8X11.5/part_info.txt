@@ -1,0 +1,9 @@
+Manufacturer=Rubycon
+PartNumber=50ZLH100MEFC8X11.5
+PartCategory=Capacitor Polarised
+PackageCategory=Capacitor, Polarized Radial Diameter
+PinCount=2
+Version=1.2
+Released=2020-06-19 04:17:22
+Downloaded=2026-03-18 11:35:57
+3D=Y
