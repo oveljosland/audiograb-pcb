@@ -5134,6 +5134,16 @@
 		)
 		(uuid "5bb98c3a-8839-4680-90fe-a07c03d3ca94")
 	)
+	(text "Vurderer å gjøre disse til pads"
+		(exclude_from_sim no)
+		(at 250.698 77.216 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "65ff1f12-ed48-447f-aa24-6198043fd23b")
+	)
 	(text "Activity \nLED"
 		(exclude_from_sim no)
 		(at 119.634 41.91 0)

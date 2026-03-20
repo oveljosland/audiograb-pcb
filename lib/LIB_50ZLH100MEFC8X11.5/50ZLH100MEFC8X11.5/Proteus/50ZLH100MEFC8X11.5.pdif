@@ -1,0 +1,120 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "50ZLH100MEFC8X11.5"
+   (description "Rubycon 100uF 50 V dc Aluminium Electrolytic Capacitor, ZLH Series 8000h 8 Dia. x 11.5mm")
+   (family "CAP")
+   (package "CAPPRD350W60D825H1350")
+   (attribute "Datasheet Link" "https://componentsearchengine.com/Datasheets/2/50ZLH100MEFC8X11.5.pdf")
+   (attribute "Geometry.Height" "13.5mm")
+   (attribute "Manufacturer_Name" "Rubycon")
+   (attribute "Manufacturer_Part_Number" "50ZLH100MEFC8X11.5")
+   (attribute "Mouser Part Number" "232-50ZLH100MEFC8X15")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Rubycon/50ZLH100MEFC8X11.5?qs=T3oQrply3y9LrKRTnEwlpw%3D%3D")
+   (attribute "Arrow Part Number" "50ZLH100MEFC8X11.5")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/50zlh100mefc8x11.5/rubycon")
+   (gate
+    (symbol "50ZLH100MEFC8X11.5")
+    (pin "+" 1 PS)
+    (pin "-" 2 PS)
+   )
+  )
+  (symbol "50ZLH100MEFC8X11.5"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 200 -100) (pt 230 -100) (pt 230 100) (pt 200 100) (closed))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 180 50) (pt 140 50))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 160 70) (pt 160 30))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 100 0) (pt 200 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 300 0) (pt 400 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (closed true) (pt 300 100) (pt 300 -100) (pt 270 -100) (pt 270 100) (pt 300 100))
+   )
+   (terminal
+    (body (symbol "PINSHORT") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 500 0) (rot 0) (mir X) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "CAPPRD350W60D825H1350"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (circle
+      (pt 6.375 0) (pt -2.875 0)
+     )
+    )
+   )
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (circle
+      (pt 5.875 0) (pt -2.375 0)
+     )
+    )
+   )
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (circle
+      (pt 5.875 0) (pt -2.375 0)
+     )
+    )
+   )
+   (leg 1 (pt 0 0) (padstack 1))
+   (leg 2 (pt 3.5 0) (padstack 0))
+   (padstack 0
+    (hole 0.8)
+    (plated true)
+    (pad (layer TCOP) (round 1.2))
+    (pad (layer INNER) (round 1.2))
+    (pad (layer BCOP) (round 1.2))
+   )
+   (padstack 1
+    (hole 0.8)
+    (plated true)
+    (pad (layer TCOP) (square 1.2))
+    (pad (layer INNER) (round 1.2))
+    (pad (layer BCOP) (square 1.2))
+   )
+   (model "50ZLH100MEFC8X11.5.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

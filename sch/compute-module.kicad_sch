@@ -5761,6 +5761,12 @@
 		(uuid "9372f42f-abb5-4a14-b8d5-5d70b28b30e5")
 	)
 	(junction
+		(at 41.91 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95eafbea-0d2d-4960-9a36-cba377664149")
+	)
+	(junction
 		(at 158.75 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6282,6 +6288,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 49.53) (xy 41.91 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06ded09f-63d4-4a95-861f-c2483cf0f2ec")
+	)
+	(wire
+		(pts
 			(xy 92.71 129.54) (xy 92.71 132.08)
 		)
 		(stroke
@@ -6389,16 +6405,6 @@
 			(type default)
 		)
 		(uuid "1ab4ae11-fedf-4fb6-8974-76273d68cf4b")
-	)
-	(wire
-		(pts
-			(xy 29.21 49.53) (xy 29.21 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b2da874-08f8-4e91-9b10-a9cf7e8b07eb")
 	)
 	(wire
 		(pts
@@ -7169,6 +7175,16 @@
 			(type default)
 		)
 		(uuid "761e075d-960a-413e-af44-0e43ebb86f6c")
+	)
+	(wire
+		(pts
+			(xy 29.21 48.26) (xy 29.21 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7674b944-2ae0-4d78-a844-3a59d532af27")
 	)
 	(wire
 		(pts
@@ -8741,12 +8757,12 @@
 		(uuid "e5aa3cdc-34f2-4335-ac5a-8f50276c03fd")
 	)
 	(label "GPIO_VREF"
-		(at 41.91 52.07 0)
+		(at 29.21 52.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "e6dc3867-0921-455e-8e90-d7a34f373ba3")
 	)
@@ -8882,7 +8898,7 @@
 	)
 	(global_label "+3V3_CM5"
 		(shape input)
-		(at 29.21 49.53 180)
+		(at 29.21 48.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8892,7 +8908,7 @@
 		)
 		(uuid "f3d4ebb6-56bc-4324-b019-925afa694b6c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 16.2463 49.53 0)
+			(at 16.2463 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
