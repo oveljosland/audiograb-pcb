@@ -30,4 +30,5 @@
   (lib (name "LM74700QDBVTQ1")(type "KiCad")(uri "C:/Users/Aaseb/Downloads/LM74700QDBVTQ1")(options "")(descr ""))
   (lib (name "LMR51450SDRRR")(type "KiCad")(uri "C:/Users/Aaseb/Downloads/LMR51450SDRRR")(options "")(descr ""))
   (lib (name "DMP4013LFG-7")(type "KiCad")(uri "C:/Users/Aaseb/Downloads/DMP4013LFG-7")(options "")(descr ""))
+  (lib (name "50ZLH100MEFC8X11.5")(type "KiCad")(uri "${KIPRJMOD}/lib/50ZLH100MEFC8X11.5")(options "")(descr ""))
 )

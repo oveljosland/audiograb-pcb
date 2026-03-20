@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '50ZLH100MEFC8X11.5'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Rubycon", "50ZLH100MEFC8X11.5" (!) = "", "CAPPRD350W60D825H1350", "Capacitor, Polarized Radial Diameter", "232-50ZLH100MEFC8X15", "https://www.mouser.co.uk/ProductDetail/Rubycon/50ZLH100MEFC8X11.5?qs=T3oQrply3y9LrKRTnEwlpw%3D%3D", "50ZLH100MEFC8X11.5", "https://www.arrow.com/en/products/50zlh100mefc8x11.5/rubycon", "Rubycon 100uF 50 V dc Aluminium Electrolytic Capacitor, ZLH Series 8000h 8 Dia. x 11.5mm", "https://componentsearchengine.com/Datasheets/2/50ZLH100MEFC8X11.5.pdf", "13.5 mm"
+END_PART
+
+END.
