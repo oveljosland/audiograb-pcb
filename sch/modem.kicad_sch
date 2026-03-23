@@ -5399,6 +5399,18 @@
 		(uuid "b9b4aaba-26c0-481c-ab37-a92f0d491d50")
 	)
 	(junction
+		(at 213.36 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bac30baa-f522-402f-bdb9-304d17916a87")
+	)
+	(junction
+		(at 213.36 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb4f9e05-47ee-4249-876f-2575a2ab5266")
+	)
+	(junction
 		(at 245.11 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6660,7 +6672,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 48.26) (xy 242.57 48.26)
+			(xy 190.5 48.26) (xy 213.36 48.26)
 		)
 		(stroke
 			(width 0)
@@ -6990,6 +7002,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 48.26) (xy 213.36 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db5af56a-c24c-4940-ad66-9478190b9529")
+	)
+	(wire
+		(pts
 			(xy 240.03 55.88) (xy 252.73 55.88)
 		)
 		(stroke
@@ -7077,6 +7099,16 @@
 			(type default)
 		)
 		(uuid "e6273ea1-f6b3-4dbd-aa3f-64b126e7f1af")
+	)
+	(wire
+		(pts
+			(xy 213.36 48.26) (xy 242.57 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e720db5e-bc1b-4241-8350-68563b54ab43")
 	)
 	(wire
 		(pts
@@ -7208,6 +7240,16 @@
 		)
 		(uuid "051af391-c59a-4972-87cf-9c024ea4829f")
 	)
+	(label "PCIE_RX_MOD_P"
+		(at 73.66 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4fb25bf3-39da-416b-b3e7-6f7538479c3e")
+	)
 	(label "USIM1_DET"
 		(at 113.03 104.14 0)
 		(effects
@@ -7227,6 +7269,16 @@
 			(justify left bottom)
 		)
 		(uuid "66e0c64a-d7c3-4d53-95e4-52c451c963f1")
+	)
+	(label "PCIE_RX_MOD_N"
+		(at 73.66 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6c7618af-5a54-4ba7-8dbe-c8dda4d78dfc")
 	)
 	(label "USIM1_DATA"
 		(at 156.21 55.88 0)

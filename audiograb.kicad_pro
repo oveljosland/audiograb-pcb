@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.7,
-          "width": 1.7
+          "drill": 0.0,
+          "height": 1.55,
+          "width": 0.3
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -189,6 +189,7 @@
       "track_widths": [
         0.0,
         0.2,
+        0.23,
         0.25,
         0.4,
         0.5,
@@ -495,6 +496,34 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.1,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "DIFF_85",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2519,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.1,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "DIFF_USB",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2262,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -510,6 +539,74 @@
       {
         "netclass": "Default",
         "pattern": "/modem/USIM1_VDD"
+      },
+      {
+        "netclass": "DIFF_USB",
+        "pattern": "/USB3-1-TX_N"
+      },
+      {
+        "netclass": "DIFF_USB",
+        "pattern": "/USB3-1-TX_P"
+      },
+      {
+        "netclass": "DIFF_USB",
+        "pattern": "/USB3-1-RX_N"
+      },
+      {
+        "netclass": "DIFF_USB",
+        "pattern": "/USB3-1-RX_P"
+      },
+      {
+        "netclass": "DIFF_85",
+        "pattern": "/PCIE_RX_N"
+      },
+      {
+        "netclass": "DIFF_85",
+        "pattern": "/PCIE_RX_P"
+      },
+      {
+        "netclass": "DIFF_85",
+        "pattern": "/modem/PCIE_RX_MOD_M"
+      },
+      {
+        "netclass": "DIFF_85",
+        "pattern": "/PCIE_TX_N"
+      },
+      {
+        "netclass": "DIFF_85",
+        "pattern": "/PCIE_CLK_N"
+      },
+      {
+        "netclass": "DIFF_85",
+        "pattern": "/PCIE_CLK_P"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/modem/RESET"
+      },
+      {
+        "netclass": "DIFF_85",
+        "pattern": "/PCIE_nRST"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/PCIE_nRST"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/PCIE_nCLKREQ"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/PCIE_nWAKE"
+      },
+      {
+        "netclass": "DIFF_85",
+        "pattern": "/PCIE_PWR_EN"
+      },
+      {
+        "netclass": "DIFF_85",
+        "pattern": "/USB3-1-RX_N"
       }
     ]
   },
