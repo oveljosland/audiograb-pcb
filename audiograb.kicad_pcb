@@ -37789,7 +37789,7 @@
 	(footprint "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded"
 		(layer "F.Cu")
 		(uuid "eee762f8-801b-4fa2-9d22-63c69be591d1")
-		(at 77.15 63.700001)
+		(at 77.7 62.3)
 		(descr "wire loop with bead as test point, loop diameter2.6mm, hole diameter 1.6mm")
 		(tags "test point wire loop bead")
 		(property "Reference" "TP19"
@@ -41423,7 +41423,7 @@
 		(uuid "04836da7-fc7e-4c87-8519-e521347ac4c5")
 	)
 	(via
-		(at 162.7 102.95)
+		(at 164.95 102.85)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -41890,7 +41890,7 @@
 		(uuid "30dbc237-b6bb-40e1-b51e-a1895f52a6de")
 	)
 	(via
-		(at 165.25 105.75)
+		(at 165 105.8)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -42232,7 +42232,7 @@
 		(uuid "470d6ed2-1db8-4a36-89ea-08539242a96e")
 	)
 	(via
-		(at 162.1 101.65)
+		(at 173.95 103.7)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -44086,7 +44086,7 @@
 		(uuid "e13f8088-5c2e-4c85-90b0-7f5fdd1ff5e8")
 	)
 	(via
-		(at 173.15 107.1)
+		(at 171.35 106.4)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -44275,7 +44275,7 @@
 		(uuid "ed8cfeef-dc6f-491b-a595-5d68bc7a940c")
 	)
 	(via
-		(at 162.15 104.45)
+		(at 166.2 104.3)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -44320,7 +44320,7 @@
 		(uuid "f23a6603-e1ff-4900-8fef-2c8d253a2d75")
 	)
 	(via
-		(at 161.75 103.3)
+		(at 163.740613 104.106791)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -44419,7 +44419,7 @@
 		(uuid "fed1d128-ccf0-4502-9c68-d72599bb5230")
 	)
 	(via
-		(at 173.6 106.25)
+		(at 174 106.4)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -52210,6 +52210,14 @@
 		(uuid "0644e030-a57f-46f0-812e-99dc8dc6f043")
 	)
 	(segment
+		(start 80.700001 63.05)
+		(end 77.15 63.05)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 73)
+		(uuid "1180d656-85fc-44ba-a717-1a4cf487c9c5")
+	)
+	(segment
 		(start 78.55 75.400001)
 		(end 72.75 81.200001)
 		(width 0.2)
@@ -52235,11 +52243,11 @@
 	)
 	(segment
 		(start 78.55 65.200001)
-		(end 78.55 65.100001)
+		(end 80.700001 63.05)
 		(width 0.2)
 		(layer "B.Cu")
 		(net 73)
-		(uuid "d66a60d8-2c92-46f3-a597-b728a15a484c")
+		(uuid "73a48429-6abc-47f7-85ff-dbd4104475d0")
 	)
 	(segment
 		(start 84.075 59.710001)
@@ -52264,14 +52272,6 @@
 		(layer "B.Cu")
 		(net 73)
 		(uuid "e652a672-0bc4-4dc1-8d72-876c75d7dd3c")
-	)
-	(segment
-		(start 78.55 65.100001)
-		(end 77.15 63.700001)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 73)
-		(uuid "ff744057-2967-4118-a066-c0a8c430ab40")
 	)
 	(segment
 		(start 62.8075 76.7175)
