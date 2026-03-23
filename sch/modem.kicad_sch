@@ -5134,6 +5134,16 @@
 		)
 		(uuid "5bb98c3a-8839-4680-90fe-a07c03d3ca94")
 	)
+	(text "Vurderer å gjøre disse til pads"
+		(exclude_from_sim no)
+		(at 250.698 77.216 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "65ff1f12-ed48-447f-aa24-6198043fd23b")
+	)
 	(text "Activity \nLED"
 		(exclude_from_sim no)
 		(at 119.634 41.91 0)
@@ -5387,6 +5397,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b9b4aaba-26c0-481c-ab37-a92f0d491d50")
+	)
+	(junction
+		(at 213.36 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bac30baa-f522-402f-bdb9-304d17916a87")
+	)
+	(junction
+		(at 213.36 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb4f9e05-47ee-4249-876f-2575a2ab5266")
 	)
 	(junction
 		(at 245.11 45.72)
@@ -6650,7 +6672,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 48.26) (xy 242.57 48.26)
+			(xy 190.5 48.26) (xy 213.36 48.26)
 		)
 		(stroke
 			(width 0)
@@ -6980,6 +7002,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 48.26) (xy 213.36 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db5af56a-c24c-4940-ad66-9478190b9529")
+	)
+	(wire
+		(pts
 			(xy 240.03 55.88) (xy 252.73 55.88)
 		)
 		(stroke
@@ -7067,6 +7099,16 @@
 			(type default)
 		)
 		(uuid "e6273ea1-f6b3-4dbd-aa3f-64b126e7f1af")
+	)
+	(wire
+		(pts
+			(xy 213.36 48.26) (xy 242.57 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e720db5e-bc1b-4241-8350-68563b54ab43")
 	)
 	(wire
 		(pts
@@ -7198,6 +7240,16 @@
 		)
 		(uuid "051af391-c59a-4972-87cf-9c024ea4829f")
 	)
+	(label "PCIE_RX_MOD_P"
+		(at 73.66 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4fb25bf3-39da-416b-b3e7-6f7538479c3e")
+	)
 	(label "USIM1_DET"
 		(at 113.03 104.14 0)
 		(effects
@@ -7217,6 +7269,16 @@
 			(justify left bottom)
 		)
 		(uuid "66e0c64a-d7c3-4d53-95e4-52c451c963f1")
+	)
+	(label "PCIE_RX_MOD_N"
+		(at 73.66 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6c7618af-5a54-4ba7-8dbe-c8dda4d78dfc")
 	)
 	(label "USIM1_DATA"
 		(at 156.21 55.88 0)
@@ -8490,7 +8552,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 232.41 68.58 0)
 			(effects
 				(font
@@ -8590,73 +8652,6 @@
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/0ab7621d-5895-4cff-b488-abb2b98a38d3"
 					(reference "#PWR077")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 245.11 68.58 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1a6d011e-6774-4603-ae77-e981ccfbcea1")
-		(property "Reference" "TP4"
-			(at 245.11 76.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 242.57 70.6121 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded"
-			(at 240.03 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 240.03 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 245.11 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6ded352e-5eb1-40bf-8751-5d2d17af0cb8")
-		)
-		(instances
-			(project "audiograb"
-				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/0ab7621d-5895-4cff-b488-abb2b98a38d3"
-					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -8961,6 +8956,73 @@
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/0ab7621d-5895-4cff-b488-abb2b98a38d3"
 					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 245.11 68.58 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "23dca3b8-8e2f-41ba-bbdf-fb2fd90b91fc")
+		(property "Reference" "TP4"
+			(at 245.11 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 242.57 70.6121 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 240.03 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 245.11 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98983eaf-3851-4769-b38e-78f7332c8e46")
+		)
+		(instances
+			(project "audiograb"
+				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/0ab7621d-5895-4cff-b488-abb2b98a38d3"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -10081,7 +10143,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "6d774db8-aad1-45c4-8c79-a3abf8a4e458")
+		(uuid "5f3205df-32e9-4e0f-978f-c87b1792e8ed")
 		(property "Reference" "TP2"
 			(at 240.03 76.2 90)
 			(effects
@@ -10101,7 +10163,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 234.95 68.58 0)
 			(effects
 				(font
@@ -10129,7 +10191,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "2ae15b0f-1314-426e-8753-121f87212cba")
+			(uuid "2b9a6684-ec7d-474a-8c46-383e37dce546")
 		)
 		(instances
 			(project "audiograb"
@@ -10523,6 +10585,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 247.65 68.58 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8a1709e4-4799-4fb0-b49a-85d23870c811")
+		(property "Reference" "TP5"
+			(at 247.65 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 245.11 70.6121 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 242.57 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 242.57 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 247.65 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d18f25a2-4d76-434e-bb9e-a8ad3b2955af")
+		)
+		(instances
+			(project "audiograb"
+				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/0ab7621d-5895-4cff-b488-abb2b98a38d3"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 88.9 162.56 0)
 		(unit 1)
@@ -10584,6 +10713,73 @@
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/0ab7621d-5895-4cff-b488-abb2b98a38d3"
 					(reference "#PWR081")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 242.57 68.58 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "93fedf61-40d8-43be-aba5-42b80eab45b8")
+		(property "Reference" "TP3"
+			(at 242.57 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 240.03 70.6121 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 237.49 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 242.57 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70e19933-57dc-43ff-8581-20132b272c10")
+		)
+		(instances
+			(project "audiograb"
+				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/0ab7621d-5895-4cff-b488-abb2b98a38d3"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -11334,73 +11530,6 @@
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/0ab7621d-5895-4cff-b488-abb2b98a38d3"
 					(reference "#PWR074")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 247.65 68.58 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c611c42c-8dcb-42b0-a9b0-7cdf64c581a2")
-		(property "Reference" "TP5"
-			(at 247.65 76.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 245.11 70.6121 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded"
-			(at 242.57 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 242.57 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 247.65 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6bcd8392-578e-46c3-950c-7b44cbbbf47a")
-		)
-		(instances
-			(project "audiograb"
-				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/0ab7621d-5895-4cff-b488-abb2b98a38d3"
-					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -12759,73 +12888,6 @@
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/0ab7621d-5895-4cff-b488-abb2b98a38d3"
 					(reference "#PWR075")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 242.57 68.58 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ff09e1b7-0976-48e4-b294-b0ecb70a2e23")
-		(property "Reference" "TP3"
-			(at 242.57 76.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 240.03 70.6121 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded"
-			(at 237.49 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 237.49 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 242.57 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d162ee4a-ac4a-40c6-bcec-d173a11c3aca")
-		)
-		(instances
-			(project "audiograb"
-				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/0ab7621d-5895-4cff-b488-abb2b98a38d3"
-					(reference "TP3")
 					(unit 1)
 				)
 			)
