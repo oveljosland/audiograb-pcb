@@ -10508,7 +10508,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 71.12 135.8962 0)
 			(effects
 				(font
@@ -10653,7 +10653,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF ceramic"
+		(property "Value" "100nF"
 			(at 168.91 128.2762 0)
 			(effects
 				(font
@@ -10873,7 +10873,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Switch Push Button OFF (ON) SPST Round Button 0.05A 24VDC Momentary Contact PC Pins Thru-Hole"
 			(at 26.67 148.59 0)
 			(effects
 				(font
@@ -10893,16 +10893,6 @@
 			)
 		)
 		(property "MF" "TE Connectivity"
-			(at 26.67 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Switch Push Button OFF (ON) SPST Round Button 0.05A 24VDC Momentary Contact PC Pins Thru-Hole"
 			(at 26.67 148.59 0)
 			(effects
 				(font
@@ -10972,7 +10962,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "1825910-6"
+		(property "MPN" "1825910-6"
 			(at 26.67 148.59 0)
 			(effects
 				(font
@@ -11002,7 +10992,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "TE CONNECTIVITY"
+		(property "Manufacturer" "TE CONNECTIVITY"
 			(at 26.67 148.59 0)
 			(effects
 				(font
@@ -12235,7 +12225,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 72.39 140.716 0)
 			(effects
 				(font
