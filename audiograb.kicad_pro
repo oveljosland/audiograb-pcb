@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 1.55,
-          "width": 0.3
+          "drill": 0.2,
+          "height": 0.5,
+          "width": 0.5
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -137,7 +137,7 @@
         "min_text_thickness": 0.15,
         "min_through_hole_diameter": 0.15,
         "min_track_width": 0.0,
-        "min_via_annular_width": 0.1,
+        "min_via_annular_width": 0.15,
         "min_via_diameter": 0.25,
         "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
@@ -193,7 +193,9 @@
         0.25,
         0.4,
         0.5,
-        1.5
+        1.0,
+        1.5,
+        1.85
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -607,6 +609,10 @@
       {
         "netclass": "DIFF_85",
         "pattern": "/USB3-1-RX_N"
+      },
+      {
+        "netclass": "DIFF_85",
+        "pattern": "GND"
       }
     ]
   },
