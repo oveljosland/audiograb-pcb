@@ -5442,7 +5442,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 245.11 99.0599 0)
+			(at 245.364 99.314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8528,7 +8528,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 216.662 97.79 90)
 			(effects
 				(font
