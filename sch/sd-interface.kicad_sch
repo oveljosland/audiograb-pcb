@@ -9091,7 +9091,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ESD Protection Diodes / TVS Diodes Low Capacitance ESD Protection Diode"
+			(at 137.16 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ESD7004MUTAG"
 			(at 137.16 231.14 0)
 			(effects
 				(font
@@ -9158,7 +9167,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 167.64 46.9962 0)
 			(effects
 				(font
@@ -9332,7 +9341,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "5V power out"
+		(property "Description" "2 Position Wire to Board Terminal Block Horizontal with Board 0.197 (5.00mm) Through Hole"
 			(at 354.33 218.44 0)
 			(effects
 				(font
@@ -9341,17 +9350,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Würth Elektronik"
-			(at 354.33 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "2 Position Wire to Board Terminal Block Horizontal with Board 0.197 (5.00mm) Through Hole"
+		(property "Manufacturer" "Würth Elektronik"
 			(at 354.33 218.44 0)
 			(effects
 				(font
@@ -9391,7 +9390,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "691137710002"
+		(property "MPN" "691137710002"
 			(at 354.33 218.44 0)
 			(effects
 				(font
@@ -9823,7 +9822,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF ceramic"
+		(property "Value" "100nF"
 			(at 139.7 157.4862 0)
 			(effects
 				(font
@@ -9993,7 +9992,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "9 (8 + 1) Position Card Connector microSD Surface Mount, Right Angle Gold"
 			(at 157.48 266.7 0)
 			(effects
 				(font
@@ -10003,16 +10002,6 @@
 			)
 		)
 		(property "MF" "Global Connector Technology"
-			(at 157.48 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "9 (8 + 1) Position Card Connector microSD Surface Mount, Right Angle Gold"
 			(at 157.48 266.7 0)
 			(effects
 				(font
@@ -10082,7 +10071,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "MEM2075-00-140-01-A"
+		(property "MPN" "MEM2075-00-140-01-A"
 			(at 157.48 266.7 0)
 			(effects
 				(font
@@ -10102,7 +10091,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "GCT"
+		(property "Manufacturer" "GCT"
 			(at 157.48 266.7 0)
 			(effects
 				(font
@@ -10245,7 +10234,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "SN74AVCH4T245PW"
 			(at 195.58 35.56 0)
 			(effects
 				(font
@@ -10271,7 +10260,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Translation - Voltage Levels 4-Bit Dual-Supply Bu s Xcvr A 595-SN74AV A 595-SN74AVCH4T245PWT"
 			(at 195.58 57.15 0)
 			(effects
 				(font
@@ -10280,7 +10269,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "SN74AVCH4T245PW"
+		(property "MPN" "SN74AVCH4T245PW"
 			(at 195.58 57.15 0)
 			(effects
 				(font
@@ -10391,7 +10380,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "5.5-V, 1.5-A, 90-mΩ load switch with adj. output discharge"
 			(at 297.18 220.98 0)
 			(effects
 				(font
@@ -10400,17 +10389,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Texas Instruments"
-			(at 297.18 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "5.5-V, 1.5-A, 90-mΩ load switch with adj. output discharge"
+		(property "Manufacturer" "Texas Instruments"
 			(at 297.18 220.98 0)
 			(effects
 				(font
@@ -10450,7 +10429,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "TPS22919DCKR"
+		(property "MPN" "TPS22919DCKR"
 			(at 297.18 220.98 0)
 			(effects
 				(font
@@ -10564,7 +10543,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ESD Protection Diodes / TVS Diodes Low Capacitance ESD Protection Diode"
+			(at 137.16 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ESD7004MUTAG"
 			(at 137.16 186.69 0)
 			(effects
 				(font
@@ -10724,7 +10712,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Flex Connector, 0.50mm Pitch, Height 2.00mm, Right angle, Slider type, ZIF, Upper contact, 22 position , Without MYLAR"
 			(at 88.9 26.67 0)
 			(effects
 				(font
@@ -10813,17 +10801,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "F32Q-1A7H1-11022"
-			(at 88.9 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Flex Connector, 0.50mm Pitch, Height 2.00mm, Right angle, Slider type, ZIF, Upper contact, 22 position , Without MYLAR"
+		(property "MPN" "F32Q-1A7H1-11022"
 			(at 88.9 26.67 0)
 			(effects
 				(font
@@ -10843,7 +10821,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Amphenol"
+		(property "Manufacturer" "Amphenol"
 			(at 88.9 26.67 0)
 			(effects
 				(font
@@ -11455,6 +11433,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "SSM3K333R,LF "
+			(at 199.39 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ede99b66-7086-49e1-bc16-87d0ad5b0f92")
 		)
@@ -11782,7 +11769,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CMOS Quad NOR R/S Latch with 3-State Outputs"
 			(at 281.94 137.16 0)
 			(effects
 				(font
@@ -11791,17 +11778,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Texas Instruments"
-			(at 281.94 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "CMOS Quad NOR R/S Latch with 3-State Outputs"
+		(property "Manufacturer" "Texas Instruments"
 			(at 281.94 137.16 0)
 			(effects
 				(font
@@ -11841,7 +11818,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "CD4043BDR"
+		(property "MPN" "CD4043BDR"
 			(at 281.94 137.16 0)
 			(effects
 				(font
@@ -12575,7 +12552,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Triple DPDT, Low-Capacitance Data Switches"
 			(at 93.98 138.43 0)
 			(effects
 				(font
@@ -12585,16 +12562,6 @@
 			)
 		)
 		(property "MF" "Analog Devices"
-			(at 93.98 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Triple DPDT, Low-Capacitance Data Switches"
 			(at 93.98 138.43 0)
 			(effects
 				(font
@@ -12654,7 +12621,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "MAX4996LETG+"
+		(property "MPN" "MAX4996LETG+"
 			(at 93.98 138.43 0)
 			(effects
 				(font
@@ -12674,7 +12641,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "MAXIM INTEGRATED"
+		(property "Manufacturer" "Analog Devices Inc./Maxim Integrated"
 			(at 93.98 138.43 0)
 			(effects
 				(font
@@ -13274,7 +13241,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF ceramic"
+		(property "Value" "100nF"
 			(at 260.35 160.0262 0)
 			(effects
 				(font
@@ -13420,7 +13387,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 224.79 46.9962 0)
 			(effects
 				(font

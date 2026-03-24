@@ -5134,16 +5134,6 @@
 		)
 		(uuid "5bb98c3a-8839-4680-90fe-a07c03d3ca94")
 	)
-	(text "Vurderer å gjøre disse til pads"
-		(exclude_from_sim no)
-		(at 250.698 77.216 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "65ff1f12-ed48-447f-aa24-6198043fd23b")
-	)
 	(text "Activity \nLED"
 		(exclude_from_sim no)
 		(at 119.634 41.91 0)
@@ -7715,7 +7705,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "8 (6 + 2) Position Card Connector NANO SIM Surface Mount, Right Angle Gold"
 			(at 257.81 55.88 0)
 			(effects
 				(font
@@ -7725,16 +7715,6 @@
 			)
 		)
 		(property "MF" "Japan Aviation Electronics"
-			(at 257.81 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "8 (6 + 2) Position Card Connector NANO SIM Surface Mount, Right Angle Gold"
 			(at 257.81 55.88 0)
 			(effects
 				(font
@@ -7784,7 +7764,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "SF72S006VBAR2500"
+		(property "MPN" "SF72S006VBAR2500"
 			(at 257.81 55.88 0)
 			(effects
 				(font
@@ -7814,7 +7794,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "JAE"
+		(property "Manufacturer" "JAE"
 			(at 257.81 55.88 0)
 			(effects
 				(font
@@ -7931,7 +7911,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1 POS Vertical SMD Coaxial connector M.2 industry standard with a mated height of 1.4 mm and support up to 12 GHz MHF 4L Receptacle"
 			(at 68.58 152.4 0)
 			(effects
 				(font
@@ -8020,7 +8000,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "20579-001E"
+		(property "MPN" "20579-001E"
 			(at 68.58 152.4 0)
 			(effects
 				(font
@@ -8050,7 +8030,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "I-PEX"
+		(property "Manufacturer" "I-PEX"
 			(at 68.58 152.4 0)
 			(effects
 				(font
@@ -8193,7 +8173,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Right Angle 50Ohms Edge Mount SMA Connector, jack, Solder Termination | Molex Incorporated 73251-1150"
 			(at 68.58 162.56 0)
 			(effects
 				(font
@@ -8202,17 +8182,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Molex"
-			(at 68.58 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Right Angle 50Ohms Edge Mount SMA Connector, jack, Solder Termination | Molex Incorporated 73251-1150"
+		(property "Manufacturer" "Molex"
 			(at 68.58 162.56 0)
 			(effects
 				(font
@@ -8302,7 +8272,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "732511150"
+		(property "MPN" "732511150"
 			(at 68.58 162.56 0)
 			(effects
 				(font
@@ -8374,7 +8344,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1 POS Vertical SMD Coaxial connector M.2 industry standard with a mated height of 1.4 mm and support up to 12 GHz MHF 4L Receptacle"
 			(at 101.6 152.4 0)
 			(effects
 				(font
@@ -8463,7 +8433,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "20579-001E"
+		(property "MPN" "20579-001E"
 			(at 101.6 152.4 0)
 			(effects
 				(font
@@ -8493,7 +8463,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "I-PEX"
+		(property "Manufacturer" "I-PEX"
 			(at 101.6 152.4 0)
 			(effects
 				(font
@@ -8704,7 +8674,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Round Standoff Threaded M2x0.4 Steel 0.118 (3.00mm) -"
 			(at 251.46 133.35 0)
 			(effects
 				(font
@@ -8723,7 +8693,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Würth Elektronik"
+		(property "Manufacturer " "Würth Elektronik"
 			(at 251.46 133.35 0)
 			(effects
 				(font
@@ -8833,7 +8803,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "9774030243R"
+		(property "MPN" "9774030243R"
 			(at 251.46 133.35 0)
 			(effects
 				(font
@@ -8864,16 +8834,6 @@
 			)
 		)
 		(property "OUTER-DIAMETER" "4.35mm"
-			(at 251.46 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Round Standoff Threaded M2x0.4 Steel 0.118 (3.00mm) -"
 			(at 251.46 133.35 0)
 			(effects
 				(font
@@ -9074,7 +9034,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Right Angle 50Ohms Edge Mount SMA Connector, jack, Solder Termination | Molex Incorporated 73251-1150"
 			(at 85.09 162.56 0)
 			(effects
 				(font
@@ -9083,17 +9043,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Molex"
-			(at 85.09 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Right Angle 50Ohms Edge Mount SMA Connector, jack, Solder Termination | Molex Incorporated 73251-1150"
+		(property "Manufacturer" "Molex"
 			(at 85.09 162.56 0)
 			(effects
 				(font
@@ -9183,7 +9133,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "732511150"
+		(property "MPN" "732511150"
 			(at 85.09 162.56 0)
 			(effects
 				(font
@@ -9255,7 +9205,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1 POS Vertical SMD Coaxial connector M.2 industry standard with a mated height of 1.4 mm and support up to 12 GHz MHF 4L Receptacle"
 			(at 85.09 152.4 0)
 			(effects
 				(font
@@ -9344,7 +9294,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "20579-001E"
+		(property "MPN" "20579-001E"
 			(at 85.09 152.4 0)
 			(effects
 				(font
@@ -9374,7 +9324,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "I-PEX"
+		(property "Manufacturer" "I-PEX"
 			(at 85.09 152.4 0)
 			(effects
 				(font
@@ -9763,7 +9713,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Right Angle 50Ohms Edge Mount SMA Connector, jack, Solder Termination | Molex Incorporated 73251-1150"
 			(at 101.6 162.56 0)
 			(effects
 				(font
@@ -9772,17 +9722,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Molex"
-			(at 101.6 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Right Angle 50Ohms Edge Mount SMA Connector, jack, Solder Termination | Molex Incorporated 73251-1150"
+		(property "Manufacturer" "Molex"
 			(at 101.6 162.56 0)
 			(effects
 				(font
@@ -9872,7 +9812,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "732511150"
+		(property "MPN" "732511150"
 			(at 101.6 162.56 0)
 			(effects
 				(font
@@ -9998,7 +9938,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D_TVS"
+		(property "Value" "0402ESDA-MLP1"
 			(at 202.946 87.63 90)
 			(effects
 				(font
@@ -10249,7 +10189,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Round Standoff Threaded M2x0.4 Steel 0.118 (3.00mm) -"
 			(at 251.46 140.97 0)
 			(effects
 				(font
@@ -10268,7 +10208,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Würth Elektronik"
+		(property "Manufacturer" "Würth Elektronik"
 			(at 251.46 140.97 0)
 			(effects
 				(font
@@ -10378,7 +10318,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "9774030243R"
+		(property "MPN" "9774030243R"
 			(at 251.46 140.97 0)
 			(effects
 				(font
@@ -10409,16 +10349,6 @@
 			)
 		)
 		(property "OUTER-DIAMETER" "4.35mm"
-			(at 251.46 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Round Standoff Threaded M2x0.4 Steel 0.118 (3.00mm) -"
 			(at 251.46 140.97 0)
 			(effects
 				(font
@@ -10917,7 +10847,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RMCF0603FT100K"
+		(property "MPN" "RC0603FR-07100KL"
 			(at 40.64 118.11 0)
 			(effects
 				(font
@@ -11140,7 +11070,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Right Angle 50Ohms Edge Mount SMA Connector, jack, Solder Termination | Molex Incorporated 73251-1150"
 			(at 118.11 162.56 0)
 			(effects
 				(font
@@ -11149,17 +11079,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Molex"
-			(at 118.11 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Right Angle 50Ohms Edge Mount SMA Connector, jack, Solder Termination | Molex Incorporated 73251-1150"
+		(property "Manufacturer" "Molex"
 			(at 118.11 162.56 0)
 			(effects
 				(font
@@ -11249,7 +11169,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "732511150"
+		(property "MPN" "732511150"
 			(at 118.11 162.56 0)
 			(effects
 				(font
@@ -11323,7 +11243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N-Channel 30 V 350mA (Ta) 260mW (Ta), 830mW (Tc) Surface Mount SOT-323"
 			(at 50.8 110.49 0)
 			(effects
 				(font
@@ -11333,16 +11253,6 @@
 			)
 		)
 		(property "MF" "Nexperia USA"
-			(at 50.8 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "N-Channel 30 V 350mA (Ta) 260mW (Ta), 830mW (Tc) Surface Mount SOT-323"
 			(at 50.8 110.49 0)
 			(effects
 				(font
@@ -11412,7 +11322,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "NX3008NBKW,115"
+		(property "MPN" "NX3008NBKW,115"
 			(at 50.8 110.49 0)
 			(effects
 				(font
@@ -11442,7 +11352,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Nexperia"
+		(property "Manufacturer" "Nexperia"
 			(at 50.8 110.49 0)
 			(effects
 				(font
@@ -11726,7 +11636,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ESD Protection Diodes / TVS Diodes Low Capacitance ESD Protection Diode"
+			(at 219.71 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ESD7004MUTAG"
 			(at 219.71 71.12 0)
 			(effects
 				(font
@@ -11818,7 +11737,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1 POS Vertical SMD Coaxial connector M.2 industry standard with a mated height of 1.4 mm and support up to 12 GHz MHF 4L Receptacle"
 			(at 118.11 152.4 0)
 			(effects
 				(font
@@ -11907,7 +11826,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "20579-001E"
+		(property "MPN" "20579-001E"
 			(at 118.11 152.4 0)
 			(effects
 				(font
@@ -11917,7 +11836,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "1 POS Vertical SMD Coaxial connector M.2 industry standard with a mated height of 1.4 mm and support up to 12 GHz MHF 4L Receptacle"
+		(property "Description_1" ""
 			(at 118.11 152.4 0)
 			(effects
 				(font
@@ -11937,7 +11856,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "I-PEX"
+		(property "Manufacturer" "I-PEX"
 			(at 118.11 152.4 0)
 			(effects
 				(font
@@ -12078,7 +11997,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "M.2 Socket 3 Mechanical Key B"
+		(property "Description" "M.2 0.5PITCH 3.2H KEY B 15Uinch AU, M.2 Connectors | TE Connectivity 2199119-3"
 			(at 91.44 73.66 0)
 			(effects
 				(font
@@ -12187,7 +12106,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "2199119-3"
+		(property "MPN" "2199119-3"
 			(at 91.44 73.66 0)
 			(effects
 				(font
@@ -12207,16 +12126,6 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "M.2 0.5PITCH 3.2H KEY B 15Uinch AU, M.2 Connectors | TE Connectivity 2199119-3"
-			(at 91.44 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
 		(property "Availability" "In Stock"
 			(at 91.44 73.66 0)
 			(effects
@@ -12227,7 +12136,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "TE Connectivity"
+		(property "Manufacturer" "TE Connectivity"
 			(at 91.44 73.66 0)
 			(effects
 				(font
@@ -12584,7 +12493,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" "RC0603FR-074K7L"
+		(property "MPN" "RC0603FR-074K7L"
 			(at 278.13 67.31 0)
 			(effects
 				(font

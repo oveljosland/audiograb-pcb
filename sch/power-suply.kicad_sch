@@ -3687,7 +3687,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "36-V, 5-A synchronous buck converter"
 			(at 175.26 36.83 0)
 			(effects
 				(font
@@ -3776,7 +3776,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "LMR51450SDRRR"
+		(property "MPN" "LMR51450SDRRR"
 			(at 175.26 36.83 0)
 			(effects
 				(font
@@ -3796,16 +3796,6 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "36-V, 5-A synchronous buck converter"
-			(at 175.26 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
 		(property "Availability" "In Stock"
 			(at 175.26 36.83 0)
 			(effects
@@ -3816,7 +3806,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Texas Instruments"
+		(property "Manufacturer" "Texas Instruments"
 			(at 175.26 36.83 0)
 			(effects
 				(font
@@ -3919,7 +3909,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "12V power in"
+		(property "Description" "2 Position Wire to Board Terminal Block Horizontal with Board 0.197 (5.00mm) Through Hole"
 			(at 16.51 26.67 0)
 			(effects
 				(font
@@ -3928,17 +3918,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Würth Elektronik"
-			(at 16.51 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "2 Position Wire to Board Terminal Block Horizontal with Board 0.197 (5.00mm) Through Hole"
+		(property "Manufacturer" "Würth Elektronik"
 			(at 16.51 26.67 0)
 			(effects
 				(font
@@ -3978,7 +3958,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "691137710002"
+		(property "MPN" "691137710002"
 			(at 16.51 26.67 0)
 			(effects
 				(font
@@ -4602,7 +4582,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "3.2-V to 65-V, 80-uA IQ automotive ideal diode controller"
 			(at 63.5 60.96 0)
 			(effects
 				(font
@@ -4691,17 +4671,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "LM74700QDBVTQ1"
-			(at 63.5 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "3.2-V to 65-V, 80-uA IQ automotive ideal diode controller"
+		(property "MPN" "LM74700QDBVTQ1"
 			(at 63.5 60.96 0)
 			(effects
 				(font
@@ -4721,7 +4691,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Texas Instruments"
+		(property "Manufacturer" "Texas Instruments"
 			(at 63.5 60.96 0)
 			(effects
 				(font
@@ -8136,7 +8106,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "0402ESDA-MLP1:ESD_0402ESDA-MLP1"
+		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
 			(at 39.37 31.75 0)
 			(effects
 				(font
@@ -8353,7 +8323,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "36-V, 5-A synchronous buck converter"
 			(at 176.53 99.06 0)
 			(effects
 				(font
@@ -8442,7 +8412,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "LMR51450SDRRR"
+		(property "MPN" "LMR51450SDRRR"
 			(at 176.53 99.06 0)
 			(effects
 				(font
@@ -8462,16 +8432,6 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "36-V, 5-A synchronous buck converter"
-			(at 176.53 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
 		(property "Availability" "In Stock"
 			(at 176.53 99.06 0)
 			(effects
@@ -8482,7 +8442,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Texas Instruments"
+		(property "Manufacturer" "Texas Instruments"
 			(at 176.53 99.06 0)
 			(effects
 				(font

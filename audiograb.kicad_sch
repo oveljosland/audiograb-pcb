@@ -4778,7 +4778,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 33.02 119.3799 0)
 			(effects
 				(font
@@ -5224,6 +5224,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "USB4105-GF-A "
+			(at 33.02 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "B4"
 			(uuid "1106d622-00f9-4df3-b680-eb1acbdc42ec")
 		)
@@ -5472,7 +5481,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100F"
 			(at 45.72 119.3799 0)
 			(effects
 				(font
@@ -5577,7 +5586,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "- Clamp - Ipp Tvs Diode Surface Mount 6-TSOP"
 			(at 96.52 31.75 0)
 			(effects
 				(font
@@ -5666,7 +5675,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "IP4220CZ6F"
+		(property "MPN" "IP4220CZ6F"
 			(at 96.52 31.75 0)
 			(effects
 				(font
@@ -5686,16 +5695,6 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "- Clamp - Ipp Tvs Diode Surface Mount 6-TSOP"
-			(at 96.52 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
 		(property "Availability" "In Stock"
 			(at 96.52 31.75 0)
 			(effects
@@ -5706,7 +5705,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Nexperia"
+		(property "Manufacturer" "Nexperia"
 			(at 96.52 31.75 0)
 			(effects
 				(font
