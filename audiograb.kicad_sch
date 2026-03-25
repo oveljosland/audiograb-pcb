@@ -5481,7 +5481,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100F"
+		(property "Value" "100nF"
 			(at 45.72 119.3799 0)
 			(effects
 				(font
@@ -6195,16 +6195,6 @@
 				(justify left top)
 			)
 		)
-		(pin "CRD_PWR" output
-			(at 111.76 160.02 180)
-			(uuid "762489a8-ce36-40fb-a274-027c6f7483c9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "RESET" input
 			(at 153.67 171.45 0)
 			(uuid "7c8294b1-9078-478c-8679-f0a8fccc8d90")
@@ -6504,26 +6494,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-		(pin "1DIR" input
-			(at 24.13 173.99 180)
-			(uuid "6f9f71ab-da59-4bae-8a4c-674429ec2a76")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "2DIR" input
-			(at 24.13 177.8 180)
-			(uuid "6d3466f6-0ba2-48ab-b204-b219fc1e9051")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(instances

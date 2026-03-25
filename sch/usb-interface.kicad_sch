@@ -1411,6 +1411,10 @@
 		(uuid "ce5093e8-73e6-431e-b358-540f175e9c55")
 	)
 	(no_connect
+		(at 106.68 100.33)
+		(uuid "d31f7f13-5f26-4d5f-8d13-86bbf1511560")
+	)
+	(no_connect
 		(at 91.44 57.15)
 		(uuid "d83644d4-7bc5-4687-ba46-8695659d88ab")
 	)
@@ -1672,17 +1676,6 @@
 			(justify right)
 		)
 		(uuid "365ac205-edb9-4b93-a40c-d85f239e86ce")
-	)
-	(hierarchical_label "CRD_PWR"
-		(shape output)
-		(at 106.68 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3d9f0312-1685-4a16-8379-1ded6b3bc18c")
 	)
 	(hierarchical_label "SD_D3"
 		(shape bidirectional)

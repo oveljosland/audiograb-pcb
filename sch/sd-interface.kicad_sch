@@ -5693,16 +5693,6 @@
 		)
 		(uuid "d0e56cc9-9971-44de-83b1-d7c180077a29")
 	)
-	(text "Testpoints at buffer"
-		(exclude_from_sim no)
-		(at 228.6 76.454 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "efab6df4-d93e-4678-8290-bc3cd7d22ede")
-	)
 	(text "2: CD/DAT3 // CS"
 		(exclude_from_sim no)
 		(at 136.398 21.082 0)
@@ -5712,12 +5702,6 @@
 			)
 		)
 		(uuid "f17c4546-b853-4093-ae80-28a7ae5fd3eb")
-	)
-	(junction
-		(at 242.57 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "04095805-090d-481a-aa8a-1880b283c630")
 	)
 	(junction
 		(at 257.81 154.94)
@@ -5816,18 +5800,6 @@
 		(uuid "3a93a9c3-2d38-45b6-b9b9-3860e4635ecc")
 	)
 	(junction
-		(at 121.92 163.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3bcdc79e-8864-4f08-bfa1-730310fe745e")
-	)
-	(junction
-		(at 227.33 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4284fb7d-88a3-4386-a3fd-3166fe364d79")
-	)
-	(junction
 		(at 207.01 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5894,22 +5866,10 @@
 		(uuid "5accd77c-27da-4cc1-aa55-b05760c8fcb0")
 	)
 	(junction
-		(at 76.2 163.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5b43fe29-fb14-4566-911b-27d7d8654e8f")
-	)
-	(junction
 		(at 255.27 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c8e29a4-a9bb-4877-9e31-a52b21e5b91f")
-	)
-	(junction
-		(at 114.3 163.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "633ec028-a5a3-41fc-a5a7-9c5bb3ae1cc8")
 	)
 	(junction
 		(at 111.76 36.83)
@@ -5978,12 +5938,6 @@
 		(uuid "954f1a94-6261-41a0-9739-1d9742e904fc")
 	)
 	(junction
-		(at 91.44 163.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "972293dc-b5ec-4e20-8a73-2a4c4f7b14a5")
-	)
-	(junction
 		(at 215.9 229.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5994,12 +5948,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ca7a803-5f2c-4560-955a-463a22305abf")
-	)
-	(junction
-		(at 234.95 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9fa7f80b-fb2a-41c6-ba27-7356f6e05fdb")
 	)
 	(junction
 		(at 104.14 118.11)
@@ -6032,10 +5980,10 @@
 		(uuid "b43f9ed7-1679-42a1-8d22-cf3f3358994d")
 	)
 	(junction
-		(at 99.06 163.83)
+		(at 91.44 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b8ee3ddb-fb57-462c-9610-7b91f12b05fe")
+		(uuid "bb25465c-a1e4-4386-a7e0-d83beea90cef")
 	)
 	(junction
 		(at 60.96 41.91)
@@ -6056,12 +6004,6 @@
 		(uuid "d5e68ea1-f540-4fc7-b1c4-6e1787716160")
 	)
 	(junction
-		(at 68.58 163.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d6a58202-7587-4a8b-bc2b-5f34729694c3")
-	)
-	(junction
 		(at 130.81 190.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6078,12 +6020,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "daa775da-db4a-4f28-9e4e-1da7a1a0cc58")
-	)
-	(junction
-		(at 218.44 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e222f966-585f-454f-ba70-74a299946589")
 	)
 	(junction
 		(at 302.26 142.24)
@@ -6114,12 +6050,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f8b8791c-0ed4-4269-a3d4-722b71addd29")
-	)
-	(junction
-		(at 91.44 193.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fc9fe06e-f1f8-4373-98ad-d9f0b3371b54")
 	)
 	(no_connect
 		(at 299.72 125.73)
@@ -6156,6 +6086,16 @@
 			(type default)
 		)
 		(uuid "0326b792-7037-4e21-9578-8b417a525f4b")
+	)
+	(wire
+		(pts
+			(xy 91.44 259.08) (xy 139.7 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0481437f-9d04-4708-9dd0-7330bb0939a2")
 	)
 	(wire
 		(pts
@@ -6259,23 +6199,13 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 163.83) (xy 114.3 185.42)
+			(xy 114.3 153.67) (xy 114.3 185.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0ca9358a-3e62-4d83-9a91-c473a5be2cec")
-	)
-	(wire
-		(pts
-			(xy 139.7 269.24) (xy 68.58 269.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d94c6e7-0080-4b76-8882-09c131cbcc05")
 	)
 	(wire
 		(pts
@@ -6286,16 +6216,6 @@
 			(type default)
 		)
 		(uuid "0ddd4709-482f-4746-8be3-8e09bd277c73")
-	)
-	(wire
-		(pts
-			(xy 121.92 163.83) (xy 121.92 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e66bcd2-2cdc-4feb-880c-2208a25f1f04")
 	)
 	(wire
 		(pts
@@ -6369,17 +6289,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 182.88) (xy 121.92 271.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16bf66c9-7d1a-4679-82cb-3868ca993ed2")
-	)
-	(wire
-		(pts
-			(xy 227.33 58.42) (xy 255.27 58.42)
+			(xy 207.01 58.42) (xy 255.27 58.42)
 		)
 		(stroke
 			(width 0)
@@ -6396,16 +6306,6 @@
 			(type default)
 		)
 		(uuid "17ab31bf-6581-4b7a-a2ff-3644c229e75e")
-	)
-	(wire
-		(pts
-			(xy 218.44 69.85) (xy 218.44 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17eaad61-15c0-46fd-af3f-354611ecefbc")
 	)
 	(wire
 		(pts
@@ -6479,16 +6379,6 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 69.85) (xy 234.95 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "222fc207-b338-4a54-b1fd-d223c77b6696")
-	)
-	(wire
-		(pts
 			(xy 173.99 170.18) (xy 133.35 170.18)
 		)
 		(stroke
@@ -6549,6 +6439,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 269.24) (xy 139.7 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dacb4ba-ac40-4f6c-a467-68aa75b6e003")
+	)
+	(wire
+		(pts
 			(xy 173.99 234.95) (xy 170.18 234.95)
 		)
 		(stroke
@@ -6566,16 +6466,6 @@
 			(type default)
 		)
 		(uuid "3113043f-ba3c-4eba-9afa-79a928fc9e61")
-	)
-	(wire
-		(pts
-			(xy 114.3 185.42) (xy 114.3 274.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31c4e612-1f01-43be-b33a-2de882809f41")
 	)
 	(wire
 		(pts
@@ -6659,16 +6549,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 163.83) (xy 99.06 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ff92795-50d6-4c80-a08d-4cfbd0cece30")
-	)
-	(wire
-		(pts
 			(xy 270.51 223.52) (xy 270.51 213.36)
 		)
 		(stroke
@@ -6726,16 +6606,6 @@
 			(type default)
 		)
 		(uuid "4c56c44f-de3f-4cd9-b826-931db4e5c8c9")
-	)
-	(wire
-		(pts
-			(xy 242.57 69.85) (xy 242.57 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4cb74352-2905-4073-a854-7a2391f937ba")
 	)
 	(wire
 		(pts
@@ -6809,13 +6679,13 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 69.85) (xy 227.33 58.42)
+			(xy 91.44 184.15) (xy 91.44 193.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "50822550-a887-4524-98d9-bf28e61a1a69")
+		(uuid "50c15f41-8530-4004-8901-fddb7d661b53")
 	)
 	(wire
 		(pts
@@ -7009,7 +6879,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 163.83) (xy 68.58 229.87)
+			(xy 68.58 153.67) (xy 68.58 229.87)
 		)
 		(stroke
 			(width 0)
@@ -7109,7 +6979,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 62.23) (xy 234.95 62.23)
+			(xy 207.01 62.23) (xy 264.16 62.23)
 		)
 		(stroke
 			(width 0)
@@ -7169,13 +7039,13 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 153.67) (xy 114.3 163.83)
+			(xy 99.06 190.5) (xy 99.06 261.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7ca41fde-f54c-4a76-871e-3564b84e2d9b")
+		(uuid "7c04c472-dc15-42ef-89f5-cad999719b8d")
 	)
 	(wire
 		(pts
@@ -7319,13 +7189,13 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 163.83) (xy 91.44 193.04)
+			(xy 121.92 182.88) (xy 121.92 271.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8c487fa8-be90-4dbe-887d-2cb452ade840")
+		(uuid "8d977db8-160b-4c30-b8e9-53f6a8830614")
 	)
 	(wire
 		(pts
@@ -7359,7 +7229,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 54.61) (xy 218.44 54.61)
+			(xy 207.01 54.61) (xy 274.32 54.61)
 		)
 		(stroke
 			(width 0)
@@ -7439,13 +7309,13 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 153.67) (xy 68.58 163.83)
+			(xy 91.44 153.67) (xy 91.44 176.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "934f55b9-c893-49f5-a028-296c9764741e")
+		(uuid "92a39fbe-6d32-48a3-9f4d-c77bfeee17cc")
 	)
 	(wire
 		(pts
@@ -7559,16 +7429,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 58.42) (xy 227.33 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e8e5418-f965-4f47-9d9a-49ebe8887f0f")
-	)
-	(wire
-		(pts
 			(xy 114.3 185.42) (xy 133.35 185.42)
 		)
 		(stroke
@@ -7659,7 +7519,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 163.83) (xy 76.2 227.33)
+			(xy 76.2 153.67) (xy 76.2 227.33)
 		)
 		(stroke
 			(width 0)
@@ -7706,16 +7566,6 @@
 			(type default)
 		)
 		(uuid "a90b1dd3-a653-48eb-a9a7-54dc2dc321e3")
-	)
-	(wire
-		(pts
-			(xy 234.95 62.23) (xy 264.16 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a929f5b0-7d96-4064-b8a5-d136db1bd4aa")
 	)
 	(wire
 		(pts
@@ -7799,16 +7649,6 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 66.04) (xy 274.32 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1d15c5c-8cfb-421e-afb4-5d5d621529c5")
-	)
-	(wire
-		(pts
 			(xy 196.85 250.19) (xy 196.85 256.54)
 		)
 		(stroke
@@ -7846,6 +7686,16 @@
 			(type default)
 		)
 		(uuid "b4cd8e56-e549-44e9-b55a-581980ec8e57")
+	)
+	(wire
+		(pts
+			(xy 68.58 229.87) (xy 68.58 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5099a11-913d-4f0f-bd52-d59745ad38fc")
 	)
 	(wire
 		(pts
@@ -7926,16 +7776,6 @@
 			(type default)
 		)
 		(uuid "b807eb04-bf26-4521-841c-b2212ae41e98")
-	)
-	(wire
-		(pts
-			(xy 121.92 153.67) (xy 121.92 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8bec557-cb7d-4e8a-bf37-9588f1689aa4")
 	)
 	(wire
 		(pts
@@ -8039,16 +7879,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 153.67) (xy 76.2 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3786d1e-4161-4cd4-8de9-cd2cfcd18207")
-	)
-	(wire
-		(pts
 			(xy 255.27 154.94) (xy 257.81 154.94)
 		)
 		(stroke
@@ -8059,6 +7889,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 185.42) (xy 114.3 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3bb7591-9f1a-4f52-924b-f73143d7c9e5")
+	)
+	(wire
+		(pts
 			(xy 91.44 193.04) (xy 134.62 193.04)
 		)
 		(stroke
@@ -8066,16 +7906,6 @@
 			(type default)
 		)
 		(uuid "c6013998-c04f-40f9-b4fa-2e2aa0f1b93c")
-	)
-	(wire
-		(pts
-			(xy 99.06 190.5) (xy 99.06 261.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c83de2d5-1d64-4073-bf7b-924b1bb5f97a")
 	)
 	(wire
 		(pts
@@ -8119,6 +7949,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 227.33) (xy 76.2 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf7bbc8b-8662-4f3b-8301-d477fda9c9e2")
+	)
+	(wire
+		(pts
 			(xy 133.35 229.87) (xy 137.16 229.87)
 		)
 		(stroke
@@ -8149,13 +7989,13 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 54.61) (xy 274.32 54.61)
+			(xy 121.92 153.67) (xy 121.92 182.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d329fd10-2e89-4eb2-bb13-432cc6b41614")
+		(uuid "d2cb0111-ca5b-4a4a-aef4-b2edac07be8d")
 	)
 	(wire
 		(pts
@@ -8206,16 +8046,6 @@
 			(type default)
 		)
 		(uuid "da5e0401-14f8-4355-bdf3-e63760cee8e0")
-	)
-	(wire
-		(pts
-			(xy 99.06 153.67) (xy 99.06 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db249f0f-b38a-4912-9093-57bb03d76b49")
 	)
 	(wire
 		(pts
@@ -8319,16 +8149,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 153.67) (xy 91.44 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e28d8208-11ec-40d7-b1b3-5921ab2b72e0")
-	)
-	(wire
-		(pts
 			(xy 93.98 95.25) (xy 146.05 95.25)
 		)
 		(stroke
@@ -8399,17 +8219,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 229.87) (xy 68.58 269.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eaf7ab25-8b23-43d5-9743-38934113258e")
-	)
-	(wire
-		(pts
-			(xy 207.01 66.04) (xy 242.57 66.04)
+			(xy 207.01 66.04) (xy 274.32 66.04)
 		)
 		(stroke
 			(width 0)
@@ -8426,16 +8236,6 @@
 			(type default)
 		)
 		(uuid "ed5c1fb8-a5b1-44e0-8d4e-855a3ca6a5f6")
-	)
-	(wire
-		(pts
-			(xy 91.44 259.08) (xy 139.7 259.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "edc93ca2-db80-4a66-b59e-ef87c4a459e5")
 	)
 	(wire
 		(pts
@@ -8499,16 +8299,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 227.33) (xy 76.2 266.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2f32f27-ef29-4643-89bb-034bb0c5dba4")
-	)
-	(wire
-		(pts
 			(xy 165.1 43.18) (xy 175.26 43.18)
 		)
 		(stroke
@@ -8516,6 +8306,16 @@
 			(type default)
 		)
 		(uuid "f6f28de7-b74c-4266-ba7a-c427eb27da18")
+	)
+	(wire
+		(pts
+			(xy 99.06 153.67) (xy 99.06 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7441699-94ec-4fcb-a50f-445e2405b860")
 	)
 	(wire
 		(pts
@@ -8587,6 +8387,16 @@
 		)
 		(uuid "ff7b5c9c-0166-4ff4-9ade-d4680c50b51a")
 	)
+	(label "sd_card_8"
+		(at 68.58 156.21 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "05af65a6-4f98-4e2d-989c-da740bb4a958")
+	)
 	(label "SD7"
 		(at 135.89 69.85 0)
 		(effects
@@ -8617,6 +8427,36 @@
 		)
 		(uuid "1b0abb70-4e29-400c-bb72-c6b4956cc4cd")
 	)
+	(label "sd_card_5"
+		(at 91.44 156.21 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4bef6a62-49ad-40ac-a4c8-625d0dd24f14")
+	)
+	(label "sd_card1"
+		(at 121.92 154.94 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "69001b6e-bf1d-4284-a6f8-fc94d4208559")
+	)
+	(label "sd_card_7"
+		(at 76.2 156.21 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "72534d3a-70f1-4f93-ac6e-cf3e08ecd731")
+	)
 	(label "SD1"
 		(at 135.89 50.8 0)
 		(effects
@@ -8627,6 +8467,16 @@
 		)
 		(uuid "771aab8d-b6ad-4f5e-a4bb-528b90e0b7f7")
 	)
+	(label "sd_card_2"
+		(at 114.3 154.94 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "826dc763-19a5-4cdf-a7b9-ef5fc94c5003")
+	)
 	(label "SD8"
 		(at 135.89 73.66 0)
 		(effects
@@ -8636,6 +8486,16 @@
 			(justify left bottom)
 		)
 		(uuid "9735f84c-b942-42b2-993f-4e0c8dd5dfa1")
+	)
+	(label "sd_card_3"
+		(at 99.06 156.21 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "99011efe-ddd3-47a6-9eb9-c164ff563913")
 	)
 	(label "SD4"
 		(at 135.89 62.23 0)
@@ -9519,73 +9379,6 @@
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
 					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 218.44 69.85 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1392152d-cfa9-4ba4-a138-a2cfdf35afcb")
-		(property "Reference" "TP14"
-			(at 219.71 73.406 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 215.9 71.8821 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded"
-			(at 213.36 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 213.36 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 218.44 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "271efafd-4a2c-47dd-addd-05d7602c20e0")
-		)
-		(instances
-			(project "audiograb"
-				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -10601,73 +10394,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 76.2 163.83 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "517c2ae9-f678-49c0-a3a8-e56f09410d18")
-		(property "Reference" "TP8"
-			(at 72.898 161.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 74.1679 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 76.2 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 76.2 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 76.2 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6e897838-01a7-4ad0-851b-94802e2e859e")
-		)
-		(instances
-			(project "audiograb"
-				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "TP8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "F32Q-1A7H1-11022:F32Q-1A7H1-11022")
 		(at 88.9 26.67 90)
 		(unit 1)
@@ -11112,73 +10838,6 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 227.33 69.85 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "77ce79a7-6c33-478a-8795-846ed4609007")
-		(property "Reference" "TP15"
-			(at 228.6 73.406 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 224.79 71.8821 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded"
-			(at 222.25 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 222.25 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 227.33 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "18322055-472d-4e96-88a6-6d561304b30f")
-		)
-		(instances
-			(project "audiograb"
-				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "TP15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
 		(at 247.65 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11239,73 +10898,6 @@
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
 					(reference "TP19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 91.44 163.83 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8652a257-8239-45c4-b9b8-782e3a31ae75")
-		(property "Reference" "TP9"
-			(at 88.138 161.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 89.4079 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 91.44 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 91.44 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 91.44 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "634bb6b5-6241-45d2-b2e4-6465832b9762")
-		)
-		(instances
-			(project "audiograb"
-				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -11586,73 +11178,6 @@
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
 					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 234.95 69.85 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "92cb72a9-f742-4fa0-ad54-7226b1c6d8dd")
-		(property "Reference" "TP16"
-			(at 236.474 73.406 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 232.41 71.8821 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded"
-			(at 229.87 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 229.87 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 234.95 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c3a0a61a-9b03-4573-9756-bd25ed66d017")
-		)
-		(instances
-			(project "audiograb"
-				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "TP16")
 					(unit 1)
 				)
 			)
@@ -12171,73 +11696,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 114.3 163.83 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a04ec126-8a2a-4158-9de5-d6ee379953a1")
-		(property "Reference" "TP11"
-			(at 110.998 161.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 112.2679 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 114.3 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 114.3 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "031e321f-1b97-4456-9804-1bcaf194ea07")
-		)
-		(instances
-			(project "audiograb"
-				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "TP11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 257.81 161.29 0)
 		(unit 1)
@@ -12500,6 +11958,85 @@
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
 					(reference "TP20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 91.44 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6ee10bd-5eab-4d29-932a-2cc94c0af22d")
+		(property "Reference" "R23"
+			(at 93.98 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33"
+			(at 93.98 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 89.662 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 91.44 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-0733RL"
+			(at 91.44 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74b7ebcd-72d6-4920-94d6-d2d7d61042ad")
+		)
+		(pin "2"
+			(uuid "ff00f460-a747-4a44-8cce-8888e530863d")
+		)
+		(instances
+			(project "audiograb"
+				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -12956,73 +12493,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 242.57 69.85 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "eaae8855-2f25-44ed-b24f-78aae6cf66b8")
-		(property "Reference" "TP18"
-			(at 243.586 73.406 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 240.03 71.8821 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded"
-			(at 237.49 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 237.49 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 242.57 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "993c5976-8468-4d21-a85b-d4606fcdcf89")
-		)
-		(instances
-			(project "audiograb"
-				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "TP18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 261.62 124.46 0)
 		(unit 1)
@@ -13083,140 +12553,6 @@
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
 					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 121.92 163.83 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ec517f61-bfa2-4aab-b0bc-0e8f262dabbb")
-		(property "Reference" "TP12"
-			(at 118.618 161.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 119.8879 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 121.92 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 121.92 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 121.92 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b4357cd4-2e10-430e-8e35-ceed8632ef41")
-		)
-		(instances
-			(project "audiograb"
-				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "TP12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 68.58 163.83 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ecd4050c-372e-4540-91c5-a00b4ddc63c7")
-		(property "Reference" "TP7"
-			(at 65.278 161.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 66.5479 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 68.58 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 68.58 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 68.58 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1ef3f03e-dd87-4d74-9f61-159204543457")
-		)
-		(instances
-			(project "audiograb"
-				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -13296,73 +12632,6 @@
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
 					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 99.06 163.83 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f6770d24-0a70-4eb8-94d8-894cc52dc145")
-		(property "Reference" "TP10"
-			(at 95.758 161.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 97.0279 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 99.06 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 99.06 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 99.06 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cd728242-bda3-48cc-9bad-b9dbbb582c88")
-		)
-		(instances
-			(project "audiograb"
-				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "TP10")
 					(unit 1)
 				)
 			)
