@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Audiograb")
-		(date "2026-02-13")
-		(rev "0")
+		(date "2026-25-03")
+		(rev "1")
 		(company "NTNU, NINA")
 		(comment 1 "https://github.com/oveljosland/audiograb-pcb/")
 		(comment 2 "Licenced under CERN-OHL-S")
@@ -5404,19 +5404,55 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Airplane mode"
+	(rectangle
+		(start 242.709 116.815)
+		(end 280.791 163.632)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "9ca5c2d4-92fa-4f73-ab5d-2ab03974e532")
+	)
+	(rectangle
+		(start 168.093 116.934)
+		(end 240.466 163.751)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "ad719224-41ef-4286-9791-c158ed37bb77")
+	)
+	(rectangle
+		(start 168.473 25.114)
+		(end 281.054 112.95)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "af358f96-6412-49b2-850f-39aa57fb9ad0")
+	)
+	(text "Antennas"
 		(exclude_from_sim no)
-		(at 116.586 35.56 0)
+		(at 172.72 115.824 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "140053e1-d14d-413a-90b8-375d39d17661")
+		(uuid "169b8111-294b-47fb-afb2-a98e86832ad4")
 	)
 	(text "Molex SMA RCPT edge mnt"
 		(exclude_from_sim no)
-		(at 91.948 182.626 0)
+		(at 206.248 159.766 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5424,19 +5460,9 @@
 		)
 		(uuid "2e3d05ef-e63a-49d0-84ab-af6707fd1cd1")
 	)
-	(text "Disable GNSS"
-		(exclude_from_sim no)
-		(at 116.332 53.594 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "3340df45-e8f6-41a5-b434-853f3faf13c8")
-	)
 	(text "MHF4L Connector Receptacle"
 		(exclude_from_sim no)
-		(at 92.202 142.24 0)
+		(at 206.502 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5446,7 +5472,7 @@
 	)
 	(text "M.2 Standoffs"
 		(exclude_from_sim no)
-		(at 253.746 127.762 0)
+		(at 249.174 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5474,9 +5500,19 @@
 		)
 		(uuid "5bb98c3a-8839-4680-90fe-a07c03d3ca94")
 	)
+	(text "SIM card"
+		(exclude_from_sim no)
+		(at 172.974 23.876 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "664d9bc8-4641-497c-8d1f-6e4b15285efc")
+	)
 	(text "Activity \nLED"
 		(exclude_from_sim no)
-		(at 119.634 41.91 0)
+		(at 116.332 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5501,19 +5537,19 @@
 		(uuid "0402f5c5-8997-4221-8d72-dbd41cab116c")
 	)
 	(junction
-		(at 72.39 40.64)
+		(at 74.93 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0757ee09-7fc3-4f93-a8da-b8003df642e3")
 	)
 	(junction
-		(at 72.39 83.82)
+		(at 74.93 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0b507b27-5bf4-4107-8261-0c470eb77352")
 	)
 	(junction
-		(at 99.06 162.56)
+		(at 213.36 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0c00eae9-1c4f-4246-bd37-6b9f2e0afe3d")
@@ -5531,19 +5567,19 @@
 		(uuid "12c65a10-c920-4d8a-be1a-4bf6deb60cd5")
 	)
 	(junction
-		(at 72.39 53.34)
+		(at 74.93 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "136c4854-ca8d-4e8c-9639-20cf625be6f8")
 	)
 	(junction
-		(at 113.03 162.56)
+		(at 227.33 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "16f5015b-1dab-4bf2-9fb6-95ee6ca4c243")
 	)
 	(junction
-		(at 63.5 162.56)
+		(at 177.8 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "18cdd862-9129-4981-a0a8-455a346a8b4e")
@@ -5555,55 +5591,49 @@
 		(uuid "19432f76-4809-4fcd-bedf-4938761309fb")
 	)
 	(junction
-		(at 72.39 76.2)
+		(at 74.93 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1b51b236-7e88-4ef0-a62d-c80218b84773")
 	)
 	(junction
-		(at 96.52 162.56)
+		(at 210.82 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "21aa8322-a742-4e5d-b02b-c7c4024e9321")
 	)
 	(junction
-		(at 246.38 140.97)
+		(at 256.54 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2724f593-905d-48ff-ab1c-d67486c70649")
 	)
 	(junction
-		(at 111.76 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2ec6d595-5c3c-4a55-8056-847dab9d17d2")
-	)
-	(junction
-		(at 66.04 162.56)
+		(at 180.34 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "35a27c9c-1903-4271-b969-755539eaffcf")
 	)
 	(junction
-		(at 110.49 111.76)
+		(at 113.03 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3b9e0669-5052-4da1-a6dc-1b0dd70fdbaf")
 	)
 	(junction
-		(at 40.64 113.03)
+		(at 54.61 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3cface43-819d-4140-8ced-1cd102cdba43")
 	)
 	(junction
-		(at 72.39 106.68)
+		(at 74.93 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "45d23c5e-20fb-4cfc-8b0d-8795232ac9f0")
 	)
 	(junction
-		(at 72.39 33.02)
+		(at 74.93 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "461e03b5-08c7-4acb-8ef7-343bb8fc332c")
@@ -5615,7 +5645,7 @@
 		(uuid "4bee7fec-31ea-4da6-b7f6-5dbb0fa885fb")
 	)
 	(junction
-		(at 82.55 162.56)
+		(at 196.85 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "53892d11-8142-4b06-b7ba-cb8fdcc9d0a2")
@@ -5633,7 +5663,7 @@
 		(uuid "620e0095-bf83-4122-b3a1-588fe4cf7009")
 	)
 	(junction
-		(at 72.39 91.44)
+		(at 74.93 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "636ce15b-e577-4c1f-a6ef-9f7ac625b634")
@@ -5651,7 +5681,7 @@
 		(uuid "7fb9457d-3e79-4ad7-9230-19d9084dd043")
 	)
 	(junction
-		(at 80.01 162.56)
+		(at 194.31 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "80e6666c-876e-4587-8efa-3bbebb553b7f")
@@ -5663,25 +5693,31 @@
 		(uuid "81d5983f-6291-44f5-8b6b-50de2dc46256")
 	)
 	(junction
+		(at 114.3 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84ec5504-67fd-4140-adb2-bb72e8e04ed7")
+	)
+	(junction
 		(at 199.39 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8e30a056-8b4d-4b37-8626-5c8663c2b4a7")
 	)
 	(junction
-		(at 72.39 109.22)
+		(at 74.93 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "906e44b7-1c03-41e2-a853-7124c13585c7")
 	)
 	(junction
-		(at 72.39 68.58)
+		(at 74.93 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "943712f6-f62f-4874-abe4-924213dcd7a0")
 	)
 	(junction
-		(at 115.57 162.56)
+		(at 229.87 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9a165aaf-09e0-4de5-9d36-3c99cebc7e46")
@@ -5705,7 +5741,7 @@
 		(uuid "a9d4994c-e4de-4e87-a6c1-d3ef51c83150")
 	)
 	(junction
-		(at 50.8 121.92)
+		(at 64.77 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aceceebe-d900-48e8-b674-464a5eff3bdf")
@@ -5759,22 +5795,22 @@
 		(uuid "db28fd7b-8ec6-4e1c-9ab5-3e1f2c5a514a")
 	)
 	(junction
-		(at 111.76 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "db2ddff9-9bab-402b-a4be-32431b511e37")
-	)
-	(junction
-		(at 72.39 60.96)
+		(at 74.93 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "db8c333c-cce8-4d80-bda6-724e143bcb83")
 	)
 	(junction
-		(at 72.39 111.76)
+		(at 74.93 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec6a545c-eeef-46ae-8782-aa1a15a2154c")
+	)
+	(junction
+		(at 114.3 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f63a3564-ad89-47d2-b0e2-9f1bc11f83f5")
 	)
 	(junction
 		(at 181.61 55.88)
@@ -5783,87 +5819,87 @@
 		(uuid "f7c15fba-953f-448b-bfb3-668daede563a")
 	)
 	(no_connect
-		(at 109.22 55.88)
+		(at 111.76 78.74)
 		(uuid "17235878-195e-4ff4-89b5-e0c1e34c52b3")
 	)
 	(no_connect
-		(at 73.66 93.98)
+		(at 76.2 116.84)
 		(uuid "182279df-fa69-4301-bd95-4f6c738fcb4a")
 	)
 	(no_connect
-		(at 109.22 50.8)
+		(at 111.76 73.66)
 		(uuid "1d92a6e6-66b8-4484-ae96-447aa0726b81")
 	)
 	(no_connect
-		(at 109.22 96.52)
+		(at 111.76 119.38)
 		(uuid "2d19f6fa-d4af-4515-ac65-f37738c18382")
 	)
 	(no_connect
-		(at 109.22 99.06)
+		(at 111.76 121.92)
 		(uuid "2ed13a82-5f62-4391-a48a-0a9cf16b6238")
 	)
 	(no_connect
-		(at 109.22 73.66)
+		(at 111.76 96.52)
 		(uuid "3319a853-3995-46dc-b5ed-c50b07dcadde")
 	)
 	(no_connect
-		(at 109.22 35.56)
+		(at 111.76 58.42)
 		(uuid "3595cf9c-a286-471c-8b5c-ac6ec3f3abf3")
 	)
 	(no_connect
-		(at 109.22 68.58)
+		(at 111.76 91.44)
 		(uuid "40cf16c8-c491-4424-b40b-1f9de8f545a5")
 	)
 	(no_connect
-		(at 109.22 48.26)
+		(at 111.76 71.12)
 		(uuid "42ecf599-53e6-4126-9a9e-f68c5a6b1d10")
 	)
 	(no_connect
-		(at 73.66 96.52)
+		(at 76.2 119.38)
 		(uuid "46d968b5-adda-4edd-b8ea-62a7f9485fad")
 	)
 	(no_connect
-		(at 73.66 114.3)
+		(at 76.2 137.16)
 		(uuid "5f1524f8-74f2-4d1e-af7b-693ac1b7398d")
 	)
 	(no_connect
-		(at 73.66 99.06)
+		(at 76.2 121.92)
 		(uuid "6047f7de-bc9e-42b1-986d-f077bb998c76")
 	)
 	(no_connect
-		(at 109.22 93.98)
+		(at 111.76 116.84)
 		(uuid "69246301-5816-4b31-8d54-3de6381a519a")
 	)
 	(no_connect
-		(at 109.22 78.74)
+		(at 111.76 101.6)
 		(uuid "6ab73231-c69f-4a4e-9f7d-fcdcffe70401")
 	)
 	(no_connect
-		(at 109.22 106.68)
+		(at 111.76 129.54)
 		(uuid "76806ce9-7fe9-4640-9af8-6f8982fe6319")
 	)
 	(no_connect
-		(at 109.22 91.44)
+		(at 111.76 114.3)
 		(uuid "7efbb046-f226-4217-a39a-4ec7971eb4c5")
 	)
 	(no_connect
-		(at 73.66 27.94)
+		(at 76.2 50.8)
 		(uuid "9aef09a4-84b6-4c09-8e2a-937ef3c2005f")
 	)
 	(no_connect
-		(at 73.66 101.6)
+		(at 76.2 124.46)
 		(uuid "9d460d62-777e-40d1-8870-c32dc5fa380a")
 	)
 	(no_connect
-		(at 73.66 45.72)
+		(at 76.2 68.58)
 		(uuid "9dd52eb0-e875-402e-8f47-25c016c36416")
 	)
 	(no_connect
-		(at 109.22 45.72)
+		(at 111.76 68.58)
 		(uuid "abd68f6f-ddba-411c-9f89-6b51bbe82d1d")
 	)
 	(no_connect
-		(at 109.22 101.6)
+		(at 111.76 124.46)
 		(uuid "b107ecca-be7e-446f-8716-dad1e14eb684")
 	)
 	(no_connect
@@ -5871,23 +5907,23 @@
 		(uuid "c1a530b2-44b2-4865-a114-c7576a6ee289")
 	)
 	(no_connect
-		(at 109.22 81.28)
+		(at 111.76 104.14)
 		(uuid "c3c64bbe-489e-4833-bdf0-f75175f4eb1d")
 	)
 	(no_connect
-		(at 73.66 50.8)
+		(at 76.2 73.66)
 		(uuid "e60494ef-8430-46f5-8631-36580a5ffb4b")
 	)
 	(no_connect
-		(at 109.22 53.34)
+		(at 111.76 76.2)
 		(uuid "f77694c7-38b9-4da6-8fb4-072cab230a1b")
 	)
 	(no_connect
-		(at 109.22 76.2)
+		(at 111.76 99.06)
 		(uuid "f82874e9-af0f-4df4-9bc1-fb71b8c6fed3")
 	)
 	(no_connect
-		(at 109.22 71.12)
+		(at 111.76 93.98)
 		(uuid "fb66f75a-34d5-4247-a44a-778129510d5b")
 	)
 	(wire
@@ -5902,7 +5938,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 33.02) (xy 72.39 30.48)
+			(xy 74.93 55.88) (xy 74.93 53.34)
 		)
 		(stroke
 			(width 0)
@@ -5912,7 +5948,17 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 162.56) (xy 99.06 162.56)
+			(xy 76.2 105.41) (xy 76.2 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "058a597a-c791-402a-b316-c468b6bc4145")
+	)
+	(wire
+		(pts
+			(xy 210.82 139.7) (xy 213.36 139.7)
 		)
 		(stroke
 			(width 0)
@@ -5922,7 +5968,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 113.03) (xy 43.18 113.03)
+			(xy 54.61 135.89) (xy 57.15 135.89)
 		)
 		(stroke
 			(width 0)
@@ -5942,7 +5988,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 162.56) (xy 113.03 162.56)
+			(xy 219.71 139.7) (xy 227.33 139.7)
 		)
 		(stroke
 			(width 0)
@@ -5952,7 +5998,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 111.76) (xy 110.49 114.3)
+			(xy 113.03 134.62) (xy 113.03 137.16)
 		)
 		(stroke
 			(width 0)
@@ -5972,7 +6018,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 60.96) (xy 109.22 60.96)
+			(xy 115.57 83.82) (xy 111.76 83.82)
 		)
 		(stroke
 			(width 0)
@@ -5992,17 +6038,17 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 78.74) (xy 73.66 78.74)
+			(xy 127 60.96) (xy 130.81 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "16e7cced-09ad-4aec-b6f3-2d54036c6f21")
+		(uuid "17a58f88-75eb-465b-948a-ffaf4d2195bb")
 	)
 	(wire
 		(pts
-			(xy 72.39 76.2) (xy 73.66 76.2)
+			(xy 74.93 99.06) (xy 76.2 99.06)
 		)
 		(stroke
 			(width 0)
@@ -6012,23 +6058,13 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 30.48) (xy 73.66 30.48)
+			(xy 74.93 53.34) (xy 76.2 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1aedf4f3-892c-4886-8764-835910a90e35")
-	)
-	(wire
-		(pts
-			(xy 68.58 78.74) (xy 68.58 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1bfe5cb2-f49f-4f16-8deb-062adbe3e3a0")
 	)
 	(wire
 		(pts
@@ -6052,7 +6088,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 71.12) (xy 73.66 71.12)
+			(xy 54.61 93.98) (xy 76.2 93.98)
 		)
 		(stroke
 			(width 0)
@@ -6062,7 +6098,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 111.76) (xy 72.39 109.22)
+			(xy 74.93 134.62) (xy 74.93 132.08)
 		)
 		(stroke
 			(width 0)
@@ -6102,7 +6138,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 58.42) (xy 73.66 58.42)
+			(xy 72.39 81.28) (xy 76.2 81.28)
 		)
 		(stroke
 			(width 0)
@@ -6122,7 +6158,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 77.47) (xy 66.04 77.47)
+			(xy 62.23 100.33) (xy 76.2 100.33)
 		)
 		(stroke
 			(width 0)
@@ -6132,7 +6168,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 113.03) (xy 31.75 113.03)
+			(xy 44.45 135.89) (xy 45.72 135.89)
 		)
 		(stroke
 			(width 0)
@@ -6142,7 +6178,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 162.56) (xy 63.5 162.56)
+			(xy 170.18 139.7) (xy 177.8 139.7)
 		)
 		(stroke
 			(width 0)
@@ -6162,7 +6198,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 27.94) (xy 111.76 30.48)
+			(xy 114.3 50.8) (xy 114.3 53.34)
 		)
 		(stroke
 			(width 0)
@@ -6172,7 +6208,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 27.94) (xy 109.22 27.94)
+			(xy 114.3 50.8) (xy 111.76 50.8)
 		)
 		(stroke
 			(width 0)
@@ -6182,7 +6218,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 55.88) (xy 73.66 55.88)
+			(xy 72.39 78.74) (xy 76.2 78.74)
 		)
 		(stroke
 			(width 0)
@@ -6242,7 +6278,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 162.56) (xy 82.55 162.56)
+			(xy 194.31 139.7) (xy 196.85 139.7)
 		)
 		(stroke
 			(width 0)
@@ -6252,23 +6288,13 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 33.02) (xy 73.66 33.02)
+			(xy 74.93 55.88) (xy 76.2 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "39819158-8c9b-4c29-9c91-62a68c3dfaf0")
-	)
-	(wire
-		(pts
-			(xy 53.34 82.55) (xy 58.42 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3bffe10b-a3bb-4d3d-aa7b-3b4c0bfa0d20")
 	)
 	(wire
 		(pts
@@ -6282,7 +6308,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 33.02) (xy 111.76 33.02)
+			(xy 111.76 55.88) (xy 114.3 55.88)
 		)
 		(stroke
 			(width 0)
@@ -6292,7 +6318,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 109.22) (xy 110.49 111.76)
+			(xy 113.03 132.08) (xy 113.03 134.62)
 		)
 		(stroke
 			(width 0)
@@ -6302,7 +6328,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 53.34) (xy 73.66 53.34)
+			(xy 74.93 76.2) (xy 76.2 76.2)
 		)
 		(stroke
 			(width 0)
@@ -6322,7 +6348,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 35.56) (xy 73.66 35.56)
+			(xy 72.39 58.42) (xy 76.2 58.42)
 		)
 		(stroke
 			(width 0)
@@ -6352,7 +6378,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 83.82) (xy 113.03 83.82)
+			(xy 111.76 106.68) (xy 115.57 106.68)
 		)
 		(stroke
 			(width 0)
@@ -6362,7 +6388,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 88.9) (xy 73.66 88.9)
+			(xy 54.61 111.76) (xy 76.2 111.76)
 		)
 		(stroke
 			(width 0)
@@ -6382,7 +6408,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 73.66) (xy 73.66 73.66)
+			(xy 54.61 96.52) (xy 76.2 96.52)
 		)
 		(stroke
 			(width 0)
@@ -6392,7 +6418,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 106.68) (xy 73.66 106.68)
+			(xy 74.93 129.54) (xy 76.2 129.54)
 		)
 		(stroke
 			(width 0)
@@ -6402,7 +6428,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 104.14) (xy 73.66 104.14)
+			(xy 64.77 127) (xy 76.2 127)
 		)
 		(stroke
 			(width 0)
@@ -6422,7 +6448,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 162.56) (xy 80.01 162.56)
+			(xy 186.69 139.7) (xy 194.31 139.7)
 		)
 		(stroke
 			(width 0)
@@ -6432,7 +6458,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 60.96) (xy 72.39 53.34)
+			(xy 74.93 83.82) (xy 74.93 76.2)
 		)
 		(stroke
 			(width 0)
@@ -6472,7 +6498,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 114.3) (xy 40.64 113.03)
+			(xy 54.61 137.16) (xy 54.61 135.89)
 		)
 		(stroke
 			(width 0)
@@ -6512,7 +6538,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 30.48) (xy 109.22 30.48)
+			(xy 114.3 53.34) (xy 111.76 53.34)
 		)
 		(stroke
 			(width 0)
@@ -6542,7 +6568,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 154.94) (xy 118.11 162.56)
+			(xy 232.41 132.08) (xy 232.41 139.7)
 		)
 		(stroke
 			(width 0)
@@ -6562,7 +6588,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 113.03) (xy 40.64 113.03)
+			(xy 53.34 135.89) (xy 54.61 135.89)
 		)
 		(stroke
 			(width 0)
@@ -6612,7 +6638,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 109.22) (xy 73.66 109.22)
+			(xy 74.93 132.08) (xy 76.2 132.08)
 		)
 		(stroke
 			(width 0)
@@ -6632,7 +6658,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 154.94) (xy 115.57 162.56)
+			(xy 229.87 132.08) (xy 229.87 139.7)
 		)
 		(stroke
 			(width 0)
@@ -6642,7 +6668,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 162.56) (xy 96.52 162.56)
+			(xy 203.2 139.7) (xy 210.82 139.7)
 		)
 		(stroke
 			(width 0)
@@ -6652,7 +6678,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 109.22) (xy 109.22 109.22)
+			(xy 113.03 132.08) (xy 111.76 132.08)
 		)
 		(stroke
 			(width 0)
@@ -6662,7 +6688,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 86.36) (xy 73.66 86.36)
+			(xy 54.61 109.22) (xy 76.2 109.22)
 		)
 		(stroke
 			(width 0)
@@ -6672,7 +6698,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 162.56) (xy 66.04 162.56)
+			(xy 177.8 139.7) (xy 180.34 139.7)
 		)
 		(stroke
 			(width 0)
@@ -6722,7 +6748,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 104.14) (xy 50.8 105.41)
+			(xy 64.77 127) (xy 64.77 128.27)
 		)
 		(stroke
 			(width 0)
@@ -6732,7 +6758,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 76.2) (xy 72.39 68.58)
+			(xy 74.93 99.06) (xy 74.93 91.44)
 		)
 		(stroke
 			(width 0)
@@ -6742,7 +6768,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 82.55) (xy 66.04 82.55)
+			(xy 62.23 105.41) (xy 76.2 105.41)
 		)
 		(stroke
 			(width 0)
@@ -6782,7 +6808,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 140.97) (xy 246.38 144.78)
+			(xy 256.54 140.97) (xy 256.54 144.78)
 		)
 		(stroke
 			(width 0)
@@ -6792,7 +6818,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 40.64) (xy 72.39 33.02)
+			(xy 74.93 63.5) (xy 74.93 55.88)
 		)
 		(stroke
 			(width 0)
@@ -6802,7 +6828,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 154.94) (xy 68.58 162.56)
+			(xy 182.88 132.08) (xy 182.88 139.7)
 		)
 		(stroke
 			(width 0)
@@ -6812,7 +6838,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 109.22) (xy 72.39 106.68)
+			(xy 74.93 132.08) (xy 74.93 129.54)
 		)
 		(stroke
 			(width 0)
@@ -6842,7 +6868,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 68.58) (xy 73.66 68.58)
+			(xy 74.93 91.44) (xy 76.2 91.44)
 		)
 		(stroke
 			(width 0)
@@ -6852,7 +6878,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 121.92) (xy 50.8 118.11)
+			(xy 64.77 144.78) (xy 64.77 140.97)
 		)
 		(stroke
 			(width 0)
@@ -6872,7 +6898,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 111.76) (xy 113.03 111.76)
+			(xy 113.03 134.62) (xy 123.19 134.62)
 		)
 		(stroke
 			(width 0)
@@ -6882,7 +6908,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 86.36) (xy 113.03 86.36)
+			(xy 111.76 109.22) (xy 115.57 109.22)
 		)
 		(stroke
 			(width 0)
@@ -6912,7 +6938,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 106.68) (xy 72.39 91.44)
+			(xy 74.93 129.54) (xy 74.93 114.3)
 		)
 		(stroke
 			(width 0)
@@ -6922,7 +6948,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 154.94) (xy 66.04 162.56)
+			(xy 180.34 132.08) (xy 180.34 139.7)
 		)
 		(stroke
 			(width 0)
@@ -6932,7 +6958,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 162.56) (xy 115.57 162.56)
+			(xy 227.33 139.7) (xy 229.87 139.7)
 		)
 		(stroke
 			(width 0)
@@ -6962,7 +6988,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 88.9) (xy 113.03 88.9)
+			(xy 111.76 111.76) (xy 115.57 111.76)
 		)
 		(stroke
 			(width 0)
@@ -7012,7 +7038,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 66.04) (xy 73.66 66.04)
+			(xy 72.39 88.9) (xy 76.2 88.9)
 		)
 		(stroke
 			(width 0)
@@ -7022,7 +7048,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 133.35) (xy 246.38 140.97)
+			(xy 256.54 133.35) (xy 256.54 140.97)
 		)
 		(stroke
 			(width 0)
@@ -7032,7 +7058,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 83.82) (xy 72.39 76.2)
+			(xy 74.93 106.68) (xy 74.93 99.06)
 		)
 		(stroke
 			(width 0)
@@ -7072,7 +7098,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 83.82) (xy 73.66 83.82)
+			(xy 74.93 106.68) (xy 76.2 106.68)
 		)
 		(stroke
 			(width 0)
@@ -7092,7 +7118,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 91.44) (xy 73.66 91.44)
+			(xy 74.93 114.3) (xy 76.2 114.3)
 		)
 		(stroke
 			(width 0)
@@ -7102,7 +7128,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 58.42) (xy 109.22 58.42)
+			(xy 115.57 81.28) (xy 111.76 81.28)
 		)
 		(stroke
 			(width 0)
@@ -7112,7 +7138,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 53.34) (xy 72.39 40.64)
+			(xy 74.93 76.2) (xy 74.93 63.5)
 		)
 		(stroke
 			(width 0)
@@ -7122,7 +7148,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 121.92) (xy 50.8 121.92)
+			(xy 54.61 144.78) (xy 64.77 144.78)
 		)
 		(stroke
 			(width 0)
@@ -7142,7 +7168,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 104.14) (xy 109.22 104.14)
+			(xy 115.57 127) (xy 111.76 127)
 		)
 		(stroke
 			(width 0)
@@ -7152,7 +7178,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 38.1) (xy 73.66 38.1)
+			(xy 72.39 60.96) (xy 76.2 60.96)
 		)
 		(stroke
 			(width 0)
@@ -7162,7 +7188,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 27.94) (xy 118.11 27.94)
+			(xy 114.3 50.8) (xy 123.19 50.8)
 		)
 		(stroke
 			(width 0)
@@ -7212,7 +7238,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 154.94) (xy 82.55 162.56)
+			(xy 196.85 132.08) (xy 196.85 139.7)
 		)
 		(stroke
 			(width 0)
@@ -7232,7 +7258,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 30.48) (xy 133.35 30.48)
+			(xy 114.3 53.34) (xy 130.81 53.34)
 		)
 		(stroke
 			(width 0)
@@ -7262,17 +7288,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 38.1) (xy 133.35 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1994d1a-bd26-49a5-a21f-bc7c07597bc5")
-	)
-	(wire
-		(pts
-			(xy 50.8 124.46) (xy 50.8 121.92)
+			(xy 64.77 147.32) (xy 64.77 144.78)
 		)
 		(stroke
 			(width 0)
@@ -7282,7 +7298,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 111.76) (xy 109.22 111.76)
+			(xy 113.03 134.62) (xy 111.76 134.62)
 		)
 		(stroke
 			(width 0)
@@ -7302,7 +7318,17 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 63.5) (xy 109.22 63.5)
+			(xy 76.2 100.33) (xy 76.2 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2e4c230-269f-4a3c-af06-03cad66f549d")
+	)
+	(wire
+		(pts
+			(xy 115.57 86.36) (xy 111.76 86.36)
 		)
 		(stroke
 			(width 0)
@@ -7312,7 +7338,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 114.3) (xy 109.22 114.3)
+			(xy 113.03 137.16) (xy 111.76 137.16)
 		)
 		(stroke
 			(width 0)
@@ -7352,7 +7378,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 60.96) (xy 73.66 60.96)
+			(xy 74.93 83.82) (xy 76.2 83.82)
 		)
 		(stroke
 			(width 0)
@@ -7362,7 +7388,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 66.04) (xy 109.22 66.04)
+			(xy 115.57 88.9) (xy 111.76 88.9)
 		)
 		(stroke
 			(width 0)
@@ -7372,23 +7398,13 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 68.58) (xy 72.39 60.96)
+			(xy 74.93 91.44) (xy 74.93 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "defff41c-975e-4738-a860-fdd5e6e375f1")
-	)
-	(wire
-		(pts
-			(xy 53.34 77.47) (xy 58.42 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e27c4854-2c70-4706-8a22-0755ecd86368")
 	)
 	(wire
 		(pts
@@ -7402,7 +7418,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 63.5) (xy 73.66 63.5)
+			(xy 72.39 86.36) (xy 76.2 86.36)
 		)
 		(stroke
 			(width 0)
@@ -7412,23 +7428,13 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 154.94) (xy 101.6 162.56)
+			(xy 215.9 132.08) (xy 215.9 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e5d0c02d-8d75-43de-8d93-7e358ce3d035")
-	)
-	(wire
-		(pts
-			(xy 73.66 81.28) (xy 68.58 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6273ea1-f6b3-4dbd-aa3f-64b126e7f1af")
 	)
 	(wire
 		(pts
@@ -7442,7 +7448,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 48.26) (xy 73.66 48.26)
+			(xy 72.39 71.12) (xy 76.2 71.12)
 		)
 		(stroke
 			(width 0)
@@ -7472,17 +7478,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 81.28) (xy 68.58 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0c929b0-bc7a-443b-84fe-0df4c323fd00")
-	)
-	(wire
-		(pts
-			(xy 72.39 124.46) (xy 72.39 111.76)
+			(xy 74.93 147.32) (xy 74.93 134.62)
 		)
 		(stroke
 			(width 0)
@@ -7492,7 +7488,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 154.94) (xy 99.06 162.56)
+			(xy 213.36 132.08) (xy 213.36 139.7)
 		)
 		(stroke
 			(width 0)
@@ -7502,7 +7498,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 38.1) (xy 120.65 38.1)
+			(xy 111.76 60.96) (xy 119.38 60.96)
 		)
 		(stroke
 			(width 0)
@@ -7512,7 +7508,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 111.76) (xy 73.66 111.76)
+			(xy 74.93 134.62) (xy 76.2 134.62)
 		)
 		(stroke
 			(width 0)
@@ -7522,7 +7518,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 154.94) (xy 85.09 162.56)
+			(xy 199.39 132.08) (xy 199.39 139.7)
 		)
 		(stroke
 			(width 0)
@@ -7542,7 +7538,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 40.64) (xy 73.66 40.64)
+			(xy 74.93 63.5) (xy 76.2 63.5)
 		)
 		(stroke
 			(width 0)
@@ -7552,7 +7548,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 91.44) (xy 72.39 83.82)
+			(xy 74.93 114.3) (xy 74.93 106.68)
 		)
 		(stroke
 			(width 0)
@@ -7561,7 +7557,7 @@
 		(uuid "fdae8390-2b59-4995-b130-ffa586bd835a")
 	)
 	(label "USIM1_CLK"
-		(at 113.03 60.96 0)
+		(at 115.57 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7571,7 +7567,7 @@
 		(uuid "051af391-c59a-4972-87cf-9c024ea4829f")
 	)
 	(label "PCIE_RX_MOD_P"
-		(at 73.66 81.28 180)
+		(at 76.2 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7581,7 +7577,7 @@
 		(uuid "4fb25bf3-39da-416b-b3e7-6f7538479c3e")
 	)
 	(label "USIM1_DET"
-		(at 113.03 104.14 0)
+		(at 115.57 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7601,7 +7597,7 @@
 		(uuid "66e0c64a-d7c3-4d53-95e4-52c451c963f1")
 	)
 	(label "PCIE_RX_MOD_N"
-		(at 73.66 78.74 180)
+		(at 76.2 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7621,7 +7617,7 @@
 		(uuid "82a53c89-adb6-45f5-bc23-479d901fa903")
 	)
 	(label "USIM1_VDD"
-		(at 113.03 66.04 0)
+		(at 115.57 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7631,7 +7627,7 @@
 		(uuid "9f7550fc-1871-4921-bfb6-082d31666b6a")
 	)
 	(label "USIM1_DATA"
-		(at 113.03 63.5 0)
+		(at 115.57 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7641,7 +7637,7 @@
 		(uuid "a1007fc9-889a-4448-a8c3-097508acc90f")
 	)
 	(label "RESET"
-		(at 69.85 104.14 180)
+		(at 72.39 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7671,7 +7667,7 @@
 		(uuid "d2731fce-2d54-4a24-b1e8-aa8b69d0d9e3")
 	)
 	(label "USIM1_RST"
-		(at 113.03 58.42 0)
+		(at 115.57 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7692,7 +7688,7 @@
 	)
 	(global_label "+3V5"
 		(shape input)
-		(at 113.03 111.76 0)
+		(at 123.19 134.62 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7702,7 +7698,7 @@
 		)
 		(uuid "c57fe4c3-7966-49a7-95ec-357c9b1f2066")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.0952 111.76 0)
+			(at 131.2552 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7716,7 +7712,7 @@
 	)
 	(global_label "+3V5"
 		(shape input)
-		(at 118.11 27.94 0)
+		(at 123.19 50.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7726,7 +7722,7 @@
 		)
 		(uuid "d2b04b75-e086-45e3-8405-5b2479aed162")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.1752 27.94 0)
+			(at 131.2552 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7740,7 +7736,7 @@
 	)
 	(hierarchical_label "MODEM_USB_DP"
 		(shape bidirectional)
-		(at 69.85 35.56 180)
+		(at 72.39 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7751,7 +7747,7 @@
 	)
 	(hierarchical_label "MODEM_USB_TX_N"
 		(shape bidirectional)
-		(at 69.85 55.88 180)
+		(at 72.39 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7762,7 +7758,7 @@
 	)
 	(hierarchical_label "PCIE_nCLKREQ"
 		(shape output)
-		(at 113.03 86.36 0)
+		(at 115.57 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7773,7 +7769,7 @@
 	)
 	(hierarchical_label "PCIE_RX_N"
 		(shape output)
-		(at 53.34 71.12 180)
+		(at 54.61 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7784,7 +7780,7 @@
 	)
 	(hierarchical_label "PCIE_CLK_N"
 		(shape input)
-		(at 53.34 86.36 180)
+		(at 54.61 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7795,7 +7791,7 @@
 	)
 	(hierarchical_label "MODEM_USB_TX_P"
 		(shape bidirectional)
-		(at 69.85 58.42 180)
+		(at 72.39 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7806,7 +7802,7 @@
 	)
 	(hierarchical_label "MODEM_RESET_N"
 		(shape input)
-		(at 30.48 113.03 180)
+		(at 44.45 135.89 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7817,7 +7813,7 @@
 	)
 	(hierarchical_label "PCIE_nWAKE"
 		(shape output)
-		(at 113.03 88.9 0)
+		(at 115.57 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7828,7 +7824,7 @@
 	)
 	(hierarchical_label "PCIE_nRST"
 		(shape input)
-		(at 113.03 83.82 0)
+		(at 115.57 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7839,7 +7835,7 @@
 	)
 	(hierarchical_label "MODEM_USB_RX_P"
 		(shape bidirectional)
-		(at 69.85 66.04 180)
+		(at 72.39 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7850,7 +7846,7 @@
 	)
 	(hierarchical_label "PCIE_PWR_EN"
 		(shape input)
-		(at 111.76 33.02 0)
+		(at 114.3 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7861,7 +7857,7 @@
 	)
 	(hierarchical_label "MODEM_USB_DN"
 		(shape bidirectional)
-		(at 69.85 38.1 180)
+		(at 72.39 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7872,7 +7868,7 @@
 	)
 	(hierarchical_label "MODEM_USB_RX_N"
 		(shape bidirectional)
-		(at 69.85 63.5 180)
+		(at 72.39 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7883,7 +7879,7 @@
 	)
 	(hierarchical_label "PCIE_TX_P"
 		(shape input)
-		(at 53.34 82.55 180)
+		(at 54.61 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7894,7 +7890,7 @@
 	)
 	(hierarchical_label "WAKE_ON_WAN"
 		(shape output)
-		(at 69.85 48.26 180)
+		(at 72.39 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7905,7 +7901,7 @@
 	)
 	(hierarchical_label "PCIE_TX_N"
 		(shape input)
-		(at 53.34 77.47 180)
+		(at 54.61 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7916,7 +7912,7 @@
 	)
 	(hierarchical_label "PCIE_CLK_P"
 		(shape input)
-		(at 53.34 88.9 180)
+		(at 54.61 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7927,7 +7923,7 @@
 	)
 	(hierarchical_label "PCIE_RX_P"
 		(shape output)
-		(at 53.34 73.66 180)
+		(at 54.61 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7938,7 +7934,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 55.88 162.56 0)
+		(at 170.18 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7949,7 +7945,7 @@
 		(fields_autoplaced yes)
 		(uuid "027f7a77-c0cd-4f18-96a1-bd8851297e13")
 		(property "Reference" "#PWR079"
-			(at 55.88 168.91 0)
+			(at 170.18 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7960,7 +7956,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 58.42 163.8299 0)
+			(at 172.72 140.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7971,7 +7967,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 162.56 0)
+			(at 170.18 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7982,7 +7978,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 162.56 0)
+			(at 170.18 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7993,7 +7989,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 55.88 162.56 0)
+			(at 170.18 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8255,7 +8251,7 @@
 	)
 	(symbol
 		(lib_id "20579-001E:20579-001E")
-		(at 68.58 152.4 270)
+		(at 182.88 129.54 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8265,7 +8261,7 @@
 		(dnp no)
 		(uuid "0d5f5ce0-a4b4-4270-a1f3-0b6c71f7df3c")
 		(property "Reference" "J6"
-			(at 67.31 145.542 90)
+			(at 181.61 122.682 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8275,7 +8271,7 @@
 			)
 		)
 		(property "Value" "20579-001E"
-			(at 67.31 148.082 90)
+			(at 181.61 125.222 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8285,7 +8281,7 @@
 			)
 		)
 		(property "Footprint" "20579-001E:IPEX_20579-001E"
-			(at 68.58 152.4 0)
+			(at 182.88 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8297,7 +8293,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 152.4 0)
+			(at 182.88 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8308,7 +8304,7 @@
 			)
 		)
 		(property "Description" "1 POS Vertical SMD Coaxial connector M.2 industry standard with a mated height of 1.4 mm and support up to 12 GHz MHF 4L Receptacle"
-			(at 68.58 152.4 0)
+			(at 182.88 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8319,7 +8315,7 @@
 			)
 		)
 		(property "MF" "I-PEX"
-			(at 68.58 152.4 0)
+			(at 182.88 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8331,7 +8327,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "0.7 mm"
-			(at 68.58 152.4 0)
+			(at 182.88 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8343,7 +8339,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 68.58 152.4 0)
+			(at 182.88 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8355,7 +8351,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 68.58 152.4 0)
+			(at 182.88 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8367,7 +8363,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/20579-001E/I-PEX/view-part/?ref=eda"
-			(at 68.58 152.4 0)
+			(at 182.88 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8379,7 +8375,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 68.58 152.4 0)
+			(at 182.88 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8391,7 +8387,7 @@
 			)
 		)
 		(property "PARTREV" "11"
-			(at 68.58 152.4 0)
+			(at 182.88 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8403,7 +8399,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/20579-001E/I-PEX/view-part/?ref=snap"
-			(at 68.58 152.4 0)
+			(at 182.88 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8415,7 +8411,7 @@
 			)
 		)
 		(property "MPN" "20579-001E"
-			(at 68.58 152.4 0)
+			(at 182.88 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8427,7 +8423,7 @@
 			)
 		)
 		(property "Description_1" "1 POS Vertical SMD Coaxial connector M.2 industry standard with a mated height of 1.4 mm and support up to 12 GHz MHF 4L Receptacle"
-			(at 68.58 152.4 0)
+			(at 182.88 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8439,7 +8435,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 68.58 152.4 0)
+			(at 182.88 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8451,7 +8447,7 @@
 			)
 		)
 		(property "Manufacturer" "I-PEX"
-			(at 68.58 152.4 0)
+			(at 182.88 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8485,7 +8481,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 246.38 144.78 0)
+		(at 256.54 144.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8496,7 +8492,7 @@
 		(fields_autoplaced yes)
 		(uuid "105548b8-c252-4bdc-9dbc-c34763baf3e4")
 		(property "Reference" "#PWR078"
-			(at 246.38 151.13 0)
+			(at 256.54 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8507,7 +8503,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 246.38 149.86 0)
+			(at 256.54 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8517,7 +8513,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 246.38 144.78 0)
+			(at 256.54 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8528,7 +8524,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 246.38 144.78 0)
+			(at 256.54 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8539,7 +8535,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 246.38 144.78 0)
+			(at 256.54 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8563,7 +8559,7 @@
 	)
 	(symbol
 		(lib_id "732511150:732511150")
-		(at 68.58 162.56 270)
+		(at 182.88 139.7 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8573,7 +8569,7 @@
 		(dnp no)
 		(uuid "1342eed4-ef01-4345-9719-118192c96220")
 		(property "Reference" "J11"
-			(at 64.262 176.53 90)
+			(at 178.562 153.67 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8584,7 +8580,7 @@
 			)
 		)
 		(property "Value" "732511150"
-			(at 64.262 179.07 90)
+			(at 178.562 156.21 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8595,7 +8591,7 @@
 			)
 		)
 		(property "Footprint" "732511150:CONN_73251-1150_MOL"
-			(at 68.58 162.56 0)
+			(at 182.88 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8607,7 +8603,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 162.56 0)
+			(at 182.88 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8618,7 +8614,7 @@
 			)
 		)
 		(property "Description" "Right Angle 50Ohms Edge Mount SMA Connector, jack, Solder Termination | Molex Incorporated 73251-1150"
-			(at 68.58 162.56 0)
+			(at 182.88 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8629,7 +8625,7 @@
 			)
 		)
 		(property "Manufacturer" "Molex"
-			(at 68.58 162.56 0)
+			(at 182.88 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8641,7 +8637,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 68.58 162.56 0)
+			(at 182.88 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8653,7 +8649,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 68.58 162.56 0)
+			(at 182.88 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8665,7 +8661,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/73251-1150/Molex/view-part/?ref=eda"
-			(at 68.58 162.56 0)
+			(at 182.88 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8677,7 +8673,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 68.58 162.56 0)
+			(at 182.88 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8689,7 +8685,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/73251-1150/Molex/view-part/?ref=snap"
-			(at 68.58 162.56 0)
+			(at 182.88 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8701,7 +8697,7 @@
 			)
 		)
 		(property "MP" "73251-1150"
-			(at 68.58 162.56 0)
+			(at 182.88 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8713,7 +8709,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=281880&manufacturer=Molex&part_name=73251-1150&search_term=0732511150"
-			(at 68.58 162.56 0)
+			(at 182.88 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8725,7 +8721,7 @@
 			)
 		)
 		(property "MFR_NAME" "Molex Connector Corporation"
-			(at 68.58 162.56 0)
+			(at 182.88 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8737,7 +8733,7 @@
 			)
 		)
 		(property "MPN" "732511150"
-			(at 68.58 162.56 0)
+			(at 182.88 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8768,7 +8764,7 @@
 	)
 	(symbol
 		(lib_id "20579-001E:20579-001E")
-		(at 101.6 152.4 270)
+		(at 215.9 129.54 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8778,7 +8774,7 @@
 		(dnp no)
 		(uuid "14601ed3-7f9a-4544-bd6c-444dce829c14")
 		(property "Reference" "J8"
-			(at 100.584 145.288 90)
+			(at 214.884 122.428 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8788,7 +8784,7 @@
 			)
 		)
 		(property "Value" "20579-001E"
-			(at 100.584 147.828 90)
+			(at 214.884 124.968 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8798,7 +8794,7 @@
 			)
 		)
 		(property "Footprint" "20579-001E:IPEX_20579-001E"
-			(at 101.6 152.4 0)
+			(at 215.9 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8810,7 +8806,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 152.4 0)
+			(at 215.9 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8821,7 +8817,7 @@
 			)
 		)
 		(property "Description" "1 POS Vertical SMD Coaxial connector M.2 industry standard with a mated height of 1.4 mm and support up to 12 GHz MHF 4L Receptacle"
-			(at 101.6 152.4 0)
+			(at 215.9 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8832,7 +8828,7 @@
 			)
 		)
 		(property "MF" "I-PEX"
-			(at 101.6 152.4 0)
+			(at 215.9 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8844,7 +8840,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "0.7 mm"
-			(at 101.6 152.4 0)
+			(at 215.9 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8856,7 +8852,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 101.6 152.4 0)
+			(at 215.9 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8868,7 +8864,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 101.6 152.4 0)
+			(at 215.9 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8880,7 +8876,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/20579-001E/I-PEX/view-part/?ref=eda"
-			(at 101.6 152.4 0)
+			(at 215.9 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8892,7 +8888,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 101.6 152.4 0)
+			(at 215.9 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8904,7 +8900,7 @@
 			)
 		)
 		(property "PARTREV" "11"
-			(at 101.6 152.4 0)
+			(at 215.9 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8916,7 +8912,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/20579-001E/I-PEX/view-part/?ref=snap"
-			(at 101.6 152.4 0)
+			(at 215.9 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8928,7 +8924,7 @@
 			)
 		)
 		(property "MPN" "20579-001E"
-			(at 101.6 152.4 0)
+			(at 215.9 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8940,7 +8936,7 @@
 			)
 		)
 		(property "Description_1" "1 POS Vertical SMD Coaxial connector M.2 industry standard with a mated height of 1.4 mm and support up to 12 GHz MHF 4L Receptacle"
-			(at 101.6 152.4 0)
+			(at 215.9 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8952,7 +8948,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 101.6 152.4 0)
+			(at 215.9 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8964,7 +8960,7 @@
 			)
 		)
 		(property "Manufacturer" "I-PEX"
-			(at 101.6 152.4 0)
+			(at 215.9 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9077,7 +9073,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 72.39 124.46 0)
+		(at 74.93 147.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9088,7 +9084,7 @@
 		(fields_autoplaced yes)
 		(uuid "17ddf9b0-ef73-462f-a0b4-bfca6e4ea77e")
 		(property "Reference" "#PWR077"
-			(at 72.39 130.81 0)
+			(at 74.93 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9099,7 +9095,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 72.39 129.54 0)
+			(at 74.93 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9109,7 +9105,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 124.46 0)
+			(at 74.93 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9120,7 +9116,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 124.46 0)
+			(at 74.93 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9131,7 +9127,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 72.39 124.46 0)
+			(at 74.93 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9155,7 +9151,7 @@
 	)
 	(symbol
 		(lib_id "WA-SMSI_9774XXX243:WA-SMSI_9774XXX243")
-		(at 251.46 133.35 0)
+		(at 261.62 133.35 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9166,7 +9162,7 @@
 		(fields_autoplaced yes)
 		(uuid "1d01cc64-d72a-499c-9820-d154edf1c99d")
 		(property "Reference" "MP5"
-			(at 255.27 132.0799 0)
+			(at 265.43 132.0799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9177,7 +9173,7 @@
 			)
 		)
 		(property "Value" "M2 x 3mm"
-			(at 251.46 133.35 0)
+			(at 261.62 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9189,7 +9185,7 @@
 			)
 		)
 		(property "Footprint" "WA-SMSI_9774XXX243:WA-SMSI_9774030243"
-			(at 251.46 133.35 0)
+			(at 261.62 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9201,7 +9197,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 133.35 0)
+			(at 261.62 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9212,7 +9208,7 @@
 			)
 		)
 		(property "Description" "Round Standoff Threaded M2x0.4 Steel 0.118 (3.00mm) -"
-			(at 251.46 133.35 0)
+			(at 261.62 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9223,7 +9219,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/9774030243R/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda"
-			(at 251.46 133.35 0)
+			(at 261.62 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9235,7 +9231,7 @@
 			)
 		)
 		(property "Manufacturer " "Würth Elektronik"
-			(at 251.46 133.35 0)
+			(at 261.62 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9247,7 +9243,7 @@
 			)
 		)
 		(property "THREAD" "M2"
-			(at 251.46 133.35 0)
+			(at 261.62 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9259,7 +9255,7 @@
 			)
 		)
 		(property "INNER-DIAMETER" "2.8mm"
-			(at 251.46 133.35 0)
+			(at 261.62 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9271,7 +9267,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 251.46 133.35 0)
+			(at 261.62 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9283,7 +9279,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 251.46 133.35 0)
+			(at 261.62 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9295,7 +9291,7 @@
 			)
 		)
 		(property "PIN-LENGTH" "3mm"
-			(at 251.46 133.35 0)
+			(at 261.62 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9307,7 +9303,7 @@
 			)
 		)
 		(property "INNER-THREAD-LENGTH" "-"
-			(at 251.46 133.35 0)
+			(at 261.62 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9319,7 +9315,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 251.46 133.35 0)
+			(at 261.62 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9331,7 +9327,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/9774030243R/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=snap"
-			(at 251.46 133.35 0)
+			(at 261.62 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9343,7 +9339,7 @@
 			)
 		)
 		(property "DATASHEET-URL" "https://www.we-online.com/catalog/datasheet/9774030243R.pdf"
-			(at 251.46 133.35 0)
+			(at 261.62 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9355,7 +9351,7 @@
 			)
 		)
 		(property "MPN" "9774030243R"
-			(at 251.46 133.35 0)
+			(at 261.62 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9367,7 +9363,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=4874481&manufacturer=Würth Elektronik&part_name=9774030243R&search_term= 9774030243r"
-			(at 251.46 133.35 0)
+			(at 261.62 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9379,7 +9375,7 @@
 			)
 		)
 		(property "PART-NUMBER" "9774030243R"
-			(at 251.46 133.35 0)
+			(at 261.62 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9391,7 +9387,7 @@
 			)
 		)
 		(property "OUTER-DIAMETER" "4.35mm"
-			(at 251.46 133.35 0)
+			(at 261.62 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9416,7 +9412,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 50.8 124.46 0)
+		(at 64.77 147.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9427,7 +9423,7 @@
 		(fields_autoplaced yes)
 		(uuid "22a9439e-afa7-46e1-8303-7d662f920e56")
 		(property "Reference" "#PWR076"
-			(at 50.8 130.81 0)
+			(at 64.77 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9438,7 +9434,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 50.8 129.54 0)
+			(at 64.77 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9448,7 +9444,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 124.46 0)
+			(at 64.77 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9459,7 +9455,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 124.46 0)
+			(at 64.77 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9470,7 +9466,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 124.46 0)
+			(at 64.77 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9573,7 +9569,7 @@
 	)
 	(symbol
 		(lib_id "732511150:732511150")
-		(at 85.09 162.56 270)
+		(at 199.39 139.7 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9583,7 +9579,7 @@
 		(dnp no)
 		(uuid "27ae6393-9a77-4821-b75d-1fa4975639fe")
 		(property "Reference" "J12"
-			(at 80.01 176.53 90)
+			(at 194.31 153.67 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9594,7 +9590,7 @@
 			)
 		)
 		(property "Value" "732511150"
-			(at 80.01 179.07 90)
+			(at 194.31 156.21 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9605,7 +9601,7 @@
 			)
 		)
 		(property "Footprint" "732511150:CONN_73251-1150_MOL"
-			(at 85.09 162.56 0)
+			(at 199.39 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9617,7 +9613,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 162.56 0)
+			(at 199.39 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9628,7 +9624,7 @@
 			)
 		)
 		(property "Description" "Right Angle 50Ohms Edge Mount SMA Connector, jack, Solder Termination | Molex Incorporated 73251-1150"
-			(at 85.09 162.56 0)
+			(at 199.39 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9639,7 +9635,7 @@
 			)
 		)
 		(property "Manufacturer" "Molex"
-			(at 85.09 162.56 0)
+			(at 199.39 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9651,7 +9647,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 85.09 162.56 0)
+			(at 199.39 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9663,7 +9659,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 85.09 162.56 0)
+			(at 199.39 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9675,7 +9671,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/73251-1150/Molex/view-part/?ref=eda"
-			(at 85.09 162.56 0)
+			(at 199.39 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9687,7 +9683,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 85.09 162.56 0)
+			(at 199.39 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9699,7 +9695,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/73251-1150/Molex/view-part/?ref=snap"
-			(at 85.09 162.56 0)
+			(at 199.39 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9711,7 +9707,7 @@
 			)
 		)
 		(property "MP" "73251-1150"
-			(at 85.09 162.56 0)
+			(at 199.39 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9723,7 +9719,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=281880&manufacturer=Molex&part_name=73251-1150&search_term=0732511150"
-			(at 85.09 162.56 0)
+			(at 199.39 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9735,7 +9731,7 @@
 			)
 		)
 		(property "MFR_NAME" "Molex Connector Corporation"
-			(at 85.09 162.56 0)
+			(at 199.39 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9747,7 +9743,7 @@
 			)
 		)
 		(property "MPN" "732511150"
-			(at 85.09 162.56 0)
+			(at 199.39 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9778,7 +9774,7 @@
 	)
 	(symbol
 		(lib_id "20579-001E:20579-001E")
-		(at 85.09 152.4 270)
+		(at 199.39 129.54 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9788,7 +9784,7 @@
 		(dnp no)
 		(uuid "2b0b677e-2e9b-4344-a426-958d3e7b3dfc")
 		(property "Reference" "J7"
-			(at 84.074 145.288 90)
+			(at 198.374 122.428 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9798,7 +9794,7 @@
 			)
 		)
 		(property "Value" "20579-001E"
-			(at 84.074 147.828 90)
+			(at 198.374 124.968 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9808,7 +9804,7 @@
 			)
 		)
 		(property "Footprint" "20579-001E:IPEX_20579-001E"
-			(at 85.09 152.4 0)
+			(at 199.39 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9820,7 +9816,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 152.4 0)
+			(at 199.39 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9831,7 +9827,7 @@
 			)
 		)
 		(property "Description" "1 POS Vertical SMD Coaxial connector M.2 industry standard with a mated height of 1.4 mm and support up to 12 GHz MHF 4L Receptacle"
-			(at 85.09 152.4 0)
+			(at 199.39 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9842,7 +9838,7 @@
 			)
 		)
 		(property "MF" "I-PEX"
-			(at 85.09 152.4 0)
+			(at 199.39 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9854,7 +9850,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "0.7 mm"
-			(at 85.09 152.4 0)
+			(at 199.39 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9866,7 +9862,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 85.09 152.4 0)
+			(at 199.39 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9878,7 +9874,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 85.09 152.4 0)
+			(at 199.39 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9890,7 +9886,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/20579-001E/I-PEX/view-part/?ref=eda"
-			(at 85.09 152.4 0)
+			(at 199.39 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9902,7 +9898,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 85.09 152.4 0)
+			(at 199.39 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9914,7 +9910,7 @@
 			)
 		)
 		(property "PARTREV" "11"
-			(at 85.09 152.4 0)
+			(at 199.39 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9926,7 +9922,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/20579-001E/I-PEX/view-part/?ref=snap"
-			(at 85.09 152.4 0)
+			(at 199.39 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9938,7 +9934,7 @@
 			)
 		)
 		(property "MPN" "20579-001E"
-			(at 85.09 152.4 0)
+			(at 199.39 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9950,7 +9946,7 @@
 			)
 		)
 		(property "Description_1" "1 POS Vertical SMD Coaxial connector M.2 industry standard with a mated height of 1.4 mm and support up to 12 GHz MHF 4L Receptacle"
-			(at 85.09 152.4 0)
+			(at 199.39 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9962,7 +9958,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 85.09 152.4 0)
+			(at 199.39 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9974,7 +9970,7 @@
 			)
 		)
 		(property "Manufacturer" "I-PEX"
-			(at 85.09 152.4 0)
+			(at 199.39 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10101,7 +10097,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 62.23 77.47 90)
+		(at 58.42 100.33 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10112,7 +10108,7 @@
 		(fields_autoplaced yes)
 		(uuid "38b52596-588c-41b1-b0cc-fa2248f7f9da")
 		(property "Reference" "C42"
-			(at 62.23 69.85 90)
+			(at 58.42 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10122,7 +10118,7 @@
 			)
 		)
 		(property "Value" "220nF"
-			(at 62.23 72.39 90)
+			(at 58.42 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10132,7 +10128,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 66.04 76.5048 0)
+			(at 62.23 99.3648 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10143,7 +10139,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 77.47 0)
+			(at 58.42 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10154,7 +10150,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 62.23 77.47 0)
+			(at 58.42 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10165,7 +10161,7 @@
 			)
 		)
 		(property "MPN" "C0603C224K5RACTU"
-			(at 62.23 77.47 0)
+			(at 58.42 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10192,8 +10188,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 35.56 113.03 90)
-		(mirror x)
+		(at 49.53 135.89 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10203,7 +10198,7 @@
 		(dnp no)
 		(uuid "3a9138ca-bca2-4a24-ad5f-09b9daa02017")
 		(property "Reference" "R21"
-			(at 35.56 108.712 90)
+			(at 49.53 140.208 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10213,7 +10208,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 35.56 110.998 90)
+			(at 49.53 137.922 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10223,7 +10218,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 35.56 111.252 90)
+			(at 49.53 137.668 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10234,7 +10229,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 113.03 0)
+			(at 49.53 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10245,7 +10240,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 35.56 113.03 0)
+			(at 49.53 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10256,7 +10251,7 @@
 			)
 		)
 		(property "MPN" "RC0603FR-071KL"
-			(at 35.56 113.03 0)
+			(at 49.53 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10376,7 +10371,7 @@
 	)
 	(symbol
 		(lib_id "732511150:732511150")
-		(at 101.6 162.56 270)
+		(at 215.9 139.7 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10386,7 +10381,7 @@
 		(dnp no)
 		(uuid "4cb317c3-44ec-4464-9485-56a75a34bb2a")
 		(property "Reference" "J13"
-			(at 95.504 176.276 90)
+			(at 209.804 153.416 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10397,7 +10392,7 @@
 			)
 		)
 		(property "Value" "732511150"
-			(at 95.504 178.816 90)
+			(at 209.804 155.956 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10408,7 +10403,7 @@
 			)
 		)
 		(property "Footprint" "732511150:CONN_73251-1150_MOL"
-			(at 101.6 162.56 0)
+			(at 215.9 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10420,7 +10415,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 162.56 0)
+			(at 215.9 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10431,7 +10426,7 @@
 			)
 		)
 		(property "Description" "Right Angle 50Ohms Edge Mount SMA Connector, jack, Solder Termination | Molex Incorporated 73251-1150"
-			(at 101.6 162.56 0)
+			(at 215.9 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10442,7 +10437,7 @@
 			)
 		)
 		(property "Manufacturer" "Molex"
-			(at 101.6 162.56 0)
+			(at 215.9 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10454,7 +10449,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 101.6 162.56 0)
+			(at 215.9 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10466,7 +10461,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 101.6 162.56 0)
+			(at 215.9 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10478,7 +10473,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/73251-1150/Molex/view-part/?ref=eda"
-			(at 101.6 162.56 0)
+			(at 215.9 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10490,7 +10485,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 101.6 162.56 0)
+			(at 215.9 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10502,7 +10497,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/73251-1150/Molex/view-part/?ref=snap"
-			(at 101.6 162.56 0)
+			(at 215.9 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10514,7 +10509,7 @@
 			)
 		)
 		(property "MP" "73251-1150"
-			(at 101.6 162.56 0)
+			(at 215.9 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10526,7 +10521,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=281880&manufacturer=Molex&part_name=73251-1150&search_term=0732511150"
-			(at 101.6 162.56 0)
+			(at 215.9 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10538,7 +10533,7 @@
 			)
 		)
 		(property "MFR_NAME" "Molex Connector Corporation"
-			(at 101.6 162.56 0)
+			(at 215.9 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10550,7 +10545,7 @@
 			)
 		)
 		(property "MPN" "732511150"
-			(at 101.6 162.56 0)
+			(at 215.9 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10937,7 +10932,7 @@
 	)
 	(symbol
 		(lib_id "WA-SMSI_9774XXX243:WA-SMSI_9774XXX243")
-		(at 251.46 140.97 0)
+		(at 261.62 140.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10948,7 +10943,7 @@
 		(fields_autoplaced yes)
 		(uuid "74cd1746-939f-438e-94c0-f2038ccfbe5e")
 		(property "Reference" "MP6"
-			(at 255.27 139.6999 0)
+			(at 265.43 139.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10959,7 +10954,7 @@
 			)
 		)
 		(property "Value" "M2 x 3mm"
-			(at 251.46 140.97 0)
+			(at 261.62 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10971,7 +10966,7 @@
 			)
 		)
 		(property "Footprint" "WA-SMSI_9774XXX243:WA-SMSI_9774030243"
-			(at 251.46 140.97 0)
+			(at 261.62 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10983,7 +10978,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 140.97 0)
+			(at 261.62 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10994,7 +10989,7 @@
 			)
 		)
 		(property "Description" "Round Standoff Threaded M2x0.4 Steel 0.118 (3.00mm) -"
-			(at 251.46 140.97 0)
+			(at 261.62 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11005,7 +11000,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/9774030243R/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda"
-			(at 251.46 140.97 0)
+			(at 261.62 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11017,7 +11012,7 @@
 			)
 		)
 		(property "Manufacturer" "Würth Elektronik"
-			(at 251.46 140.97 0)
+			(at 261.62 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11029,7 +11024,7 @@
 			)
 		)
 		(property "THREAD" "M2"
-			(at 251.46 140.97 0)
+			(at 261.62 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11041,7 +11036,7 @@
 			)
 		)
 		(property "INNER-DIAMETER" "2.8mm"
-			(at 251.46 140.97 0)
+			(at 261.62 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11053,7 +11048,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 251.46 140.97 0)
+			(at 261.62 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11065,7 +11060,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 251.46 140.97 0)
+			(at 261.62 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11077,7 +11072,7 @@
 			)
 		)
 		(property "PIN-LENGTH" "3mm"
-			(at 251.46 140.97 0)
+			(at 261.62 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11089,7 +11084,7 @@
 			)
 		)
 		(property "INNER-THREAD-LENGTH" "-"
-			(at 251.46 140.97 0)
+			(at 261.62 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11101,7 +11096,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 251.46 140.97 0)
+			(at 261.62 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11113,7 +11108,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/9774030243R/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=snap"
-			(at 251.46 140.97 0)
+			(at 261.62 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11125,7 +11120,7 @@
 			)
 		)
 		(property "DATASHEET-URL" "https://www.we-online.com/catalog/datasheet/9774030243R.pdf"
-			(at 251.46 140.97 0)
+			(at 261.62 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11137,7 +11132,7 @@
 			)
 		)
 		(property "MPN" "9774030243R"
-			(at 251.46 140.97 0)
+			(at 261.62 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11149,7 +11144,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=4874481&manufacturer=Würth Elektronik&part_name=9774030243R&search_term= 9774030243r"
-			(at 251.46 140.97 0)
+			(at 261.62 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11161,7 +11156,7 @@
 			)
 		)
 		(property "PART-NUMBER" "9774030243R"
-			(at 251.46 140.97 0)
+			(at 261.62 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11173,7 +11168,7 @@
 			)
 		)
 		(property "OUTER-DIAMETER" "4.35mm"
-			(at 251.46 140.97 0)
+			(at 261.62 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11447,7 +11442,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 88.9 162.56 0)
+		(at 203.2 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11458,7 +11453,7 @@
 		(fields_autoplaced yes)
 		(uuid "902d1efe-7931-4160-86b4-d8ab46248abd")
 		(property "Reference" "#PWR081"
-			(at 88.9 168.91 0)
+			(at 203.2 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11469,7 +11464,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 91.44 163.8299 0)
+			(at 205.74 140.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11480,7 +11475,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 162.56 0)
+			(at 203.2 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11491,7 +11486,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 162.56 0)
+			(at 203.2 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11502,7 +11497,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.9 162.56 0)
+			(at 203.2 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11605,7 +11600,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 62.23 82.55 90)
+		(at 58.42 105.41 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -11616,7 +11611,7 @@
 		(dnp no)
 		(uuid "96f49aae-49c6-40aa-afd1-b669b7f3595c")
 		(property "Reference" "C43"
-			(at 62.23 90.17 90)
+			(at 58.42 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11626,7 +11621,7 @@
 			)
 		)
 		(property "Value" "220nF"
-			(at 62.23 87.63 90)
+			(at 58.42 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11636,7 +11631,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 66.04 83.5152 0)
+			(at 62.23 106.3752 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11647,7 +11642,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 82.55 0)
+			(at 58.42 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11658,7 +11653,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 62.23 82.55 0)
+			(at 58.42 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11669,7 +11664,7 @@
 			)
 		)
 		(property "MPN" "C0603C224K5RACTU"
-			(at 62.23 82.55 0)
+			(at 58.42 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11696,7 +11691,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 40.64 118.11 0)
+		(at 54.61 140.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11707,7 +11702,7 @@
 		(fields_autoplaced yes)
 		(uuid "9714d369-2e23-403b-985a-47b889911e2a")
 		(property "Reference" "R22"
-			(at 43.18 116.8399 0)
+			(at 57.15 139.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11718,7 +11713,7 @@
 			)
 		)
 		(property "Value" "100K"
-			(at 43.18 119.3799 0)
+			(at 57.15 142.2399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11729,7 +11724,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 38.862 118.11 90)
+			(at 52.832 140.97 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11740,7 +11735,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 118.11 0)
+			(at 54.61 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11751,7 +11746,7 @@
 			)
 		)
 		(property "Description" "Resistor 100k"
-			(at 40.64 118.11 0)
+			(at 54.61 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11762,7 +11757,7 @@
 			)
 		)
 		(property "MPN" "RC0603FR-07100KL"
-			(at 40.64 118.11 0)
+			(at 54.61 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11789,7 +11784,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 124.46 38.1 0)
+		(at 123.19 60.96 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -11800,7 +11795,7 @@
 		(dnp no)
 		(uuid "a40a51f6-7f48-4e7b-8e25-38e8296e7f86")
 		(property "Reference" "D3"
-			(at 124.46 43.434 0)
+			(at 123.19 66.294 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11810,7 +11805,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 124.46 40.894 0)
+			(at 123.19 63.754 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11820,7 +11815,7 @@
 			)
 		)
 		(property "Footprint" "LTST-C190GKT:LEDM1608X80"
-			(at 124.46 38.1 0)
+			(at 123.19 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11831,7 +11826,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 38.1 0)
+			(at 123.19 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11842,7 +11837,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 124.46 38.1 0)
+			(at 123.19 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11853,7 +11848,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 124.46 38.1 0)
+			(at 123.19 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11864,7 +11859,7 @@
 			)
 		)
 		(property "MPN" "LTST-C190GKT"
-			(at 124.46 38.1 90)
+			(at 123.19 60.96 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11891,7 +11886,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 105.41 162.56 0)
+		(at 219.71 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11902,7 +11897,7 @@
 		(fields_autoplaced yes)
 		(uuid "abcda652-5287-4896-83cf-a9eb2049f694")
 		(property "Reference" "#PWR082"
-			(at 105.41 168.91 0)
+			(at 219.71 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11913,7 +11908,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 107.95 163.8299 0)
+			(at 222.25 140.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11924,7 +11919,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 162.56 0)
+			(at 219.71 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11935,7 +11930,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 162.56 0)
+			(at 219.71 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11946,7 +11941,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 105.41 162.56 0)
+			(at 219.71 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11970,7 +11965,7 @@
 	)
 	(symbol
 		(lib_id "732511150:732511150")
-		(at 118.11 162.56 270)
+		(at 232.41 139.7 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11980,7 +11975,7 @@
 		(dnp no)
 		(uuid "b7be9f01-2f62-4ee9-a9fe-4306d1174fe6")
 		(property "Reference" "J14"
-			(at 112.522 176.276 90)
+			(at 226.822 153.416 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11991,7 +11986,7 @@
 			)
 		)
 		(property "Value" "732511150"
-			(at 112.522 178.816 90)
+			(at 226.822 155.956 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12002,7 +11997,7 @@
 			)
 		)
 		(property "Footprint" "732511150:CONN_73251-1150_MOL"
-			(at 118.11 162.56 0)
+			(at 232.41 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12014,7 +12009,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 162.56 0)
+			(at 232.41 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12025,7 +12020,7 @@
 			)
 		)
 		(property "Description" "Right Angle 50Ohms Edge Mount SMA Connector, jack, Solder Termination | Molex Incorporated 73251-1150"
-			(at 118.11 162.56 0)
+			(at 232.41 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12036,7 +12031,7 @@
 			)
 		)
 		(property "Manufacturer" "Molex"
-			(at 118.11 162.56 0)
+			(at 232.41 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12048,7 +12043,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 118.11 162.56 0)
+			(at 232.41 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12060,7 +12055,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 118.11 162.56 0)
+			(at 232.41 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12072,7 +12067,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/73251-1150/Molex/view-part/?ref=eda"
-			(at 118.11 162.56 0)
+			(at 232.41 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12084,7 +12079,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 118.11 162.56 0)
+			(at 232.41 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12096,7 +12091,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/73251-1150/Molex/view-part/?ref=snap"
-			(at 118.11 162.56 0)
+			(at 232.41 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12108,7 +12103,7 @@
 			)
 		)
 		(property "MP" "73251-1150"
-			(at 118.11 162.56 0)
+			(at 232.41 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12120,7 +12115,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=281880&manufacturer=Molex&part_name=73251-1150&search_term=0732511150"
-			(at 118.11 162.56 0)
+			(at 232.41 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12132,7 +12127,7 @@
 			)
 		)
 		(property "MFR_NAME" "Molex Connector Corporation"
-			(at 118.11 162.56 0)
+			(at 232.41 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12144,7 +12139,7 @@
 			)
 		)
 		(property "MPN" "732511150"
-			(at 118.11 162.56 0)
+			(at 232.41 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12175,7 +12170,7 @@
 	)
 	(symbol
 		(lib_id "NX3008NBKW_115:NX3008NBKW_115")
-		(at 50.8 110.49 0)
+		(at 64.77 133.35 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12185,7 +12180,7 @@
 		(dnp no)
 		(uuid "b81bf182-390b-4bb3-b1f3-f6c2d3061240")
 		(property "Reference" "Q3"
-			(at 53.594 109.728 0)
+			(at 59.436 129.286 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12196,7 +12191,7 @@
 			)
 		)
 		(property "Value" "NX3008NBKW_115"
-			(at 53.594 112.268 0)
+			(at 44.704 131.318 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12207,7 +12202,7 @@
 			)
 		)
 		(property "Footprint" "NX3008NBKW_115:SOT65P210X110-3N"
-			(at 50.8 110.49 0)
+			(at 64.77 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12219,7 +12214,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 110.49 0)
+			(at 64.77 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12230,7 +12225,7 @@
 			)
 		)
 		(property "Description" "N-Channel 30 V 350mA (Ta) 260mW (Ta), 830mW (Tc) Surface Mount SOT-323"
-			(at 50.8 110.49 0)
+			(at 64.77 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12241,7 +12236,7 @@
 			)
 		)
 		(property "MF" "Nexperia USA"
-			(at 50.8 110.49 0)
+			(at 64.77 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12253,7 +12248,7 @@
 			)
 		)
 		(property "Package" "SC-70-3 Nexperia USA Inc."
-			(at 50.8 110.49 0)
+			(at 64.77 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12265,7 +12260,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 50.8 110.49 0)
+			(at 64.77 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12277,7 +12272,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/NX3008NBKW,115/Nexperia/view-part/?ref=eda"
-			(at 50.8 110.49 0)
+			(at 64.77 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12289,7 +12284,7 @@
 			)
 		)
 		(property "STANDARD" "IPC-7351B"
-			(at 50.8 110.49 0)
+			(at 64.77 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12301,7 +12296,7 @@
 			)
 		)
 		(property "PARTREV" "1"
-			(at 50.8 110.49 0)
+			(at 64.77 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12313,7 +12308,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/NX3008NBKW,115/Nexperia/view-part/?ref=snap"
-			(at 50.8 110.49 0)
+			(at 64.77 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12325,7 +12320,7 @@
 			)
 		)
 		(property "MPN" "NX3008NBKW,115"
-			(at 50.8 110.49 0)
+			(at 64.77 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12337,7 +12332,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=833534&manufacturer=Nexperia USA&part_name=NX3008NBKW,115&search_term=nx3008nbkw"
-			(at 50.8 110.49 0)
+			(at 64.77 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12349,7 +12344,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 50.8 110.49 0)
+			(at 64.77 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12361,7 +12356,7 @@
 			)
 		)
 		(property "Manufacturer" "Nexperia"
-			(at 50.8 110.49 0)
+			(at 64.77 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12560,7 +12555,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 72.39 162.56 0)
+		(at 186.69 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12571,7 +12566,7 @@
 		(fields_autoplaced yes)
 		(uuid "cd4ae7d3-4c12-453d-87fe-cc35fd6ac698")
 		(property "Reference" "#PWR080"
-			(at 72.39 168.91 0)
+			(at 186.69 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12582,7 +12577,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 74.93 163.8299 0)
+			(at 189.23 140.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12593,7 +12588,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 162.56 0)
+			(at 186.69 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12604,7 +12599,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 162.56 0)
+			(at 186.69 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12615,7 +12610,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 72.39 162.56 0)
+			(at 186.69 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12757,7 +12752,7 @@
 	)
 	(symbol
 		(lib_id "20579-001E:20579-001E")
-		(at 118.11 152.4 270)
+		(at 232.41 129.54 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12767,7 +12762,7 @@
 		(dnp no)
 		(uuid "d9f6a591-61e6-4a72-a463-21cb06ba6657")
 		(property "Reference" "J10"
-			(at 117.094 145.542 90)
+			(at 231.394 122.682 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12777,7 +12772,7 @@
 			)
 		)
 		(property "Value" "20579-001E"
-			(at 117.094 148.082 90)
+			(at 231.394 125.222 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12787,7 +12782,7 @@
 			)
 		)
 		(property "Footprint" "20579-001E:IPEX_20579-001E"
-			(at 118.11 152.4 0)
+			(at 232.41 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12799,7 +12794,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 152.4 0)
+			(at 232.41 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12810,7 +12805,7 @@
 			)
 		)
 		(property "Description" "1 POS Vertical SMD Coaxial connector M.2 industry standard with a mated height of 1.4 mm and support up to 12 GHz MHF 4L Receptacle"
-			(at 118.11 152.4 0)
+			(at 232.41 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12821,7 +12816,7 @@
 			)
 		)
 		(property "MF" "I-PEX"
-			(at 118.11 152.4 0)
+			(at 232.41 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12833,7 +12828,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "0.7 mm"
-			(at 118.11 152.4 0)
+			(at 232.41 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12845,7 +12840,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 118.11 152.4 0)
+			(at 232.41 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12857,7 +12852,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 118.11 152.4 0)
+			(at 232.41 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12869,7 +12864,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/20579-001E/I-PEX/view-part/?ref=eda"
-			(at 118.11 152.4 0)
+			(at 232.41 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12881,7 +12876,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 118.11 152.4 0)
+			(at 232.41 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12893,7 +12888,7 @@
 			)
 		)
 		(property "PARTREV" "11"
-			(at 118.11 152.4 0)
+			(at 232.41 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12905,7 +12900,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/20579-001E/I-PEX/view-part/?ref=snap"
-			(at 118.11 152.4 0)
+			(at 232.41 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12917,7 +12912,7 @@
 			)
 		)
 		(property "MPN" "20579-001E"
-			(at 118.11 152.4 0)
+			(at 232.41 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12929,7 +12924,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 118.11 152.4 0)
+			(at 232.41 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12941,7 +12936,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 118.11 152.4 0)
+			(at 232.41 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12953,7 +12948,7 @@
 			)
 		)
 		(property "Manufacturer" "I-PEX"
-			(at 118.11 152.4 0)
+			(at 232.41 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13064,7 +13059,7 @@
 	)
 	(symbol
 		(lib_id "2199119-3:2199119-3")
-		(at 91.44 73.66 0)
+		(at 93.98 96.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13075,7 +13070,7 @@
 		(fields_autoplaced yes)
 		(uuid "de2e539c-9e2b-447d-9800-0b0ec10456e8")
 		(property "Reference" "J9"
-			(at 91.44 20.32 0)
+			(at 93.98 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13085,7 +13080,7 @@
 			)
 		)
 		(property "Value" "M.2_Socket_B"
-			(at 91.44 22.86 0)
+			(at 93.98 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13095,7 +13090,7 @@
 			)
 		)
 		(property "Footprint" "2199119-3:TE_2199119-3"
-			(at 91.44 73.66 0)
+			(at 93.98 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13107,7 +13102,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://M.2 2199119-3_TE_Connectivity.pdf"
-			(at 91.44 73.66 0)
+			(at 93.98 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13118,7 +13113,7 @@
 			)
 		)
 		(property "Description" "M.2 0.5PITCH 3.2H KEY B 15Uinch AU, M.2 Connectors | TE Connectivity 2199119-3"
-			(at 91.44 73.66 0)
+			(at 93.98 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13129,7 +13124,7 @@
 			)
 		)
 		(property "Comment" "2199119-3"
-			(at 91.44 73.66 0)
+			(at 93.98 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13141,7 +13136,7 @@
 			)
 		)
 		(property "MF" "TE Connectivity"
-			(at 91.44 73.66 0)
+			(at 93.98 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13153,7 +13148,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "3.20mm"
-			(at 91.44 73.66 0)
+			(at 93.98 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13165,7 +13160,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 91.44 73.66 0)
+			(at 93.98 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13177,7 +13172,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=497392&manufacturer=TE Connectivity&part_name=2199119-3&search_term=None"
-			(at 91.44 73.66 0)
+			(at 93.98 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13189,7 +13184,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 91.44 73.66 0)
+			(at 93.98 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13201,7 +13196,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/2199119-3/TE+Connectivity+AMP+Connectors/view-part/?ref=eda"
-			(at 91.44 73.66 0)
+			(at 93.98 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13213,7 +13208,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 91.44 73.66 0)
+			(at 93.98 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13225,7 +13220,7 @@
 			)
 		)
 		(property "PARTREV" "F"
-			(at 91.44 73.66 0)
+			(at 93.98 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13237,7 +13232,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/2199119-3/TE+Connectivity+AMP+Connectors/view-part/?ref=snap"
-			(at 91.44 73.66 0)
+			(at 93.98 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13249,7 +13244,7 @@
 			)
 		)
 		(property "MPN" "2199119-3"
-			(at 91.44 73.66 0)
+			(at 93.98 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13261,7 +13256,7 @@
 			)
 		)
 		(property "EU_RoHS_Compliance" "Compliant"
-			(at 91.44 73.66 0)
+			(at 93.98 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13273,7 +13268,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 91.44 73.66 0)
+			(at 93.98 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13285,7 +13280,7 @@
 			)
 		)
 		(property "Manufacturer" "TE Connectivity"
-			(at 91.44 73.66 0)
+			(at 93.98 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13697,7 +13692,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 133.35 34.29 0)
+		(at 130.81 57.15 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -13708,7 +13703,7 @@
 		(dnp no)
 		(uuid "ee2e60f7-e774-4a6b-b652-096b6c59e30c")
 		(property "Reference" "R12"
-			(at 136.144 33.274 0)
+			(at 134.366 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13718,7 +13713,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 136.144 35.56 0)
+			(at 133.604 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13728,7 +13723,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 135.128 34.29 90)
+			(at 132.588 57.15 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13739,7 +13734,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 34.29 0)
+			(at 130.81 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13750,7 +13745,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 133.35 34.29 0)
+			(at 130.81 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13761,7 +13756,7 @@
 			)
 		)
 		(property "MPN" "RC0603FR-071KL"
-			(at 133.35 34.29 0)
+			(at 130.81 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

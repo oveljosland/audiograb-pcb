@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Audiograb")
-		(date "2026-02-13")
-		(rev "0")
+		(date "2026-25-03")
+		(rev "1")
 		(company "NTNU, NINA")
 		(comment 1 "https://github.com/oveljosland/audiograb-pcb/")
 		(comment 2 "Licenced under CERN-OHL-S")
@@ -3436,5 +3436,4 @@
 			(page "1")
 		)
 	)
-	(embedded_fonts no)
 )

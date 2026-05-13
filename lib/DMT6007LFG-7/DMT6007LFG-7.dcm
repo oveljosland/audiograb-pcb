@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP DMT6007LFG-7
-D Diodes Inc DMT6007LFG-7 MOSFET, 8-Pin
-K
-F https://www.diodes.com//assets/Datasheets/DMT6007LFG.pdf
-$ENDCMP
-#
-#End Doc Library

@@ -6,307 +6,13 @@
 	(paper "A3")
 	(title_block
 		(title "Audiograb")
-		(date "2026-02-13")
-		(rev "0")
+		(date "2026-25-03")
+		(rev "1")
 		(company "NTNU, NINA")
 		(comment 1 "https://github.com/oveljosland/audiograb-pcb/")
 		(comment 2 "Licenced under CERN-OHL-S")
 	)
 	(lib_symbols
-		(symbol "691137710002:691137710002"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at -4.88 -0.922 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right bottom)
-				)
-			)
-			(property "Value" "691137710002"
-				(at -4.83 -2.58 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right bottom)
-				)
-			)
-			(property "Footprint" "691137710002:691137710002"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MF" "Würth Elektronik"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Description_1" "2 Position Wire to Board Terminal Block Horizontal with Board 0.197 (5.00mm) Through Hole"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Package" "None"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/691137710002/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=snap"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MP" "691137710002"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=4793356&manufacturer=Würth Elektronik&part_name=691137710002&search_term=691137710002"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/691137710002/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(symbol "691137710002_0_0"
-				(rectangle
-					(start -3.81 -2.54)
-					(end 1.27 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -2.54 -1.27)
-					(radius 0.508)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -1.778) (xy -2.54 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.286 -1.016) (xy -2.794 -1.524)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -1.27)
-					(radius 0.508)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.778) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 -1.016) (xy -0.254 -1.524)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -2.54 -5.08 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "CD4043BDR:CD4043BDR"
 			(pin_names
 				(offset 1.016)
@@ -5167,302 +4873,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "TPS22919DCKR:TPS22919DCKR"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U11"
-				(at 0 15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TPS22919DCKR"
-				(at 0 12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "TPS22919DCKR:SOT65P210X110-6N"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MF" "Texas Instruments"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Description_1" "5.5-V, 1.5-A, 90-mΩ load switch with adj. output discharge"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Package" "SOT-SC70-6 Texas Instruments"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPS22919DCKR/Texas+Instruments/view-part/?ref=snap"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MP" "TPS22919DCKR"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=3591700&manufacturer=Texas Instruments&part_name=TPS22919DCKR&search_term=tps22919"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/TPS22919DCKR/Texas+Instruments/view-part/?ref=eda"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(symbol "TPS22919DCKR_0_0"
-				(rectangle
-					(start -12.7 -10.16)
-					(end 12.7 10.16)
-					(stroke
-						(width 0.41)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -17.78 7.62 0)
-					(length 5.08)
-					(name "IN"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 -7.62 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 0 0)
-					(length 5.08)
-					(name "ON"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 17.78 7.62 180)
-					(length 5.08)
-					(name "QOD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 17.78 5.08 180)
-					(length 5.08)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(symbol "TPS22919DCKR_1_1"
-				(pin passive line
-					(at -17.78 -6.35 0)
-					(length 5.08)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Transistor_FET:Q_PMOS_GSD"
 			(pin_names
 				(offset 0)
@@ -5880,16 +5290,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "power switch for \noutput device"
-		(exclude_from_sim no)
-		(at 297.688 202.438 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "0843547e-99be-4fd2-ab47-d8d387c0af01")
-	)
 	(text "Level Shifter\n/Buffer\n"
 		(exclude_from_sim no)
 		(at 196.088 29.718 0)
@@ -6187,12 +5587,6 @@
 		(uuid "7ddb126a-89b8-494d-ab0e-42da7059e9da")
 	)
 	(junction
-		(at 270.51 213.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "80861829-bd10-40d1-9fd3-c5153ff7b1e1")
-	)
-	(junction
 		(at 222.25 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6351,14 +5745,6 @@
 	(no_connect
 		(at 299.72 125.73)
 		(uuid "4043bd80-66b8-4a85-96a5-c4635c0280de")
-	)
-	(no_connect
-		(at 314.96 213.36)
-		(uuid "8acd2987-fe09-4cdb-95df-f46b13271462")
-	)
-	(no_connect
-		(at 279.4 227.33)
-		(uuid "afde1342-683f-443c-ba95-17db7c7909d2")
 	)
 	(no_connect
 		(at 175.26 266.7)
@@ -6776,16 +6162,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 147.32) (xy 226.06 220.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "354a04d0-a23d-4490-8e3e-79dd67560e7f")
-	)
-	(wire
-		(pts
 			(xy 104.14 36.83) (xy 104.14 54.61)
 		)
 		(stroke
@@ -6843,16 +6219,6 @@
 			(type default)
 		)
 		(uuid "3dd0f6df-c520-4aa4-b1a8-0394d0ed6c8f")
-	)
-	(wire
-		(pts
-			(xy 270.51 223.52) (xy 270.51 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40c052b4-f8f0-462b-91c6-9029267b85e1")
 	)
 	(wire
 		(pts
@@ -6946,16 +6312,6 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 215.9) (xy 349.25 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4eeda0af-3d1f-4e9f-99a4-d0511dcb1ec6")
-	)
-	(wire
-		(pts
 			(xy 196.85 256.54) (xy 200.66 256.54)
 		)
 		(stroke
@@ -7013,16 +6369,6 @@
 			(type default)
 		)
 		(uuid "59362040-ae17-46d5-9b23-83fb945cb059")
-	)
-	(wire
-		(pts
-			(xy 269.24 213.36) (xy 270.51 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "594e66d4-e352-47aa-88d4-086d672ea53c")
 	)
 	(wire
 		(pts
@@ -7093,16 +6439,6 @@
 			(type default)
 		)
 		(uuid "60267a17-903e-4a5d-b386-bcdd4e0099aa")
-	)
-	(wire
-		(pts
-			(xy 346.71 218.44) (xy 346.71 220.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60afef89-638a-4c3e-a81a-d9445ec82a25")
 	)
 	(wire
 		(pts
@@ -7193,16 +6529,6 @@
 			(type default)
 		)
 		(uuid "694225b3-2fe2-4654-8da4-701a20a2ac83")
-	)
-	(wire
-		(pts
-			(xy 318.77 228.6) (xy 314.96 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a726b61-9518-4d05-82a9-4725eb6a0d50")
 	)
 	(wire
 		(pts
@@ -7393,16 +6719,6 @@
 			(type default)
 		)
 		(uuid "823e8593-c360-49af-95d2-095da9a17d11")
-	)
-	(wire
-		(pts
-			(xy 349.25 218.44) (xy 346.71 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83005500-1207-4b60-8c53-270a0d1edb86")
 	)
 	(wire
 		(pts
@@ -7816,6 +7132,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 147.32) (xy 264.16 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a79f297f-982b-41df-bffd-6fb58d27d27e")
+	)
+	(wire
+		(pts
 			(xy 76.2 153.67) (xy 76.2 227.33)
 		)
 		(stroke
@@ -7823,16 +7149,6 @@
 			(type default)
 		)
 		(uuid "a8a2015e-9d09-4c2f-b508-e0a9e948d91b")
-	)
-	(wire
-		(pts
-			(xy 270.51 213.36) (xy 279.4 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8bf6d88-4884-43fe-bd76-3bdcc56c45f6")
 	)
 	(wire
 		(pts
@@ -7903,16 +7219,6 @@
 			(type default)
 		)
 		(uuid "abd74e2b-cfc1-44f0-8909-5ada9c322dfb")
-	)
-	(wire
-		(pts
-			(xy 318.77 228.6) (xy 318.77 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad4f6314-ce3d-4a83-a3e1-1e55f9d42ee9")
 	)
 	(wire
 		(pts
@@ -8276,16 +7582,6 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 147.32) (xy 226.06 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1f4142c-1fbe-4d93-a48a-0e78ef471943")
-	)
-	(wire
-		(pts
 			(xy 121.92 153.67) (xy 121.92 182.88)
 		)
 		(stroke
@@ -8503,16 +7799,6 @@
 			(type default)
 		)
 		(uuid "eaabb5da-c91a-42ea-b8bc-ad5ba6d834eb")
-	)
-	(wire
-		(pts
-			(xy 226.06 220.98) (xy 279.4 220.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eab4da82-8462-4d1d-811d-1f7b1ef85930")
 	)
 	(wire
 		(pts
@@ -8838,30 +8124,6 @@
 			)
 		)
 	)
-	(global_label "+3V5"
-		(shape input)
-		(at 269.24 213.36 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "02724883-fc7a-4bce-b62f-7f286d9666e8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 261.1748 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "+3V3_CM5"
 		(shape input)
 		(at 222.25 34.29 0)
@@ -9122,6 +8384,17 @@
 			(justify left)
 		)
 		(uuid "d6103f38-86b6-41f8-a1da-dd6adf982571")
+	)
+	(hierarchical_label "PWR_SWITCH"
+		(shape output)
+		(at 261.62 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e7a89e37-590d-41ba-88f5-1df82e00e4ee")
 	)
 	(hierarchical_label "SD-pin1"
 		(shape bidirectional)
@@ -9518,185 +8791,6 @@
 		)
 	)
 	(symbol
-		(lib_id "691137710002:691137710002")
-		(at 354.33 218.44 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0bcf2fad-d2e3-4fbb-bdc4-05c795e3983a")
-		(property "Reference" "J17"
-			(at 355.6 215.8999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3V5_out"
-			(at 355.6 218.4399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "691137710002:691137710002"
-			(at 354.33 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 354.33 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "2 Position Wire to Board Terminal Block Horizontal with Board 0.197 (5.00mm) Through Hole"
-			(at 354.33 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 354.33 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "None"
-			(at 354.33 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 354.33 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/691137710002/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=snap"
-			(at 354.33 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MPN" "691137710002"
-			(at 354.33 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=4793356&manufacturer=Würth Elektronik&part_name=691137710002&search_term=691137710002"
-			(at 354.33 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 354.33 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/691137710002/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda"
-			(at 354.33 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "2"
-			(uuid "624418e7-a85d-4338-8127-a34b2040e0d5")
-		)
-		(pin "1"
-			(uuid "7482c1e1-763a-4e9e-94fb-8041408fe5ea")
-		)
-		(instances
-			(project "audiograb"
-				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "J17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 182.88 261.62 0)
 		(unit 1)
@@ -9790,84 +8884,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 318.77 231.14 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "18269bbe-8234-4074-9396-00acd199f371")
-		(property "Reference" "#PWR031"
-			(at 318.77 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 318.77 236.22 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 318.77 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 318.77 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 318.77 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "82f52042-d02f-49ce-979a-cdd42a699b15")
-		)
-		(instances
-			(project "audiograb"
-				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 200.66 256.54 270)
 		(unit 1)
@@ -9941,99 +8957,6 @@
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
 					(reference "TP13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 270.51 226.06 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2274dabd-da7d-4225-b05f-f9e1ae7c4f8f")
-		(property "Reference" "C14"
-			(at 273.05 224.7962 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 273.05 227.3362 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 270.51 226.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 270.51 226.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 270.51 226.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CL10B105KP8NNNC"
-			(at 270.51 226.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "775cdaaf-29eb-413c-a0d1-e4d60a1268eb")
-		)
-		(pin "2"
-			(uuid "0c54d1cf-ad22-4b64-9c6b-32ab138c3e3c")
-		)
-		(instances
-			(project "audiograb"
-				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -10656,195 +9579,6 @@
 		)
 	)
 	(symbol
-		(lib_id "TPS22919DCKR:TPS22919DCKR")
-		(at 297.18 220.98 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4a3b597f-9fa5-4889-947a-1d586151d3bc")
-		(property "Reference" "U11"
-			(at 297.18 205.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TPS22919DCKR"
-			(at 297.18 208.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TPS22919DCKR:SOT65P210X110-6N"
-			(at 297.18 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 297.18 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "5.5-V, 1.5-A, 90-mΩ load switch with adj. output discharge"
-			(at 297.18 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 297.18 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "SOT-SC70-6 Texas Instruments"
-			(at 297.18 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 297.18 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPS22919DCKR/Texas+Instruments/view-part/?ref=snap"
-			(at 297.18 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MPN" "TPS22919DCKR"
-			(at 297.18 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=3591700&manufacturer=Texas Instruments&part_name=TPS22919DCKR&search_term=tps22919"
-			(at 297.18 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 297.18 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/TPS22919DCKR/Texas+Instruments/view-part/?ref=eda"
-			(at 297.18 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "5"
-			(uuid "eb94da3d-3ec4-4e99-8c26-0f46bb13f508")
-		)
-		(pin "2"
-			(uuid "731ad7e8-550b-4d46-8c0d-13d67fe3e1d1")
-		)
-		(pin "3"
-			(uuid "acaa0881-6f81-45e5-8cb3-aff66f3fcd91")
-		)
-		(pin "6"
-			(uuid "775db056-b08c-43a4-bedd-46ca621a7ffc")
-		)
-		(pin "1"
-			(uuid "753240ae-f4fc-44d3-a4f3-964b1345a41d")
-		)
-		(pin "4"
-			(uuid "d5df6dba-a961-41b4-8e4d-719cff5f461c")
-		)
-		(instances
-			(project "audiograb"
-				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "U11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ESD7004MUTAG:ESD7004MUTAG")
 		(at 137.16 186.69 0)
 		(unit 1)
@@ -11313,84 +10047,6 @@
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
 					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 270.51 228.6 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6c47c7ac-d8f8-4b37-a03d-98479533b673")
-		(property "Reference" "#PWR030"
-			(at 270.51 234.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 270.51 233.68 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 270.51 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 270.51 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 270.51 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "67520121-75a6-4aab-ac17-eb433937badd")
-		)
-		(instances
-			(project "audiograb"
-				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -12635,84 +11291,6 @@
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
 					(reference "TP21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 346.71 220.98 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d59d677b-6a2b-4230-b382-38a5e59f62d5")
-		(property "Reference" "#PWR029"
-			(at 346.71 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 346.71 226.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 346.71 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 346.71 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 346.71 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1453377c-a7e7-4406-a717-7f21764b3711")
-		)
-		(instances
-			(project "audiograb"
-				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/6c55ccce-577d-49c2-8294-3a5d8e11981e"
-					(reference "#PWR029")
 					(unit 1)
 				)
 			)

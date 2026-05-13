@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Audiograb")
-		(date "2026-02-13")
-		(rev "0")
+		(date "2026-25-03")
+		(rev "1")
 		(company "NTNU, NINA")
 		(comment 1 "https://github.com/oveljosland/audiograb-pcb/")
 		(comment 2 "Licenced under CERN-OHL-S")
@@ -2001,6 +2001,381 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_4ms_Connector:Conn_01x04"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "4ms_Connector:Pins_1x04_2.54mm_TH_SWD"
+				(at 0 6.985 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "HEADER 1x4 MALE PINS 0.100” 180deg"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Specifications" "HEADER 1x4 MALE PINS 0.100” 180deg"
+				(at -3.175 -14.605 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Manufacturer" "TAD"
+				(at -2.54 -9.398 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Part Number" "1-0401FBV0T"
+				(at -2.54 -10.922 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "ki_keywords" "Conn_01x04"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_??x*mm* Connector*:*1x??x*mm* Pin?Header?Straight?1X* Pin?Header?Angled?1X* Socket?Strip?Straight?1X* Socket?Strip?Angled?1X*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x04_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "WA-SMSI_9774XXX151:WA-SMSI_9774XXX151"
 			(pin_names
 				(offset 1.016)
@@ -2395,6 +2770,144 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 99.319 27.333)
+		(end 148.546 55.617)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "2fce3c98-b6bc-4f40-80e5-a84ad3242798")
+	)
+	(rectangle
+		(start 31.146 27.317)
+		(end 96.003 167.768)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "95a63d2b-4f5b-46e9-b316-4f73cee80a78")
+	)
+	(rectangle
+		(start 99.525 138.72)
+		(end 148.752 167.004)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "ac6c9b37-0a88-4079-aad8-96df424bce77")
+	)
+	(rectangle
+		(start 99.486 79.601)
+		(end 148.713 107.885)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "f76a4c81-275d-4a18-8980-29bc0d1c6477")
+	)
+	(text "JST-TH connector for BMS"
+		(exclude_from_sim no)
+		(at 113.792 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0e3493ce-279e-4b8c-ab09-bb9a62a85c89")
+	)
+	(text "CM5 connectors"
+		(exclude_from_sim no)
+		(at 64.008 24.892 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "40a87298-10e7-4741-89bb-e0534ce920b9")
+	)
+	(text "1"
+		(exclude_from_sim no)
+		(at 128.27 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4adf9896-1d2a-45db-9564-59fff218be85")
+	)
+	(text "3\n"
+		(exclude_from_sim no)
+		(at 128.27 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "58e52c89-4698-465f-a997-9a54be5d45d1")
+	)
+	(text "4"
+		(exclude_from_sim no)
+		(at 128.27 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5e49fabc-d36e-4836-8063-2979c9cb97ca")
+	)
+	(text "It looks like this\n"
+		(exclude_from_sim no)
+		(at 133.096 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "66f27d71-1873-4dbe-935b-55955a987244")
+	)
+	(text "M2.5 Mounting holes"
+		(exclude_from_sim no)
+		(at 121.92 24.892 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9a806bc9-2a70-4ce9-8097-a352e0992641")
+	)
+	(text "2\n"
+		(exclude_from_sim no)
+		(at 128.27 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e0658be1-7e68-4e4d-9cad-a4326dd3110a")
+	)
+	(text "M2.5 Standoffs\n"
+		(exclude_from_sim no)
+		(at 121.412 77.216 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e3d20091-f21b-4ed5-bd8a-ac737f600d7d")
 	)
 	(no_connect
 		(at 69.85 57.15)
@@ -3196,29 +3709,29 @@
 		(at 57.15 140.97)
 		(uuid "ff179117-a785-49f2-bb5c-c7f02c9137fc")
 	)
-	(wire
+	(polyline
 		(pts
-			(xy 229.87 35.56) (xy 223.52 35.56)
+			(xy 125.73 156.21) (xy 125.73 158.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0aa9aeb8-3a46-4b86-b7e1-30b97cf38946")
+		(uuid "0bca7cf9-ea66-4ba1-8967-18b558d17a18")
 	)
-	(wire
+	(polyline
 		(pts
-			(xy 229.87 44.45) (xy 224.79 44.45)
+			(xy 130.81 146.05) (xy 130.81 158.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "18b53009-bad0-4d28-816a-13c8f238f70f")
+		(uuid "1e354da0-30e8-4b6e-9b52-7778f838903c")
 	)
 	(wire
 		(pts
-			(xy 224.79 44.45) (xy 224.79 46.99)
+			(xy 127 83.82) (xy 127 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3226,9 +3739,19 @@
 		)
 		(uuid "3d8f6720-7087-4fb2-a5eb-4371a53141a5")
 	)
+	(polyline
+		(pts
+			(xy 125.73 146.05) (xy 125.73 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f50b669-3401-461f-9ba1-a95a3102b6ed")
+	)
 	(wire
 		(pts
-			(xy 223.52 63.5) (xy 223.52 67.31)
+			(xy 127 97.79) (xy 127 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3238,7 +3761,37 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 54.61) (xy 223.52 57.15)
+			(xy 111.76 147.32) (xy 111.76 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5737b4d0-e465-4f31-9696-86fa5d91ee89")
+	)
+	(polyline
+		(pts
+			(xy 130.81 158.75) (xy 125.73 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "623f9a87-f375-4934-9bf4-ca0b4fda044c")
+	)
+	(polyline
+		(pts
+			(xy 125.73 146.05) (xy 130.81 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64b88726-82e3-42bc-931c-d9faa5cdec6d")
+	)
+	(wire
+		(pts
+			(xy 106.68 97.79) (xy 106.68 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3248,33 +3801,57 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 63.5) (xy 223.52 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4eda5f0-a4ce-4f39-900f-b8827b34e918")
-	)
-	(wire
-		(pts
-			(xy 229.87 54.61) (xy 223.52 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7679e7b-7db9-4607-8d6a-7e1204cb0c61")
-	)
-	(wire
-		(pts
-			(xy 223.52 35.56) (xy 223.52 36.83)
+			(xy 106.68 83.82) (xy 106.68 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f10d2087-364d-406c-a8e3-bf87e72ecc8e")
+	)
+	(label "BMS-RX"
+		(at 111.76 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "68c7982e-8d1a-4e54-89b7-864f690d9e23")
+	)
+	(label "BMS-TX"
+		(at 111.76 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e23bb0c2-799f-4bbf-86cf-fcef1f073d72")
+	)
+	(global_label "+3V3_CM5"
+		(shape input)
+		(at 111.76 144.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6d8fc976-a617-4842-b548-c72adb6391a1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 124.7237 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(symbol
 		(lib_id "DF40HC_3.0_-100DS-0.4V_58:DF40HC_3.0_-100DS-0.4V_58")
@@ -3749,7 +4326,7 @@
 	)
 	(symbol
 		(lib_id "WA-SMSI_9774XXX151:WA-SMSI_9774XXX151")
-		(at 234.95 44.45 0)
+		(at 132.08 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3760,7 +4337,7 @@
 		(fields_autoplaced yes)
 		(uuid "3c806b0c-1e69-404f-a68c-332e394fc246")
 		(property "Reference" "MP2"
-			(at 238.76 43.1799 0)
+			(at 135.89 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3771,7 +4348,7 @@
 			)
 		)
 		(property "Value" "M2.5 x 3mm"
-			(at 234.95 44.45 0)
+			(at 132.08 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3783,7 +4360,7 @@
 			)
 		)
 		(property "Footprint" "WA-SMSI_9774XXX151:WA-SMSI_9774030151"
-			(at 234.95 44.45 0)
+			(at 132.08 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3795,7 +4372,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 44.45 0)
+			(at 132.08 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3806,7 +4383,7 @@
 			)
 		)
 		(property "Description" "steel, tin plated with internal thread M2.5 non stop outer Ø 5.1mm, reduced to 3.5mm on PCB-side for a borehole body length 3mm on Reel, with Polyimide Tape"
-			(at 234.95 44.45 0)
+			(at 132.08 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3817,7 +4394,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/9774030151R/Wurth+Electronics/view-part/?ref=eda"
-			(at 234.95 44.45 0)
+			(at 132.08 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3829,7 +4406,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Electronics"
-			(at 234.95 44.45 0)
+			(at 132.08 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3841,7 +4418,7 @@
 			)
 		)
 		(property "THREAD" "M2.5"
-			(at 234.95 44.45 0)
+			(at 132.08 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3853,7 +4430,7 @@
 			)
 		)
 		(property "INNER-DIAMETER" "3.5mm"
-			(at 234.95 44.45 0)
+			(at 132.08 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3865,7 +4442,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 234.95 44.45 0)
+			(at 132.08 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3877,7 +4454,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 234.95 44.45 0)
+			(at 132.08 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3889,7 +4466,7 @@
 			)
 		)
 		(property "PIN-LENGTH" "3mm"
-			(at 234.95 44.45 0)
+			(at 132.08 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3901,7 +4478,7 @@
 			)
 		)
 		(property "INNER-THREAD-LENGTH" "-"
-			(at 234.95 44.45 0)
+			(at 132.08 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3913,7 +4490,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 234.95 44.45 0)
+			(at 132.08 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3925,7 +4502,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/9774030151R/Wurth+Electronics/view-part/?ref=snap"
-			(at 234.95 44.45 0)
+			(at 132.08 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3937,7 +4514,7 @@
 			)
 		)
 		(property "DATASHEET-URL" "https://www.we-online.com/catalog/datasheet/9774030151R.pdf"
-			(at 234.95 44.45 0)
+			(at 132.08 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3949,7 +4526,7 @@
 			)
 		)
 		(property "MPN" "9774030151R"
-			(at 234.95 44.45 0)
+			(at 132.08 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3961,7 +4538,7 @@
 			)
 		)
 		(property "PART-NUMBER" "9774030151R"
-			(at 234.95 44.45 0)
+			(at 132.08 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3973,7 +4550,7 @@
 			)
 		)
 		(property "OUTER-DIAMETER" "5.1mm"
-			(at 234.95 44.45 0)
+			(at 132.08 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3998,7 +4575,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 223.52 67.31 0)
+		(at 127 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4009,7 +4586,7 @@
 		(fields_autoplaced yes)
 		(uuid "4ad2d290-8f43-474c-a5be-c068642a8933")
 		(property "Reference" "#PWR047"
-			(at 223.52 73.66 0)
+			(at 127 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4020,7 +4597,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 223.52 72.39 0)
+			(at 127 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4030,7 +4607,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 67.31 0)
+			(at 127 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4041,7 +4618,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 67.31 0)
+			(at 127 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4052,7 +4629,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 223.52 67.31 0)
+			(at 127 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4076,7 +4653,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 223.52 36.83 0)
+		(at 106.68 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4087,7 +4664,7 @@
 		(fields_autoplaced yes)
 		(uuid "58bfee08-6391-4252-aa11-b1f0b6f31b3b")
 		(property "Reference" "#PWR044"
-			(at 223.52 43.18 0)
+			(at 106.68 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4098,7 +4675,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 223.52 41.91 0)
+			(at 106.68 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4108,7 +4685,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 36.83 0)
+			(at 106.68 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4119,7 +4696,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 36.83 0)
+			(at 106.68 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4130,7 +4707,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 223.52 36.83 0)
+			(at 106.68 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4153,8 +4730,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 132.08 46.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "607fa010-b867-484d-8790-4069ac3f7d42")
+		(property "Reference" "#PWR052"
+			(at 132.08 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 128.016 49.022 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 132.08 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "115cf2ec-3b8f-4657-9886-b1e4f1d68e67")
+		)
+		(instances
+			(project "audiograb"
+				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/e12a1f06-e701-4393-a8dc-cf8951bd0212"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "WA-SMSI_9774XXX151:WA-SMSI_9774XXX151")
-		(at 234.95 35.56 0)
+		(at 111.76 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4165,7 +4819,7 @@
 		(fields_autoplaced yes)
 		(uuid "854cfd26-caf9-492b-b080-0cac52082e07")
 		(property "Reference" "MP1"
-			(at 238.76 34.2899 0)
+			(at 115.57 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4176,7 +4830,7 @@
 			)
 		)
 		(property "Value" "M2.5 x 3mm"
-			(at 234.95 35.56 0)
+			(at 111.76 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4188,7 +4842,7 @@
 			)
 		)
 		(property "Footprint" "WA-SMSI_9774XXX151:WA-SMSI_9774030151"
-			(at 234.95 35.56 0)
+			(at 111.76 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4200,7 +4854,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 35.56 0)
+			(at 111.76 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4211,7 +4865,7 @@
 			)
 		)
 		(property "Description" "steel, tin plated with internal thread M2.5 non stop outer Ø 5.1mm, reduced to 3.5mm on PCB-side for a borehole body length 3mm on Reel, with Polyimide Tape"
-			(at 234.95 35.56 0)
+			(at 111.76 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4222,7 +4876,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/9774030151R/Wurth+Electronics/view-part/?ref=eda"
-			(at 234.95 35.56 0)
+			(at 111.76 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4234,7 +4888,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Electronics"
-			(at 234.95 35.56 0)
+			(at 111.76 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4246,7 +4900,7 @@
 			)
 		)
 		(property "THREAD" "M2.5"
-			(at 234.95 35.56 0)
+			(at 111.76 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4258,7 +4912,7 @@
 			)
 		)
 		(property "INNER-DIAMETER" "3.5mm"
-			(at 234.95 35.56 0)
+			(at 111.76 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4270,7 +4924,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 234.95 35.56 0)
+			(at 111.76 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4282,7 +4936,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 234.95 35.56 0)
+			(at 111.76 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4294,7 +4948,7 @@
 			)
 		)
 		(property "PIN-LENGTH" "3mm"
-			(at 234.95 35.56 0)
+			(at 111.76 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4306,7 +4960,7 @@
 			)
 		)
 		(property "INNER-THREAD-LENGTH" "-"
-			(at 234.95 35.56 0)
+			(at 111.76 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4318,7 +4972,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 234.95 35.56 0)
+			(at 111.76 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4330,7 +4984,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/9774030151R/Wurth+Electronics/view-part/?ref=snap"
-			(at 234.95 35.56 0)
+			(at 111.76 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4342,7 +4996,7 @@
 			)
 		)
 		(property "DATASHEET-URL" "https://www.we-online.com/catalog/datasheet/9774030151R.pdf"
-			(at 234.95 35.56 0)
+			(at 111.76 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4354,7 +5008,7 @@
 			)
 		)
 		(property "MPN" "9774030151R"
-			(at 234.95 35.56 0)
+			(at 111.76 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4366,7 +5020,7 @@
 			)
 		)
 		(property "PART-NUMBER" "9774030151R"
-			(at 234.95 35.56 0)
+			(at 111.76 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4378,7 +5032,7 @@
 			)
 		)
 		(property "OUTER-DIAMETER" "5.1mm"
-			(at 234.95 35.56 0)
+			(at 111.76 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4403,7 +5057,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 223.52 57.15 0)
+		(at 106.68 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4414,7 +5068,7 @@
 		(fields_autoplaced yes)
 		(uuid "85d69c17-be56-444e-9c35-9d5288a25f79")
 		(property "Reference" "#PWR046"
-			(at 223.52 63.5 0)
+			(at 106.68 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4425,7 +5079,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 223.52 62.23 0)
+			(at 106.68 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4435,7 +5089,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 57.15 0)
+			(at 106.68 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4446,7 +5100,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 57.15 0)
+			(at 106.68 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4457,7 +5111,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 223.52 57.15 0)
+			(at 106.68 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4951,40 +5605,41 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 224.79 46.99 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 132.08 34.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9e414109-06ed-48bb-9558-b2af68b399e1")
-		(property "Reference" "#PWR045"
-			(at 224.79 53.34 0)
-			(hide yes)
+		(uuid "9d55478e-39e5-4851-965f-84c66a544686")
+		(property "Reference" "H2"
+			(at 134.62 31.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 224.79 52.07 0)
+		(property "Value" "MountingHole"
+			(at 134.62 34.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 224.79 46.99 0)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_ISO14580_Pad"
+			(at 132.08 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4995,7 +5650,85 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 46.99 0)
+			(at 132.08 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 132.08 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3f67c1d9-0d1f-4978-bd93-40930b0befba")
+		)
+		(instances
+			(project "audiograb"
+				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/e12a1f06-e701-4393-a8dc-cf8951bd0212"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 127 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e414109-06ed-48bb-9558-b2af68b399e1")
+		(property "Reference" "#PWR045"
+			(at 127 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 127 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5006,7 +5739,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 224.79 46.99 0)
+			(at 127 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5030,7 +5763,7 @@
 	)
 	(symbol
 		(lib_id "WA-SMSI_9774XXX151:WA-SMSI_9774XXX151")
-		(at 234.95 54.61 0)
+		(at 111.76 97.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5041,7 +5774,7 @@
 		(fields_autoplaced yes)
 		(uuid "a1b1441f-deb1-4c03-8771-48ba371c67a0")
 		(property "Reference" "MP3"
-			(at 238.76 53.3399 0)
+			(at 115.57 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5052,7 +5785,7 @@
 			)
 		)
 		(property "Value" "M2.5 x 3mm"
-			(at 234.95 54.61 0)
+			(at 111.76 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5064,7 +5797,7 @@
 			)
 		)
 		(property "Footprint" "WA-SMSI_9774XXX151:WA-SMSI_9774030151"
-			(at 234.95 54.61 0)
+			(at 111.76 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5076,7 +5809,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 54.61 0)
+			(at 111.76 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5087,7 +5820,7 @@
 			)
 		)
 		(property "Description" "steel, tin plated with internal thread M2.5 non stop outer Ø 5.1mm, reduced to 3.5mm on PCB-side for a borehole body length 3mm on Reel, with Polyimide Tape"
-			(at 234.95 54.61 0)
+			(at 111.76 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5098,7 +5831,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/9774030151R/Wurth+Electronics/view-part/?ref=eda"
-			(at 234.95 54.61 0)
+			(at 111.76 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5110,7 +5843,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Electronics"
-			(at 234.95 54.61 0)
+			(at 111.76 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5122,7 +5855,7 @@
 			)
 		)
 		(property "THREAD" "M2.5"
-			(at 234.95 54.61 0)
+			(at 111.76 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5134,7 +5867,7 @@
 			)
 		)
 		(property "INNER-DIAMETER" "3.5mm"
-			(at 234.95 54.61 0)
+			(at 111.76 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5146,7 +5879,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 234.95 54.61 0)
+			(at 111.76 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5158,7 +5891,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 234.95 54.61 0)
+			(at 111.76 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5170,7 +5903,7 @@
 			)
 		)
 		(property "PIN-LENGTH" "3mm"
-			(at 234.95 54.61 0)
+			(at 111.76 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5182,7 +5915,7 @@
 			)
 		)
 		(property "INNER-THREAD-LENGTH" "-"
-			(at 234.95 54.61 0)
+			(at 111.76 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5194,7 +5927,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 234.95 54.61 0)
+			(at 111.76 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5206,7 +5939,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/9774030151R/Wurth+Electronics/view-part/?ref=snap"
-			(at 234.95 54.61 0)
+			(at 111.76 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5218,7 +5951,7 @@
 			)
 		)
 		(property "DATASHEET-URL" "https://www.we-online.com/catalog/datasheet/9774030151R.pdf"
-			(at 234.95 54.61 0)
+			(at 111.76 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5230,7 +5963,7 @@
 			)
 		)
 		(property "MPN" "9774030151R"
-			(at 234.95 54.61 0)
+			(at 111.76 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5242,7 +5975,7 @@
 			)
 		)
 		(property "PART-NUMBER" "9774030151R"
-			(at 234.95 54.61 0)
+			(at 111.76 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5254,7 +5987,7 @@
 			)
 		)
 		(property "OUTER-DIAMETER" "5.1mm"
-			(at 234.95 54.61 0)
+			(at 111.76 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5278,8 +6011,598 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 110.49 46.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a92b91d2-33b0-4657-8e30-0c18940d9068")
+		(property "Reference" "#PWR050"
+			(at 110.49 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 106.426 49.022 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 110.49 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cbc04846-5ba7-4ac4-b5c4-c80289f9db1e")
+		)
+		(instances
+			(project "audiograb"
+				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/e12a1f06-e701-4393-a8dc-cf8951bd0212"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 132.08 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac111826-66d2-46d0-8b65-a4ee139b0320")
+		(property "Reference" "H4"
+			(at 134.62 41.9099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 134.62 44.4499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_ISO14580_Pad"
+			(at 132.08 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 132.08 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8ca54608-1399-4a80-9497-5ab09297a6e0")
+		)
+		(instances
+			(project "audiograb"
+				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/e12a1f06-e701-4393-a8dc-cf8951bd0212"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Connector:Conn_01x04")
+		(at 106.68 152.4 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b076509d-c746-4700-afe0-cf2812873699")
+		(property "Reference" "J4"
+			(at 106.68 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "JST-PH"
+			(at 106.68 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal"
+			(at 106.68 159.385 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "HEADER 1x4 MALE PINS 0.100” 180deg"
+			(at 106.68 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Specifications" "HEADER 1x4 MALE PINS 0.100” 180deg"
+			(at 109.855 137.795 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "TAD"
+			(at 109.22 143.002 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "1-0401FBV0T"
+			(at 109.22 141.478 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "4"
+			(uuid "72533d26-959d-4da4-9e42-c5f9d83bb0cd")
+		)
+		(pin "2"
+			(uuid "9fb67717-fcda-47bc-8fd4-12b0e600e8da")
+		)
+		(pin "1"
+			(uuid "df344b0a-b592-438e-860b-c16dd5b5b61c")
+		)
+		(pin "3"
+			(uuid "84f5e564-30e3-4133-9b72-9c821fc72ac6")
+		)
+		(instances
+			(project "audiograb"
+				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/e12a1f06-e701-4393-a8dc-cf8951bd0212"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 132.08 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b3176ed1-8b41-4a66-a495-10cd924df858")
+		(property "Reference" "#PWR051"
+			(at 132.08 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 128.016 38.862 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 132.08 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d54dffc1-b94a-4a77-b424-865a1dcec2db")
+		)
+		(instances
+			(project "audiograb"
+				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/e12a1f06-e701-4393-a8dc-cf8951bd0212"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 110.49 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3adfbfe-bc1a-4694-87c7-893b0727d7c9")
+		(property "Reference" "H1"
+			(at 113.03 31.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 113.03 34.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_ISO14580_Pad"
+			(at 110.49 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 110.49 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1de11e53-f637-4268-99ee-216382c682de")
+		)
+		(instances
+			(project "audiograb"
+				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/e12a1f06-e701-4393-a8dc-cf8951bd0212"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 110.49 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d45a57ca-99d0-4b44-b3d4-a6cf6380cce8")
+		(property "Reference" "H3"
+			(at 113.03 41.9099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 113.03 44.4499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_ISO14580_Pad"
+			(at 110.49 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 110.49 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3b636ee8-aaac-4783-a899-2d237ccc3eae")
+		)
+		(instances
+			(project "audiograb"
+				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/e12a1f06-e701-4393-a8dc-cf8951bd0212"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 110.49 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d894d4b0-d7b2-4918-ab51-c583597d6d52")
+		(property "Reference" "#PWR049"
+			(at 110.49 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 106.426 38.862 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 110.49 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7360eed1-1218-460d-b682-3de238c330c5")
+		)
+		(instances
+			(project "audiograb"
+				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/e12a1f06-e701-4393-a8dc-cf8951bd0212"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "WA-SMSI_9774XXX151:WA-SMSI_9774XXX151")
-		(at 234.95 63.5 0)
+		(at 132.08 97.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5290,7 +6613,7 @@
 		(fields_autoplaced yes)
 		(uuid "f74f7586-6df2-4cb2-8bb5-20c5379365a1")
 		(property "Reference" "MP4"
-			(at 238.76 62.2299 0)
+			(at 135.89 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5301,7 +6624,7 @@
 			)
 		)
 		(property "Value" "M2.5 x 3mm"
-			(at 234.95 63.5 0)
+			(at 132.08 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5313,7 +6636,7 @@
 			)
 		)
 		(property "Footprint" "WA-SMSI_9774XXX151:WA-SMSI_9774030151"
-			(at 234.95 63.5 0)
+			(at 132.08 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5325,7 +6648,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 63.5 0)
+			(at 132.08 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5336,7 +6659,7 @@
 			)
 		)
 		(property "Description" "steel, tin plated with internal thread M2.5 non stop outer Ø 5.1mm, reduced to 3.5mm on PCB-side for a borehole body length 3mm on Reel, with Polyimide Tape"
-			(at 234.95 63.5 0)
+			(at 132.08 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5347,7 +6670,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/9774030151R/Wurth+Electronics/view-part/?ref=eda"
-			(at 234.95 63.5 0)
+			(at 132.08 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5359,7 +6682,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Electronics"
-			(at 234.95 63.5 0)
+			(at 132.08 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5371,7 +6694,7 @@
 			)
 		)
 		(property "THREAD" "M2.5"
-			(at 234.95 63.5 0)
+			(at 132.08 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5383,7 +6706,7 @@
 			)
 		)
 		(property "INNER-DIAMETER" "3.5mm"
-			(at 234.95 63.5 0)
+			(at 132.08 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5395,7 +6718,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 234.95 63.5 0)
+			(at 132.08 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5407,7 +6730,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 234.95 63.5 0)
+			(at 132.08 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5419,7 +6742,7 @@
 			)
 		)
 		(property "PIN-LENGTH" "3mm"
-			(at 234.95 63.5 0)
+			(at 132.08 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5431,7 +6754,7 @@
 			)
 		)
 		(property "INNER-THREAD-LENGTH" "-"
-			(at 234.95 63.5 0)
+			(at 132.08 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5443,7 +6766,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 234.95 63.5 0)
+			(at 132.08 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5455,7 +6778,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/9774030151R/Wurth+Electronics/view-part/?ref=snap"
-			(at 234.95 63.5 0)
+			(at 132.08 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5467,7 +6790,7 @@
 			)
 		)
 		(property "DATASHEET-URL" "https://www.we-online.com/catalog/datasheet/9774030151R.pdf"
-			(at 234.95 63.5 0)
+			(at 132.08 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5479,7 +6802,7 @@
 			)
 		)
 		(property "MPN" "9774030151R"
-			(at 234.95 63.5 0)
+			(at 132.08 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5491,7 +6814,7 @@
 			)
 		)
 		(property "PART-NUMBER" "9774030151R"
-			(at 234.95 63.5 0)
+			(at 132.08 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5503,7 +6826,7 @@
 			)
 		)
 		(property "OUTER-DIAMETER" "5.1mm"
-			(at 234.95 63.5 0)
+			(at 132.08 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5521,6 +6844,84 @@
 			(project "audiograb"
 				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/e12a1f06-e701-4393-a8dc-cf8951bd0212"
 					(reference "MP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 111.76 154.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f80ee14e-f50f-4a8b-a73e-a752166ef004")
+		(property "Reference" "#PWR029"
+			(at 111.76 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 111.76 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 111.76 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0607dc28-a45f-4032-a549-36aca539fffc")
+		)
+		(instances
+			(project "audiograb"
+				(path "/c46c2311-6d4b-411d-b012-c7730eac136d/e12a1f06-e701-4393-a8dc-cf8951bd0212"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
